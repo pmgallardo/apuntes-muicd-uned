@@ -49,6 +49,8 @@ Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar 
 3. Añade o modifica el contenido respetando la estructura del repositorio.
 4. Abre un *pull request* describiendo claramente los cambios realizados.
 
+Puedes encontrar los pasos básicos detallados en [este tutorial de FreeCodeCamp](https://www.freecodecamp.org/espanol/news/como-hacer-tu-primer-pull-request-en-github/).
+
 ## Normas de convivencia
 
 Se espera un trato respetuoso y constructivo entre los colaboradores.
