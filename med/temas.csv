@@ -1,0 +1,11 @@
+Tema,Abrev,Descripcion,Fuente
+1,PTE,Principales técnicas estadísticas,Mini-libro PTE
+2,IR,Índices de riesgo,Mini-libro IR
+3,TD,Técnicas diagnósticas,Mini-libro TD
+4,IAE,Introducción al aprendizaje supervisado,Mini-libro IAE + ISLR2 p. 15-41 [cap. 2]
+5,RL,Regresión lineal,"Mini-libro RL + ISLR2 p. 71-104, 110-121 [cap. 3]"
+6,VRL,Variantes del modelo de regresión lineal,"ISLR2 p. 237-267, 274-282 [cap. 6]"
+7,ADL,Análisis discriminante lineal,"ISLR2 p. 141-152, 177-179 [cap. 4]"
+8,RLog,Regresión logística,"ISLR2 p. 133-141, 164-177, 185-189 [cap. 4]"
+9,EyS,Evaluación y selección de modelos,"ISLR2 p. 197-219, 224-236, 267-274 [cap. 5]"
+10,ADL,Fundamentos de la inferencia bayesiana,Mini-libro ADL
