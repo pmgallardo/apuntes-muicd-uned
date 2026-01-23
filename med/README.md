@@ -12,15 +12,15 @@ En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Mo
 
 La carpeta se organiza en la siguiente estructura:
 
-- **[`exam`](med/exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
-- **[`prac`](med/prac/)**: Incluye soluciones y enunciados en prácticas anteriores.
-- **[`pf`](med/pf/)**: Incluye preguntas y respuestas inspiradas en cuestiones planteadas en el foro.
+- **[`exam`](exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
+- **[`prac`](prac/)**: Incluye soluciones y enunciados en prácticas anteriores.
+- **[`pf`](pf/)**: Incluye preguntas y respuestas inspiradas en cuestiones planteadas en el foro.
 
 ### Comunidades
 
 Existen comunidades no oficiales de alumnos y alumni del máster:
 
-- Comunidad [UNED Data Science](https://t.me/uneddatascience) en Telegram
+- Comunidad [UNED - MED (Máster Datos)](https://t.me/joinchat/TUr_BZKrWxAyNWM0) en Telegram
 
 ## Bibliografía
 
