@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
 # MUICD - General
 
 En esta carpeta se comparte comparte información general sobre el máster MUICD y material común a todas las asignaturas.
