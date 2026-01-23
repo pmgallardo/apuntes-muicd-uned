@@ -40,7 +40,18 @@ Al contribuir a este repositorio, aceptas que:
 
 Si una contribución requiere una licencia distinta, debe indicarse explícitamente y ser aprobada por los mantenedores.
 
-Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar la información de licencias al proyecto.
+Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar la información de licencias al proyecto. Como regla general:
+
+- Para los ficheros con cabecera no editable (ej.: .pdf, .json, .docx) no hace falta hacer nada, puesto que su extensión está registrada en el fichero `REUSE.toml` y tienen asociada una licencia.
+- Para los ficheros con cabecera editable (ej.: .py, .md) se debe añadir una cabecera con información de licencia mediante uno de estos métodos:
+  - Copiando y pegando manualmente la cabecera de otro fichero similar que ya se encuentre en el repositorio.
+  - Ejecutando el comando `reuse annotate`:
+
+      ```text
+      # Para ficheros de datos y documentación
+      reuse annotate --license MIT --copyright Colaboradores de apuntes_muicd_uned
+      reuse annotate --license CC-BY-4.0 --copyright Colaboradores de apuntes_muicd_uned
+      ```
 
 ## Cómo contribuir
 
@@ -49,9 +60,10 @@ Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar 
 3. Añade o modifica el contenido respetando la estructura del repositorio.
 4. Abre un *pull request* describiendo claramente los cambios realizados.
 
-Puedes encontrar los pasos básicos detallados en [este tutorial de FreeCodeCamp](https://www.freecodecamp.org/espanol/news/como-hacer-tu-primer-pull-request-en-github/).
+Puedes encontrar los pasos básicos detallados en [este tutorial](https://www.freecodecamp.org/espanol/news/como-hacer-tu-primer-pull-request-en-github/).
 
 ## Normas de convivencia
 
 Se espera un trato respetuoso y constructivo entre los colaboradores.
+
 Las contribuciones ofensivas, discriminatorias o fuera de contexto no serán aceptadas.
