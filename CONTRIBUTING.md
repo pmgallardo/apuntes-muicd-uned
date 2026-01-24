@@ -45,13 +45,13 @@ Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar 
 - Para los ficheros con cabecera no editable (ej.: .pdf, .json, .docx) no hace falta hacer nada, puesto que su extensión está registrada en el fichero `REUSE.toml` y tienen asociada una licencia.
 - Para los ficheros con cabecera editable (ej.: .py, .md) se debe añadir una cabecera con información de licencia mediante uno de estos métodos:
   - Copiando y pegando manualmente la cabecera de otro fichero similar que ya se encuentre en el repositorio.
-  - Ejecutando el comando `reuse annotate`:
+  - Ejecutando el comando `reuse annotate` contra el fichero concreto:
 
       ```text
       # Para ficheros de datos y documentación
-      reuse annotate --license CC-BY-4.0 --copyright "Colaboradores de apuntes_muicd_uned"
+      reuse annotate --license CC-BY-4.0 --copyright "Colaboradores de apuntes_muicd_uned" fichero.ext
       # Para código fuente y notebooks interactivos
-      reuse annotate --license MIT --copyright "Colaboradores de apuntes_muicd_uned"
+      reuse annotate --license MIT --copyright "Colaboradores de apuntes_muicd_uned" fichero.ext
       ```
 
 ## Cómo contribuir
