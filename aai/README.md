@@ -8,6 +8,12 @@ SPDX-License-Identifier: CC-BY-4.0
 
 En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Aprendizaje automático I.
 
+## Contenido
+
+La carpeta se organiza en la siguiente estructura:
+
+- **[`exam`](exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
+
 ## Comunidades
 
 Existen comunidades no oficiales de alumnos y alumni del máster:
