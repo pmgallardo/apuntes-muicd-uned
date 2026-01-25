@@ -3,12 +3,19 @@ version = 1
 # Data and documents
 [[annotations]]
 path = [
+  # Data files
   "**/*.csv", 
+  # Office documents
   "**/*.doc", 
   "**/*.docx", 
   "**/*.pdf",
   "**/*.xls", 
-  "**/*.xlsx"
+  "**/*.xlsx",
+  # Images
+  "**/*.gif",
+  "**/*.jpeg",
+  "**/*.jpg",
+  "**/*.png",
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2016 Colaboradores de apuntes_muicd_uned"
