@@ -34,7 +34,7 @@ A pesar de que cada asignatura tiene asociado un código numérico oficial, se a
 | `31110126` | [`sgd`](sgd/) | Seguridad de la gestión de datos |
 | `31110075` | [`tfm`](tfm/) | Trabajo fin de máster |
 
-En la carpeta [`gen`](gen/) se comparte información general sobre el máster o material común a todas las asignaturas.
+En la carpeta [`master`](master/) se comparte información general sobre el máster o material común a todas las asignaturas.
 
 ## Material ofrecido
 
