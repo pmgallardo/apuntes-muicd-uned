@@ -44,8 +44,8 @@ SPDX-License-Identifier: CC-BY-4.0
     - Ajuste del modelo
 - Tema 5: Regresión lineal (RL)
   - Estimación puntual de los parámetros
-    - Mı́nimos cuadrados
-      - Máxima verosimilitud
+    - Mínimos cuadrados
+    - Máxima verosimilitud
   - Regresión lineal múltiple
     - Estimación de coeficientes de regresión
     - Cuestiones importantes de la regresión lineal múltiple
@@ -53,7 +53,6 @@ SPDX-License-Identifier: CC-BY-4.0
     - Predictores cualitativos
     - Extensiones del modelo linear
     - Potenciales problemas del modelo de regresión
-  - Caso práctico: el plan de marketing
 - Tema 6: Variantes del modelo de regresión lineal (VRL)
   - Métodos de contracción
     - Regresión Ridge
@@ -63,7 +62,7 @@ SPDX-License-Identifier: CC-BY-4.0
     - Regresión de componentes principales (PCR)
     - Mínimos cuadrados parciales (PLS)
   - Consideraciones en alta dimensión
-- Tema 7: Análisis discriminante lineal (ADL)
+- Tema 7: Análisis discriminante lineal (LDA)
   - Clasificación para p = 1
   - Clasificación para p > 1
 - Tema 8: Regresión logística (RLog)
@@ -95,6 +94,6 @@ SPDX-License-Identifier: CC-BY-4.0
     - Familia exponencial k-paramétrica
     - Distribuciones a priori no informativas
     - Regla de Jeffrey
-- Inferencia bayesiana básica
-  - Intervalos de credibilidad bayesianos
-  - Contrastes de hipótesis bayesianos
+  - Inferencia bayesiana básica
+    - Intervalos de credibilidad bayesianos
+    - Contrastes de hipótesis bayesianos
