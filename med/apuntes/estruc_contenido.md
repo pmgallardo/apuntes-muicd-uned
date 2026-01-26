@@ -1,0 +1,108 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# MED - Estructura del contenido
+
+- Tema 1. Principales Técnicas estadísticas
+  - Conceptos básicos de inferencia estadística
+    - Consideraciones previas
+    - Intervalo de confianza
+    - Contraste de hipótesis
+  - Respuesta dicotómica
+    - z de diferencia de dos proporciones
+    - Fisher
+  - Respuesta continua
+    - t de Student de diferencia de dos medias
+    - ANOVA de un factor
+  - Respuesta nominal
+    - $\chi^2$ de homogeneidad
+    - Freeman-Halton
+  - Respuesta ordinal
+    - U de Mann-Whitney
+    - W de Wilcoxon
+    - H de Kruskal-Wallis
+- Tema 2: Índices de riesgos
+  - Índices absolutos
+    - Diferencia de riesgos
+  - Índices relativos
+    - Riesgo relativo
+    - Odds ratio
+- Tema 3: Técnicas diagnósticas
+  - Diagnóstico dicotómico
+    - Sensibilidad y especificidad
+    - Valor predictivo positivo y valor predictivo negativo
+  - Razón de verosimilitud positiva y razón de verosimilitud negativa
+    - Diagnóstico continuo
+    - Curva roc
+- Tema 4: Introducción al aprendizaje supervisado (IAS)
+  - Tipos de modelos
+  - Construcción del modelo
+    - Codificación de las variables explicativas
+    - Ajuste del modelo
+- Tema 5: Regresión lineal (RL)
+  - Estimación puntual de los parámetros
+    - Mı́nimos cuadrados
+      - Máxima verosimilitud
+  - Regresión lineal múltiple
+    - Estimación de coeficientes de regresión
+    - Cuestiones importantes de la regresión lineal múltiple
+  - Otras consideraciones del modelo de regresión
+    - Predictores cualitativos
+    - Extensiones del modelo linear
+    - Potenciales problemas del modelo de regresión
+  - Caso práctico: el plan de marketing
+- Tema 6: Variantes del modelo de regresión lineal (VRL)
+  - Métodos de contracción
+    - Regresión Ridge
+    - Lasso
+    - Selección del parámetro de ajuste
+  - Métodos de reducción de la dimensión
+    - Regresión de componentes principales (PCR)
+    - Mínimos cuadrados parciales (PLS)
+  - Consideraciones en alta dimensión
+    - Datos de alta dimensión
+    - Dificultades en alta dimensión
+    - Regresión en alta dimensión
+    - Interpretación de resultados en alta dimensión
+  - Laboratorio: Modelos lineales y métodos de regularización en R
+    - Regresión Ridge y Lasso en R
+    - Regresión PCR y PLS en R
+- Tema 7: Análisis discriminante lineal (ADL)
+  - Clasificación para p = 1
+  - Clasificación para p > 1
+  - Laboratorio: clasificación en R
+- Tema 8: Regresión logística (RLog)
+  - Regresión logística
+    - Modelo logístico
+    - Estimación de coeficientes de regresión
+    - Realización de predicciones
+    - Regresión logística múltiple
+    - Regresión logística multinomial
+  - Modelos lineales generalizados
+    - Regresión lineal para clasificación
+    - Regresión de Poisson para clasificación
+    - Modelos lineales generalizados en un marco de mayor generalidad
+- Tema 9: Evaluación y selección de modelos (EyS)
+  - Validación cruzada
+    - El enfoque del conjunto de validación
+    - Validación cruzada de exclusión única (LOOCV)
+    - Validación cruzada de k-iteraciones
+    - Validación cruzada en problemas de clasificación
+  - Bootstrap
+  - Selección de subconjuntos
+    - Selección del mejor subconjunto
+    - Selección stepwise
+    - Selección del modelo óptimo
+- Tema 10: Fundamentos de la inferencia bayesiana (FIB)
+  - Conceptos básicos
+    - Distribución a priori y a posteriori
+    - Familias conjugadas
+    - Familia exponencial k-paramétrica
+    - Distribuciones a priori no informativas
+    - Regla de Jeffrey
+- Inferencia bayesiana básica
+  - Intervalos de credibilidad bayesianos
+  - Contrastes de hipótesis bayesianos
