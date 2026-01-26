@@ -78,7 +78,7 @@ SPDX-License-Identifier: CC-BY-4.0
     - Modelos lineales generalizados en un marco de mayor generalidad
 - Tema 9: Evaluación y selección de modelos (EyS)
   - Validación cruzada
-    - El enfoque del conjunto de validación
+    - Conjunto de validación
     - Validación cruzada de exclusión única (LOOCV)
     - Validación cruzada de k-iteraciones
     - Validación cruzada en problemas de clasificación
