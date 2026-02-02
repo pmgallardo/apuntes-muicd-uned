@@ -1,0 +1,73 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# AAI - Estructura del contenido
+
+- Bloque 1
+  - Tema 1: Introducción al aprendizaje automático
+    - Aprendizaje automático
+      - Tipos de sistemas
+      - Desafíos
+        - Tareas
+      - Testeo y validación
+  - Tema 2: Introducción a las herramientas a utilizar
+    - Utilidades
+    - Jupyter Notebook
+    - Bibliotecas Python
+    - NumPy
+    - Pandas
+    - Scikit-learn
+    - Graphviz
+    - Metodología de proyectos de aprendizaje automático
+  - Tema 3: Métodos simples de aprendizaje automático supervisado
+    - Naive Bayes
+    - K-Nearest-Neighbors
+      - Clasificación
+      - Regresión
+    - Árboles de decisión
+      - Clasificación
+      - Regresión
+  - Tema 4: Métodos simples de aprendizaje automático no-supervisado y semi-supervisado
+    - Técnicas de agrupamiento (clustering)
+      - K-means
+      - DBSCAN
+      - Agrupamiento aglomerativo
+      - BIRCH
+      - Mean-shift
+    - Modelos de mezclas gaussianas (GMM)
+    - Estimación de densidad mediante núcleos (kernel) (KDE)
+    - Propagación de etiquetas
+    - Extensión de etiquetas
+- Bloque 2
+  - Tema 5: Introducción a las redes neuronales
+    - Redes neuronales
+      - Tipos de redes neuronales
+      - Perceptrón
+      - Perceptrón multi-capa (MLP)
+    - Funciones de activación
+      - Heaviside
+      - Signo
+      - Sigmoide / Logística
+      - Tangente hiperbólica (tanh)
+      - ReLU
+      - Softplus
+      - Softmax
+  - Tema 6: Aspectos prácticos del uso de perceptrones multicapa
+- Bloque 3
+  - Tema 7: Máquina de vectores soporte
+    - Máquina de vectores soporte (SVM)
+- Bloque 4
+  - Tema 8: Selección de variables y reducción de la dimensionalidad
+    - Maldición de la dimensionalidad
+    - Enfoques
+      - Proyección
+      - Manifold
+    - Técnicas
+      - Análisis principal de componentes (PCA)
+      - LLE
+      - Isomap
+      - t-NSE
+      - Análisis discriminante lineal (LDA)

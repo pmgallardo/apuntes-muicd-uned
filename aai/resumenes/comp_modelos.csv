@@ -1,0 +1,7 @@
+Abrev.,Modelo,Conocimiento,Supervisión,Interpretabilidad,Tamaño datos necesarios,Inferencia,Escalabilidad,Suposiciones,Máx. nº características,¿Requiere escalar?,Clasificación,¿Multiclase?,Regresión,Clustering
+NB,Naive Bayes,Modelo,Supervisado,Alta,Pequeño/medio,Muy rápida,Alta,"Fuertes (Independencia condicional, distribución simple)",Alto,FALSE,TRUE,TRUE,FALSE,FALSE
+kNN,k-vecinos más próximos,Instancia,Supervisado,Media,Pequeño/medio,Lenta,Baja,Similitud/distancia,Bajo/medio,TRUE,TRUE,TRUE,TRUE,FALSE
+DT,Árbol de decisión,Modelo,Supervisado,Alta,Pequeño/medio,Muy rápida,Media,Pocas (divisiones recursivas),Medio,FALSE,TRUE,TRUE,TRUE,FALSE
+SVM,Máquinas de vector de soporte,Modelo,Supervisado,Baja,Pequeño/medio,Rápida,Media,"Margen máximo, kernel (si aplica)",Alto,TRUE,TRUE,TRUE,TRUE,FALSE
+ANN,Red neuronal (MLP),Modelo,Supervisado,Baja,Grande,Rápida,Alta,Pocas (modelo flexible),Alto,TRUE,TRUE,TRUE,TRUE,FALSE
+GMM,Modelo de mezcla de gaussianas,Modelo,No supervis.,Baja,Medio,Media,Media,Mezcla de gaussianas,Medio,TRUE,TRUE,TRUE,FALSE,TRUE
