@@ -41,8 +41,6 @@ $$\text{horas por semana necesarias} = (\text{créditos ECTS} * 25) / 16$$
 
 Diagrama de **dependencias entre asignaturas del MUICD**:
 
-![Diagrama de dependencias de asignaturas del MUICD](asig/dependencias_asignaturas.png)
-
 ```mermaid
 graph LR
    31110018[Modelado estadístico de datos] --> 31110037[Aprendizaje automático 1]
