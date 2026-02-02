@@ -22,14 +22,13 @@ El **listado completo de asignaturas** se encuentra en [este enlace](asig/asigna
 
 $$\text{horas por semana necesarias} = (\text{créditos ECTS} * 25) / 16$$
 
-| Créditos ECTS | Dedicación semanal (h) |
+| ECTS | Dedicación semanal (h) |
 | :-: | :-: |
 | 6 | 10 |
-| 4,5 | 7 |
+| 4 | 6 |
 
-- Revisa las fichas de cada asignaturam teniendo en cuenta:
-  - En qué semestre se cursan.
-  - Si tiene interdependencias con otras asignaturas.
+- Comprueba en qué **semestre** se cursan.
+- Revisa si tiene [dependencias](#dependencias) con otras asignaturas.
 - Evalúa la **exigencia de las asignaturas**:
   - Consulta a las [comunidades](#comunidades).
   - Consulta las [estadísticas de rendimiento académico](https://app.uned.es/evacal/rendac.aspx), incluyendo:
@@ -44,8 +43,6 @@ Diagrama de **dependencias entre asignaturas del MUICD**:
 
 ![Diagrama de dependencias de asignaturas del MUICD](asig/dependencias_asignaturas.png)
 
-[Codificación de las dependencias](depedencias_asignaturas.mmd) en formato Mermaid:
-
 ```mermaid
 graph LR
    31110018[Modelado estadístico de datos] --> 31110037[Aprendizaje automático 1]
@@ -58,6 +55,8 @@ graph LR
    31110056[Infraestructuras computacionales para procesamiento de datos masivos] --> 31110111
    31110041 --> 31110107[Minería de datos de los medios sociales]
 ```
+
+[Codificación de las dependencias en formato Mermaid](depedencias_asignaturas.mmd)
 
 ## Exámenes
 
