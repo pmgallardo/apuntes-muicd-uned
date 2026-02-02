@@ -6,17 +6,18 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # apuntes-muicd-uned
 
-Repositorio no oficial de recursos de apoyo al Máster Universitario en Ingeniería y Ciencia de Datos (MUICD) de la UNED.  
+Repositorio no oficial de recursos de apoyo al Máster Universitario en Ingeniería y Ciencia de Datos (MUICD) de la UNED.
+
 Material elaborado por estudiantes con fines educativos.
-Este repositorio no está afiliado institucionalmente con la UNED.
+Repositorio no afiliado institucionalmente con la UNED.
 
 Para más información sobre el máster, visita la [página web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos.html).
 
-## Asignaturas
+## Estructura
 
-El repositorio está organizado con una carpeta por asignatura.
+En la carpeta [`master`](master/) se comparte información general sobre el máster o material común a todas las asignaturas.
 
-A pesar de que cada asignatura tiene asociado un código numérico oficial, se asigna una abreviatura a cada una para que sea más fácil de identificar.
+El resto de carpetas están dedicadas a una asignatura concreta:
 
 | Código | Abr. | Nombre asignatura |
 | ---------- | ----- | ----------------------------- |
@@ -34,8 +35,6 @@ A pesar de que cada asignatura tiene asociado un código numérico oficial, se a
 | `31110126` | [`sgd`](sgd/) | Seguridad de la gestión de datos |
 | `31110075` | [`tfm`](tfm/) | Trabajo fin de máster |
 
-En la carpeta [`master`](master/) se comparte información general sobre el máster o material común a todas las asignaturas.
-
 ## Material ofrecido
 
 El repositorio ofrece material propio de utilidad para los actuales o futuros alumnos del máster, pudiéndose incluir:
@@ -46,7 +45,7 @@ El repositorio ofrece material propio de utilidad para los actuales o futuros al
 - Datos originales de prueba.  
 - Estrategias de estudio.  
 
-El repositorio no incluye material original protegido por derechos de autor que esté disponible para los alumnos del máster a través de los canales oficiales de la UNED (por ejemplo: material lectivo, exámenes, etc.). Cuando se hace referencia a este material, se incluye un enlace a la fuente de origen donde los alumnos pueden acceder.
+El repositorio no incluye material original protegido por derechos de autor que esté disponible para los alumnos del máster a través de los canales oficiales de la UNED. Cuando se hace referencia a este material, se incluye un enlace a la fuente de origen donde los alumnos pueden acceder.
 
 ## Licencias
 

@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Contribuir a apuntes-muicd-uned
 
-Gracias por tu interés en contribuir a este repositorio.
+Te agradecemos el interés en contribuir al repositorio.
 
 Este proyecto es un repositorio no oficial y comunitario de material de apoyo al Máster Universitario en Ingeniería y Ciencia de Datos (MUICD) de la UNED.
 
@@ -16,7 +16,7 @@ Se aceptan contribuciones relacionadas con el contenido académico del MUICD, in
 
 - Apuntes, esquemas y resúmenes elaborados por los colaboradores.
 - Notas ampliadas y explicaciones adicionales.
-- Ejercicios y problemas reescritos.
+- Enunciados reescritos de ejercicios y problemas.
 - Soluciones razonadas y desarrolladas.
 - Conjuntos de datos originales.
 
@@ -35,15 +35,15 @@ Para proteger a los colaboradores y al repositorio, se aplican las siguientes no
 
 Al contribuir a este repositorio, aceptas que:
 
-- Los ficheros de código fuente y notebooks interactivos se publiquen bajo licencia MIT.
-- Los ficheros de datos y documentación se publiquen bajo licencia CC-BY-4.0.
+- Los ficheros de código fuente y notebooks interactivos se publiquen bajo [licencia MIT](https://es.wikipedia.org/wiki/Licencia_MIT).
+- Los ficheros de datos y documentación se publiquen bajo [licencia CC-BY-4.0](https://es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_4.0_Internacional).
 
 Si una contribución requiere una licencia distinta, debe indicarse explícitamente y ser aprobada por los mantenedores.
 
 Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar la información de licencias al proyecto. Como regla general:
 
 - Para los ficheros con cabecera no editable (ej.: .pdf, .json, .docx) no hace falta hacer nada, puesto que su extensión está registrada en el fichero `REUSE.toml` y tienen asociada una licencia.
-- Para los ficheros con cabecera editable (ej.: .py, .md) se debe añadir una cabecera con información de licencia mediante uno de estos métodos:
+- Para los ficheros con cabecera editable (ej.: `.py`, `.md`) se debe añadir una cabecera con información de licencia mediante uno de estos métodos:  
   - Copiando y pegando manualmente la cabecera de otro fichero similar que ya se encuentre en el repositorio.
   - Ejecutando el comando `reuse annotate` contra el fichero concreto:
 
@@ -67,4 +67,4 @@ Puedes encontrar los pasos básicos detallados en [este tutorial](https://www.fr
 
 Se espera un trato respetuoso y constructivo entre los colaboradores.
 
-Las contribuciones ofensivas, discriminatorias o fuera de contexto no serán aceptadas.
+No se aceptan contribuciones ofensivas, discriminatorias o fuera de contexto.
