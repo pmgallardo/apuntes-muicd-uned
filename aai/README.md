@@ -16,6 +16,7 @@ La carpeta se organiza en la siguiente estructura:
 
 - **[`apuntes`](apuntes/)**: Incluye apuntes originales.
 - **[`exam`](exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
+- **[`resumen`](resumen/)**: Incluye resúmenes y síntesis del temario.
 
 ## Evaluación
 
