@@ -21,9 +21,9 @@ El resto de carpetas están dedicadas a una asignatura concreta:
 
 | Código | Abr. | Nombre asignatura |
 | ---------- | ----- | ----------------------------- |
-| `31110018` | [`med`](med/dist/pdf/) | Modelado estadístico de datos |
-| `31110022` | [`ped`](ped/dist/pdf/) | Programación en entornos de datos |
-| `31110037` | [`aai`](aai/dist/pdf/) | Aprendizaje automático I |
+| `31110018` | [`med`](med) | Modelado estadístico de datos |
+| `31110022` | [`ped`](ped) | Programación en entornos de datos |
+| `31110037` | [`aai`](aai) | Aprendizaje automático I |
 | `31110041` | [`mt`](mt/) | Minería de textos |
 | `31110056` | [`icpdm`](icpdm/) | Infraestructuras computacionales para procesamiento de datos masivos |
 | `31110060` | [`vd`](vd/) | Visualización de datos |
