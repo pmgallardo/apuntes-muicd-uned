@@ -54,7 +54,6 @@ graph LR
    31110037 --> 31110130[Aprendizaje Automático 2]
    31110037 --> 31110111[Deep Learning]
    31110056[Infraestructuras computacionales para procesamiento de datos masivos] --> 31110111
-   31110041 --> 31110107[Minería de datos de los medios sociales]
 ```
 
 [Codificación de las dependencias en formato Mermaid](depedencias_asignaturas.mmd)
@@ -85,11 +84,11 @@ El alumno debe realizar una petición hasta la semana anterior al comienzo de ex
 
 Cada convocatoria cuenta con uno o dos slots de exámenes de reserva. Cada slot abarca 4 horas y permite presentarse a un máximo de 3 exámenes:
 
-- Conv. febrero: 1 slot
-- Conv. junio: 1 slot
-- Conv. septiembre: 2 slots, donde
-  - Slot de mañana: exámenes de los 3 primeros días de la convocatoria.
-  - Slot de tarde: exámenes del resto de días.
+- Conv. febrero: 1 slot  
+- Conv. junio: 1 slot  
+- Conv. septiembre: 2 slots, donde  
+  - Slot de mañana: exámenes de los 3 primeros días de la convocatoria.  
+  - Slot de tarde: exámenes del resto de días.  
 
 Los exámenes de reserva están reglados en el apartado 2.2. del [Reglamento de pruebas presenciales UNED](https://www.uned.es/universidad/inicio/unidad/pruebas-presenciales/reglamento-de-pruebas-presenciales.html#a4a3c2ee-eb91-4587-bdd0-b1489088ae8b)
 
@@ -103,10 +102,14 @@ A los alumnos de los centros de la Comunidad de Madrid se les convoca en un cent
 
 Recuerda llevar:
 
-- Carnet de la UNED.
-- Boligrafo(s) (no se permite lápiz)
-- Calculadora (si se permite)
-- Material escrito (si se permite)
+- Carnet de la UNED  
+- Boligrafo(s) (no se permite entregar el exámen a lápiz)  
+- Calculadora (si se permite)  
+- Material escrito (si se permite)  
+
+### Calificaciones
+
+La manera más cómoda de recibir un aviso sobre cuándo está una nota disponible es instalarse la app para móvil "Calificaciones" de la UNED, disponible para [Android](https://play.google.com/store/apps/details?id=es.uned.intecca.calificaciones&hl=es) y [iOS](https://apps.apple.com/es/app/calificaciones/id1006830451).
 
 ## Comunidades
 
