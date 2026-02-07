@@ -45,6 +45,10 @@ SPDX-License-Identifier: CC-BY-4.0
 - Tema 5: Regresión lineal (RL)
   - Estimación puntual de los parámetros
     - Mínimos cuadrados
+      - (Propiedades de los residuos
+        - (Matriz de proyección M
+        - (Varianza de los residuos
+        - (Esperanza de la suma de cuadrados de los residuos estimados
     - Máxima verosimilitud
   - Regresión lineal múltiple
     - Estimación de coeficientes de regresión
@@ -72,6 +76,16 @@ SPDX-License-Identifier: CC-BY-4.0
     - Realización de predicciones
     - Regresión logística múltiple
     - Regresión logística multinomial
+    - (Razón de probabilidad / odd
+    - (Razón de momios / odds ratio (OR)
+    - (Logaritmo de momios / log-odds
+    - (Test de razón de verosimilitudes
+    - (Deviance
+      - (Null deviance
+      - (Residual deviance
+    - (Wald
+    - (Verosimilitud
+      - (Chi-cuadrado de razón de verosimilitudes para diferencia de proporciones
   - Modelos lineales generalizados
     - Regresión lineal para clasificación
     - Regresión de Poisson para clasificación

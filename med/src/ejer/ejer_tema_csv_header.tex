@@ -1,0 +1,50 @@
+% SPDX-FileCopyrightText: 2026 Pablo Gallardo
+%
+% SPDX-License-Identifier: MIT
+
+%pandoc tabla.csv \
+%  --from=csv \
+%  --to=pdf \
+%  --pdf-engine=xelatex \
+%  -H header.tex \
+%  -o tabla.pdf
+
+\usepackage[table]{xcolor} % <- importante la opción table
+
+% Color suave para bandas (ajusta a gusto)
+\definecolor{rowgray}{gray}{0.94}
+
+% Aplica bandas: desde la fila 2 (normalmente tras cabecera), alternando blanco/rowgray
+\AtBeginDocument{%
+  \rowcolors{2}{rowgray}{white}
+}
+
+
+\usepackage[a4paper,portrait,margin=1.2cm]{geometry}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% Fuente más compacta
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Reducir espacios
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{0.95}
+
+% Tamaño de letra por defecto más pequeño
+\AtBeginDocument{\small}
+
+% Evitar encabezados/folios grandes
+\usepackage{fancyhdr}
+\pagestyle{plain}
+
+% Mejor corte de tablas largas
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
