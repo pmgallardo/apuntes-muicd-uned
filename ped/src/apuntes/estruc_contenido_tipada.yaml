@@ -1,0 +1,69 @@
+# SPDX-FileCopyrightText: 2026 Pablo Gallardo
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+temas:
+  - titulo: "Tema 1: Introducción a la programación en entorno de datos"
+    contenidos:
+    - titulo: "Motivación"
+      bibliografia:
+      - Capítulo 3 Python for Data Analysis(3rd Edition)
+    - titulo: "Repaso de conceptos de programación"
+      bibliografia:
+    - titulo: "Tipos de datos"
+      bibliografia:
+  - titulo: "Tema 2: Manipulación y agrupación de datos"
+    contenidos:
+    - titulo: "Creación de estructuras de datos y acceso y modificación de datos (Numpy)"
+      contenidos:
+      - titulo: "Arrays y computación vectorizada con NumPy"
+        bibliografia:
+        - Capítulo 1, apartado 1.3, sección Numpy Data Analysis (3rd Edition)
+      - titulo: "Manipulación avanzada de arrays"
+        bibliografia:
+        - Apéndice A, apartado A2, sección Reshaping Arrays y apartado A3 (3rd Edition)
+      - titulo: "Broadcasting"
+        bibliografia:
+        - Apéndice A, apartado A3 (3rd Edition)
+    - titulo:  Importación y exportación de datos (Numpy)
+      bibliografia:
+      - Capítulo 4, apartado 4.5 Python for Data Analysis (3rd Edition)
+    - titulo:  Creación de estructuras de datos (Pandas)
+      bibliografia:
+      - Capítulo 5, introducción y apartado 5.1 Python for Data Analysis (3rd Edition)
+    - titulo:  Acceso y modificación de datos (Pandas)
+      bibliografia:
+      - Capítulo 5, apartados 5.2 y 5.3 Python for Data Analysis (3rd Edition)
+      contenidos:
+      - titulo:  Agregación de datos y operaciones por grupo
+        bibliografia:
+        - Capítulo 10 Python for Data Analysis (2nd Edition)
+      - titulo: Limpieza y preparación de datos
+        bibliografia:
+        - Capítulo 7, apartado 7.5 (3rd Edition)
+  - titulo: "Tema 3: Eficiencia en la programación y gestión de datos"
+    contenidos:
+    - titulo: Generación optimizada de datos para su procesamiento
+      bibliografia:
+      - Capítulo 3, apartado 3.1, sección List, Set, and Dict Comprehensions; apartado 3.2, sección Generators en Python for Data Analysis (3rd Edition)
+      - Notebook con ejemplos suministrado por el Equipo Docente
+    - titulo: "Vectorización"
+      bibliografia:
+      - Capítulo 4, apartado 4.1, sección Arithmetic with NumPy Array en Python for Data Analysis (3rd Edition)
+      - Notebook con ejemplos suministrado por el Equipo Docente
+      - Capítulo 4, apartados 4.3 y 4.6, donde se aprovecha la vectorización para realizar operaciones sobre arrays Data Analysis (3rd Edition)
+    - titulo: "Gestión del almacenamiento"
+      bibliografia:
+      - Notebook `datosAImportar.csv` facilitado en la asignatura
+      - Notebook `datosAImportarConFechas.csv` suministrado en la asignatura
+  - titulo: "Tema 4: Programación de análisis numérico"
+    contenidos:
+    - titulo: "Resolución de ecuaciones"
+      bibliografia:
+      - Numerical Python : A Practical Techniques Approach for Industry, Capítulo 5
+    - titulo: "Problemas de optimización"
+      bibliografia:
+      - Numerical Python : A Practical Techniques Approach for Industry, Capítulo 6
+    - titulo: "Programación estadística básica"
+      bibliografia:
+      - Numerical Python : A Practical Techniques Approach for Industry, Capítulo 13
