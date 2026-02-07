@@ -14,29 +14,18 @@ Más información en la [ficha web oficial](https://www.uned.es/universidad/inic
 
 La carpeta se organiza en la siguiente estructura:
 
-- **[`exam`](exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
-- **[`prac`](prac/)**: Incluye soluciones y enunciados en prácticas anteriores.
-- **[`pf`](pf/)**: Incluye preguntas y respuestas inspiradas en cuestiones planteadas en el foro.
-
-Exact collinearity example:
-
-$$\(x_2 = 3 \, x_1\)$$
-
-Near collinearity example:
-
-$$\(x_2 = 3 \approx x_1\)$$
-
-In linear regression:
-
-$$y = X \, \beta + \varepsiln$$
+- **[`exam`](dist/pdf/apuntes/)**: Incluye apuntes de la asignatura.
+- **[`prac`](dist/pdf/ejer/)**: Incluye soluciones y enunciados de prácticas, exámenes o preguntas frecuentes anteriores anteriores.
 
 ## Comunidades
 
 Existen comunidades no oficiales de alumnos y alumni del máster:
 
-- Comunidad [UNED - MED (Máster Datos)](https://t.me/joinchat/TUr_BZKrWxAyNWM0) en Telegram
-- [Carpeta `Modelado estadistico de datos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgDT0Yj-r70SRKB_RQ5Dm-YRAdae9P6J3skb-tQhNmAYaH0) en SharePoint UNED
-- Entrada a [MED](https://github.com/adzarei/uned-master-bigdata/tree/master/MED) de curso 2019/2020 en repositorio `uned-master-bigdata` de Adrián José Zapater Reig
+- Activas
+  - Comunidad [UNED - MED (Máster Datos)](https://t.me/joinchat/TUr_BZKrWxAyNWM0) en Telegram
+- Inactivas
+  - [Carpeta `Modelado estadistico de datos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgDT0Yj-r70SRKB_RQ5Dm-YRAdae9P6J3skb-tQhNmAYaH0) en SharePoint UNED
+  - Entrada a [MED](https://github.com/adzarei/uned-master-bigdata/tree/master/MED) de curso 2019/2020 en repositorio `uned-master-bigdata` de Adrián José Zapater Reig
 
 ## Bibliografía
 
