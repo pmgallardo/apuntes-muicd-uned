@@ -14,9 +14,9 @@ Más información en la [ficha web oficial](https://www.uned.es/universidad/inic
 
 La carpeta se organiza en la siguiente estructura:
 
-- **[`apuntes`](apuntes/)**: Incluye apuntes originales.
-- **[`exam`](exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
-- **[`resumen`](resumen/)**: Incluye resúmenes y síntesis del temario.
+- **[`apuntes`](dist/pdf/apuntes/)**: Incluye apuntes originales.
+- **[`exam`](dist/pdf/exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
+- **[`resumen`](dist/pdf/resumen/)**: Incluye resúmenes y síntesis del temario.
 
 ## Evaluación
 

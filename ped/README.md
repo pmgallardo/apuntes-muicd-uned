@@ -14,7 +14,7 @@ Puedes ver la [ficha oficial de la asignatura](https://www.uned.es/universidad/i
 
 La carpeta se organiza en la siguiente estructura:
 
-- **[`exam`](exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
+- **[`exam`](dist/pdf/exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
 
 ## Evaluación
 
@@ -65,5 +65,7 @@ En el curso 2021/2022 se estableció que era necesario aprobar ambas partes del 
 
 Existen comunidades no oficiales de alumnos y alumni del máster:
 
-- Comunidad [UNED - PED (Máster Datos)](https://t.me/+JqnvqE9W3Vc0OTFk) en Telegram
-- [Carpeta `Programación en Entorno de Datos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgByDRixZZh4SL-thSbmxUgHAbrVtKZ17Il1x0ihtB6MSoI) en SharePoint UNED
+- Activas
+  - Comunidad [UNED - PED (Máster Datos)](https://t.me/+JqnvqE9W3Vc0OTFk) en Telegram
+- Inactivas
+  - [Carpeta `Programación en Entorno de Datos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgByDRixZZh4SL-thSbmxUgHAbrVtKZ17Il1x0ihtB6MSoI) en SharePoint UNED
