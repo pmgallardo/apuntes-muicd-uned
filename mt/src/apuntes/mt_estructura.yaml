@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2026 Pablo Gallardo
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+temas:
+  - titulo: "Tema 1: Introdución al procesamiento de lenguaje natural"
+  - titulo: "Tema 2: Extracción de información"
+  - titulo: "Tema 3: Representación de documentos"
+  - titulo: "Tema 4: Clustering y clasificación"
+  - titulo: "Tema 5: Aplicaciones"
