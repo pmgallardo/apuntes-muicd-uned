@@ -15,15 +15,15 @@ Para más información sobre el máster, visita la [página web oficial](https:/
 
 ## Estructura
 
-En la carpeta [`master`](master/) se comparte información general sobre el máster o material común a todas las asignaturas.
+En la carpeta [`master`](master/) se comparte información general sobre el máster. Si eres nuevo/a, te recomendamos empezar por aquí.
 
 El resto de carpetas están dedicadas a una asignatura concreta:
 
 | Código | Abr. | Nombre asignatura |
 | ---------- | ----- | ----------------------------- |
-| `31110018` | [`med`](med/) | Modelado estadístico de datos |
-| `31110022` | [`ped`](ped/) | Programación en entornos de datos |
-| `31110037` | [`aai`](aai/) | Aprendizaje automático I |
+| `31110018` | [`med`](med/dist/pdf/) | Modelado estadístico de datos |
+| `31110022` | [`ped`](ped/dist/pdf/) | Programación en entornos de datos |
+| `31110037` | [`aai`](aai/dist/pdf/) | Aprendizaje automático I |
 | `31110041` | [`mt`](mt/) | Minería de textos |
 | `31110056` | [`icpdm`](icpdm/) | Infraestructuras computacionales para procesamiento de datos masivos |
 | `31110060` | [`vd`](vd/) | Visualización de datos |
@@ -34,6 +34,11 @@ El resto de carpetas están dedicadas a una asignatura concreta:
 | `31110111` | [`dl`](dl/) | Deep learning |
 | `31110126` | [`sgd`](sgd/) | Seguridad de la gestión de datos |
 | `31110075` | [`tfm`](tfm/) | Trabajo fin de máster |
+
+Las asignaturas se organizan en dos carpetas:
+
+- `dist`, que contiene los ficheros finales, listos para leer. Incluye una carpeta por cada formato disponible (ej: `pdf`).
+- `src`, que contiene los ficheros fuente. Útil si quieres modificar o extraer el contenido.
 
 ## Material ofrecido
 
