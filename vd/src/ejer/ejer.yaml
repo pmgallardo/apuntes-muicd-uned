@@ -1,0 +1,168 @@
+ejercicios:
+  - id: VL.2022J2.C.1
+    tipo: multiopcion
+    tags:
+    - tipos-variables
+  - id: VL.2022J2.C.2
+    tipo: multiopcion
+    tags:
+    - tareas, generacion-nuevas-variables
+  - id: VL.2022J2.C.3
+    tipo: multiopcion
+    tags: 
+    - objetivo-visualizacion
+  - id: VL.2022J2.C.4
+    tipo: multiopcion
+    tags: 
+    - grafico-barras
+  - id: VL.2022J2.C.5
+    tipo: multiopcion
+    tags: grafico-barras-apiladas
+  - id: VL.2022J2.E
+    tipo: desarrollo
+    tags:
+  - id: VL.2022SO.C.1
+    tipo: multiopcion
+    tags:
+    - grafico-barras
+  - id: VL.2022SO.C.2
+    tipo: multiopcion
+    equivalent: VL.2022J2.C1
+    tags:
+    - tipos-variables
+  - id: VL.2022SO.C.3
+    tipo: multiopcion
+    tags:
+    - tono
+  - id: VL.2022SO.C.4
+    tipo: multiopcion
+    tags:
+    - atributo-visual
+  - id: VL.2022SO.C.5
+    tipo: multiopcion
+    tags: 
+    - tipos-representaciones-visuales
+  - id: VL.2022SO.E
+    tipo: desarrollo
+    tags:
+  - id: VL.2023J2.C.1
+    tipo: multiopcion
+    tags:
+      - teoria-sistemas
+  - id: VL.2023J2.C.2
+    tipo: multiopcion
+    tags:
+      - tareas, valores-nulos
+  - id: VL.2023J2.C.3
+    tipo: multiopcion
+    tags:
+    - 
+  - id: VL.2023J2.C.4
+    tipo: multiopcion
+    tags:
+    - fases-visualizacion
+  - id: VL.2023J2.C.5
+    tipo: multiopcion
+    tags: 
+    - nubes-palabras
+  - id: VL.2023J2.E
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2023SO.C.1
+    tipo: multiopcion
+    tags:
+    - big-data
+  - id: VL.2023SO.C.2
+    tipo: multiopcion
+    tags:
+      - aproximaciones-descripcion-realidad
+  - id: VL.2023SO.C.3
+    tipo: multiopcion
+    tags:
+    - elementos-graficos
+  - id: VL.2023SO.C.4
+    tipo: multiopcion
+    tags:
+    - canales-informacion-visual
+  - id: VL.2023SO.C.5
+    tipo: multiopcion
+    tags: 
+    - objetivo-visualizacion
+  - id: VL.2023SO.E
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2024J2.1
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2024J2.2
+    tipo: desarrollo
+    tags:
+      - 
+  - id: VL.2024J2.3
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2024J2.4
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2024SO.1
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2024SO.2
+    tipo: desarrollo
+    tags:
+      - 
+  - id: VL.2024SO.3
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2024SO.4
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2025J2.C.1
+    tipo: multiopcion
+    tags:
+    - 
+  - id: VL.2025J2.C.2
+    tipo: multiopcion
+    tags:
+      - 
+  - id: VL.2025J2.C.3
+    tipo: multiopcion
+    tags:
+    - 
+  - id: VL.2025J2.C.4
+    tipo: multiopcion
+    tags:
+    - 
+  - id: VL.2025J2.C.5
+    tipo: multiopcion
+    tags: 
+    - 
+  - id: VL.2025J2.E
+    tipo: desarrollo
+    tags:
+    - 
+
+  - id: VL.2025SO.1
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2025SO.2
+    tipo: desarrollo
+    tags:
+      - 
+  - id: VL.2025SO.3
+    tipo: desarrollo
+    tags:
+    - 
+  - id: VL.2025SO.4
+    tipo: desarollo
+    tags:
+    - 

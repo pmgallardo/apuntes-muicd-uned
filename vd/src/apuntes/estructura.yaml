@@ -1,0 +1,66 @@
+- titulo: Tipos de variables
+  tag:
+  - tipos-variables
+  - titulo: Cuantitativas
+  - titulo: Discretas
+  - titulo: Nominativas
+  - titulo: Deterministas
+  - titulo: Ordinales
+  - titulo: Categóricas
+
+- titulo: Tareas
+  tag: tareas
+
+- titulo: Objetivo de la visualización
+  tag: objetivo-visualizacion
+
+- titulo: Tipos de gráficos
+  tag:
+  - tipos-graficos
+  - titulo: Gráfico barras
+    tag:
+    - grafico-barras
+  - titulo: Gráfico barras apiladas
+    tag:
+    - grafico-barras-apiladas
+
+- titulo: Tono
+  tag:
+    - tono
+
+- titulo: Atributo visual
+  tag:
+    - atributo-visual
+
+- tags:
+  - tipos-representaciones-visuales
+
+- tags:
+  - teoria-sistemas
+
+- tags: 
+  - tipos-representaciones-visuales
+
+- tags:
+  - atributo-visual
+
+- tags:
+  - fases-visualizacion
+
+- tags:
+  - roles-visualizacion
+
+- tags:
+  - nubes-palabras
+
+- tags:
+  - big-data
+
+- tags:
+  - aproximaciones-descripcion-realidad
+
+- tags:
+    - canales-informacion-visual
+
+- tags:
+    - elementos-visualizacion
