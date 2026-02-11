@@ -1,0 +1,23 @@
+units:
+- id: 1a
+  title: Fundamentos de las redes neuronales profundas
+- id: 1b
+  title: Introducción a las redes neuronales y aspectos prácticos del uso de perceptrones multicapa
+- id: 2
+  title: Tipologías de las redes neuronales profundas
+- id: 3
+  title: Herramientas y estrategias de programación e implementación de redes neuronales
+- id: 4
+  title: Redes neuronales convolucionales
+- id: 5
+  title: Redes neuronales recurrentes
+  sections:
+  - title: Introducción a la nube
+  - title: "Google Cloud Platform: Machine Learning Engine"
+  - title: AWS Machine Learning
+  - title: "Microsoft Azure: Machine Learning Studio"
+  - title: "IBM Watson Machine Learning y Data Studio"
+- id: 6
+  title: Servicios y proveedores de Deep Learning en la nube
+- id: 7
+  title: Escenarios y casos prácticos de aplicación del Deep Learning
