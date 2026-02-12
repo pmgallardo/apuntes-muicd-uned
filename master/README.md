@@ -10,7 +10,7 @@ En esta carpeta se comparte comparte información general sobre el máster MUICD
 
 ## Asignaturas
 
-El **listado completo de asignaturas** se encuentra en [este enlace](asig/asignaturas.csv).
+El **listado completo de asignaturas** se encuentra en [este enlace](src/asig/asignaturas.csv).
 
 ### Elección
 
@@ -52,6 +52,7 @@ graph LR
    31110022 --> 31110037
    31110022 --> 31110060[Visualización de datos]
    31110037 --> 31110130[Aprendizaje Automático 2]
+   31110037 --> 31110107[Minería de datos de los medios sociales]
    31110037 --> 31110111[Deep Learning]
    31110056[Infraestructuras computacionales para procesamiento de datos masivos] --> 31110111
 ```
@@ -63,7 +64,7 @@ graph LR
 ### Repositorios de exámenes
 
 - [Akademos](https://akademosweb.uned.es)
-- [Depósito de exámenes de UNED Calatayud](http://www.calatayud.uned.es/examenes)
+- [Depósito de exámenes de UNED Calatayud](http://www.calatayud.uned.es/Examenes/auth/step2.asp?NewExams=Continuar&ID_Carrera=3110)
 - Espacios de cada asignatura (si el profesor los comparte)
 
 ### Planificación de exámenes
@@ -109,7 +110,23 @@ Recuerda llevar:
 
 ### Calificaciones
 
+Las calificaciones se pueden revisar:
+
+- Campus UNED - Identificarse - Acceder a la Secretaría Virtual - Ver Calificaciones
+- App "Calificaciones" de la UNED
+
 La manera más cómoda de recibir un aviso sobre cuándo está una nota disponible es instalarse la app para móvil "Calificaciones" de la UNED, disponible para [Android](https://play.google.com/store/apps/details?id=es.uned.intecca.calificaciones&hl=es) y [iOS](https://apps.apple.com/es/app/calificaciones/id1006830451).
+
+### Evaluación asignaturas por alumnos
+
+Al finalizar los exámenes los alumnos pueden valorar las asignaturas desde el enlace <https://app.uned.es/evacal/q_misq.aspx> (hace falta estar logueado antes).
+
+Fechas límite para la evaluación:
+
+| Convocatoria | Fecha límite |
+| - | - |
+| Febrero | 15-Mar |
+| Junio | 15-Jul |
 
 ## Comunidades
 
