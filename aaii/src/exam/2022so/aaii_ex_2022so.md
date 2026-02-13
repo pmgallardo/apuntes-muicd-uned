@@ -27,6 +27,10 @@ En el contexto de los bosques aleatorios, el parámetro B se interpreta como:
 
 ### Solución AAII.EX.2022SO.1
 
+La respuesta correcta es **D**.
+
+En bosques aleatorios, $B$ denota el **número de árboles** del bosque (número de réplicas bootstrap/modelos base).
+
 ## AAII.EX.2022SO.2
 
 ### Enunciado AAII.EX.2022SO.2
@@ -39,6 +43,10 @@ El procedimiento conocido como bootstrapping…
 - D. introduce inestabilidad numérica en los cálculos.
 
 ### Solución AAII.EX.2022SO.2
+
+La respuesta correcta es **C**.
+
+El *bootstrapping* es un remuestreo **aleatorio con repetición** a partir de la muestra observada para **estimar** la distribución de estadísticos/parámetros poblacionales.
 
 ## AAII.EX.2022SO.3
 
@@ -53,6 +61,16 @@ En regresión, el error esperado de predicción puede expresarse como…
 
 ### Solución AAII.EX.2022SO.3
 
+La respuesta correcta es **B**.
+
+En regresión, el error de predicción esperado se descompone como:
+
+$$
+\mathbb{E}\big[(Y - \hat f(X))^2\big] = \sigma^2 + \text{Sesgo}^2 + \text{Varianza}
+$$
+
+donde $\sigma^2$ es el **error irreducible**.
+
 ## AAII.EX.2022SO.4
 
 ### Enunciado AAII.EX.2022SO.4
@@ -65,6 +83,10 @@ Una diferencia conceptual entre AdaBoost y gradient boosting es que…
 - D. AdaBoost ajusta pesos tanto de ejemplos como de clasificadores.
 
 ### Solución AAII.EX.2022SO.4
+
+La respuesta correcta es **D**.
+
+AdaBoost asigna pesos a los **ejemplos** (repondera observaciones) y además pondera los **clasificadores** en la combinación.
 
 ## AAII.EX.2022SO.5
 
@@ -79,6 +101,10 @@ Los mecanismos habituales de control en gradient boosting incluyen…
 
 ### Solución AAII.EX.2022SO.5
 
+La respuesta correcta es **A**.  
+
+Parámetros típicos de control: **tasa de aprendizaje**, **número de modelos** (iteraciones) y **fracción de observaciones** por iteración (stochastic gradient boosting / subsampling).
+
 ## AAII.EX.2022SO.6
 
 ### Enunciado AAII.EX.2022SO.6
@@ -92,18 +118,26 @@ Los métodos basados en boosting permiten cierta interpretación porque…
 
 ### Solución AAII.EX.2022SO.6
 
+La respuesta correcta es **B**.  
+
+Aunque el conjunto completo no sea tan interpretable como un único árbol, sí es habitual obtener **importancia de variables** y otras herramientas (p. ej., dependencias parciales).
+
 ## AAII.EX.2022SO.7
 
 ### Enunciado AAII.EX.2022SO.7
 
-El principio fundamental al combinar clasificadores es que…
+El fundamento de una combinación eficaz de clasificadores es que…
 
-- A. todos rindan bien en la mayoría de los casos.
-- B. no fallen simultáneamente en los mismos ejemplos.
-- C. exista una mezcla de clasificadores excelentes y deficientes.
+- A. todos obtengan buenos resultados en la mayoría de ejemplos.
+- B. los errores individuales no coincidan sistemáticamente.
+- C. exista una mezcla de clasificadores muy buenos y malos.
 - D. predominen clasificadores de rendimiento medio.
 
 ### Solución AAII.EX.2022SO.7
+
+La respuesta correcta es **B**.  
+
+La clave en ensembles es la **diversidad**: que no fallen en los **mismos** ejemplos (errores poco correlados).
 
 ## AAII.EX.2022SO.8
 
@@ -121,6 +155,10 @@ $$
 
 ### Solución AAII.EX.2022SO.8
 
+La respuesta correcta es **A**.  
+
+GMM se aproxima a K-medias cuando las covarianzas son esféricas $\Sigma_k = \sigma I$ y la varianza común tiende a 0, haciendo que cada punto “pertenezca” casi por completo a un único componente.
+
 ## AAII.EX.2022SO.9
 
 ### Enunciado AAII.EX.2022SO.9
@@ -133,6 +171,10 @@ El número adecuado de grupos en un conjunto de datos puede estimarse como…
 
 ### Solución AAII.EX.2022SO.9
 
+La respuesta correcta es **C**.  
+
+Criterio del “codo”: elegir $K$ a partir del cual aumentar el número de grupos apenas reduce la disimilitud intra-grupo.
+
 ## AAII.EX.2022SO.10
 
 ### Enunciado AAII.EX.2022SO.10
@@ -144,3 +186,7 @@ Un método de agrupamiento basado en distancias euclídeas…
 - C. coincide conceptualmente con ambas formulaciones anteriores.
 
 ### Solución AAII.EX.2022SO.10
+
+La respuesta correcta es **B**.  
+
+Con datos estandarizados, la distancia euclídea entre vectores está relacionada con la correlación, siendo equivalente (monótonamente) a usar una disimilitud tipo $1 - \rho$.

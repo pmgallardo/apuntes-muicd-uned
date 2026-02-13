@@ -35,6 +35,10 @@ Una propiedad destacada de métodos de clustering basados en densidad como DBSCA
 
 ### Solución AAII.EX.2025J2.1
 
+La respuesta correcta es **C**.
+
+DBSCAN no obliga a fijar $K$ y puede detectar clústeres de forma no esférica (además de identificar ruido/outliers).
+
 ## AAII.EX.2025J2.2
 
 ### Enunciado AAII.EX.2025J2.2
@@ -47,6 +51,10 @@ El objetivo principal del método Bagging es…
 - D. optimizar directamente la función de pérdida cuadrática.
 
 ### Solución AAII.EX.2025J2.2
+
+La respuesta correcta es **C**.
+
+El objetivo principal de bagging es **reducir la varianza** del predictor promedio al combinar muchos modelos entrenados sobre remuestreos.
 
 ## AAII.EX.2025J2.3
 
@@ -61,6 +69,16 @@ Según la formulación clásica del boosting con pérdida cuadrática, cada nuev
 
 ### Solución AAII.EX.2025J2.3
 
+La respuesta correcta es **B**.
+
+Con pérdida cuadrática, boosting ajusta en cada iteración los **residuos** de la predicción anterior, equivalentes al **gradiente negativo** de la pérdida:
+
+$$
+
+r_i^{(m)} = y_i - \hat f^{(m-1)}(x_i)
+
+$$
+
 ## AAII.EX.2025J2.4
 
 ### Enunciado AAII.EX.2025J2.4
@@ -73,6 +91,13 @@ En un bosque aleatorio, la importancia de las variables suele estimarse mediante
 - D. coeficientes de regularización específicos por variable.
 
 ### Solución AAII.EX.2025J2.4
+
+La respuesta correcta es **B**.
+
+En Random Forest, la importancia de variables se obtiene típicamente por:
+
+- disminución media de impureza (p. ej., Gini)
+- importancia por permutación (deterioro al permutar una feature)
 
 ## AAII.EX.2025J2.5
 
@@ -87,6 +112,10 @@ Un metamodelo lineal puede resultar insuficiente al combinar clasificadores alta
 
 ### Solución AAII.EX.2025J2.5
 
+La respuesta correcta es **B**.
+
+Un meta-modelo lineal puede no capturar **interacciones no lineales** entre predicciones de modelos base altamente no lineales.
+
 ## AAII.EX.2025J2.6
 
 ### Enunciado AAII.EX.2025J2.6
@@ -99,6 +128,10 @@ Cambiar el criterio de división en un Random Forest por uno menos habitual (por
 - D. exigir validación cruzada en cada árbol.
 
 ### Solución AAII.EX.2025J2.6
+
+La respuesta correcta es **C**.
+
+Cambiar el criterio de división (Gini vs entropía u otro) puede cambiar qué *splits* se eligen, produciendo árboles con particiones algo distintas y, por tanto, potencialmente más diversidad.
 
 ## AAII.EX.2025J2.7
 
@@ -113,6 +146,10 @@ El clustering jerárquico aglomerativo construye grupos…
 
 ### Solución AAII.EX.2025J2.7
 
+La respuesta correcta es **B**.
+
+El jerárquico aglomerativo comienza con cada observación como clúster propio y va **fusionando** sucesivamente según un criterio de enlace.
+
 ## AAII.EX.2025J2.8
 
 ### Enunciado AAII.EX.2025J2.8
@@ -125,6 +162,10 @@ El boosting puede ser más propenso al sobreajuste que el bagging porque…
 - D. utiliza menos datos de entrenamiento.
 
 ### Solución AAII.EX.2025J2.8
+
+La respuesta correcta es **B**.
+
+Boosting es secuencial y se va enfocando en los ejemplos difíciles; si hay ruido, puede terminar **ajustándolo** (sobreajuste) si no se regulariza.
 
 ## AAII.EX.2025J2.9
 
@@ -139,6 +180,10 @@ En AdaBoost, tras cada iteración las muestras mal clasificadas…
 
 ### Solución AAII.EX.2025J2.9
 
+La respuesta correcta es **C**.
+
+En AdaBoost, las observaciones mal clasificadas aumentan su peso para que el siguiente clasificador se centre más en ellas.
+
 ## AAII.EX.2025J2.10
 
 ### Enunciado AAII.EX.2025J2.10
@@ -151,3 +196,7 @@ El stacking puede comportarse de forma similar al bagging cuando…
 - D. se emplean subconjuntos aleatorios de variables en cada división.
 
 ### Solución AAII.EX.2025J2.10
+
+La respuesta correcta es **C**.
+
+Stacking se comporta como bagging si el meta-modelo se reduce a una **media directa** (o promedio) de las predicciones de los modelos base.

@@ -1,0 +1,164 @@
+# SPDX-FileCopyrightText: 2026 Pablo Gallardo
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+id: 31110130
+acronym: AAII
+units:
+  - id: 1
+    title: Bosques aleatorios
+    sections:
+    - id: 1.1
+      title: Descomposición en sesgo/varianza
+      sections:
+      - title: Error predicción esperado
+      tags:
+      - error-prediccion-esperado
+    - id: 1.2
+      title: El método bootstrap
+      tags:
+      - bootstrap
+      - bootstrapping
+    - id: 1.3
+      title: "Agregación de Bootstrap: Bagging"
+      tags: 
+        - bagging
+      sections:
+      - title: Error OOB
+        tags: 
+        - error-oob
+    - id: 1.4
+      title: Bosques aleatorios
+      tags: 
+      - bosque-aleatorio
+  - id: 2
+    title: Intensificación (anteriormente, potenciación ("Boosting") y árboles aditivos)
+    sections:
+    - id: 2.1
+      title: Introducción
+    - id: 2.2
+      title: AdaBoost
+      tags:
+      - adaboost
+      sections:
+    - id: 2.3
+      title: Intensificación de gradiente
+      tags: intensificacion-gradiente
+    - id: 2.4
+      title: Implementaciones de Intensificación de gradiente
+      sections:
+      - title: XGBoost
+        tags:
+        - xgboost
+      - title: GBM
+      - title: 
+      - title: LightGBM
+        tags:
+        - lightgbm
+      - title: CATBoost
+    - id: 2.5
+      title: Prácticas de programación de intensificación
+  - id: 3
+    title: Otras combinaciones de modelos (anteriormente, aprendizaje conjunto)
+    sections:
+      - id: 3.1
+        title: Introducción
+      - id: 3.2
+        title: Marco general para la combinación de clasificadores
+        sections:
+        - title: Combinación clasificadores
+          tags:
+          - combinacion-clasificadores
+      - id: 3.3
+        title: Estrategias para la combinación de clasificadores
+        sections:
+        - title: Apilamiento
+          tags:
+          - apilamiento
+          - stacking
+        - title: Selección
+          tags:
+          - seleccion
+  - id: 4
+    title: Aprendizaje no supervisado
+    sections:
+    - id: 4.1
+      title: Análisis de grupos
+      tags:
+      - agrupamiento
+      - clustering
+      sections:
+      - title: Clasificación no supervisada
+        tags:
+        - clasificacion-no-supervisada
+    - title: Análisis de componentes principales (PCA)
+      tags: 
+      - analisis-componentes-principales
+      - pca
+    - id: 4.2
+      title: Combinación de las medidas de similitud en las diferentes dimensiones (atributos) que constituyen los patrones
+      sections:
+      - title: Agrupamiento datos ausentes
+        tags:
+        - agrupamiento-datos-ausentes
+      - title: Disimilitud
+        tags: 
+        - disimilitud
+        - disimilitud-confenetica
+    - id: 4.3
+      title: Métodos simples y clásicos de clasificación no supervisada
+      sections:
+      - title: Agrupamiento combinatorio
+        tags:
+        - agrupamiento-combinatorio
+      - title: K-medias
+        tags: 
+        - k-medias
+        - k-means
+      - title: 
+      - title: Agrupamiento mezclas gaussianas
+        tags:
+        - agrupamiento-mezclas-gaussianas
+      - title: Cuantización de vectores
+      - title: K-medioids
+      - tags:
+        - k-medioids
+      - title: Agrupamiento jerárquico
+        sections:
+        - title: Agrupamiento jerárquico aglomerativo
+          tags:
+          - agrupamiento-aglomerativo
+          - agrupamiento-jerarquico-aglomerativo
+          - clustering-jerarquico-aglomerativo
+        - title: Agrupamiento jerárquico divisivo
+          tags:
+          - agrupamiento-divisivo
+          - agrupamiento-jerarquico-divisivo
+          - clustering-jerarquico-divisivo
+          sections: 
+          - title: Encadenamiento
+            tags:
+            - encadenamiento
+            - chaining
+      - title: Agrupamiento basados en densidad
+        tags:
+        - agrupamiento-basado-densidad
+        sections:
+        - title: DBSCAN
+          tags: 
+          - dbscan
+    - id: 4.4
+      title: Taxonomía de medidas de evaluación de agrupamientos
+      sections:
+      - title: Estimación número grupos
+        tags:
+        - estimacion-numero-grupos
+      - title: Índice Hartigan
+        tags:
+        - indice-hartigan
+      - title: Índice Dunn
+        tags:
+        - indice-dunn
+      - title: Coeficiente silhouette
+        tags:
+        - coeficiente-silhouette

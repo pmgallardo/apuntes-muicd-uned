@@ -27,6 +27,10 @@ El método conocido como bagging consiste en generar múltiples modelos simples 
 
 ### Solución AAII.EX.2022J2.1
 
+La respuesta correcta es **C**.
+
+Bagging busca **reducir la varianza** promediando muchos modelos base, y para que el promedio reduzca la varianza de forma efectiva conviene que los modelos estén **poco correlados**, lo que se consigue con **perturbaciones aleatorias** (p. ej., remuestreo bootstrap de los datos).
+
 ## AAII.EX.2022J2.2
 
 ### Enunciado AAII.EX.2022J2.2
@@ -39,6 +43,10 @@ En problemas de clasificación, un bosque aleatorio decide la etiqueta final…
 - D. seleccionando la clase más votada entre los árboles.
 
 ### Solución AAII.EX.2022J2.2
+
+La respuesta correcta es **D**.
+
+En clasificación, un bosque aleatorio combina los árboles por **votación mayoritaria**: gana la clase con **más votos** (no es necesaria mayoría absoluta).
 
 ## AAII.EX.2022J2.3
 
@@ -53,6 +61,10 @@ El error estimado fuera de la muestra (OOB) se describe mejor como un valor que�
 
 ### Solución AAII.EX.2022J2.3
 
+La respuesta correcta es **A**.
+
+El error OOB suele ser una estimación **conservadora** del error de generalización: tiende a ser **ligeramente mayor** que el rendimiento real (por ejemplo, comparable a validación cruzada pero a menudo algo más pesimista).
+
 ## AAII.EX.2022J2.4
 
 ### Enunciado AAII.EX.2022J2.4
@@ -65,6 +77,10 @@ La regularización en métodos de gradient boosting se emplea principalmente par
 - D. acelerar el proceso de cálculo.
 
 ### Solución AAII.EX.2022J2.4
+
+La respuesta correcta es **B**.
+
+En gradient boosting se regulariza (shrinkage/learning rate, profundidad limitada, subsampling, etc.) para **controlar el sobreaprendizaje** y mejorar la generalización.
 
 ## AAII.EX.2022J2.5
 
@@ -79,17 +95,26 @@ En el contexto del gradient boosting, puede afirmarse que…
 
 ### Solución AAII.EX.2022J2.5
 
+La respuesta correcta es **D**.
+
+En boosting, al aumentar el número de árboles (iteraciones) aumenta la capacidad del modelo y, si no hay regularización adecuada, crece la posibilidad de **sobreaprendizaje**.
+
 ## AAII.EX.2022J2.6
 
 ### Enunciado AAII.EX.2022J2.6
 
-Cuando se combinan clasificadores mediante un criterio de decisión suave, la predicción global se obtiene…
+En una combinación con umbral blando, la predicción final se obtiene…
 
-- A. aplicando una votación flexible entre modelos.
-- B. integrando probabilidades estimadas de cada clase.
-- C. realizando una votación ponderada.
+- A. mediante votación simple por mayoría.
+- B. considerando probabilidades posteriores de cada clase.
+- C. asignando votos con pesos constantes.
+- D. eligiendo el clasificador más preciso.
 
 ### Solución AAII.EX.2022J2.6
+
+La respuesta correcta es **B**.
+
+El umbral (o combinación) **blando** usa las **probabilidades** (o puntuaciones calibradas) de cada clase, agregándolas (por ejemplo, sumando/promediando) para decidir la clase final.
 
 ## AAII.EX.2022J2.7
 
@@ -104,6 +129,10 @@ Los umbrales suaves en la decisión conjunta de clasificadores buscan…
 
 ### Solución AAII.EX.2022J2.7
 
+La respuesta correcta es **B**.
+
+Los umbrales “blandos” intentan aproximar la **probabilidad a posteriori** de la clase (a diferencia de los “duros”, que usan decisiones discretas tipo voto/clase ganadora).
+
 ## AAII.EX.2022J2.8
 
 ### Enunciado AAII.EX.2022J2.8
@@ -115,6 +144,10 @@ Los algoritmos de agrupamiento basados en optimización combinatoria intentan…
 - C. maximizar el número total de particiones posibles.
 
 ### Solución AAII.EX.2022J2.8
+
+La respuesta correcta es **C**.
+
+Los métodos de “agrupamiento combinatorio” se formulan como la búsqueda (o consideración) sobre el **conjunto combinatorio de particiones posibles** de los datos, es decir, el espacio de todas las particiones crece de forma combinatoria.
 
 ## AAII.EX.2022J2.9
 
@@ -134,6 +167,10 @@ Asignar el mismo valor a todos los pesos implica que…
 
 ### Solución AAII.EX.2022J2.9
 
+La respuesta correcta es **A**.
+
+Si en una disimilitud ponderada se fija $w_j = w$ para todo $j$, entonces todas las dimensiones quedan ponderadas **igual** (misma influencia relativa en la suma/ media), salvo efectos de escala de las propias variables.
+
 ## AAII.EX.2022J2.10
 
 ### Enunciado AAII.EX.2022J2.10
@@ -145,3 +182,7 @@ El fenómeno conocido como chaining suele aparecer en…
 - C. agrupamiento jerárquico aglomerativo basado en single linkage.
 
 ### Solución AAII.EX.2022J2.10
+
+La respuesta correcta es **C**.
+
+El fenómeno de *chaining* es característico del clustering jerárquico aglomerativo con **single linkage**, donde se forman “cadenas” uniendo puntos o grupos por el par más cercano.

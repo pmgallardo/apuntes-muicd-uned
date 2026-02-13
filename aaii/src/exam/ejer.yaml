@@ -1,0 +1,247 @@
+# SPDX-FileCopyrightText: 2026 Pablo Gallardo
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+exercise_collection:
+  type: exam
+  exercises:
+  - id: AAII.EX.2022J2.1
+    tags:
+    - bagging
+  - id: AAII.EX.2022J2.2
+    tags:
+    - bosque-aleatorio
+  - id: AAII.EX.2022J2.3
+    tags:
+    - error-oob
+  - id: AAII.EX.2022J2.4
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2022J2.5
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2022J2.6
+    tags:
+    - combinacion-clasificadores
+  - id: AAII.EX.2022J2.7
+    tags:
+    - combinacion-clasificadores
+  - id: AAII.EX.2022J2.8
+    tags:
+    - agrupamiento-combinatorio
+  - id: AAII.EX.2022J2.9
+    tags:
+    - disimilitud
+  - id: AAII.EX.2022J2.10
+    tags:
+    - chaining
+  - id: AAII.EX.2022SO.1
+    tags:
+    - bosque-aleatorio
+  - id: AAII.EX.2022SO.2
+    tags:
+    - bootstrapping
+  - id: AAII.EX.2022SO.3
+    tags:
+    - error-prediccion-esperado
+  - id: AAII.EX.2022SO.4
+    tags:
+    - adaboost
+    - intensificacion-gradiente
+  - id: AAII.EX.2022SO.5
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2022SO.6
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2022SO.7
+    tags:
+    - combinacion-clasificadores
+  - id: AAII.EX.2022SO.8
+    tags:
+    - agrupamiento-mezclas-gaussianas
+    - k-medias
+  - id: AAII.EX.2022SO.9
+    tags:
+    - estimacion-numero-grupos
+  - id: AAII.EX.2022SO.10
+    tags:
+    - disimilitud
+  - id: AAII.EX.2023J2.1
+    tags:
+    - bagging
+  - id: AAII.EX.2023J2.2
+    tags:
+    - bagging
+  - id: AAII.EX.2023J2.3
+    tags:
+    - error-oob
+  - id: AAII.EX.2023J2.4
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2023J2.5
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2023J2.6
+    tags:
+    - indice-hartigan
+  - id: AAII.EX.2023J2.7
+    tags:
+    - k-medias
+  - id: AAII.EX.2023J2.8
+    tags:
+    - agrupamiento-datos-ausentes
+  - id: AAII.EX.2023J2.9
+    tags:
+    - combinacion-clasificadores
+  - id: AAII.EX.2023J2.10
+    tags:
+    - apilamiento
+  - id: AAII.EX.2023SO.1
+    equivalent: AAII.EX.2023J2.2
+  - id: AAII.EX.2023SO.2
+    tags:
+    - bosque-aleatorio
+  - id: AAII.EX.2023SO.3
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2023SO.4
+    equivalent: AAII.EX.2023J2.4
+  - id: AAII.EX.2023SO.5
+    tags:
+    - adaboost
+  - id: AAII.EX.2023SO.6
+    equivalent: AAII.EX.2023J2.9
+  - id: AAII.EX.2023SO.7
+    equivalent: AAII.EX.2023J2.7
+  - id: AAII.EX.2023SO.8
+    tags:
+    - indice-dunn
+  - id: AAII.EX.2023SO.9
+    tags:
+    - agrupamiento-jerarquico-aglomerativo
+  - id: AAII.EX.2023SO.10
+    tags:
+    - disimilitud
+  - id: AAII.EX.2024J2.1
+    tags:
+    - bosque-aleatorio
+  - id: AAII.EX.2024J2.2
+    tags:
+    - bosque-aleatorio
+  - id: AAII.EX.2024J2.3
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2024J2.4
+    tags:
+    - intensificacion-gradiente
+  - id: AAII.EX.2024J2.5
+    tags:
+    - apilamiento
+  - id: AAII.EX.2024J2.6
+    tags:
+    - combinacion-clasificadores
+  - id: AAII.EX.2024J2.7
+    tags:
+    - combinatoria-agrupamiento
+  - id: AAII.EX.2024J2.8
+    tags:
+    - coeficiente-silhouette
+  - id: AAII.EX.2024J2.9
+    tags:
+    - clasificacion-no-supervisada
+  - id: AAII.EX.2024J2.10
+    tags:
+    - xgboost
+    - catboost
+    - lightgbm
+  - id: AAII.EX.2024SO.1
+    equivalent: AAII.EX.2022J2.3
+  - id: AAII.EX.2024SO.2
+    tags:
+    - bosque-aleatorio
+  - id: AAII.EX.2024SO.3
+    equivalent: AAII.EX.2022J2.2
+  - id: AAII.EX.2024SO.4
+    equivalent: AAII.EX.2022SO.4
+  - id: AAII.EX.2024SO.5
+    equivalent: AAII.EX.2024J2.5
+  - id: AAII.EX.2024SO.6
+    tags:
+    - combinacion-clasificadores
+  - id: AAII.EX.2024SO.7
+    equivalent: AAII.EX.2022SO.7
+  - id: AAII.EX.2024SO.8
+    equivalent: AAII.EX.2022J2.7
+  - id: AAII.EX.2024SO.9
+    tags:
+    - agrupamiento
+  - id: AAII.EX.2024SO.10
+    tags:
+    - seleccion
+    - aprendizaje-no-supervisado
+  - id: AAII.EX.2025J2.1
+    tags:
+    - agrupamiento-basado-densidad
+    - dbscan
+  - id: AAII.EX.2025J2.2
+    tags:
+    - bagging
+  - id: AAII.EX.2025J2.3
+    tags:
+    - boosting
+  - id: AAII.EX.2025J2.4
+    tags:
+    - bosque-aleatorio
+  - id: AAII.EX.2025J2.5
+    tags:
+    - combinacion-clasificadores
+  - id: AAII.EX.2025J2.6
+    tags:
+    - bosque-aleatorio
+  - id: AAII.EX.2025J2.7
+    tags:
+    - agrupamiento
+    - agrupamiento-jerarquico-aglomerativo
+  - id: AAII.EX.2025J2.8
+    tags: 
+    - boosting
+    - bagging
+  - id: AAII.EX.2025J2.9
+    tags:
+    - adaboost
+  - id: AAII.EX.2025J2.10
+    tags:
+    - apilamiento
+    - bagging
+  - id: AAII.EX.2025SO.1
+    tags:
+    -  bosque-aleatorio
+  - id: AAII.EX.2025SO.2
+    tags:
+    - disimilitud
+    - disimilitud-confenetica
+  - id: AAII.EX.2025SO.3
+    tags:
+    - combinacion-clasificadores
+  - id: AAII.EX.2025SO.4
+    equivalent: AAII.EX.2022J2.6
+  - id: AAII.EX.2025SO.5
+    tags:
+    - adaboost
+  - id: AAII.EX.2025SO.6
+    tags:
+    - apilamiento
+  - id: AAII.EX.2025SO.7
+    tags:
+    - bagging
+  - id: AAII.EX.2025SO.8
+    tags:
+    - aprendizaje-no-supervisado
+    - pca
+  - id: AAII.EX.2025SO.9
+    tags:
+    - bagging
+  - id: AAII.EX.2025SO.10
+    tags:
+    - apilamiento

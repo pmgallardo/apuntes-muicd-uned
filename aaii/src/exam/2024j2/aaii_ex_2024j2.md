@@ -35,6 +35,10 @@ En un bosque aleatorio, el parámetro m indica…
 
 ### Solución AAII.EX.2024J2.1
 
+La respuesta correcta es **C**.
+
+En bosques aleatorios, $m$ es el número de variables candidatas que se consideran **en cada nodo** al buscar la mejor partición, lo que introduce aleatoriedad y reduce la correlación entre árboles.
+
 ## AAII.EX.2024J2.2
 
 ### Enunciado AAII.EX.2024J2.2
@@ -47,6 +51,10 @@ En un bosque aleatorio, el parámetro m indica…
 - D. Votación por mayoría de clase.
 
 ### Solución AAII.EX.2024J2.2
+
+La respuesta correcta es **C**.
+
+El error **OOB** (*out-of-bag*) se estima usando, para cada árbol, las observaciones que no entraron en su muestra bootstrap, proporcionando una estimación del error de generalización sin validación cruzada.
 
 ## AAII.EX.2024J2.3
 
@@ -61,6 +69,10 @@ En gradient boosting, puede afirmarse que…
 
 ### Solución AAII.EX.2024J2.3
 
+La respuesta correcta es **D**.
+
+En gradient boosting, aumentar el número de árboles incrementa la capacidad del modelo; sin regularización, crece la posibilidad de **sobreaprendizaje**.
+
 ## AAII.EX.2024J2.4
 
 ### Enunciado AAII.EX.2024J2.4
@@ -73,6 +85,10 @@ Dentro de gradient boosting, la función de pérdida representa…
 - D. la tasa de aprendizaje del procedimiento.
 
 ### Solución AAII.EX.2024J2.4
+
+La respuesta correcta es **C**.
+
+La función de pérdida define el **criterio de error** que se minimiza en cada iteración; el algoritmo ajusta nuevos modelos para reducirla siguiendo el gradiente.
 
 ## AAII.EX.2024J2.5
 
@@ -87,6 +103,10 @@ En el método de stacking o apilamiento…
 
 ### Solución AAII.EX.2024J2.5
 
+La respuesta correcta es **B**.
+
+En *stacking*, los modelos base alimentan a un **meta-modelo** en una arquitectura en **cascada**, que aprende a combinar sus predicciones.
+
 ## AAII.EX.2024J2.6
 
 ### Enunciado AAII.EX.2024J2.6
@@ -99,6 +119,10 @@ En el método de stacking o apilamiento…
 - D. Combinación adaptativa.
 
 ### Solución AAII.EX.2024J2.6
+
+La respuesta correcta es **B**.
+
+El *voting duro* selecciona la clase con **mayor número de votos** entre los clasificadores.
 
 ## AAII.EX.2024J2.7
 
@@ -113,6 +137,10 @@ Las técnicas combinatorias de clustering se caracterizan por…
 
 ### Solución AAII.EX.2024J2.7
 
+La respuesta correcta es **C**.
+
+Las técnicas combinatorias de clustering agrupan observaciones **sin asumir** explícitamente un modelo probabilístico generativo subyacente.
+
 ## AAII.EX.2024J2.8
 
 ### Enunciado AAII.EX.2024J2.8
@@ -125,6 +153,15 @@ El coeficiente de Silhouette de un agrupamiento se basa en…
 - D. la suma de distancias entre centroides de grupos.
 
 ### Solución AAII.EX.2024J2.8
+
+La respuesta correcta es **A**.
+
+El coeficiente de Silhouette compara:
+
+- la distancia media de un punto a su propio cluster
+- la distancia media mínima a otros clusters
+
+para evaluar cohesión y separación.
 
 ## AAII.EX.2024J2.9
 
@@ -139,6 +176,10 @@ El objetivo principal del aprendizaje no supervisado es…
 
 ### Solución AAII.EX.2024J2.9
 
+La respuesta correcta es **C**.
+
+El objetivo del aprendizaje no supervisado es **descubrir estructura** en los datos, agrupando observaciones similares y separando las diferentes.
+
 ## AAII.EX.2024J2.10
 
 ### Enunciado AAII.EX.2024J2.10
@@ -151,3 +192,7 @@ El objetivo principal del aprendizaje no supervisado es…
 - D. Se basan en algoritmos de clustering.
 
 ### Solución AAII.EX.2024J2.10
+
+La respuesta correcta es **C**.
+
+XGBoost, CatBoost y LightGBM son implementaciones modernas y eficientes de **gradient boosting** basadas en árboles.

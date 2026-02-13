@@ -27,6 +27,10 @@ El principio fundamental del bagging establece que, al promediar múltiples pred
 
 ### Solución AAII.EX.2023J2.1
 
+La respuesta correcta es **D**.
+
+En bagging, al promediar predicciones (con pérdida cuadrática) se puede **reducir la varianza** del estimador, mientras que el **sesgo** se mantiene aproximadamente **igual**.
+
 ## AAII.EX.2023J2.2
 
 ### Enunciado AAII.EX.2023J2.2
@@ -39,6 +43,10 @@ El bagging mejora el rendimiento predictivo principalmente porque…
 - D. reduce la varianza a costa de aumentar el sesgo.
 
 ### Solución AAII.EX.2023J2.2
+
+La respuesta correcta es **B**.
+
+Bagging mejora principalmente porque **reduce la varianza** (por promediado de modelos) y deja el **sesgo** esencialmente **sin cambios**.
 
 ## AAII.EX.2023J2.3
 
@@ -53,6 +61,10 @@ Para estimar el error fuera de bolsa (OOB) se emplean…
 
 ### Solución AAII.EX.2023J2.3
 
+La respuesta correcta es **A**.
+
+En bootstrap, cada observación tiene probabilidad aproximada $1 - e^{-1} \approx 0.632$ de aparecer en una muestra bootstrap, así que queda fuera con probabilidad $\approx e^{-1} \approx 0.368$, es decir, **aprox. un tercio** de los datos queda OOB en cada árbol.
+
 ## AAII.EX.2023J2.4
 
 ### Enunciado AAII.EX.2023J2.4
@@ -65,6 +77,16 @@ En gradient boosting, suponiendo $\gamma > 0$, la hipótesis de aprendizaje déb
 - D. coincide exactamente con $0.5$.
 
 ### Solución AAII.EX.2023J2.4
+
+La respuesta correcta es **C**.
+
+La *weak learning assumption* en clasificación binaria establece que cada clasificador débil tiene error **mejor que azar**, es decir:
+
+$$
+\varepsilon < 0.5 - \gamma
+$$
+
+con $\gamma > 0$.
 
 ## AAII.EX.2023J2.5
 
@@ -79,6 +101,10 @@ Los modelos débiles utilizados en gradient boosting pueden ser…
 
 ### Solución AAII.EX.2023J2.5
 
+La respuesta correcta es **D**.
+
+En intensificación (boosting) los aprendices débiles pueden ser **cualquier modelo sencillo** (p. ej., *stumps*/árboles pequeños, regresiones lineales, etc.), siempre que sea capaz de ajustarse iterativamente a residuos/gradientes.
+
 ## AAII.EX.2023J2.6
 
 ### Enunciado AAII.EX.2023J2.6
@@ -90,6 +116,15 @@ El índice de Hartigan puede describirse como…
 - C. el logaritmo de la relación entre dispersión entre grupos y dispersión interna.
 
 ### Solución AAII.EX.2023J2.6
+
+La respuesta correcta es **A**.
+
+El índice de Hartigan (en este contexto) se expresa como un **cociente tipo F** entre variabilidad **entre** grupos y variabilidad **intra** grupos, ajustadas por sus grados de libertad (forma equivalente a:
+
+- numerador proporcional a $SSB/(M-1)$
+- denominador proporcional a $SSE/M$
+
+).
 
 ## AAII.EX.2023J2.7
 
@@ -103,6 +138,15 @@ El algoritmo de K-medias se caracteriza por…
 
 ### Solución AAII.EX.2023J2.7
 
+La respuesta correcta es **A**.
+
+K-medias alterna:
+
+- asignación: actualizar $c(i)$ asignando cada punto al centro más cercano
+- actualización: recomputar las medias (centroides) de cada grupo
+
+Ambos pasos **no incrementan** la función objetivo, pero solo se garantiza convergencia a un **óptimo local**, no al global.
+
 ## AAII.EX.2023J2.8
 
 ### Enunciado AAII.EX.2023J2.8
@@ -114,6 +158,10 @@ En clustering con datos faltantes…
 - C. en variables categóricas, la ausencia puede modelarse como una categoría adicional cuando tenga significado.
 
 ### Solución AAII.EX.2023J2.8
+
+La respuesta correcta es **C**.
+
+Con datos ausentes y variables categóricas, puede ser razonable crear una **categoría “ausente”** si la ausencia es informativa y puede indicar similitud entre observaciones (patrones de *missingness*).
 
 ## AAII.EX.2023J2.9
 
@@ -128,6 +176,10 @@ Según la clasificación de Mohandes y colaboradores, la estrategia más común 
 
 ### Solución AAII.EX.2023J2.9
 
+La respuesta correcta es **C**.
+
+Según Mohandes et al., la combinación más frecuente y exitosa suele ser la fusión **a nivel de decisión** (combinar salidas/decisiones de clasificadores).
+
 ## AAII.EX.2023J2.10
 
 ### Enunciado AAII.EX.2023J2.10
@@ -140,3 +192,7 @@ El apilamiento o stacking de modelos se define como un procedimiento que…
 - D. presenta mayor complejidad computacional que gradient boosting.
 
 ### Solución AAII.EX.2023J2.10
+
+La respuesta correcta es **C**.
+
+Stacking entrena un **meta-modelo** que toma como **entradas** las salidas (predicciones) de varios modelos base, formando una arquitectura en **cascada** (dos niveles).

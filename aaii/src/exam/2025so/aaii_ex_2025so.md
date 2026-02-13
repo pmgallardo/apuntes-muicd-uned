@@ -34,6 +34,12 @@ En un Random Forest, un conjunto de árboles excesivamente parecidos entre sí a
 
 ### Solución AAII.EX.2025S0.1
 
+### Solución AAII.EX.2025SO.1
+
+La respuesta correcta es **B**.
+
+Si los árboles son muy similares, sus errores están más correlacionados y el promediado reduce **menos** la varianza del conjunto.
+
 ## AAII.EX.2025S0.2
 
 ### Enunciado AAII.EX.2025S0.2
@@ -47,6 +53,10 @@ La disimilitud cofenética entre dos observaciones…
 
 ### Solución AAII.EX.2025S0.2
 
+La respuesta correcta es **C**.
+
+La disimilitud cofenética induce una estructura ultramétrica propia del dendrograma; la correlación cofenética puede medir la fidelidad de la representación, pero no tiene por qué reflejar la estructura “real” de los datos sino la impuesta por el método y criterio de enlace.
+
 ## AAII.EX.2025S0.3
 
 ### Enunciado AAII.EX.2025S0.3
@@ -58,7 +68,11 @@ La combinación de clasificadores que integra la información después de obtene
 - C. combinación a nivel de decisión.
 - D. combinación abstracta.
 
-### Solución AAII.EX.2025S0.3
+### Solución AAII.EX.2025SO.3
+
+La respuesta correcta es **C**.
+
+La fusión tras producir las etiquetas (salidas) corresponde a combinación **a nivel de decisión**.
 
 ## AAII.EX.2025S0.4
 
@@ -71,7 +85,11 @@ En una combinación con umbral blando, la predicción final se obtiene…
 - C. asignando votos con pesos constantes.
 - D. eligiendo el clasificador más preciso.
 
-### Solución AAII.EX.2025S0.4
+### Solución AAII.EX.2025SO.4
+
+La respuesta correcta es **B**.
+
+El umbral blando combina usando puntuaciones/probabilidades de clase (aprox. probabilidades a posteriori), agregándolas para decidir la salida final.
 
 ## AAII.EX.2025S0.5
 
@@ -84,7 +102,11 @@ AdaBoost puede mostrar menos sobreajuste del esperado porque…
 - C. el ensamblado global equilibra el énfasis en casos difíciles.
 - D. aplica una regularización explícita en iteraciones finales.
 
-### Solución AAII.EX.2025S0.5
+### Solución AAII.EX.2025SO.5
+
+La respuesta correcta es **C**.
+
+Aunque repondera ejemplos difíciles, el ensamblado final (combinación ponderada de muchos débiles) puede compensar el énfasis excesivo en ciertos ejemplos y, en la práctica, no sobreajustar tanto como cabría esperar.
 
 ## AAII.EX.2025S0.6
 
@@ -97,7 +119,11 @@ En stacking, la función principal es…
 - C. entrenar un meta-modelo que aprenda a fusionar predicciones base.
 - D. sustituir varios modelos por uno más complejo.
 
-### Solución AAII.EX.2025S0.6
+### Solución AAII.EX.2025SO.6
+
+La respuesta correcta es **C**.
+
+Stacking entrena un **meta-modelo** que aprende a combinar las predicciones de varios modelos base.
 
 ## AAII.EX.2025S0.7
 
@@ -110,7 +136,11 @@ En bagging, los árboles suelen construirse sin poda porque…
 - C. la poda es incompatible con muestras bootstrap.
 - D. acelera el entrenamiento.
 
-### Solución AAII.EX.2025S0.7
+### Solución AAII.EX.2025SO.7
+
+La respuesta correcta es **B**.
+
+En bagging se prefieren árboles grandes para reducir el sesgo individual y dejar que la alta varianza se reduzca al promediar muchos árboles.
 
 ## AAII.EX.2025S0.8
 
@@ -123,7 +153,11 @@ En aprendizaje no supervisado, la técnica que busca componentes que expliquen l
 - C. clustering jerárquico.
 - D. algoritmos evolutivos.
 
-### Solución AAII.EX.2025S0.8
+### Solución AAII.EX.2025SO.8
+
+La respuesta correcta es **B**.
+
+PCA busca direcciones (componentes) que maximizan la varianza explicada en los datos.
 
 ## AAII.EX.2025S0.9
 
@@ -136,7 +170,11 @@ El bagging con árboles grandes no incrementa significativamente el sobreajuste 
 - C. el remuestreo bootstrap elimina el sobreajuste.
 - D. el método corrige automáticamente el sesgo.
 
-### Solución AAII.EX.2025S0.9
+### Solución AAII.EX.2025SO.9
+
+La respuesta correcta es **A**.
+
+Los árboles grandes tienen bajo sesgo y alta varianza, pero el bagging reduce esa varianza al promediar, evitando un aumento marcado del sobreajuste.
 
 ## AAII.EX.2025S0.10
 
@@ -149,4 +187,8 @@ En stacking, el meta-modelo tiene como objetivo principal…
 - C. generar muestras bootstrap adicionales.
 - D. descartar clasificadores débiles.
 
-### Solución AAII.EX.2025S0.10
+### Solución AAII.EX.2025SO.10
+
+La respuesta correcta es **B**.
+
+El meta-modelo aprende cómo se relacionan y complementan las predicciones base (patrones de error/correlaciones) para producir la predicción final.
