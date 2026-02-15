@@ -19,21 +19,21 @@ En la carpeta [`master`](master/) se comparte información general sobre el más
 
 El resto de carpetas están dedicadas a una asignatura concreta:
 
-| Código | Abr. | Nombre asignatura |
-| ---------- | ----- | ----------------------------- |
-| `31110018` | [`med`](med) | Modelado estadístico de datos |
-| `31110022` | [`ped`](ped) | Programación en entornos de datos |
-| `31110037` | [`aai`](aai) | Aprendizaje automático I |
-| `31110041` | [`mt`](mt/) | Minería de textos |
-| `31110056` | [`icpdm`](icpdm/) | Infraestructuras computacionales para procesamiento de datos masivos |
-| `31110060` | [`vd`](vd/) | Visualización de datos |
-| `3111008-` | [`gaine`](gaine/) | Gestión/almacenamiento de información no estructurada |
-| `31110130` | [`aaii`](aaii/) | Aprendizaje automático II |
-| `31110094` | [`mbj`](mbj/) | Modelos bayesianos jerárquicos |
-| `31110107` | [`mdms`](mdms/) | Minería de datos de los medios sociales |
-| `31110111` | [`dl`](dl/) | Deep learning |
-| `31110126` | [`sgd`](sgd/) | Seguridad de la gestión de datos |
-| `31110075` | [`tfm`](tfm/) | Trabajo fin de máster |
+| Código | Abr. | Nombre asignatura | Semestre |
+| ---------- | ----- | ----------------------------- | - |
+| `31110018` | [`med`](med) | Modelado estadístico de datos | 1 |
+| `31110022` | [`ped`](ped) | Programación en entornos de datos | 1 |
+| `31110037` | [`aai`](aai) | Aprendizaje automático I | 1 |
+| `31110041` | [`mt`](mt/) | Minería de textos | 1 |
+| `31110056` | [`icpdm`](icpdm/) | Infraestructuras computacionales para procesamiento de datos masivos | 1 |
+| `31110060` | [`vd`](vd/) | Visualización de datos | 2 |
+| `3111008-` | [`gaine`](gaine/) | Gestión/almacenamiento de información no estructurada | 2 |
+| `31110130` | [`aaii`](aaii/) | Aprendizaje automático II | 2 |
+| `31110094` | [`mbj`](mbj/) | Modelos bayesianos jerárquicos | 2 |
+| `31110107` | [`mdms`](mdms/) | Minería de datos de los medios sociales | 2 |
+| `31110111` | [`dl`](dl/) | Deep learning | 2 |
+| `31110126` | [`sgd`](sgd/) | Seguridad de la gestión de datos | 2 |
+| `31110075` | [`tfm`](tfm/) | Trabajo fin de máster | 2 |
 
 Las asignaturas se organizan en dos carpetas:
 
