@@ -1,0 +1,147 @@
+acronym: vd
+title: Visualización de datos
+reading_sources:
+  - id: vd
+    type: lecture_notes
+    title: Visualización de los datos
+    authors:
+    - M. Rincón Zamorano
+    - A. Rodrigo Yuste
+    - Ll. Tobarra Abad
+    - A. Robles Gómez
+    publisher: UNED
+    publication-date: 2020-02-01
+  - id: fdv
+    type: book
+    title: Fundamentals of Data Visualization
+    authors:
+    - Abha Belorkar
+  - id: idvp
+    type: book
+    title: Interactive Data Visualization with Python - Second Edition
+  - id: dsaa
+    type: book
+    title: Data Storytelling with Altair and AI
+    authors:
+    - Angelica Lo Duca
+units:
+- id: 1
+  title: Introducción a la visualización
+  sections:
+  - id: 1.1
+    title: Introducción
+    sections:
+    - id: 1.1.1
+      title: Introducción a la visualización
+      tags:
+      - big-data
+  - id: 1.2
+    title: Definición de visualización para ingeniería de datos
+    sections:
+    - id: 1.2.1
+      title: Definiendo la visualización
+      tags:
+      - elementos-visualizacion
+  - id: 1.3
+    title: Necesidad de la visualización de datos
+  - id: 1.4
+    title: La visualización en el proceso de análisis de información
+    sections:
+    - id: 1.4.1
+      title: El proceso de análisis de información
+      tags:
+      - fases-visualizacion
+    - id: 1.4.3
+      title: Roles en el proceso de la visualización
+      tags:
+      - roles-visualizacion
+  - id: 1.5
+    title: Presentación de información frente a análisis de información
+  - id: 1.6
+    title: Ejercicios
+- id: 2
+  title: Representación de la información
+  sections:
+  - id: 2.1
+    title: "Representación formal: Tipos de variables de datos y su estructura"
+    sections:
+    - id: 2.1.1
+      title: Introducción a la teoría de sistemas
+      tags:
+      - teoria-sistemas
+      - aproximaciones-descripcion-realidad
+    - id: 2.1.3
+      title: Tipos de variables
+      tag: tipos-variables
+      sections:
+      - titulo: Cuantitativas
+      - titulo: Discretas
+      - titulo: Nominat ivas
+      - titulo: Deterministas
+      - titulo: Ordinales
+      - titulo: Categóricas
+  - id: 2.2
+    title: "Representación gráfica: Elementos gráficos"
+    sections:
+    - id: 2.2.2
+      title: Tareas de procesado
+  - id: 2.3
+    title: Canales de información gráfica
+  - id: 2.4
+    title: Capacidades y limitaciones perceptuales humanas.
+  - id: 2.5
+    title: Ejercicios
+- id: 3
+  title: Análisis visual de la información
+  sections:
+  - id: 3.1
+    title: Características visuales que facilitan el análisis de la información
+    sections:
+    - id: 3.1.1
+      title: Elementos gráficos y canales de información visual
+      tag:
+      - elementos-graficos
+      - canales-informacion-visual
+      - tono
+  - id: 3.2
+    title: Procedimiento de análisis y selección de la visualización más adecuada
+  - id: 3.3
+    title: Preprocesamiento visual
+  - id: 3.4
+    title: Ejercicios
+- id: 4
+  title: Técnicas de representación visual
+  sections:
+  - id: 4.1
+    title: Elementos formales
+    sections:
+    - id: 4.1.1
+      title: El objetivo de una representación visual
+      tags:
+      - objetivo-visualizacion
+    - id: 4.1.2
+      title: Método de selección de gráficos
+      tags:
+      - tipos-representaciones-visuales
+  - id: 4.2
+    title: Representación estática
+    tag:
+    - tipos-graficos
+    sections:
+    - id: 4.2.1
+      title: Gráfico de columnas/barras
+      tags:
+      - grafico-barras
+      - grafico-columnas
+    - id: 4.2.4
+      title: Gráfico de barras apiladas
+      tags:
+      - grafico-barras-apiladas
+    - id: 4.2.11
+      title: Visualización de textos
+      tags:
+      - nubes-palabras
+  - id: 4.3
+    title: Representación dinámica
+  - id: 4.4
+    title: Ejercicios

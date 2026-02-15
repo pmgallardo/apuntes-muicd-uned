@@ -19,16 +19,19 @@ Más información en la [ficha web oficial](https://www.uned.es/universidad/inic
     - Disponible en [repositorio GitHub](https://github.com/clauswilke/dataviz)
     - Disponible en [versión web](https://clauswilke.com/dataviz/)
     - Disponible en [portal O'Reilly](https://www.oreilly.com/library/view/fundamentals-of-data/9781492031079/) (suscripción necesaria)
-  - JOLLY, Kevin. Hands-on Data Visualization with Bokeh. Packt Publishing. ISBN 9781789135404.
+  - LO DUCA, Angelica. [Data Storytelling with Altair and AI. Manning Publications](https://github.com/alod83/Data-Storytelling-with-Altair-and-AI). Manning Publications.
   - BELORKAR, Abha et al. Interactive data visualization with Python. Packt Publishing. ISBN 9781800201064.
   - JADVANI, Rushabh. Creating interactive web visualizations with Bokeh and Holoviews. Packt Publishing. ISBN 9781838554439.
+  - JOLLY, Kevin. Hands-on Data Visualization with Bokeh. Packt Publishing. ISBN 9781789135404.
 
 ## Comunidades
 
 Existen comunidades no oficiales de alumnos y alumni del máster:
 
-- Comunidad [UNED - VD (Máster Datos)](https://t.me/joinchat/UN5WQX-13EIwMzE0) en Telegram
-- [Carpeta `Visualizacion de datos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgDnTsMEwVjIT6CmY2ms5OEAAcxZ6n2ZZzR37HTO_VmN_bc) en SharePoint UNED
+- Activa
+  - Comunidad [UNED - VD (Máster Datos)](https://t.me/joinchat/UN5WQX-13EIwMzE0) en Telegram
+- Inactiva
+  - [Carpeta `Visualizacion de datos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgDnTsMEwVjIT6CmY2ms5OEAAcxZ6n2ZZzR37HTO_VmN_bc) en SharePoint UNED
 
 ## Prácticas
 
