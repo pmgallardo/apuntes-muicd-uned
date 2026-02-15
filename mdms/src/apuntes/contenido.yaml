@@ -1,7 +1,182 @@
+title: Minería de datos de los medios sociales
+acronym: mdms
+reading_sources:
+  - id: mdms1
+    type: lecture_notes
+    title: Teorías sociales en la minería social
+    authors:
+    - Antonio Rodríguez Anaya
+    publisher: UNED
+    publication_date: 2019
+  - id: mdms2
+    type: lecture_notes
+    title: "Redes sociales: introducción y conceptos básicos"
+    authors:
+    - Antonio Rodríguez Anaya
+    publisher: UNED
+    publication_date: 2019
+  - id: mdms3
+    type: lecture_notes
+    title: Introducción a la minería de datos en redes sociales
+    authors:
+    - Antonio Rodríguez Anaya
+    publisher: UNED
+    publication_date: 2021-02-02
+  - id: trs
+    type: article
+    title: La teoría de las redes sociales
+    authors:
+    - Carlos Lozares
+    publisher: Universitat Autònoma de Barcelona
+    publication_date: 1996
+    url: https://papers.uab.cat/article/view/v48-lozares/pdf-es
+  - id: snata
+    title: "Social network analysis: theory and applications"
+    url: https://www.asecib.ase.ro/mps/SocNet_TheoryApp.pdf
+    date: 2011
+    license: CC-BY-SA-3.0
+  - id: snao
+    type: article
+    title: "Social network analysis: an overview"
+    authors:
+    - Shazia Tabassum
+    - Fabiola S. F. Pereira
+    - Sofia Fernandes
+    - João Gama
+    publisher: Wiley
+    publication-date: 2018
+    url: https://wires.onlinelibrary.wiley.com/doi/10.1002/widm.1256
+  - id: ensnamt
+    type: article
+    title: Evolving networks and Social Network Analysis Methods and Techniques
+    authors:
+    - Mário Cordeiro
+    - Rui Sarmento
+    - Pavel Brazdil
+    - João Gama
+    url: https://www.intechopen.com/chapters/62438
+    publisher: IntechOpen
+    publication-date: 2018
+  - id: gtdn
+    title: "Gelphi: A Tutorial - on dynamic networks"
+    authors: Clement Levallois
+    publication-date: 2013
+  - id: 
+    title: An overview of social network analysis
+    authors:
+    - Márcia Oliveira
+    - João Gama
+  - id: smmi
+    type: book
+    title: "Social media mining: An introduction"
+    authors:
+    - Reza Zafarani
+    - Mohammad Ali Abbasi
+    - Huan Liu
+    url: https://doi.org/10.1017/CBO9781139088510
+    publisher: Cambridge University Press
+    publication-date: 2014
+    isbn: 9781139088510
 units:
 - id: 1
   title: Herramientas y métodos de extracción de información en redes sociales
+  reading_sources:
+    - id: mdms1
+      required: true
+    - id: trs
+      required: true
 - id: 2
   title: Análisis y visualización de redes sociales estáticas y dinámicas
+  sections:
+  - title: Introducción
+    reading_sources:
+    - id: mdms2
+      required: true
+  - title: Conceptos básicos
+    reading_sources:
+    - id: mdms2
+      required: true
+  - title: Métricas básicas
+    reading_sources:
+    - id: mdms2
+      required: true
+  - title: Métricas estáticas
+    reading_sources:
+    - id: snata
+      required: true
+    sections:
+    - title: Medidas estadísticas a nivel de red
+    - title: Medidas estadísticas a nivel del nodo
+    - title: Medidas estadísticas a nivel de enlace
+  - title: Definiciones y análisis de grafos
+    reading_sources:
+    - id: snata
+      required: true
+  - title: Análisis de redes sociales
+    reading_sources:
+    - id: snao
+  - title: Ego redes
+    reading_sources:
+    - id: snao
+  - title: Análisis de enlace
+    reading_sources:
+    - id: snao
+    sections:
+    - title: Predicción de nuevos enlaces
+      reading_sources:
+      - id: snao
+  - title: Detección de comunidades
+    reading_sources:
+    - id: snata
+  - title: Redes en evolución
+    reading_sources:
+    - id: snata
+  - title: De lo estático a lo dinámico
+    reading_sources:
+    - id: ensnamt
+    sections:
+    - title: Modelos de representación
+    - title: Escala temporal
+    - title: Metodología en la representación temporal
+    - title: Tipos
+  - title: Medidas elementales de la red
+    reading_sources:
+    - id: ensnamt
+  - title: Análisis del enlace (avanzado)
+    reading_sources:
+    - id: ensnamt
+    sections:
+    - title: Predicción de nuevos enlaces (avanzado)
+  - title: Detección de comunidades (avanzado)
+    reading_sources:
+    - id: ensnamt
+  - title: Visualización de redes en evolución
+    reading_sources:
+    - id: ensnamt
 - id: 3
   title: Técnicas de minería de datos para redes sociales
+  sections:
+  - title: Introducción
+    reading_sources:
+    - id: mdms3
+  - title: Proceso de minería de datos
+    reading_sources:
+    - id: mdms3
+    sections:
+    - title: Preprocesado de los datos
+      reading_sources:
+      - id: mdms3
+    - title: Algoritmos de aprendizaje automático
+      reading_sources:
+      - id: smmi
+      sections:
+      - title: Algoritmos de aprendizaje supervisado
+      - title: Algoritmos de aprendizaje no supervisado
+    - title: Aplicaciones
+      reading_sources:
+      - id: smmi
+      sections:
+      - title: Influencia
+      - title: Homofilia
+      - title: Recomendaciones
+      - title: Comportamientos
