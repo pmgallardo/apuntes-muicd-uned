@@ -1,0 +1,491 @@
+ejercicios:
+  - id: GAINE.EX.2022J2.01
+    tags:
+      - teorema-cap
+  - id: GAINE.EX.2022J2.02
+    tags:
+      - modelos-bases-datos
+  - id: GAINE.EX.2022J2.03
+    tags:
+      - redis
+  - id: GAINE.EX.2022J2.04
+    tags:
+      - redis
+  - id: GAINE.EX.2022J2.05
+    tags:
+      - redis
+  - id: GAINE.EX.2022J2.06
+    tags:
+      - redis
+  - id: GAINE.EX.2022J2.07
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022J2.08
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022J2.09
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022J2.10
+    tags:
+      - mongodb
+      - mql
+  - id: GAINE.EX.2022J2.11
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022J2.12
+    tags:
+      - teorema-cap, cassandra
+  - id: GAINE.EX.2022J2.13
+    tags:
+      - cassandra
+      - cqlsh
+  - id: GAINE.EX.2022J2.14
+    tags:
+      - cassandra
+      - cqlsh
+  - id: GAINE.EX.2022J2.15
+    tags:
+      - cassandra
+  - id: GAINE.EX.2022J2.16
+    tags:
+      - neo4j
+  - id: GAINE.EX.2022J2.17
+    tags:
+      - neo4j
+  - id: GAINE.EX.2022J2.18
+    tags:
+      - neo4j
+  - id: GAINE.EX.2022J2.19
+    tags:
+      - neo4j
+  - id: GAINE.EX.2022J2.20
+    tags:
+      - neo4j
+  - id: GAINE.EX.2022SO.01
+    tags:
+      - teorema-cap
+  - id: GAINE.EX.2022SO.02
+    tags:
+      - modelos-bases-datos
+  - id: GAINE.EX.2022SO.03
+    tags:
+      - redis
+  - id: GAINE.EX.2022SO.04
+    tags:
+      - redis
+  - id: GAINE.EX.2022SO.05
+    tags:
+      - redis
+  - id: GAINE.EX.2022SO.06
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022SO.07
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022SO.08
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022SO.09
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022SO.10
+    tags:
+      - mongodb
+  - id: GAINE.EX.2022SO.11
+    tags:
+      - teorema-cap, cassandra
+  - id: GAINE.EX.2022SO.12
+    tags: cassandra
+      - 
+  - id: GAINE.EX.2022SO.13
+    tags: cassandra
+      - 
+  - id: GAINE.EX.2022SO.14
+    tags: cassandra
+      - 
+  - id: GAINE.EX.2022SO.15
+    tags: neo4j
+      - 
+  - id: GAINE.EX.2022SO.16
+    tags: neo4j
+      - 
+  - id: GAINE.EX.2022SO.17
+    tags: neo4j
+      - 
+  - id: GAINE.EX.2022SO.18
+    tags: neo4j
+      - 
+  - id: GAINE.EX.2022SO.19
+    tags:
+      - neo4j
+  - id: GAINE.EX.2022SO.20
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023J2.01
+    analogo: GAINE.EX.2022SO.01
+  - id: GAINE.EX.2023J2.02
+    tags:
+      - redis
+  - id: GAINE.EX.2023J2.03
+    tags:
+      - redis
+  - id: GAINE.EX.2023J2.04
+    tags: redis
+  - id: GAINE.EX.2023J2.05
+    tags:
+      - redis
+  - id: GAINE.EX.2023J2.06
+    tags:
+      - modelos-bases-datos
+  - id: GAINE.EX.2023J2.07
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023J2.08
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023J2.09
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023J2.10
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023J2.11
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023J2.12
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023J2.13
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023J2.14
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023J2.15
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023J2.16
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023J2.17
+    analogo: GAINE.EX.2022J2.12
+  - id: GAINE.EX.2023J2.18
+    tags:
+      - cassandra
+  - id: GAINE.EX.2023J2.19
+    tags:
+      - cassandra, cqlsh
+  - id: GAINE.EX.2023J2.20
+    tags:
+      - cassandra, cqlsh
+  - id: GAINE.EX.2023SO.01
+    tags:
+      - sharding
+      - replicacion-maestro-esclavo
+  - id: GAINE.EX.2023SO.02
+    tags:
+      - sharding
+      - p2p
+  - id: GAINE.EX.2023SO.03
+    tags:
+      - redis
+  - id: GAINE.EX.2023SO.04
+    tags:
+      - redis
+  - id: GAINE.EX.2023SO.05
+    tags:
+      - redis
+  - id: GAINE.EX.2023SO.06
+    tags:
+      - redis
+  - id: GAINE.EX.2023SO.07
+    tags:
+      - cassandra
+  - id: GAINE.EX.2023SO.08
+    tags:
+      - cassandra
+  - id: GAINE.EX.2023SO.09
+    tags:
+      - cassandra
+  - id: GAINE.EX.2023SO.10
+    tags:
+      - cassandra
+  - id: GAINE.EX.2023SO.11
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023SO.12
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023SO.13
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023SO.14
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023SO.15
+    tags:
+      - neo4j
+  - id: GAINE.EX.2023SO.16
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023SO.17
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023SO.18
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023SO.19
+    tags:
+      - mongodb
+  - id: GAINE.EX.2023SO.20
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024J2.01
+    analogo: GAINE.EX.2022J2.01
+  - id: GAINE.EX.2024J2.02
+    analogo: GAINE.EX.2022J2.02
+  - id: GAINE.EX.2024J2.03
+    tags:
+      - redis
+  - id: GAINE.EX.2024J2.04
+    tags:
+      - redis
+  - id: GAINE.EX.2024J2.05
+    tags:
+      - redis
+  - id: GAINE.EX.2024J2.06
+    tags:
+      - redis
+  - id: GAINE.EX.2024J2.07
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024J2.08
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024J2.09
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024J2.10
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024J2.11
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024J2.12
+    tags:
+      - teorema-cap, cassandra
+  - id: GAINE.EX.2024J2.13
+    tags:
+      - cassandra
+      - cqlsh
+  - id: GAINE.EX.2024J2.14
+    tags:
+      - cassandra
+      - cqlsh
+  - id: GAINE.EX.2024J2.15
+    tags:
+      - cassandra
+      - cqlsh
+  - id: GAINE.EX.2024J2.16
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024J2.17
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024J2.18
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024J2.19
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024J2.20
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024SO.01
+    tags:
+      - teorema-cap
+  - id: GAINE.EX.2024SO.02
+    tags:
+      - modelos-bases-datos
+  - id: GAINE.EX.2024SO.03
+    tags:
+      - redis
+  - id: GAINE.EX.2024SO.04
+    tags:
+      - redis
+  - id: GAINE.EX.2024SO.05
+    tags:
+      - redis
+  - id: GAINE.EX.2024SO.06
+    tags:
+      - redis
+  - id: GAINE.EX.2024SO.07
+    tags:
+      - redis
+  - id: GAINE.EX.2024SO.08
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024SO.09
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024SO.10
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024SO.11
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024SO.12
+    tags:
+      - neo4j
+  - id: GAINE.EX.2024SO.13
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024SO.14
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024SO.15
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024SO.16
+    tags:
+      - mongodb
+  - id: GAINE.EX.2024SO.17
+    tags:
+      - cassandra
+  - id: GAINE.EX.2024SO.18
+    tags:
+      - cassandra
+  - id: GAINE.EX.2024SO.19
+    tags:
+      - cassandra
+  - id: GAINE.EX.2024SO.20
+    tags:
+      - cassandra
+      - cqlsh
+  - id: GAINE.EX.2025J2.01
+    tags:
+      - nosql
+  - id: GAINE.EX.2025J2.02
+    tags:
+      - bson
+      - mongodb
+  - id: GAINE.EX.2025J2.03
+    tags:
+      - bbdd-grafos
+  - id: GAINE.EX.2025J2.04
+    tags:
+      - bbdd-clave-valor
+  - id: GAINE.EX.2025J2.05
+    tags:
+      - teorema-cap
+      - bbdd-distribuida
+  - id: GAINE.EX.2025J2.06
+    tags:
+      - redis
+  - id: GAINE.EX.2025J2.07
+    tags:
+      - redis
+  - id: GAINE.EX.2025J2.08
+    tags:
+      - neo4j
+  - id: GAINE.EX.2025J2.09
+    tags:
+      - neo4j
+      - cypher
+  - id: GAINE.EX.2025J2.10
+    tags:
+      - neo4j
+  - id: GAINE.EX.2025J2.11
+    tags:
+      - neo4j
+  - id: GAINE.EX.2025J2.12
+    tags:
+      - neo4j
+      - cypher
+  - id: GAINE.EX.2025J2.13
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025J2.14
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025J2.15
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025J2.16
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025J2.17
+    tags:
+      - cassandra
+  - id: GAINE.EX.2025J2.18
+    tags:
+      - cassandra
+  - id: GAINE.EX.2025J2.19
+    tags:
+      - cassandra
+  - id: GAINE.EX.2025J2.20
+    tags:
+      - cassandra
+  - id: GAINE.EX.2025SO.01
+    tags:
+      - nosql
+  - id: GAINE.EX.2025SO.02
+    tags:
+      - bbdd-documental
+  - id: GAINE.EX.2025SO.03
+    tags:
+      - bbdd-clave-valor
+  - id: GAINE.EX.2025SO.04
+    tags:
+      - redis
+  - id: GAINE.EX.2025SO.05
+    tags:
+      - redis
+  - id: GAINE.EX.2025SO.06
+    tags:
+      - redis
+  - id: GAINE.EX.2025SO.07
+    tags:
+      - neo4j
+  - id: GAINE.EX.2025SO.08
+    tags:
+      - neo4j
+  - id: GAINE.EX.2025SO.09
+    tags:
+      - neo4j
+      - cypher
+  - id: GAINE.EX.2025SO.10
+    tags:
+      - neo4j
+      - cypher
+  - id: GAINE.EX.2025SO.11
+    tags:
+      - neo4j
+  - id: GAINE.EX.2025SO.12
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025SO.13
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025SO.14
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025SO.15
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025SO.16
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025SO.17
+    tags:
+      - mongodb
+  - id: GAINE.EX.2025SO.18
+    tags:
+      - cassandra
+  - id: GAINE.EX.2025SO.19
+    tags:
+      - cassandra
+  - id: GAINE.EX.2025SO.20
+    tags:
+      - cassandra

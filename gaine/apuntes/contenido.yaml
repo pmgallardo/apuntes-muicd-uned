@@ -1,0 +1,79 @@
+- units:
+  - id: 1
+    title: "Fundamentos de bases de datos NoSQL"
+    tags:
+    - nosql
+    - teorema-cap
+    - bbdd-distribuida
+    - sharding
+    - replicacion-maestro-esclavo
+    - p2p
+    - modelos-bases-datos
+  - id: 2
+    title: "Base de datos Clave-Valor (Redis)"
+    tags:
+    - bbdd-clave-valor
+    - redis
+    sections:
+    - id: 2.0
+      title: Preámbulo
+      sections:
+      - id: 2.0.1
+        title: Puesta en marcha del entorno de prácticas
+      - id: 2.0.2
+        title: Caso práctico de uso de redis
+    - id: 2.1
+      title: "Módulo 1: Introducción redis"
+    - id: 2.2
+      title: "Módulo 2: Modelado"
+      sections:
+      - id: 2.2.1
+        title: Tipos, estructuras de datos y Modelado
+    - id: 2.3
+      title: Operaciones CRUD
+      sections:
+      - id: 2.3.1
+        title: Creación de información
+      - id: 2.3.2
+        title: 3.2 Recuperación de información
+      - id: 2.3.3
+        title: Borrado de información
+      - id: 2.3.4
+        title: Modificación de información
+    - id: 2.4
+      title: Transacciones
+      sections:
+      - id: 2.4.1
+        tema: Transacciones
+    - id: 2.5
+      title: Estructuras de datos avanzadas
+      sections:
+      - tema: Mapas de bits
+      - title: Geoespaciales
+    - id: 2.6
+      title: "Publicación/Suscripción"
+      sections:
+      - Publicación/Suscripción
+    - id: 2.7
+      title: "Módulo 7: Practica el examen"
+      sections:
+      - title: Examen
+  - id: 3
+    title: "Base de datos Documental (MongoDB)"
+    tags:
+    - bbdd-documental
+    - mongodb
+    - ferretdb
+    - bson
+  - id: 4
+    title: "Base de datos Columnar (Cassandra)"
+    tags:
+    - bbdd-columnar
+    - bbdd-columnas
+    - cassandra
+  - id: 5
+    title: "Base de datos de Grafos (Neo4j)"
+    tags:
+    - bbdd-grafos
+    - neo4j
+    - cypher
