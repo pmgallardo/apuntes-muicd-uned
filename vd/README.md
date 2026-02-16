@@ -10,6 +10,47 @@ En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Vi
 
 Más información en la [ficha web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110060&codTitulacion=311001&idContenido=1).
 
+## Requisitos
+
+Según la guía de la asignatura, la asignatura require haber estudiado/estar estudiando las siguientes asignaturas:
+
+- Programación en entorno de datos ([PED](../ped/))
+- Infraestructuras computacionales para procesamiento de datos masivos ([ICMP](../icpdm/))
+- Gestión/almacenamiento de datos no estructurados ([GAINE](../gaine/))
+
+## Evaluación
+
+| Actividad evaluable | % nota sobre el total | % nota mínima act. |
+| - | - |
+| Actividades voluntarias | 10 | 0 |
+| Prácticas informáticas | 60 | 50 |
+| Exámen | 30 | 40 |
+
+La nota final para aprobar la asignatura es 5 puntos.
+
+### Actividades voluntarias
+
+% nota sobre el total: 10
+% nota mínima actividad: 0
+
+Las actividades voluntarias incluyen:
+
+- Participación activa en los foros
+- Actividades optativas
+- Debates propuestos por el equipo docente a lo largo del curso.
+
+### Prácticas informáticas
+
+% nota sobre el total: 60
+% nota mínima actividad: 50
+
+### Exámen
+
+% nota sobre el total: 30
+% nota mínima actividad: 40
+
+El exámen consta de 4 preguntas de desarrollo.
+
 ## Bibliografía
 
 - Básica

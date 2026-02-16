@@ -11,6 +11,15 @@ reading_sources:
     - A. Robles Gómez
     publisher: UNED
     publication-date: 2020-02-01
+    url: https://agora.uned.es/mod/resource/view.php?id=715638
+  - id: ivda
+    type: notebook
+    title: Introducción a la visualización de datos con Altair
+    authors:
+    - M. Rincón Zamorano
+    - A. Benito-Santos
+    publication-date: 2022
+    url: https://agora.uned.es/mod/url/view.php?id=715646
   - id: fdv
     type: book
     title: Fundamentals of Data Visualization
@@ -145,3 +154,7 @@ units:
     title: Representación dinámica
   - id: 4.4
     title: Ejercicios
+- id: 5
+  title: Introducción a la visualización de datos con Altair
+  reading_sources:
+  - ivda
