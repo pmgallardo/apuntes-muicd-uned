@@ -1,0 +1,114 @@
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+reading_sources:
+- id: is
+  type: lecture_notes
+  title: Introducción a la seguridad
+- id: ps
+  type: lecture_notes
+  title: El problema de la seguridad
+- id: ga
+  type: lecture_notes
+  title: Gestion de activos
+- id: hc
+  type: lecture_notes
+  title: Hardening conceptos
+- id: sp
+  type: lecture_notes
+  title: Seguridad perimetral
+- id: pd
+  type: lecture_notes
+  title: Protección de los datos
+- id: amdp
+  title: Architecting Modern Data Platforms
+  subtitle: A guide to enterprise Hadoop at scale
+  type: book
+  authors:
+  - Jan Kunigk
+  - Paul Wilkinson
+  - Ian Buss
+  - Lars George
+  publisher: O'Reilly
+  publication-date: 2018
+- id: greitdp
+  title: Gestión del riesgo y evaluación de impacto en tratamientos de datos personales
+  publisher: AEDP
+  url: https://www.aepd.es/guias/gestion-riesgo-y-evaluacion-impacto-en-tratamientos-datos-personales.pdf
+- id: kams
+  title: LA k-ANONIMIDAD COMO MEDIDA DE LA PRIVACIDAD
+  publisher: AEDP
+  url: https://www.aepd.es/guias/nota-tecnica-kanonimidad.pdf
+- id: ihtadp
+  title: Introducción al hash como técnica de seudonomización de datos personales
+  publisher: AEDP
+  url: https://www.aepd.es/guias/estudio-hash-anonimidad.pdf
+- id: bdppd
+  type: book
+  title: Big data, privacidad y protección de datos
+  publisher: AEDP
+  url: https://www.aepd.es/sites/default/files/2019-21/big-data.pdf
+- id: ig
+  type: book
+  title: Information Governance
+  authors:
+  - Robert F. Smallwood
+  edition: 2
+  url: https://learning.oreilly.com/library/view/information-governance-2nd/9781119491446/
+units:
+- id: 1
+  title: Introducción a la ciberseguridad
+  reading_sources:
+  - id: is
+  - id: ps
+  - id: ga
+- id: 2
+  title: Administración y autorización en entornos de análisis/computación de datos masivos
+  reading_sources:
+  - id: hc
+- id: 3
+  title: Autenticación y Seguridad Perimetral en sistemas de análisis de datos
+  reading_sources:
+  - id: sp
+- id: 4
+  title: Protección de los datos
+  reading_sources:
+  - id: pd
+  - id: amdp
+    details: "Capítulo 9: Security"
+  - id: amdp
+    details: "Capítulo 18: Security in the Cloud"
+- id: 5
+  title: Gobierno de los datos y los metadatos asociados
+  sections:
+  - title: Introducción
+    reading_sources:
+    - id: ig
+      details: "Capítulo 2: Information Governance, IT Governance, Data Governance: What's the Difference?"
+      mandatory: true
+      url: https://learning.oreilly.com/library/view/information-governance-2nd/9781119491446/c02.xhtml
+  - title: Principios de Gobernanza de Datos
+    reading_sources:
+    - id: ig
+      details: "Capítulo 3: Information Governance Principles"
+      mandatory: true
+      url: https://learning.oreilly.com/library/view/information-governance-2nd/9781119491446/c03.xhtml
+  - title: "En la nube"
+    reading_sources:
+    - id: ig
+      details: "Capítulo 15: Information Governance for Cloud Computing"
+      mandatory: true
+      url: https://learning.oreilly.com/library/view/information-governance-2nd/9781119491446/c15.xhtml
+  - title: "En el análisis de datos"
+    reading_sources:
+    - id: ig
+      details: "Capítulo 16: Leveraging and Governing Emerging Technologies"
+      mandatory: true
+      url: https://learning.oreilly.com/library/view/information-governance-2nd/9781119491446/c16.xhtml
+  - title: "Metadatos y taxonomías"
+    reading_sources:
+    - id: ig
+      details: "Apéndice A: Information Organization and Classification: Taxonomies and Metadata"
+      mandatory: true
+      url: https://learning.oreilly.com/library/view/information-governance-2nd/9781119491446/b01.xhtml
