@@ -36,6 +36,8 @@ Existen comunidades no oficiales de alumnos y alumni del máster:
 % sobre la nota final: 50%
 Nota mínima para aprobar: 45% (4.5 sobre 10)
 
+Material permitido: documentación en papel.
+
 Tipo: multiopción
 10 preguntas tipo test con 4 posibles respuestas
 Preguntas correctas: +1 punto
