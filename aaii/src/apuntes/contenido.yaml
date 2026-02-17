@@ -4,6 +4,72 @@
 
 id: 31110130
 acronym: AAII
+reading_sources:
+  - id: isl
+    type: book
+    title: An Introduction to Statistical Learning
+    authors:
+    - G. James
+    - D. Witten
+    - T. Hastie
+    - R. Tibshirani
+    url: https://www.statlearning.com
+  - id: esl
+    type: book
+    title: The Elements of Statistical Learning
+    edition: 2
+    authors:
+    - Trevor Astie
+    - Robert Tibshirani
+    - Jerome Friedman
+    publisher: Springer
+    publication_date: 2009
+    publication_place: New York
+    url: https://web.stanford.edu/~hastie/ElemStatLearn/
+  - id: urf
+    type: article
+    title: "Understanding Random Forests: from Theory to Practice"
+    authors: Gilles Loupe
+    url: https://arxiv.org/abs/1407.7502
+    publisher: Univ. de Liège
+  - type: article
+    title: What Is Bootstrapping in Statistics?
+    authors:
+    - Courtney Taylor
+    publisher: ThoughtCo
+    publication_date: 2019
+    url: https://www.thoughtco.com/what-is-bootstrapping-in-statistics-3126172
+  - id: bfa
+    type: book
+    title: "Boosting: Foundations and Algorithms"
+    authors:
+    - Robert E. Schapire
+    - Yoav Freund
+    url: https://direct.mit.edu/books/oa-monograph/5342/BoostingFoundations-and-Algorithms
+  - id: pmlh20
+    type: book
+    title: Practical machine learning with H2O
+    authors: Darren Cook
+    publisher: O'Reilly
+    url: https://www.oreilly.com/library/view/practical-machine-learning/9781491964590/
+  - id: clx
+    title: CatBoost vs. LightGBM vs. XGBoost
+    url: https://towardsdatascience.com/catboost-vs-lightgbm-vs-xgboost-c80f40662924/
+  - id: cct
+    type: article
+    title: "Classifiers Combination Techniques: A Comprehensive Review"
+    authors:
+    - M. Mohandes
+    - M. Deriche
+    - S.O. Aliyu
+    url: https://ieeexplore.ieee.org/document/8335271
+  - id: emula
+    type: article
+    title: Evaluation Metrics for Unsupervised Learning Algorithms
+    authors:
+    - Julio-Omar Palacio-Niño
+    - Fernando Berzal
+    url: https://doi.org/10.48550/arXiv.1905.05667
 units:
   - id: 1
     title: Bosques aleatorios
@@ -14,11 +80,24 @@ units:
       - title: Error predicción esperado
       tags:
       - error-prediccion-esperado
+      reading_sources:
+      - id_ref: isl
+        reference: 2.2.2
+      - id_ref: esl
+        reference: 7.1-7.3
+        pags: 219-228
+      - id_ref: urf
+        reference: Section 4.1 "Random forests"
+        pages: 55-60
     - id: 1.2
       title: El método bootstrap
       tags:
       - bootstrap
       - bootstrapping
+      reading_sources:
+      - id_ref: wib
+      - id_ref: isl
+        reference: Section 5.2
     - id: 1.3
       title: "Agregación de Bootstrap: Bagging"
       tags: 
@@ -27,6 +106,14 @@ units:
       - title: Error OOB
         tags: 
         - error-oob
+      reading_sources:
+      - id_ref: isl
+        reference: Section 8.2.1
+      - id_ref: esl
+        reference: Section 8.7
+        pages: 282-288
+      - id_ref: esl
+        reference: Section 8.7.1
     - id: 1.4
       title: Bosques aleatorios
       tags: 
@@ -36,16 +123,41 @@ units:
     sections:
     - id: 2.1
       title: Introducción
+      reading_sources:
+      - id_ref: isl
+        reference: Apartado 8.2.3
     - id: 2.2
       title: AdaBoost
       tags:
       - adaboost
-      sections:
+      reading_sources:
+      - id_ref: bfa
+        reference: 1.2
+        pages: 4-7
+      - id_ref: bfa
+        reference: 1.2.1
+        pages: 7-11
+      - id_ref: BFA
+        reference: 1.2.3
+        pages: 11-14
     - id: 2.3
       title: Intensificación de gradiente
       tags: intensificacion-gradiente
+      reading_sources:
+      - id_ref: esl
+        reference: 10.9 Boosting trees
+        pages: 353-358
+      - id_ref: esl
+        reference: 10.10 Numerical Optimization via Gradient Boosting
+        pages: 358-361
+      - id_ref: esl
+        reference: 10.13 Interpretation
+        pages: 367-370
+      - id_ref: esl
+        reference: 10.14 Illustrations
+        pages: 370-380
     - id: 2.4
-      title: Implementaciones de Intensificación de gradiente
+      title: Implementaciones de intensificación de gradientes
       sections:
       - title: XGBoost
         tags:
@@ -58,19 +170,34 @@ units:
       - title: CATBoost
     - id: 2.5
       title: Prácticas de programación de intensificación
+      reading_sources:
+      - id: pmlh20
+        details: Capítulo 6 "Gradient Boosting Machines"
   - id: 3
     title: Otras combinaciones de modelos (anteriormente, aprendizaje conjunto)
     sections:
       - id: 3.1
         title: Introducción
+        reading_sources:
+        - id_ref: cct
+          reference: Introducción
       - id: 3.2
         title: Marco general para la combinación de clasificadores
         sections:
         - title: Combinación clasificadores
           tags:
           - combinacion-clasificadores
+        reading_sources:
+        - id_ref: cct
+          reference: Sección II
       - id: 3.3
         title: Estrategias para la combinación de clasificadores
+        reading_sources:
+        - id_ref: cct
+          reference: Sección III
+          mandatory: false
+        - id_ref: ccs
+          mandatory: false
         sections:
         - title: Apilamiento
           tags:
@@ -83,7 +210,17 @@ units:
     title: Aprendizaje no supervisado
     sections:
     - id: 4.1
+      title: "Introducción al aprendizaje no supervisado"
+      reading_sources:
+      - id_ref: esl
+        reference: 14.1
+        pages: 485-487
+    - id: 4.2
       title: Análisis de grupos
+      reading_sources:
+      - id_ref: esl
+        reference: 14.3
+        pages: 501-527
       tags:
       - agrupamiento
       - clustering
@@ -149,6 +286,8 @@ units:
           - dbscan
     - id: 4.4
       title: Taxonomía de medidas de evaluación de agrupamientos
+      reading_sources:
+      - id_ref: emul
       sections:
       - title: Estimación número grupos
         tags:
