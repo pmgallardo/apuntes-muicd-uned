@@ -8,28 +8,36 @@ SPDX-License-Identifier: CC-BY-4.0
 
 En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Aprendizaje Automático II.
 
-## Comunidades
-
-Existen comunidades no oficiales de alumnos y alumni del máster:
-
-- Comunidad [UNED - Aprendizaje Automático II (Máster Datos)](https://t.me/joinchat/VrRO59IZYENjMzNk) en Telegram
-- [Carpeta `Aprendizaje Automático II` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgAhrQlnu8HdS4tEmOXFoycbAXBtbnuItHrhgTRV8nkc36A) en SharePoint UNED
+Para más información, consultar la [ficha web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110130&codTitulacion=311001&idContenido=1).
 
 ## Evaluación
 
 | Actividad evaluación | % nota final | % nota mínima |
 | - | - | - |
-| PEC 1 | 30 | - |
-| PEC 2 | 20 | - |
+| PEC 1 | 30 | 50 |
+| PEC 2 | 20 | 50 |
 | Exámen | 50 | 45 |
 
-### PEC 1
+### PECs
+
+En los PECs se evalúa:
+
+- El análisis crítico de los resultados.  
+- La discusión en la salida del código y visualizaciones.  
+- La discusión crítica y el hilo argumental.  
+- Pertinencia y justificación de las técnicas aplicadas.  
+- La conexión de los resultados con la teoría y la bibliografía.  
+- La reflexión sobre las limitaciones y alcances del trabajo.  
+
+#### PEC 1
 
 % sobre la nota final: 30%
+% nota mínima: 50 (5 de 10)
 
-### PEC 2
+#### PEC 2
 
 % sobre la nota final: 20%
+% nota mínima: 50 (5 de 10)
 
 ### Exámen
 
@@ -63,3 +71,12 @@ Desde el curso 2023/2024 se redujo la duración del exámen a 60 minutos. Anteri
   - BREIMAN, Leo [Random Forests](https://doi.org/10.1023/A:1010933404324). luwer Academic Publishers, 2001.
   - DŽEROSKI, S., ŽENKO, B. [Is Combining Classifiers with Stacking Better than Selecting the Best One?](https://doi.org/10.1023/B:MACH.0000015881.36452.6e)  
   - BERZAL, Fernando, PALACIO-NIÑO, Julio-Omar. [Evaluation Metrics for Unsupervised Learning Algorithms](https://www.researchgate.net/publication/333102602_Evaluation_Metrics_for_Unsupervised_Learning_Algorithms). Mayo 2019.
+
+## Comunidades
+
+Existen comunidades no oficiales de alumnos y alumni del máster:
+
+- Activas
+  - Comunidad [UNED - Aprendizaje Automático II (Máster Datos)](https://t.me/joinchat/VrRO59IZYENjMzNk) en Telegram
+- Inactivas
+  - [Carpeta `Aprendizaje Automático II` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgAhrQlnu8HdS4tEmOXFoycbAXBtbnuItHrhgTRV8nkc36A) en SharePoint UNED
