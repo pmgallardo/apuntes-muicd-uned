@@ -4,7 +4,7 @@
 
 id: 31110130
 acronym: AAII
-reading_sources:
+study_materials:
   - id: isl
     type: book
     title: An Introduction to Statistical Learning
@@ -70,7 +70,266 @@ reading_sources:
     - Julio-Omar Palacio-Niño
     - Fernando Berzal
     url: https://doi.org/10.48550/arXiv.1905.05667
-units:
+
+
+    # Práctica tema 0: Modelos múltiples
+  - id: fae
+    type: slideshow
+    title: Fundamentos de algoritmos Ensemble
+    authors:
+    - Manuel Castillo-Cara
+    - Luis Sarro
+    publisher: Escuela Técnica Superior de Ingeniería Informática de la UNED
+  - id: iae
+    type: video
+    title: Teoría - Introducción a los algoritmos ensembles
+    url: https://agora.uned.es/mod/url/view.php?id=704391
+  - type: video
+    title: Teoría -De la Mezcla de expertos a los algoritmos ensembles
+    url: https://agora.uned.es/mod/url/view.php?id=704392
+  - type: video
+    title: 1. One-vs-Rest y One-vs-One
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704393
+    - https://agora.uned.es/mod/url/view.php?id=704394
+    - https://agora.uned.es/mod/url/view.php?id=704395
+  - type: video
+    title: 2. Códigos de salida con corrección de errores
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704396
+    - https://agora.uned.es/mod/url/view.php?id=704397
+  - type: video
+    title: 3. Modelos de regresión de múltiples salidas
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704398
+    - https://agora.uned.es/mod/url/view.php?id=704399
+  - type: video
+    title: 4. Selección de clasificador dinámico
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704400
+    - https://agora.uned.es/mod/url/view.php?id=704401
+    - https://agora.uned.es/mod/url/view.php?id=704402
+  - title: 5. Selección dinámica de conjuntos
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704403
+    - https://agora.uned.es/mod/url/view.php?id=704404
+    - https://agora.uned.es/mod/url/view.php?id=704405
+
+    #Práctica tema 1: Bagging
+  - id: tbbs
+    type: slideshow
+    title: Bagging, Boosting y Stacking
+    url: https://agora.uned.es/mod/resource/view.php?id=704412
+  - type: video
+    title: Teoría - Bagging, Boosting y Stacking
+    url: https://agora.uned.es/mod/url/view.php?id=704415
+  - title: 2. Bagging
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704416
+    - https://agora.uned.es/mod/url/view.php?id=704417
+    - https://agora.uned.es/mod/url/view.php?id=704418
+  - title: 3. Random Subspace
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704419
+    - https://agora.uned.es/mod/url/view.php?id=704420
+  - title: 4. Feature Selection Subspace
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704421
+    - https://agora.uned.es/mod/url/view.php?id=704422
+  - title: 6. Random Forest
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704423
+    - https://agora.uned.es/mod/url/view.php?id=704424
+  - title: 7. ExtraTrees
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704425
+    - https://agora.uned.es/mod/url/view.php?id=704426
+  - title: 8. Data Transform Bagging
+    url: https://agora.uned.es/mod/url/view.php?id=704427
+  - type: book
+    title: Statistical Machine Learning
+    authors:
+    - Yiqiao YIN
+  - type: notes
+    title: Ensemble methods
+    authors:
+    - Julia Lenc
+  - type: website
+    title: Random Forest y OOB
+    url: https://cienciadedatos.net/documentos/py36-grid-search-random-forest-out-of-bag-error-early-stopping
+  - type: website
+    title: CART y Random Forest
+    url: https://bookdown.org/content/2031/
+  - type: website
+    title: Random Forest Algorithm
+    url: https://www.simplilearn.com/tutorials/machine-learning-tutorial/random-forest-algorithm
+  - type: notes
+    title: Decision Tree Cheat Sheet
+  - type: notes
+    title: Bagging
+
+    # Práctica tema 2: Boosting
+  - type: video
+    title: 1. AdaBoost
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704438
+    - https://agora.uned.es/mod/url/view.php?id=704439
+    - https://agora.uned.es/mod/url/view.php?id=704440
+  - title: 2. Gradient Boosting
+    url: 
+    - https://agora.uned.es/mod/url/view.php?id=704441
+    - https://agora.uned.es/mod/url/view.php?id=704442
+  - title: 3. XGBoost
+    url: 
+    - https://agora.uned.es/mod/url/view.php?id=704443
+    - https://agora.uned.es/mod/url/view.php?id=704444
+  - title: 4. LightGBM
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704445
+    - https://agora.uned.es/mod/url/view.php?id=704446
+  - type: notes
+    title: Adaptative Boosting
+    authors:
+    - Chaitanya Kunapareddi
+  - type: book
+    title: Combining Multiple Learners
+  - type: interactive_notebook
+    title: Algoritmos Boosting
+    authors: Nikita Prasad
+    url: https://github.com/nikitaprasad21/ML-Cheat-Codes/blob/main/Voting-Ensemble/gradient_boosting_regressor.ipynb
+
+  # Práctica 3: Stacking
+  - title: 
+  - type: video
+    title: 1. Voting - Parte 1 URL
+    authors:
+    - Manuel Castillo-Cara
+    url:
+    - https://unedo365-my.sharepoint.com/:v:/g/personal/manuelcastillo_dia_uned_es/IQAmJCRXLdJ7TbJWsXPUg1USATC0-g0H-EZSVkhCeymfxTY
+    - https://unedo365-my.sharepoint.com/:v:/g/personal/manuelcastillo_dia_uned_es/IQCcMQBaG8gzS6lxzv_pDpr6AVCdkHw8dWViaiP-0l1Q1Ls
+  - title: 2. Weighted Average - Parte 1 URL
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704457
+    - https://agora.uned.es/mod/url/view.php?id=704458
+    - https://agora.uned.es/mod/url/view.php?id=704459
+  - title: 3. Seleccion Miembros Conjunto
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704460
+    - https://agora.uned.es/mod/url/view.php?id=704461
+    - https://agora.uned.es/mod/url/view.php?id=704462
+  - title: 4. Stacking
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704463
+    - https://agora.uned.es/mod/url/view.php?id=704464
+  - title: 5. Bleding
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704465
+    - https://agora.uned.es/mod/url/view.php?id=704466
+  - title: 6. Super Learner - Teoría
+    url: https://agora.uned.es/mod/url/view.php?id=704467
+  - title: 6.1. Super Learner - Práctica URL
+  - type: video
+    title: 6.2. Super Learner - Dataset real 
+    url: https://agora.uned.es/mod/url/view.php?id=704469
+  - type: website
+    title: "StackingClassifier: Simple stacking"
+    url: https://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier/
+  - title: Algoritmos ensamblados
+    url: https://www.cs.us.es/~fsancho/?e=106
+  - id: sl
+    type: article
+    title: Super Learner
+    authors:
+    - Eric C. Polley
+    - Mark J. van der Laan
+    - Alan E. Hubbard
+  - id: slp
+    type: article
+    title: Super Lerner in Prediction
+    authors:
+    - Eric C. Polley
+    - Mark J. van der Laan
+
+  # Práctica 4: Aprendizaje no supervisado
+  - 8. Aprendizaje No Supervisado [Presentación]
+  - 8. Aprendizaje No Supervisado [Apuntes]
+  - 8.2. PCA
+  - type: video
+    title: 8.1. Aprendizaje No Supervisado - Teoría URL
+    url: https://agora.uned.es/mod/url/view.php?id=704483
+  - type: video
+    title: 8.2. Algoritmos clustering
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704484
+    - https://agora.uned.es/mod/url/view.php?id=704485
+  - title: 8.4. Implementacion Algoritmos clustering
+    url:
+    - https://agora.uned.es/mod/url/view.php?id=704486
+    - https://agora.uned.es/mod/url/view.php?id=704487
+  - title: 8.6. k-Means
+    url: https://agora.uned.es/mod/url/view.php?id=704488
+  - title: 8.7. Clustering Jerarquico
+    url: https://agora.uned.es/mod/url/view.php?id=704489
+  - title: 8.8. Metodos basado en densidad URL
+    url: https://agora.uned.es/mod/url/view.php?id=704490
+  - title: 8.9. Determinar clusters URL
+    url: https://agora.uned.es/mod/url/view.php?id=704491
+  - title: 8.10. Conjunto de datos URL
+    url: https://agora.uned.es/mod/url/view.php?id=704492
+  - title: 8.11. Tecnicas para determinar clusters URL
+    url: https://agora.uned.es/mod/url/view.php?id=704493
+  - title: 8.12. Agglomerative URL
+    url: https://agora.uned.es/mod/url/view.php?id=704494
+  - title: 8.13. Implementación de k-Means URL
+    url: https://agora.uned.es/mod/url/view.php?id=704495
+  - title: 8.14. Mean Shift URL
+    url: https://agora.uned.es/mod/url/view.php?id=704496
+  - title: 8.15. Reglas de asociacion URL
+    url: https://agora.uned.es/mod/url/view.php?id=704497
+  - type: video
+    title: 8.16. Algoritmo Apriori 
+    url: https://agora.uned.es/mod/url/view.php?id=704498
+  - type: website
+    title: Página de Pier Luca Lanzi
+    url: http://www.pierlucalanzi.net/
+  - title: Explicación de ULAs
+    url: https://ligdigonzalez.com/todo-sobre-aprendizaje-no-supervisado-en-machine-learning/
+  - title: ULAs Vs. SLAs
+    url: https://www.cs.us.es/~fsancho/?e=77
+  - title: Detección de Anomalías URL
+    url: https://elbauldelprogramador.com/aprendizaje-nosupervisado-clustering/
+  - title: "[Código] Algoritmos URL"
+    url: https://builtin.com/data-science/unsupervised-learning-python
+  - title: Tipos de aprendizaje no supervisado URL
+    url: https://medium.com/datos-y-ciencia/aprendizaje-no-supervisado-en-machine-learning-agrupaci%C3%B3n-bb8f25813edc
+  - type: cheatsheet
+    title: "VIP Cheatsheet: Unsupervised Learning"
+    authors:
+    - Afshine Amidi
+    - Shervine Amidi
+    url: https://stanford.edu/~shervine
+  - type: notes
+    title: Understanding DBSCAN Algorithm
+    publisher: Analytics Vidhya
+  - type: slideshow
+    title: "Hierarchical Clustering: Relationship between Clusters"
+  - type: image
+    title: Algorimos de Clustering
+
+
+parts:
+- title: Teoría
+  units:
+  - id: 0
+    title: Modelos múltiples
+    sections:
+    - title: Introducción a los algoritmos ensembles
+    - title: De la Mezcla de expertos a los algoritmos ensembles
+    - title: 1. One-vs-Rest y One-vs-One
+    - title: 2. Códigos de salida con corrección de errores
+    - title: 3. Modelos de regresión de múltiples salidas
+    - title: 4. Selección de clasificador dinámico
+    - title: 5. Selección dinámica de conjuntos
   - id: 1
     title: Bosques aleatorios
     sections:
@@ -80,7 +339,7 @@ units:
       - title: Error predicción esperado
       tags:
       - error-prediccion-esperado
-      reading_sources:
+      study_materials:
       - id_ref: isl
         reference: 2.2.2
       - id_ref: esl
@@ -94,7 +353,7 @@ units:
       tags:
       - bootstrap
       - bootstrapping
-      reading_sources:
+      study_materials:
       - id_ref: wib
       - id_ref: isl
         reference: Section 5.2
@@ -106,7 +365,7 @@ units:
       - title: Error OOB
         tags: 
         - error-oob
-      reading_sources:
+      study_materials:
       - id_ref: isl
         reference: Section 8.2.1
       - id_ref: esl
@@ -123,14 +382,14 @@ units:
     sections:
     - id: 2.1
       title: Introducción
-      reading_sources:
+      study_materials:
       - id_ref: isl
         reference: Apartado 8.2.3
     - id: 2.2
       title: AdaBoost
       tags:
       - adaboost
-      reading_sources:
+      study_materials:
       - id_ref: bfa
         reference: 1.2
         pages: 4-7
@@ -143,7 +402,7 @@ units:
     - id: 2.3
       title: Intensificación de gradiente
       tags: intensificacion-gradiente
-      reading_sources:
+      study_materials:
       - id_ref: esl
         reference: 10.9 Boosting trees
         pages: 353-358
@@ -170,7 +429,7 @@ units:
       - title: CATBoost
     - id: 2.5
       title: Prácticas de programación de intensificación
-      reading_sources:
+      study_materials:
       - id: pmlh20
         details: Capítulo 6 "Gradient Boosting Machines"
   - id: 3
@@ -178,7 +437,7 @@ units:
     sections:
       - id: 3.1
         title: Introducción
-        reading_sources:
+        study_materials:
         - id_ref: cct
           reference: Introducción
       - id: 3.2
@@ -187,12 +446,12 @@ units:
         - title: Combinación clasificadores
           tags:
           - combinacion-clasificadores
-        reading_sources:
+        study_materials:
         - id_ref: cct
           reference: Sección II
       - id: 3.3
         title: Estrategias para la combinación de clasificadores
-        reading_sources:
+        study_materials:
         - id_ref: cct
           reference: Sección III
           mandatory: false
@@ -203,6 +462,10 @@ units:
           tags:
           - apilamiento
           - stacking
+        - title: Votación
+          tags:
+          - votacion
+          - voting
         - title: Selección
           tags:
           - seleccion
@@ -211,13 +474,13 @@ units:
     sections:
     - id: 4.1
       title: "Introducción al aprendizaje no supervisado"
-      reading_sources:
+      study_materials:
       - id_ref: esl
         reference: 14.1
         pages: 485-487
     - id: 4.2
       title: Análisis de grupos
-      reading_sources:
+      study_materials:
       - id_ref: esl
         reference: 14.3
         pages: 501-527
@@ -286,7 +549,7 @@ units:
           - dbscan
     - id: 4.4
       title: Taxonomía de medidas de evaluación de agrupamientos
-      reading_sources:
+      study_materials:
       - id_ref: emul
       sections:
       - title: Estimación número grupos
@@ -301,3 +564,17 @@ units:
       - title: Coeficiente silhouette
         tags:
         - coeficiente-silhouette
+- title: Práctica
+  units:
+  - id: P.0
+    title: Modelos Múltiples
+    study_materials:
+    - 
+  - id: P.1
+    title: Bagging
+  - id: P.2
+    title: Boosting
+  - id: P.3
+    title: Stacking
+  - id: P.4
+    title: Aprendizaje No Supervisado
