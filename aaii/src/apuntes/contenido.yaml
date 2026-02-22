@@ -73,168 +73,210 @@ study_materials:
 
 
     # Práctica tema 0: Modelos múltiples
-  - id: fae
+  - id: 0_slides_fae
     type: slideshow
     title: Fundamentos de algoritmos Ensemble
     authors:
     - Manuel Castillo-Cara
     - Luis Sarro
-    publisher: Escuela Técnica Superior de Ingeniería Informática de la UNED
-  - id: iae
+    publisher: ETSII UNED
+    url: https://agora.uned.es/mod/resource/view.php?id=704388
+  - id: 0_vid_iae
     type: video
     title: Teoría - Introducción a los algoritmos ensembles
     url: https://agora.uned.es/mod/url/view.php?id=704391
-  - type: video
+  - id: 0_vid_meae
+    type: video
     title: Teoría -De la Mezcla de expertos a los algoritmos ensembles
     url: https://agora.uned.es/mod/url/view.php?id=704392
-  - type: video
+  - id: 0_vid_ovrovo
+    type: video
     title: 1. One-vs-Rest y One-vs-One
     url:
     - https://agora.uned.es/mod/url/view.php?id=704393
     - https://agora.uned.es/mod/url/view.php?id=704394
     - https://agora.uned.es/mod/url/view.php?id=704395
-  - type: video
+  - id: 0_vid_csce
+    type: video
     title: 2. Códigos de salida con corrección de errores
     url:
     - https://agora.uned.es/mod/url/view.php?id=704396
     - https://agora.uned.es/mod/url/view.php?id=704397
-  - type: video
+  - id: 0_vid_mrms
+    type: video
     title: 3. Modelos de regresión de múltiples salidas
     url:
     - https://agora.uned.es/mod/url/view.php?id=704398
     - https://agora.uned.es/mod/url/view.php?id=704399
-  - type: video
+  - id: 0_vid_scd
+    type: video
     title: 4. Selección de clasificador dinámico
     url:
     - https://agora.uned.es/mod/url/view.php?id=704400
     - https://agora.uned.es/mod/url/view.php?id=704401
     - https://agora.uned.es/mod/url/view.php?id=704402
-  - title: 5. Selección dinámica de conjuntos
+  - id: 0_vid_sdc
+    title: 5. Selección dinámica de conjuntos
     url:
     - https://agora.uned.es/mod/url/view.php?id=704403
     - https://agora.uned.es/mod/url/view.php?id=704404
     - https://agora.uned.es/mod/url/view.php?id=704405
 
     #Práctica tema 1: Bagging
-  - id: tbbs
+  - id: 1_slides_bbs
     type: slideshow
     title: Bagging, Boosting y Stacking
+    authors:
+    - Manuel Castillo-Cara
+    - Luis Sarro
     url: https://agora.uned.es/mod/resource/view.php?id=704412
-  - type: video
+  - id: 1_vid_bbs
+    type: video
     title: Teoría - Bagging, Boosting y Stacking
     url: https://agora.uned.es/mod/url/view.php?id=704415
-  - title: 2. Bagging
+  - id: 1_vid_bagging
+    title: 2. Bagging
     url:
     - https://agora.uned.es/mod/url/view.php?id=704416
     - https://agora.uned.es/mod/url/view.php?id=704417
     - https://agora.uned.es/mod/url/view.php?id=704418
-  - title: 3. Random Subspace
+  - id: 1_vid_rs
+    title: 3. Random Subspace
     url:
     - https://agora.uned.es/mod/url/view.php?id=704419
     - https://agora.uned.es/mod/url/view.php?id=704420
-  - title: 4. Feature Selection Subspace
+  - id: 1_vid_fss
+    title: 4. Feature Selection Subspace
     url:
     - https://agora.uned.es/mod/url/view.php?id=704421
     - https://agora.uned.es/mod/url/view.php?id=704422
-  - title: 6. Random Forest
+  - id: 1_vid_rf
+    title: 6. Random Forest
     url:
     - https://agora.uned.es/mod/url/view.php?id=704423
     - https://agora.uned.es/mod/url/view.php?id=704424
-  - title: 7. ExtraTrees
+  - id: 1_vid_et
+    video: ExtraTrees
+    title: 7. ExtraTrees
     url:
     - https://agora.uned.es/mod/url/view.php?id=704425
     - https://agora.uned.es/mod/url/view.php?id=704426
-  - title: 8. Data Transform Bagging
+  - id: 1_vid_dtb
+    title: 8. Data Transform Bagging
     url: https://agora.uned.es/mod/url/view.php?id=704427
-  - type: book
+  - id: 1_book_sml
+    type: book
     title: Statistical Machine Learning
     authors:
     - Yiqiao YIN
-  - type: notes
+  - id: 1_notes_em
+    type: notes
     title: Ensemble methods
     authors:
     - Julia Lenc
-  - type: website
+  - id: 1_web_rfo
+    type: website
     title: Random Forest y OOB
     url: https://cienciadedatos.net/documentos/py36-grid-search-random-forest-out-of-bag-error-early-stopping
-  - type: website
+  - id: 1_web_crf
+    type: website
     title: CART y Random Forest
     url: https://bookdown.org/content/2031/
-  - type: website
+  - id: 1_web_rfa
+    type: website
     title: Random Forest Algorithm
     url: https://www.simplilearn.com/tutorials/machine-learning-tutorial/random-forest-algorithm
-  - type: notes
+  - id: 1_notes_dtcs
+    type: notes
     title: Decision Tree Cheat Sheet
-  - type: notes
+  - id: 1_notes_bagging
+    type: notes
     title: Bagging
 
     # Práctica tema 2: Boosting
-  - type: video
+  - id: 2_vid_adaboost
+    type: video
     title: 1. AdaBoost
     url:
     - https://agora.uned.es/mod/url/view.php?id=704438
     - https://agora.uned.es/mod/url/view.php?id=704439
     - https://agora.uned.es/mod/url/view.php?id=704440
-  - title: 2. Gradient Boosting
+  - id: 2_vid_gb
+    title: 2. Gradient Boosting
     url: 
     - https://agora.uned.es/mod/url/view.php?id=704441
     - https://agora.uned.es/mod/url/view.php?id=704442
-  - title: 3. XGBoost
+  - id: 2_vid_xgb
+    title: 3. XGBoost
     url: 
     - https://agora.uned.es/mod/url/view.php?id=704443
     - https://agora.uned.es/mod/url/view.php?id=704444
-  - title: 4. LightGBM
+  - id: 2_vid_lgbm
+    title: 4. LightGBM
     url:
     - https://agora.uned.es/mod/url/view.php?id=704445
     - https://agora.uned.es/mod/url/view.php?id=704446
-  - type: notes
+  - id: 2_notes_ab
+    type: notes
     title: Adaptative Boosting
     authors:
     - Chaitanya Kunapareddi
-  - type: book
+  - id: 2_book_cml
+    type: book
     title: Combining Multiple Learners
-  - type: interactive_notebook
+  - id: 2_inb_ab
+    type: interactive_notebook
     title: Algoritmos Boosting
     authors: Nikita Prasad
     url: https://github.com/nikitaprasad21/ML-Cheat-Codes/blob/main/Voting-Ensemble/gradient_boosting_regressor.ipynb
 
   # Práctica 3: Stacking
-  - title: 
-  - type: video
+  - id: 3_vid_voting
+    type: video
     title: 1. Voting - Parte 1 URL
     authors:
     - Manuel Castillo-Cara
     url:
     - https://unedo365-my.sharepoint.com/:v:/g/personal/manuelcastillo_dia_uned_es/IQAmJCRXLdJ7TbJWsXPUg1USATC0-g0H-EZSVkhCeymfxTY
     - https://unedo365-my.sharepoint.com/:v:/g/personal/manuelcastillo_dia_uned_es/IQCcMQBaG8gzS6lxzv_pDpr6AVCdkHw8dWViaiP-0l1Q1Ls
-  - title: 2. Weighted Average - Parte 1 URL
+  - id: 3_vid_wa
+    title: 2. Weighted Average - Parte 1 URL
     url:
     - https://agora.uned.es/mod/url/view.php?id=704457
     - https://agora.uned.es/mod/url/view.php?id=704458
     - https://agora.uned.es/mod/url/view.php?id=704459
-  - title: 3. Seleccion Miembros Conjunto
+  - id: 3_vid_smc
+    title: 3. Seleccion Miembros Conjunto
     url:
     - https://agora.uned.es/mod/url/view.php?id=704460
     - https://agora.uned.es/mod/url/view.php?id=704461
     - https://agora.uned.es/mod/url/view.php?id=704462
-  - title: 4. Stacking
+  - id: 3_vid_stacking
+    title: 4. Stacking
     url:
     - https://agora.uned.es/mod/url/view.php?id=704463
     - https://agora.uned.es/mod/url/view.php?id=704464
-  - title: 5. Bleding
+  - id: 3_vid_blending
+    title: 5. Blending
     url:
     - https://agora.uned.es/mod/url/view.php?id=704465
     - https://agora.uned.es/mod/url/view.php?id=704466
-  - title: 6. Super Learner - Teoría
+  - id: 3_vid_sl
+    title: 6. Super Learner - Teoría
     url: https://agora.uned.es/mod/url/view.php?id=704467
-  - title: 6.1. Super Learner - Práctica URL
-  - type: video
-    title: 6.2. Super Learner - Dataset real 
+  - id: 3_vid_slp
+    type: video
+    title: 6.1. Super Learner - Práctica
+  - id: 3_vid_sldr
+    type: video
+    title: 6.2. Super Learner - Dataset real
     url: https://agora.uned.es/mod/url/view.php?id=704469
-  - type: website
+  - id: 3_web_scss
+    type: website
     title: "StackingClassifier: Simple stacking"
     url: https://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier/
-  - title: Algoritmos ensamblados
+  - id: 3_vid_ae
+    title: Algoritmos ensamblados
     url: https://www.cs.us.es/~fsancho/?e=106
   - id: sl
     type: article
@@ -251,42 +293,62 @@ study_materials:
     - Mark J. van der Laan
 
   # Práctica 4: Aprendizaje no supervisado
-  - 8. Aprendizaje No Supervisado [Presentación]
-  - 8. Aprendizaje No Supervisado [Apuntes]
-  - 8.2. PCA
-  - type: video
-    title: 8.1. Aprendizaje No Supervisado - Teoría URL
+  - id: 4_slides_ans
+    type: slideshow
+    title: 8. Aprendizaje No Supervisado [Presentación]
+  - id: 4_notes_ans
+    type: notes
+    title: 8. Aprendizaje No Supervisado [Apuntes]
+  - id: 4_slides_pca
+    type: slideshow
+    title: 8.2. PCA
+  - id: 4_vid_ans
+    type: video
+    title: 8.1. Aprendizaje No Supervisado - Teoría
     url: https://agora.uned.es/mod/url/view.php?id=704483
-  - type: video
+  - id: 4_vid_ac
+    type: video
     title: 8.2. Algoritmos clustering
     url:
     - https://agora.uned.es/mod/url/view.php?id=704484
     - https://agora.uned.es/mod/url/view.php?id=704485
-  - title: 8.4. Implementacion Algoritmos clustering
+  - id: 4_vid_iac
+    title: 8.4. Implementacion Algoritmos clustering
     url:
     - https://agora.uned.es/mod/url/view.php?id=704486
     - https://agora.uned.es/mod/url/view.php?id=704487
-  - title: 8.6. k-Means
+  - id: 4_vid_km
+    title: 8.6. k-Means
     url: https://agora.uned.es/mod/url/view.php?id=704488
-  - title: 8.7. Clustering Jerarquico
+  - id: 4_vid_cj
+    title: 8.7. Clustering Jerarquico
     url: https://agora.uned.es/mod/url/view.php?id=704489
-  - title: 8.8. Metodos basado en densidad URL
+  - id: 4_vid_mbd
+    title: 8.8. Metodos basado en densidad
     url: https://agora.uned.es/mod/url/view.php?id=704490
-  - title: 8.9. Determinar clusters URL
+  - id: 4_vid_dc
+    title: 8.9. Determinar clusters
     url: https://agora.uned.es/mod/url/view.php?id=704491
-  - title: 8.10. Conjunto de datos URL
+  - id: 4_vid_cd
+    title: 8.10. Conjunto de datos
     url: https://agora.uned.es/mod/url/view.php?id=704492
-  - title: 8.11. Tecnicas para determinar clusters URL
+  - id: 4_vid_tdc
+    title: 8.11. Tecnicas para determinar clusters
     url: https://agora.uned.es/mod/url/view.php?id=704493
-  - title: 8.12. Agglomerative URL
+  - id: 4_vid_agglomerative
+    title: 8.12. Agglomerative
     url: https://agora.uned.es/mod/url/view.php?id=704494
-  - title: 8.13. Implementación de k-Means URL
+  - id: 4_vid_ikm
+    title: 8.13. Implementación de k-Means URL
     url: https://agora.uned.es/mod/url/view.php?id=704495
-  - title: 8.14. Mean Shift URL
+  - id: 4_vid_ms
+    title: 8.14. Mean Shift
     url: https://agora.uned.es/mod/url/view.php?id=704496
-  - title: 8.15. Reglas de asociacion URL
+  - id: 4_vid_ra
+    title: 8.15. Reglas de asociacion
     url: https://agora.uned.es/mod/url/view.php?id=704497
-  - type: video
+  - id: 4_vid_aa
+    type: video
     title: 8.16. Algoritmo Apriori 
     url: https://agora.uned.es/mod/url/view.php?id=704498
   - type: website
@@ -317,264 +379,349 @@ study_materials:
     title: Algorimos de Clustering
 
 
-parts:
-- title: Teoría
-  units:
-  - id: 0
-    title: Modelos múltiples
+units:
+- id: 0
+  title: Modelos múltiples
+  sections:
+  - title: Introducción a los algoritmos ensembles
+    study_materials:
+    - id_ref: 0_slides_fae
+    - id_ref: 0_vid_iae
+  - title: De la Mezcla de expertos a los algoritmos ensembles
+    study_materials:
+    - id_ref: 0_vid_meae
+  - title: 1. One-vs-Rest y One-vs-One
+    study_materials:
+    - id_ref: 0_vid_ovrovo
+  - title: 2. Códigos de salida con corrección de errores
+    study_materials:
+    - id_ref: 0_vid_csce
+  - title: 3. Modelos de regresión de múltiples salidas
+    study_materials:
+    - id_ref: 0_vid_mrms
+  - title: 4. Selección de clasificador dinámico
+    study_materials:
+    - id_ref: 0_vid_scd
+  - title: 5. Selección dinámica de conjuntos
+    study_materials:
+    - id_ref: 0_vid_sdc
+  - title: Bagging, Boosting y Stacking
+    study_materials:
+    - id_ref: 1_slides_bbs
+    - id_ref: 1_vid_bbs
+- id: 1
+  title: Bosques aleatorios
+  sections:
+  - id: 1.1
+    title: Descomposición en sesgo/varianza
     sections:
-    - title: Introducción a los algoritmos ensembles
-    - title: De la Mezcla de expertos a los algoritmos ensembles
-    - title: 1. One-vs-Rest y One-vs-One
-    - title: 2. Códigos de salida con corrección de errores
-    - title: 3. Modelos de regresión de múltiples salidas
-    - title: 4. Selección de clasificador dinámico
-    - title: 5. Selección dinámica de conjuntos
-  - id: 1
+    - title: Error predicción esperado
+    tags:
+    - error-prediccion-esperado
+    study_materials:
+    - id_ref: isl
+      reference: 2.2.2
+    - id_ref: esl
+      reference: 7.1-7.3
+      pags: 219-228
+    - id_ref: urf
+      reference: Section 4.1 "Random forests"
+      pages: 55-60
+  - id: 1.2
+    title: El método bootstrap
+    tags:
+    - bootstrap
+    - bootstrapping
+    study_materials:
+    - id_ref: wib
+    - id_ref: isl
+      reference: Section 5.2
+  - id: 1.3
+    title: "Agregación de Bootstrap: Bagging"
+    tags: 
+      - boostrap-aggregating
+      - bagging
+    study_materials:
+    - id_ref: isl
+      reference: Section 8.2.1
+    - id_ref: esl
+      reference: Section 8.7
+      pages: 282-288
+    - id_ref: esl
+      reference: Section 8.7.1
+    - id_ref: 1_slides_bbs
+      reference: Apartados Método Bootstrap y Bootstrap Aggregation
+    - id_ref: 1_vid_bagging
+    sections:
+    - title: Error OOB
+      tags: 
+      - error-oob
+    - title: Random Subspace
+      study_materials:
+      - id_ref: 1_vid_rs
+    - title: Feature Selection Subspace
+      study_materials:
+      - id_ref: 1_vid_fss
+  - id: 1.4
     title: Bosques aleatorios
+    tags: 
+    - bosque-aleatorio
+    - random-forest
+    study_materials:
+    - id_ref: 1_vid_rf
     sections:
-    - id: 1.1
-      title: Descomposición en sesgo/varianza
-      sections:
-      - title: Error predicción esperado
-      tags:
-      - error-prediccion-esperado
+    - title: ExtraTrees
       study_materials:
-      - id_ref: isl
-        reference: 2.2.2
-      - id_ref: esl
-        reference: 7.1-7.3
-        pags: 219-228
-      - id_ref: urf
-        reference: Section 4.1 "Random forests"
-        pages: 55-60
-    - id: 1.2
-      title: El método bootstrap
-      tags:
-      - bootstrap
-      - bootstrapping
+      - id_ref: 1_vid_et
+    - title: Data Transform Bagging
       study_materials:
-      - id_ref: wib
-      - id_ref: isl
-        reference: Section 5.2
-    - id: 1.3
-      title: "Agregación de Bootstrap: Bagging"
-      tags: 
-        - bagging
-      sections:
-      - title: Error OOB
-        tags: 
-        - error-oob
-      study_materials:
-      - id_ref: isl
-        reference: Section 8.2.1
-      - id_ref: esl
-        reference: Section 8.7
-        pages: 282-288
-      - id_ref: esl
-        reference: Section 8.7.1
-    - id: 1.4
-      title: Bosques aleatorios
-      tags: 
-      - bosque-aleatorio
-  - id: 2
-    title: Intensificación (anteriormente, potenciación ("Boosting") y árboles aditivos)
+      - id_ref: 1_vid_dtb
+- id: 2
+  title: Intensificación (anteriormente, potenciación ("Boosting") y árboles aditivos)
+  sections:
+  - id: 2.1
+    title: Introducción
+    study_materials:
+    - id_ref: isl
+      reference: Apartado 8.2.3
+    - id_ref: 1_slides_bbs
+      reference: Apartado Boosting
+  - id: 2.2
+    title: AdaBoost
+    tags:
+    - adaboost
+    study_materials:
+    - id_ref: bfa
+      reference: 1.2
+      pages: 4-7
+    - id_ref: bfa
+      reference: 1.2.1
+      pages: 7-11
+    - id_ref: BFA
+      reference: 1.2.3
+      pages: 11-14
+    - id_ref: 2_vid_adaboost
+  - id: 2.3
+    title: Intensificación de gradiente
+    tags: intensificacion-gradiente
+    study_materials:
+    - id_ref: esl
+      reference: 10.9 Boosting trees
+      pages: 353-358
+    - id_ref: esl
+      reference: 10.10 Numerical Optimization via Gradient Boosting
+      pages: 358-361
+    - id_ref: esl
+      reference: 10.13 Interpretation
+      pages: 367-370
+    - id_ref: esl
+      reference: 10.14 Illustrations
+      pages: 370-380
+    - id_ref: 2_vid_gb
+  - id: 2.4
+    title: Implementaciones de intensificación de gradientes
     sections:
-    - id: 2.1
+    - title: XGBoost
+      tags:
+      - xgboost
+    study_materials:
+    - id_ref: 2_vid_xgb
+    - title: GBM
+    - title: 
+    - title: LightGBM
+      tags:
+      - lightgbm
+      id_ref: 2_vid_lgbm
+    - title: CATBoost
+  - id: 2.5
+    title: Prácticas de programación de intensificación
+    study_materials:
+    - id: pmlh20
+      details: Capítulo 6 "Gradient Boosting Machines"
+- id: 3
+  title: Otras combinaciones de modelos (anteriormente, aprendizaje conjunto)
+  sections:
+    - id: 3.1
       title: Introducción
       study_materials:
-      - id_ref: isl
-        reference: Apartado 8.2.3
-    - id: 2.2
-      title: AdaBoost
-      tags:
-      - adaboost
-      study_materials:
-      - id_ref: bfa
-        reference: 1.2
-        pages: 4-7
-      - id_ref: bfa
-        reference: 1.2.1
-        pages: 7-11
-      - id_ref: BFA
-        reference: 1.2.3
-        pages: 11-14
-    - id: 2.3
-      title: Intensificación de gradiente
-      tags: intensificacion-gradiente
-      study_materials:
-      - id_ref: esl
-        reference: 10.9 Boosting trees
-        pages: 353-358
-      - id_ref: esl
-        reference: 10.10 Numerical Optimization via Gradient Boosting
-        pages: 358-361
-      - id_ref: esl
-        reference: 10.13 Interpretation
-        pages: 367-370
-      - id_ref: esl
-        reference: 10.14 Illustrations
-        pages: 370-380
-    - id: 2.4
-      title: Implementaciones de intensificación de gradientes
+      - id_ref: cct
+        reference: Introducción
+    - id: 3.2
+      title: Marco general para la combinación de clasificadores
       sections:
-      - title: XGBoost
+      - title: Combinación clasificadores
         tags:
-        - xgboost
-      - title: GBM
-      - title: 
-      - title: LightGBM
-        tags:
-        - lightgbm
-      - title: CATBoost
-    - id: 2.5
-      title: Prácticas de programación de intensificación
+        - combinacion-clasificadores
       study_materials:
-      - id: pmlh20
-        details: Capítulo 6 "Gradient Boosting Machines"
-  - id: 3
-    title: Otras combinaciones de modelos (anteriormente, aprendizaje conjunto)
-    sections:
-      - id: 3.1
-        title: Introducción
-        study_materials:
-        - id_ref: cct
-          reference: Introducción
-      - id: 3.2
-        title: Marco general para la combinación de clasificadores
-        sections:
-        - title: Combinación clasificadores
-          tags:
-          - combinacion-clasificadores
-        study_materials:
-        - id_ref: cct
-          reference: Sección II
-      - id: 3.3
-        title: Estrategias para la combinación de clasificadores
-        study_materials:
-        - id_ref: cct
-          reference: Sección III
-          mandatory: false
-        - id_ref: ccs
-          mandatory: false
-        sections:
-        - title: Apilamiento
-          tags:
-          - apilamiento
-          - stacking
-        - title: Votación
-          tags:
-          - votacion
-          - voting
-        - title: Selección
-          tags:
-          - seleccion
-  - id: 4
-    title: Aprendizaje no supervisado
-    sections:
-    - id: 4.1
-      title: "Introducción al aprendizaje no supervisado"
+      - id_ref: cct
+        reference: Sección II
+    - id: 3.3
+      title: Estrategias para la combinación de clasificadores
       study_materials:
-      - id_ref: esl
-        reference: 14.1
-        pages: 485-487
-    - id: 4.2
-      title: Análisis de grupos
-      study_materials:
-      - id_ref: esl
-        reference: 14.3
-        pages: 501-527
-      tags:
-      - agrupamiento
-      - clustering
+      - id_ref: cct
+        reference: Sección III
+        mandatory: false
+      - id_ref: ccs
+        mandatory: false
       sections:
-      - title: Clasificación no supervisada
+      - title: Votación
         tags:
-        - clasificacion-no-supervisada
+        - votacion
+        - voting
+        study_materials:
+        - id_ref: 3_vid_voting
+      - title: Weighted average
+        study_materials:
+        - id_ref: 3_vid_wa
+      - title: Selección Miembros Conjunto
+        tags:
+        - seleccion
+        study_materials:
+        - id_ref: 3_vid_smc
+      - title: Apilamiento
+        tags:
+        - apilamiento
+        - stacking
+        study_materials:
+        - id_ref: 1_slides_bbs
+          reference: Apartado Stacking
+          mandatory: true
+        - id_ref: 3_vid_stacking
+          mandatory: true
+        - id_ref: 3_web_scss
+          mandatory: false
+      - title: Blending
+        study_materials:
+        - id: 3_vid_blending
+      - title: Super Learner
+        study_materials:
+        - id: 3_vid_sl
+        - id: 3_vid_slp
+        - id: 3_vid_sldr
+- id: 4
+  title: Aprendizaje no supervisado
+  sections:
+  - id: 4.1
+    title: "Introducción al aprendizaje no supervisado"
+    study_materials:
+    - id_ref: esl
+      reference: 14.1
+      pages: 485-487
+    - id_ref: 4_slides_ans
+    - id_ref: 4_notes_ans
+    - id_ref: 4_vid_ans
+    sections:
     - title: Análisis de componentes principales (PCA)
       tags: 
       - analisis-componentes-principales
       - pca
-    - id: 4.2
-      title: Combinación de las medidas de similitud en las diferentes dimensiones (atributos) que constituyen los patrones
-      sections:
-      - title: Agrupamiento datos ausentes
-        tags:
-        - agrupamiento-datos-ausentes
-      - title: Disimilitud
-        tags: 
-        - disimilitud
-        - disimilitud-confenetica
-    - id: 4.3
-      title: Métodos simples y clásicos de clasificación no supervisada
-      sections:
-      - title: Agrupamiento combinatorio
-        tags:
-        - agrupamiento-combinatorio
-      - title: K-medias
-        tags: 
-        - k-medias
-        - k-means
-      - title: 
-      - title: Agrupamiento mezclas gaussianas
-        tags:
-        - agrupamiento-mezclas-gaussianas
-      - title: Cuantización de vectores
-      - title: K-medioids
-      - tags:
-        - k-medioids
-      - title: Agrupamiento jerárquico
-        sections:
-        - title: Agrupamiento jerárquico aglomerativo
-          tags:
-          - agrupamiento-aglomerativo
-          - agrupamiento-jerarquico-aglomerativo
-          - clustering-jerarquico-aglomerativo
-        - title: Agrupamiento jerárquico divisivo
-          tags:
-          - agrupamiento-divisivo
-          - agrupamiento-jerarquico-divisivo
-          - clustering-jerarquico-divisivo
-          sections: 
-          - title: Encadenamiento
-            tags:
-            - encadenamiento
-            - chaining
-      - title: Agrupamiento basados en densidad
-        tags:
-        - agrupamiento-basado-densidad
-        sections:
-        - title: DBSCAN
-          tags: 
-          - dbscan
-    - id: 4.4
-      title: Taxonomía de medidas de evaluación de agrupamientos
       study_materials:
-      - id_ref: emul
-      sections:
-      - title: Estimación número grupos
-        tags:
-        - estimacion-numero-grupos
-      - title: Índice Hartigan
-        tags:
-        - indice-hartigan
-      - title: Índice Dunn
-        tags:
-        - indice-dunn
-      - title: Coeficiente silhouette
-        tags:
-        - coeficiente-silhouette
-- title: Práctica
-  units:
-  - id: P.0
-    title: Modelos Múltiples
+      - id_ref: 4_slides_pca
+  - id: 4.2
+    title: Análisis de grupos
+    tags:
+    - agrupamiento
+    - clustering
     study_materials:
-    - 
-  - id: P.1
-    title: Bagging
-  - id: P.2
-    title: Boosting
-  - id: P.3
-    title: Stacking
-  - id: P.4
-    title: Aprendizaje No Supervisado
+    - id_ref: esl
+      reference: 14.3
+      pages: 501-527
+    - id_ref: 4_vid_ac
+    - id_ref: 4_vid_iac
+    sections:
+    - title: Clasificación no supervisada
+      tags:
+      - clasificacion-no-supervisada
+  - id: 4.3
+    title: Combinación de las medidas de similitud en las diferentes dimensiones (atributos) que constituyen los patrones
+    sections:
+    - title: Agrupamiento datos ausentes
+      tags:
+      - agrupamiento-datos-ausentes
+    - title: Disimilitud
+      tags: 
+      - disimilitud
+      - disimilitud-confenetica
+  - id: 4.4
+    title: Métodos simples y clásicos de clasificación no supervisada
+    sections:
+    - title: Agrupamiento combinatorio
+      tags:
+      - agrupamiento-combinatorio
+    - title: K-medias
+      tags: 
+      - k-medias
+      - k-means
+      study_materials:
+      - id_ref: 4_vid_km
+      - id_ref: 4_vid_ikm
+    - title: Agrupamiento mezclas gaussianas
+      tags:
+      - agrupamiento-mezclas-gaussianas
+    - title: Cuantización de vectores
+    - title: K-medioids
+    - tags:
+      - k-medioids
+    - title: Agrupamiento jerárquico
+      study_materials:
+      - id_ref: 4_vid_cj
+      sections:
+      - title: Agrupamiento jerárquico aglomerativo
+        tags:
+        - agrupamiento-aglomerativo
+        - agrupamiento-jerarquico-aglomerativo
+        - clustering-jerarquico-aglomerativo
+        study_materials:
+        - id: 4_vid_agglomerative
+      - title: Agrupamiento jerárquico divisivo
+        tags:
+        - agrupamiento-divisivo
+        - agrupamiento-jerarquico-divisivo
+        - clustering-jerarquico-divisivo
+        sections: 
+        - title: Encadenamiento
+          tags:
+          - encadenamiento
+          - chaining
+    - title: Agrupamiento basados en densidad
+      tags:
+      - agrupamiento-basado-densidad
+      study_materials:
+      - id_ref: 4_vid_mbd
+      sections:
+      - title: DBSCAN
+        tags: 
+        - dbscan
+      - title: Mean Shift
+        tags:
+        - mean-shift
+        study_materials:
+        - id_ref: 4_vid_ms
+  - id: 4.5
+    title: Taxonomía de medidas de evaluación de agrupamientos
+    study_materials:
+    - id_ref: emul
+    sections:
+    - title: Determinar clusters
+      tags:
+      - estimacion-numero-grupos
+      study_materials:
+      - id_ref: 4_vid_dc
+      - id_ref: 4_vid_cd
+      - id_ref: 4_vid_tdc
+    - title: Índice Hartigan
+      tags:
+      - indice-hartigan
+    - title: Índice Dunn
+      tags:
+      - indice-dunn
+    - title: Coeficiente silhouette
+      tags:
+      - coeficiente-silhouette
+  - title: 8.15. Reglas de asociacion
+    study_materials:
+    - id_ref: 4_vid_ra
+    sections:
+    - title: Algoritmo a priori
+      study_materials:
+      - id_ref: 4_vid_aa
