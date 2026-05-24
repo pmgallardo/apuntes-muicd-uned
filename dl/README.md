@@ -10,7 +10,20 @@ En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de De
 
 Para más información, consulta la [ficha oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110111&codTitulacion=311001&idContenido=1).
 
-## Exámen
+## Prerrequisitos
+
+Según la guía de la asignatura, la asignatura require haber estudiado/estar estudiando las siguientes asignaturas:
+
+- Modelado Estadístico de Datos ([MED](../med/))
+- Programación en Entornos de Datos ([PED](../ped/))
+- Aprendizaje Automático I ([AAI](../aai/))
+- Infraestructuras Computacionales para el Procesamiento de Datos Masivos ([ICPDM](../icpdm/))
+
+Según algunos alumnos que la cursaron, la última no sería un requisito necesario.
+
+## Evaluación
+
+### Exámen
 
 Desde el curso 2023/2024 consta de 4 preguntas de desarrollo.
 
