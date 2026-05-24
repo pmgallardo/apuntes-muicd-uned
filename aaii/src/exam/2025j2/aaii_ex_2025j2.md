@@ -74,9 +74,7 @@ La respuesta correcta es **B**.
 Con pérdida cuadrática, boosting ajusta en cada iteración los **residuos** de la predicción anterior, equivalentes al **gradiente negativo** de la pérdida:
 
 $$
-
-r_i^{(m)} = y_i - \hat f^{(m-1)}(x_i)
-
+r_i^{(m)} = y_i - \hat{f}^{(m-1)}(x_i)
 $$
 
 ## AAII.EX.2025J2.4

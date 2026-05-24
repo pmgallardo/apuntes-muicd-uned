@@ -81,9 +81,7 @@ La respuesta correcta es **C**.
 La asunción de aprendizaje débil requiere que cada clasificador sea mejor que azar:
 
 $$
-
 \varepsilon < 0.5 - \gamma
-
 $$
 
 con $\gamma > 0$.
@@ -155,11 +153,7 @@ La respuesta correcta es **B**.
 El índice de Dunn se define como:
 
 $$
-
-D
-= \frac{\min\limits_{k \neq \ell} \ \delta(C_k, C_\ell)}
-{\max\limits_{m} \ \Delta(C_m)}
-
+D = \frac{\min\limits_{k \neq \ell} \delta(C_k, C_\ell)}{\max\limits_{m} \Delta(C_m)}
 $$
 
 donde el numerador mide separación entre grupos (p. ej., distancia mínima entre pares de grupos distintos) y el denominador mide el diámetro intra-grupo (p. ej., distancia máxima dentro de un grupo).
