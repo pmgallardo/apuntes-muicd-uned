@@ -55,15 +55,9 @@ graph LR
    AAI --> MDMS(Minería de Datos de los Medios Sociales)
    AAI --> DL(Deep Learning)
    SGD[Seguridad de la Gestión de Datos]
-   GAINE[Gestión/Almacenamiento de Información no Estructurada] --> TFM[Trabajo Fin de Máster]
-   ICPDM[Infraestructuras Computacionales para procesamiento de datos masivos] --> TFM
-   AAII --> TFM
-   MT --> AAII
-   VD --> TFM
-   DL -.-> TFM
-   MBJ -.-> TFM
-   MDMS -.-> TFM
-   SGD -.-> TFM
+   GAINE[Gestión/Almacenamiento de Información no Estructurada]
+   ICPDM[Infraestructuras Computacionales para Procesamiento de Datos Masivos]
+   TFM[Trabajo Fin de Máster]
 
   classDef obligatoria fill:#bfdbfe,color:#1e3a8a,stroke:#60a5fa,stroke-width:2px;
   classDef optativa fill:#eff6ff,color:#1e3a8a,stroke:#93c5fd,stroke-width:2px,stroke-dasharray: 4 4;
