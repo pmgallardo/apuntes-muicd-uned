@@ -42,25 +42,19 @@ En resumen:
 
 ### Dependencias de asignaturas
 
-Diagrama de **dependencias entre asignaturas** del MUICD:
+Diagrama de **dependencias entre asignaturas** del MUICD, de acuerdo a las opiniones de los alumnos:
 
 ```mermaid
 graph LR
-   MED[Modelado estadístico de datos] --> AAI[Aprendizaje automático 1]
-   MED --> MBJ[Modelos bayesianos jerárquicos]
-   PED[Programación en Entornos de Datos] --> 31110041[Minería de textos]
+   MED[Modelado Estadístico de Datos] --> AAI[Aprendizaje Automático 1]
+   MED --> MBJ[Modelos Bayesianos Jerárquicos]
+   PED[Programación en Entornos de Datos] --> MT[Minería de Textos]
    PED --> AAI
-   PED --> VD[Visualización de datos]
-   PED --> MDMS[Minería de datos de los medios sociales]
-   GAINE[Gestión/Almacenamiento de información no estructurada] --> VD
-   ICPDM[Infraestructuras computacionales para procesamiento de datos masivos] --> VD
+   PED --> VD[Visualización de Datos]
    AAI --> AAII[Aprendizaje Automático 2]
-   AAI --> MDMS
+   AAI --> MDMS[Minería de Datos de los Medios Sociales]
    AAI --> DL[Deep Learning]
-   ICPDM --> DL
 ```
-
-[Codificación de las dependencias en formato Mermaid](depedencias_asignaturas.mmd)
 
 ## Pruebas de evaluación continua
 
