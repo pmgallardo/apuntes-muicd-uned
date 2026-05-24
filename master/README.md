@@ -42,7 +42,7 @@ En resumen:
 
 ### Dependencias de asignaturas
 
-Diagrama de **dependencias entre asignaturas** del MUICD, de acuerdo a las opiniones de los alumnos:
+Diagrama de **dependencias entre asignaturas** del MUICD en función del contenido del temario, de acuerdo a las opiniones de los alumnos:
 
 ```mermaid
 graph LR
@@ -50,14 +50,19 @@ graph LR
    MED --> MBJ(Modelos Bayesianos Jerárquicos)
    PED[Programación en Entornos de Datos] --> MT[Minería de Textos]
    PED --> AAI
-   PED --> VD[Visualización de Datos]
    AAI --> AAII[Aprendizaje Automático 2]
    AAI --> MDMS(Minería de Datos de los Medios Sociales)
    AAI --> DL(Deep Learning)
-   SGD[Seguridad de la Gestión de Datos]
-   GAINE[Gestión/Almacenamiento de Información no Estructurada]
-   ICPDM[Infraestructuras Computacionales para Procesamiento de Datos Masivos]
-   TFM[Trabajo Fin de Máster]
+   AAI --> VD[Visualización de Datos]
+   AAII --> TFM[Trabajo Fin de Máster]
+   GAINE[Gestión/Almacenamiento de Información no Estructurada] --> TFM
+   DL --> TFM
+   ICPDM[Infraestructuras Computacionales para Procesamiento de Datos Masivos] --> TFM
+   MBJ --> TFM
+   MDMS --> TFM
+   MT --> TFM
+   SGD[Seguridad de la Gestión de Datos] --> TFM
+   VD --> TFM
 
   classDef obligatoria fill:#bfdbfe,color:#1e3a8a,stroke:#60a5fa,stroke-width:2px;
   classDef optativa fill:#eff6ff,color:#1e3a8a,stroke:#93c5fd,stroke-width:2px,stroke-dasharray: 4 4;
@@ -65,6 +70,8 @@ graph LR
   class DL,MBJ,MDMS,SGD optativa;
   class AAI,AAII,GAINE,ICPDM,MED,MT,PED,TFM,VD obligatoria;
 ```
+
+Adicionalmente, para poder presentar el Trabajo Fin de Máster es requisito haber superado todas las asignaturas en la convocatoria ordinaria de ese curso, o en cualquiera para cursos anteriores.
 
 ## Pruebas de evaluación continua
 
