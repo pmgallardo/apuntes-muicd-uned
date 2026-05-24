@@ -18,13 +18,15 @@ Según la guía de la asignatura, la asignatura require haber estudiado/estar es
 - Infraestructuras computacionales para procesamiento de datos masivos ([ICMP](../icpdm/))
 - Gestión/almacenamiento de datos no estructurados ([GAINE](../gaine/))
 
+Según algunos alumnos, solo la primera asignatura es requisito necesario para cursar la asignatura.
+
 ## Evaluación
 
 | Actividad evaluable | % nota sobre el total | % nota mínima act. |
-| - | - |
+| - | - | - |
 | Actividades voluntarias | 10 | 0 |
-| Prácticas informáticas | 60 | 50 |
-| Exámen | 30 | 40 |
+| Prácticas informáticas | 60 | 50 (5 sobre 10) |
+| Exámen | 30 | 40 (4 sobre 10) |
 
 La nota final para aprobar la asignatura es 5 puntos.
 
@@ -64,6 +66,8 @@ El exámen consta de 4 preguntas de desarrollo.
   - BELORKAR, Abha et al. Interactive data visualization with Python. Packt Publishing. ISBN 9781800201064.
   - JADVANI, Rushabh. Creating interactive web visualizations with Bokeh and Holoviews. Packt Publishing. ISBN 9781838554439.
   - JOLLY, Kevin. Hands-on Data Visualization with Bokeh. Packt Publishing. ISBN 9781789135404.
+  - MALAMED, Connie. Visual Design Solutions: Principles and Creative Inspiration for Learning Professionals. Wiley, 2015.
+  - GONNELLA, R., NAVETTA C., Friedman, M. [Design Fundamentals: Notes on Visual Elements and Principles of Composition](https://learning.oreilly.com/library/view/design-fundamentals-notes/9780133930290/). USA: Peachpit Press, 2015. ISBN: 9780133930290.
 
 ## Comunidades
 
