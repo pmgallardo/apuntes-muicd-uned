@@ -47,13 +47,29 @@ Diagrama de **dependencias entre asignaturas** del MUICD, de acuerdo a las opini
 ```mermaid
 graph LR
    MED[Modelado Estadístico de Datos] --> AAI[Aprendizaje Automático 1]
-   MED --> MBJ[Modelos Bayesianos Jerárquicos]
+   MED --> MBJ(Modelos Bayesianos Jerárquicos)
    PED[Programación en Entornos de Datos] --> MT[Minería de Textos]
    PED --> AAI
    PED --> VD[Visualización de Datos]
    AAI --> AAII[Aprendizaje Automático 2]
-   AAI --> MDMS[Minería de Datos de los Medios Sociales]
-   AAI --> DL[Deep Learning]
+   AAI --> MDMS(Minería de Datos de los Medios Sociales)
+   AAI --> DL(Deep Learning)
+   SGD[Seguridad de la Gestión de Datos]
+   GAINE[Gestión/Almacenamiento de Información no Estructurada] --> TFM[Trabajo Fin de Máster]
+   ICPDM[Infraestructuras Computacionales para procesamiento de datos masivos] --> TFM
+   AAII --> TFM
+   MT --> AAII
+   VD --> TFM
+   DL -.-> TFM
+   MBJ -.-> TFM
+   MDMS -.-> TFM
+   SGD -.-> TFM
+
+  classDef obligatoria fill:#bfdbfe,color:#1e3a8a,stroke:#60a5fa,stroke-width:2px;
+  classDef optativa fill:#eff6ff,color:#1e3a8a,stroke:#93c5fd,stroke-width:2px,stroke-dasharray: 4 4;
+    
+  class DL,MBJ,MDMS,SGD optativa;
+  class AAI,AAII,GAINE,ICPDM,MED,MT,PED,TFM,VD obligatoria;
 ```
 
 ## Pruebas de evaluación continua
