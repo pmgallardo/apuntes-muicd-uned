@@ -10,24 +10,36 @@ En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Se
 
 Para más información, consulta la [ficha oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110126&codTitulacion=311001&idContenido=1).
 
+## Prerrequisitos
+
+La [guía de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110126&codTitulacion=311001&idContenido=2) no indica que se requiera haber o estar cursando otras asignaturas como prerrequisito.
+
+No obstante, algunos alumnos aconsejan haber cursado la siguiente asignatura, si bien no es estrictamente necesario:
+
+- [ICPDM](../icpdm/): la práctica 1 consiste en aplicar un gateway de seguridad perimetral Apache Knox a una infraestructura big data compatible con Apache Hadoop.
+
 ## Evaluación
 
 | Actividad evaluable | % nota total | % nota mínima act. |
 | - | - | - |
-| Práctica de laboratorio 1 | 20 | 50 (5 sobre 10) |
-| Práctica de laboratorio 2 | 20 | 50 (5 sobre 10) |
+| Trabajo práctico 1 | 20 | 50 (5 sobre 10) |
+| Trabajo práctico 2 | 20 | 50 (5 sobre 10) |
 | Exámen | 60 | 50 (5 sobre 10) |
 
-Los enunciados y las notas de las prácticas de laboratorio se mantienen para la convocatoria de septiembre.
+Los trabajos prácticos son a veces referidos como prácticas de laboratorio, por ejemplo en la guía docente.
 
-### Práctica de laboratorio 1
+Hay además un PEC optativo asociado a cada tema, pero no puntúan para la asignatura.
+
+Los enunciados y las notas de los trabajos prácticos se mantienen para la convocatoria de septiembre.
+
+### Trabajo práctico  1
 
 % nota final: 20%
 % nota mínima: 50 (5 sobre 10)
 
-Dice la guía: “Se podrán entregar [las prácticas] además en la convocatoria extraordinaria, con la fecha que indique el equipo docente.
+Dice la guía: “Se podrán entregar [los trabajos] además en la convocatoria extraordinaria, con la fecha que indique el equipo docente.
 
-### Práctica de laboratorio 2
+### Trabajo práctico 2
 
 % nota final: 20%  
 % nota mínima: 50 (5 sobre 10)
