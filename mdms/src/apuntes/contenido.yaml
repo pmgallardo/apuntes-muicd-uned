@@ -79,86 +79,359 @@ reading_sources:
     isbn: 9781139088510
 units:
 - id: 1
-  title: Herramientas y métodos de extracción de información en redes sociales
+  title: Teorías sociales en la minería social
+  # title: Herramientas y métodos de extracción de información en redes sociales
   reading_sources:
     - id: mdms1
       required: true
     - id: trs
       required: true
+    - sections:
+      - title: Retos de la minería en los medios sociales
+        sections:
+        - title: Paradoja del Big Data
+          reading_sources:
+          - id: mdms1
+            page_range: 2
+        - title: Muestreo suficiente
+          reading_sources:
+          - id: mdms1
+            page_range: 2
+        - title: Engaño de la eliminación del ruido
+          reading_sources:
+          - id: mdms1
+            page_range: 2
+        - title: Dilema de la evaluación
+          tags:
+          - dilema-evaluacion
+          reading_sources:
+          - id: mdms1
+            page_range: 3
+      - title: Características de los datos en medios sociales
+        reading_sources:
+          - id: mdms1
+            page_range: 3
+      - title: Teorías sociales en los medios sociales
+        sections:
+        - title: Teoría de correlación social
+          tags:
+          - teoria-correlacion-social
+          reading_sources:
+          - id: mdms1
+            page_range: 4
+        - title: Teoría del balance
+          tags:
+          - teoria-balance
+          reading_sources:
+          - id: mdms1
+            page_range: 4
+        - title: Teoría del estatus
+          tags:
+          - teoria-estatus
+          reading_sources:
+          - id: mdms1
+            page_range: 4
+    - sections:
+      - title: Teorías sociales en las tareas de minería
+        reading_sources:
+        - id: mdms1
+          page_range: 5-6
+        sections:
+        - title: Usuarios
+          tags:
+          - usuario
+          sections:
+          - title: Detección de comunidades (básico)
+            tags:
+            - deteccion-comunidades-basico
+            page_range: 5
+          - title: Clasificación de usuarios
+          - title: Detección de spammers sociales
+        - title: Relaciones
+          tags:
+          - relacion
+          sections:
+          - title: Predicción de enlaces
+        - title: Contenidos
+          tags:
+          - contenido
+          sections:
+          - title: Recomendación social
 - id: 2
   title: Análisis y visualización de redes sociales estáticas y dinámicas
   sections:
+    # Teorías sociales en la minería social.
+    # Retos de la minería de los medios sociales.
+    # Hacer minería en los medios sociales.
+    # Teorías sociales en los medios sociales.
+    # Teoría sociales en las tareas de minería.
+    # Adquisición de datos en la web social.
+    # Ejemplos de aplicaciones.
+    # Herramientas de análisis.
+    # Gephi
   - title: Introducción
     reading_sources:
     - id: mdms2
       required: true
-  - title: Conceptos básicos
+  - title: Conceptos básicos de grafos
     reading_sources:
     - id: mdms2
-      required: true
-  - title: Métricas básicas
-    reading_sources:
-    - id: mdms2
-      required: true
-  - title: Métricas estáticas
-    reading_sources:
-    - id: snata
       required: true
     sections:
-    - title: Medidas estadísticas a nivel de red
-    - title: Medidas estadísticas a nivel del nodo
-    - title: Medidas estadísticas a nivel de enlace
+    - title: Representación de grafos
+      tags:
+      - representacion-grafos
+      sections:
+      - title: Propiedades de representación de grafos )
+        tags:
+        - propiedades-representacion-grafos
+      - title: Tipos de representación de grafos )
+        tags:
+        - tipos-representacion-grafos
+        sections:
+        - title: Matriz de proximidad )
+        - title: Lista de proximidad )
+        - title: Lista de aristas )
+    - title: Tipos de grafos )
+      tags:
+      - tipos-grafos
+      sections:
+      - title: Grafo nulo )
+        tags:
+        - grafo-nulo
+      - title: Grafo vacío )
+        tags:
+        - grafo-vacio
+      - title: Grafo dirigido )
+      - title: Grafo no dirigido )
+      - title: Grafo mixto )
+      - title: Grafo con peso )
+  - title: Grafos en matemáticas )
+    reading_sources:
+    - id: snata
+      sections:
+      - title: Matriz de adyacencia )
+        tags: matriz-adyacencia
+        reading_sources:
+        - id: snata
+          section_title: Adjacency Matrix
+          page_range: 93-95
+        - id: ensnamt
+          section_title: 3.1. Models of temporal representation
+          page_range: 106-107
+  - title: Métricas básicas de grafos
+    tags:
+    - metricas-basicas-grafos
+    reading_sources:
+    - id: mdms2
+      required: true
+      sections:
+      - title: Centralidad )
+        reading_sources:
+        - id: mdms2
+          page_range: 4-5
+        sections:
+        - title: Centralidad de grado )
+          reading_sources:
+          - id: mdms2
+            page_range: 4
+        - title: Cercanía )
+          reading_sources:
+          - id: mdms2
+            page_range: 4
+        - title: Intermediación )
+          reading_sources:
+          - id: mdms2
+            page_range: 5
+        - title: Centralidad del vector propio )
+          reading_sources:
+          - id: mdms2
+            page_range: 5
+          - title: PageRank )
+            reading_sources:
+            - id: mdms2
+              page_range: 5
+        - title: HITS )
+          tags:
+          - hits
+          reading_sources:
+          - id: mdms2
+            page_range: 5
+      - title: Centralidad )
+      - title: Coeficiente de agrupamiento )
+    - title: Cohesión )
+      tags:
+      - cohesion
+    - title: Grado )
+    - title: Densidad )
+    - title: Puente local )
+    - title: Longitud de la trayectoria )
+    - title: Prestigio )
+    - title: Radialidad )
+    - title: Alcance )
+    - title: Cohesión estructural )
+    - title: Equivalencia estructural )
+    - title: Agujero )
+    - title: Transitividad )
+    - title: Coeficiente de clustering )
+    - title: Coeficiente local de clustering )
+    - title: Reciprocidad )
+    - title: Similitud )
+      tags:
+      - similitud
   - title: Definiciones y análisis de grafos
     reading_sources:
+    - id: mdms2
+      section_title: Conceptos básicos de los grafos
+      page_range: 2-4
     - id: snata
       required: true
   - title: Análisis de redes sociales
+    tags:
+    - analisis-redes-sociales
     reading_sources:
     - id: snao
   - title: Ego redes
     reading_sources:
     - id: snao
-  - title: Análisis de enlace
+  - title: Análisis de enlace (importante)
     reading_sources:
     - id: snao
-    sections:
-    - title: Predicción de nuevos enlaces
-      reading_sources:
-      - id: snao
-  - title: Detección de comunidades
+      section_title: 4. Link Analysis
+      page_range: 11-12
+  - title: Detección de comunidades (importante)
     reading_sources:
     - id: snata
+      required: true
+    - id: smmi
+      required: false
+      section_title: 6. Community Analysis
+      page_range: 175-216
+    - title: Modularidad )
+      tags:
+      - modularidad
+      reading_sources:
+      - id: smmi
+        required: false
+        section_title: Modular Communities
+        page_range: 93-94
   - title: Redes en evolución
     reading_sources:
     - id: snata
   - title: De lo estático a lo dinámico
+    tags:
+    - redes-dinamicas
     reading_sources:
     - id: ensnamt
+      section_title: 3. From static to evolving networks
+      page_range: 105-109
     sections:
-    - title: Modelos de representación
+    - title: Modelos de representación temporal
+      reading_sources:
+      - id: ensnamt
     - title: Escala temporal
-    - title: Metodología en la representación temporal
-    - title: Tipos
+      reading_sources:
+      - id: ensnamt
+        section_title: 3.2. Timescale of evolving networks
+        page_range: 107-108
+      tags:
+      - escala-temporal
+      - sections:
+        - title: Redes de transmisión lenta )
+          tags:
+          - slowly-evolving-networks
+          - redes-evolucion-lenta
+        - title: Redes de tranmisión rápida )
+          tags:
+          - streaming-networks
+          - redes-transmision
+    - title: Estrategias de enventanado de datos de grafos )
+      sections:
+      - title: Ventanas de puntos de referencia )
+      - title: Ventanas deslizantes )
+    - title: Tipos de análisis de redes dinámicas
+      reading_sources:
+      - id: ensnamt
+        section_title: 3.4. Types of evolving network analysis
+        page_range: 109-109
+        sections:
+        - title: Métodos de mantenimiento )
+        - title: Métodos de evolución analítica )
+        - title: Métodos puente )
   - title: Medidas elementales de la red
     reading_sources:
     - id: ensnamt
+      page_range: 109-117
+      section_title: 4. Elementary network measures
+      sections:
+      - title: Medidas estadísticas a nivel de red
+        sections:
+        - title: Edge bursts
+        - title: Fluctuability
+        - title: Volatibility
+        - title: Reachibility latency
+        - title: Temporal efficiency
+        - title: Diameter and radius
+        - title: Average geodesic distance
+        - title: Average degree
+        - title: Reciprocity
+        - title: Density
+        - title: Global clustering efficiency
+      - title: Medidas estadísticas a nivel de nodo
+        sections:
+        - title: Degree or valency
+        - title: Betweenness
+        - title: Closeness
+        - title: Eigenvector centrality
+        - title: Laplacian centrality
+        - title: Locality of Laplacian centrality
+        - title: Dynamic Laplace centrality
+      - title: Medidas estadísticas a nivel de enlace
+        sections:
+        - title: Common neighbors
+        - title: Coeficiente de Jaccard
+        - title: Adamic/Adar
+        - title: Preferential attachment
+        - title: Katz
   - title: Análisis del enlace (avanzado)
     reading_sources:
     - id: ensnamt
+      section_title: 5. Link analysis
+      page_range: 117-120
     sections:
     - title: Predicción de nuevos enlaces (avanzado)
+      reading_sources:
+      - id: ensnamt
+        section_title: 5.2. Link prediction
+        page_range: 119-120
   - title: Detección de comunidades (avanzado)
     reading_sources:
     - id: ensnamt
+      section_title: 6. Community detection
+      page_range: 120-
   - title: Visualización de redes en evolución
     reading_sources:
     - id: ensnamt
+      page_range: 119-120
 - id: 3
   title: Técnicas de minería de datos para redes sociales
   sections:
   - title: Introducción
     reading_sources:
     - id: mdms3
+      sections:
+      - title: Fases de la minería de datos )
+        reading_sources:
+        - id: mdms3
+          page_range: 1
+      - title: Calidad de los datos )
+        reading_sources:
+          - id: mdms3
+            page_range: 2
+        sections:
+        - title: Ruido )
+          tags:
+          - ruido
   - title: Proceso de minería de datos
     reading_sources:
     - id: mdms3
@@ -166,12 +439,39 @@ units:
     - title: Preprocesado de los datos
       reading_sources:
       - id: mdms3
+      sections:
+      - title: Agregación
+      - title: Discretización
+      - title: Normalización estadística
+      - title: Selección de atributos
+      - title: Extracción de atributos
+        tags:
+        - extraccion-atributos
+      - title: Muestreo
+        tags:
+        - muestreo
+      - title: Eliminación de instancias con valores atípicos o erráticos
     - title: Algoritmos de aprendizaje automático
+      tags:
+      - algoritmos-aprendizaje-automatico
       reading_sources:
       - id: smmi
       sections:
       - title: Algoritmos de aprendizaje supervisado
+        tags:
+        - algoritmos-aprendizaje-supervisado
+        sections:
+        - title: De valor discreto )
+          tags: algoritmos-aprendizaje-supervisado-valor-discreto
+        - title: De valor continuo )
+          tags: algoritmos-aprendizaje-supervisado-valor-continuo
       - title: Algoritmos de aprendizaje no supervisado
+        tags: algoritmos-aprendizaje-no-supervisado
+        sections:
+        - title: Clustering )
+          tags:
+          - clustering
+          - agrupamiento
     - title: Aplicaciones
       reading_sources:
       - id: smmi
