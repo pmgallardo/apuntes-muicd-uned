@@ -6,6 +6,7 @@ path = [
   # Data files
   "**/*.csv", 
   # Office documents
+  "**/*.txt", 
   "**/*.doc", 
   "**/*.docx", 
   "**/*.pdf",
@@ -16,9 +17,10 @@ path = [
   "**/*.jpeg",
   "**/*.jpg",
   "**/*.png",
+  # Compressed files
 ]
 precedence = "aggregate"
-SPDX-FileCopyrightText = "2016 Colaboradores de apuntes_muicd_uned"
+SPDX-FileCopyrightText = "2026 Colaboradores de apuntes_muicd_uned"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 # Source codes and notebooks that do not accept embedded license annotations
@@ -27,5 +29,5 @@ path = [
   "**/*.ipynb"
 ]
 precedence = "aggregate"
-SPDX-FileCopyrightText = "2016 Colaboradores de apuntes_muicd_uned"
+SPDX-FileCopyrightText = "2026 Colaboradores de apuntes_muicd_uned"
 SPDX-License-Identifier = "MIT"
