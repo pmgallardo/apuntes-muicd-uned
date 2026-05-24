@@ -56,12 +56,12 @@ En regresión, el error esperado de predicción puede expresarse como…
 
 - A. la suma de sesgo y varianza.
 - B. la suma de error irreducible, sesgo y varianza.
-- C. la combinación de error irreducible, sesgo y varianza.
+- C. la combinación del error irreducible, el cuadrado del sesgo y la varianza.
 - D. la suma de sesgo y el cuadrado de la varianza.
 
 ### Solución AAII.EX.2022SO.3
 
-La respuesta correcta es **B**.
+La respuesta correcta es **C**.
 
 En regresión, el error de predicción esperado se descompone como:
 

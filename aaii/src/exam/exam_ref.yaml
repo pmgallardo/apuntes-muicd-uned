@@ -81,7 +81,7 @@ exercise_collection:
     - intensificacion-gradiente
   - id: AAII.EX.2023J2.5
     tags:
-    - intensificacion-gradiente
+    - boosting
   - id: AAII.EX.2023J2.6
     tags:
     - indice-hartigan
@@ -104,7 +104,7 @@ exercise_collection:
     - bosque-aleatorio
   - id: AAII.EX.2023SO.3
     tags:
-    - intensificacion-gradiente
+    - boosting
   - id: AAII.EX.2023SO.4
     equivalent: AAII.EX.2023J2.4
   - id: AAII.EX.2023SO.5
@@ -129,10 +129,12 @@ exercise_collection:
   - id: AAII.EX.2024J2.2
     tags:
     - bosque-aleatorio
+    - error-oob
   - id: AAII.EX.2024J2.3
     tags:
     - intensificacion-gradiente
   - id: AAII.EX.2024J2.4
+    equivalent: AAII.EX.2022J2.5
     tags:
     - intensificacion-gradiente
   - id: AAII.EX.2024J2.5
@@ -143,7 +145,7 @@ exercise_collection:
     - combinacion-clasificadores
   - id: AAII.EX.2024J2.7
     tags:
-    - combinatoria-agrupamiento
+    - agrupamiento-combinatorio
   - id: AAII.EX.2024J2.8
     tags:
     - coeficiente-silhouette
@@ -172,7 +174,8 @@ exercise_collection:
   - id: AAII.EX.2024SO.7
     equivalent: AAII.EX.2022SO.7
   - id: AAII.EX.2024SO.8
-    equivalent: AAII.EX.2022J2.7
+    tags:
+    - k-medias
   - id: AAII.EX.2024SO.9
     tags:
     - agrupamiento
@@ -189,13 +192,13 @@ exercise_collection:
     - bagging
   - id: AAII.EX.2025J2.3
     tags:
-    - boosting
+    - gradient-boosting
   - id: AAII.EX.2025J2.4
     tags:
     - bosque-aleatorio
   - id: AAII.EX.2025J2.5
     tags:
-    - combinacion-clasificadores
+    - apilamiento
   - id: AAII.EX.2025J2.6
     tags:
     - bosque-aleatorio
