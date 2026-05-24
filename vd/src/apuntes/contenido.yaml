@@ -42,8 +42,12 @@ units:
     sections:
     - id: 1.1.1
       title: Introducción a la visualización
-      tags:
-      - big-data
+      sections:
+      - title: Propiedades del big data
+        tags:
+        - big-data
+    - id: 1.1.2
+      title: Reto de la visualización
   - id: 1.2
     title: Definición de visualización para ingeniería de datos
     sections:
@@ -51,15 +55,25 @@ units:
       title: Definiendo la visualización
       tags:
       - elementos-visualizacion
+    - id: 1.2.2
+      title: Otras definiciones
   - id: 1.3
     title: Necesidad de la visualización de datos
   - id: 1.4
-    title: La visualización en el proceso de análisis de información
+    title: Visualización en el proceso de análisis de información
     sections:
     - id: 1.4.1
-      title: El proceso de análisis de información
+      title: Proceso de análisis de información
       tags:
       - fases-visualizacion
+    - id: 1.4.2
+      title: Creación de una visualización
+      tags:
+      - creacion-visualizacion
+      sections:
+      - title: Proceso para abordar una visualización
+        tags:
+        - proceso-abordar-visualizacion
     - id: 1.4.3
       title: Roles en el proceso de la visualización
       tags:
@@ -85,10 +99,53 @@ units:
       sections:
       - titulo: Cuantitativas
       - titulo: Discretas
-      - titulo: Nominat ivas
+      - titulo: Nominativas
       - titulo: Deterministas
       - titulo: Ordinales
       - titulo: Categóricas
+    - title: Estructuras formales de representación de datos
+      tags: estructuras-datos
+    - title: Conversión entre estructuras de datos
+  - id: 2.2.
+    title: Proceso de análisis de datos
+    tags:
+    - proceso-analisis-datos
+    sections:
+      - title: Preprocesado de datos
+        tags:
+        - preprocesado-datos
+        sections:
+        - id: 2.2.1
+          titulo: Limpieza de datos )
+          tags:
+          - limpieza-datos
+        - titulo: Filtrado/selección de variables y/o instancias )
+        - titulo: Transformación de variables )
+          tags:
+          - transformacion-variables
+      - title: Tareas de preprocesado
+        sections:
+        - title: Ordenación
+          tags:
+          - ordenacion
+        - title: Agrupación
+          tags:
+          - agrupacion
+          - dendograma
+        - title: Correlación
+          tags:
+          - correlacion
+        - title: Combinación de información
+          tags:
+          - combinacion-informacion
+        - title: Normalización
+          tags:
+          - normalizacion
+        - title: Escalado
+          tags:
+          - escalado
+      - title: Evaluación
+      - title: Mejora
   - id: 2.2
     title: "Representación gráfica: Elementos gráficos"
     sections:
@@ -96,6 +153,23 @@ units:
       title: Tareas de procesado
   - id: 2.3
     title: Canales de información gráfica
+    sections:
+      - title: Color
+        sections:
+        - title: Tono
+          tags:
+          - tono
+          - tonalidad
+        - title: Saturación
+          tags:
+          - saturacion
+        - title: Intensidad
+          tags:
+          - intensidad
+      - title: Tamaño/escala
+      - title: Forma
+      - title: Orientación
+      - title: Textura
   - id: 2.4
     title: Capacidades y limitaciones perceptuales humanas.
   - id: 2.5
@@ -108,13 +182,29 @@ units:
     sections:
     - id: 3.1.1
       title: Elementos gráficos y canales de información visual
-      tag:
-      - elementos-graficos
-      - canales-informacion-visual
-      - tono
+      sections:
+      - title: Elementos gráficos )
+        tags:
+        - elementos-graficos
+      - title: Canales de información visual )
+        tags:
+        - canales-informacion-visual
+        - tono
+      - title: Principios de Gestalt
+        tags:
+        - principios-gestalt
+        - gestalt
   - id: 3.2
-    title: Procedimiento de análisis y selección de la visualización más adecuada
+    title: Elección de la representación más adecuada. Visual mapping
   - id: 3.3
+    title: Del análisis visual a la comunicación visual. Storytelling
+    sections: 
+    - title: Principios de organización de una composición
+      tags:
+      - principios-organizacion-composicion
+      sections:
+    - title: Consejos de storytelling
+  - id: 3.4
     title: Preprocesamiento visual
   - id: 3.4
     title: Ejercicios
@@ -130,11 +220,29 @@ units:
       - objetivo-visualizacion
     - id: 4.1.2
       title: Método de selección de gráficos
-      tags:
-      - tipos-representaciones-visuales
+      sections:
+        - title: Tipos representaciones visuales )
+          tags:
+          - tipos-representaciones-visuales
+          sections:
+          - title: Comparación de categorías
+            tags:
+            - comparacion-categorias
+          - title: Jerarquías
+            tags:
+            - jerarquias
+          - title: Evolución a lo largo del tiempo
+            tags:
+            - evolucion-largo-tiempo
+          - title: Conexiones y relaciones
+            tags:
+            - conexiones-y-relaciones
+          - title: Mapas geoespaciales
+            tags:
+            - mapas-geoespaciales
   - id: 4.2
     title: Representación estática
-    tag:
+    tags:
     - tipos-graficos
     sections:
     - id: 4.2.1
@@ -147,7 +255,21 @@ units:
       tags:
       - grafico-barras-apiladas
     - id: 4.2.11
-      title: Visualización de textos
+    - title: Gráfico de líneas
+      tags:
+      - grafico-lineas
+    - title: Gráfico de área
+    - title: Gráfico circular
+    - title: Gráfico de dispersión
+    - title: Gráfico de burbujas
+    - title: Gráfico en cascada
+    - title: Mapa de calor
+      tags:
+      - mapa-calor
+    - title: Grafos
+      tags:
+      - grafos
+    - title: Visualización de textos
       tags:
       - nubes-palabras
   - id: 4.3
