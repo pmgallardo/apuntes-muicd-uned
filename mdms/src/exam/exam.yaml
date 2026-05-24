@@ -1,0 +1,157 @@
+title: Minería de datos de los medios sociales
+acronym: mdms
+exams:
+ - id: 2022j2
+   cuestiones:
+   - id: c.1
+     tags:
+     - teoria-estatus
+   - id: c.2
+     tags:
+     - algoritmos-aprendizaje-supervisado-valor-continuo
+   - id: c.3
+     tags:
+     - matriz-adyacencia
+   preguntas:
+   - id: p.1
+     apartados:
+     - id: p.1.1
+       tags:
+       - similitud
+     - id: p.1.2
+       tags:
+       - similitud
+     - id: p.1.3
+       tags:
+       - analisis-redes-sociales
+     - id: p.1.4
+       tags:
+       - algoritmos-aprendizaje-supervisado
+     - id: p.1.5
+       tags:
+       - algoritmos-aprendizaje-no-supervisado
+ - id: 2023j2
+   cuestiones:
+   - id: c.1
+     tags:
+     - deteccion-comunidades-basico
+   - id: c.2
+     tags:
+     - hits
+   - id: c.3
+     tags:
+     - ruido
+   preguntas:
+   - id: p.1
+     tags: 
+     - algoritmos-aprendizaje-supervisado
+     - algoritmos-aprendizaje-no-supervisado
+     - analisis-redes-sociales
+     - teoria-correlacion-social
+     - teoria-estatus
+ - id: 2023so
+   cuestiones:
+   - id: c.1
+     tags:
+     - dilema-evaluacion
+   - id: c.2
+     tags:
+     - centralidad
+   - id: c.3
+     tags:
+     - extraccion-atributos
+     - muestreo
+   preguntas:
+   - id: p.1
+     tags:
+     - analisis-redes-sociales
+     - cohesion
+ - id: 2024j2
+   cuestiones:
+   - id: c.1
+     tags:
+     - propiedades-representacion-grafos
+   - id: c.2
+     tags:
+     - ruido
+   - id: c.3
+     tags:
+     - escala-temporal
+   preguntas:
+   - id: 2024j2.p.1
+     apartados:
+     - id: 2024j2.p.1.1
+       tags:
+       - analisis-redes-sociales
+     - id: 2024j2.p.1.2
+       tags:
+       - metricas-basicas
+     - id: 2024j2.p.1.3
+       tags:
+       - algoritmos-aprendizaje-automatico
+ - id: 2024so
+   cuestiones:
+   - id: c.1
+     tags:
+     - hits
+   - id: c.2
+     tags:
+     - teoria-correlacion-social
+   - id: c.3
+     tags:
+     - algoritmos-aprendizaje-no-supervisado
+   preguntas:
+   - id: p.1
+     tags:
+     - analisis-redes-sociales
+     - metricas-basicas-grafos
+ - id: 2025j2
+   cuestiones:
+   - id: c.1
+     tags:
+     - teoria-estatus
+   - id: c.2
+     tags:
+     - deteccion-comunidades
+   - id: c.3
+     tags:
+     - grafo-nulo
+     - grafo-vacio
+   preguntas:
+   - id: p.1
+     apartados:
+     - id: 2024so.p.1.1.
+       tags:
+       - analisis-redes-sociales
+     - id: 2024so.p.1.2
+       tags:
+       - algoritmos-aprendizaje-automatico
+     - id: 2024so.p.1.3
+       tags:
+       - redes-dinamicas
+ - id: 2025so
+   cuestiones:
+   - id: c.1
+     tags:
+     - matriz-adyacencia
+   - id: c.2
+     tags:
+     - modularidad
+     - teoria-correlacion-social
+   - id: c.3
+   preguntas:
+   - id: p.1
+     apartados:
+     - id: p.1.1
+       tags:
+       - similitud
+     - id: p.1.2
+       tags:
+       - similitud
+     - id: p.1.3
+       tags:
+       - analisis-redes-sociales
+     - id: p.1.4
+       tags:
+       - algoritmos-aprendizaje-supervisado
+       - algoritmos-aprendizaje-no-supervisado
