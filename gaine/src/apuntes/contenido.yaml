@@ -1,0 +1,338 @@
+reading_sources:
+  - title: Fundamentos No SQL
+    authors:
+    - Agustín C. Caminero Herráez
+    url: https://www.youtube.com/watch?v=9qhc4yYuT3Q
+  - id: gaine1
+    title: "Tema 1: Fundamentos de bases de datos NoSQL"
+    authors:
+    - Agustín C. Caminero Herráez
+  - id: Akhtar2018
+    title: Big Data Architect's Handbook
+    authors:
+    - Syed Muhammad Fahad Akhtar
+    publisher: Packt Publishing
+    publication_date: 2018
+    isbn: 9781788835824
+    url: https://learning.oreilly.com/library/view/big-data-architects/9781788835824/
+  - id: Sadalage12
+    title: "NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence"
+    authors:
+    - Pramod J. Sadalage
+    - Martin Fowler
+    publisher: Addison-Wesley Professional
+    publication_date: 2012
+    isbn: 9780133036138
+    url: https://learning.oreilly.com/library/view/nosql-distilled-a/9780133036138/
+  - id: Ohene2012
+    title: "O2-Tree: A Fast Memory Resident Index for NoSQL Data-Store"
+    authors:
+    - Daniel Ohene-Kwofie
+    - E. J. Otoo
+    - Gideon Nimako.
+    publihser: IEEE 15th International Conference on Computational Science and Engineering.
+    publication_date: 2012
+  - type: web
+    id: gaine2_1
+    title: "Redis: uso, sintaxis y lecciones prácticas"
+    url: https://agora.uned.es/pluginfile.php/2801898/mod_resource/content/4/Redis/index.html
+  - type: slideshow
+    id: gaine2_2
+    title: "Bases de datos clave-valor: Redis"
+  - authors:
+    - Gaurav Vaish
+    title: Getting Started with NoSQL
+    url: https://learning.oreilly.com/library/view/getting-started-with/9781849694988/
+    publisher: Packt Publishing
+    publication-date: 2013.
+  - authors:
+    - Xun Wu
+    - Sudarshan Kadambi
+    - Devram Kandhare
+    - Aaron Ploetz
+    title: Seven NoSQL databases in a Week
+    url: https://learning.oreilly.com/library/view/seven-nosql-databases/9781787288867/
+    publisher: Packt Publishing
+    publication-date: 2018
+  - authors:
+    - Pethuru R.
+    - Deka, G. C.
+    title: "A Deep Dive into NoSQL Databases: The Use Cases and Applications"
+    url: https://www.oreilly.com/library/view/a-deep-dive/9780128137871/
+    publisher: Academic Press
+    year: 2018
+  - authors:
+    - DAS, Vinoo
+    title: Learning Redis
+    url: https://learning.oreilly.com/library/view/learning-redis/9781783980123/
+    publisher: Packt Publishing
+    publication-date: 2015
+  - authors:
+    - Eben Hewitt
+    - Jeff Carpenter
+    title: "Cassandra: The definitive guide"
+    url: https://learning.oreilly.com/library/view/cassandra-the-definitive/9781491933657/
+    edition: 2
+    publisher: O'Reilly Media, Inc
+    publication-date: 2016
+  - authors:
+    - Kristina Chodorow
+    - Shannon Bradshaw
+    title: "MongoDB: The definitive guide"
+    edition: 3
+    url: https://learning.oreilly.com/library/view/mongodb-the-definitive/9781491954454/)"
+    publisher: O'Reilly Media, Inc.
+    year: 2019
+  - authors:
+    - VAN BRUGGEN, Rik
+    - BATON, Jérôme
+    title: Learning Neo4j 3.x
+    edition: 2
+    url: https://learning.oreilly.com/library/view/learning-neo4j-3x/9781786466143/
+    publisher: Packt Publishing
+    publication-date: 2017
+units:
+- id: 1
+  title: Fundamentos de bases de datos NoSQL.
+  tags:
+    - nosql
+    - bbdd-distribuida
+    - p2p
+  sections:
+  - title: ¿Qué es NoSQL?
+    reading_sources:
+    - id_ref: gaine1
+    - id_ref: Akhtar2018
+      reference: Capítulo 4
+    - id_ref: Sadalage12
+    tags:
+    - definicion-nosql
+  - title: Teorema de CAP
+    tags:
+    - teorema-cap
+    reading_sources:
+    - id_ref: gaine1
+    - id_ref: Akhtar2018
+      reference: Capítulo 4
+  - title: Modelos de datos
+    tags:
+    - modelos-bases-datos
+    reading_sources:
+    - id_ref: gaine1
+    - id_ref: Akhtar2018
+      reference: Capítulo 4
+    sections:
+      - title: Elección de base de datos NoSQL
+        tags:
+        - eleccion-base-datos-nosql
+  - title: Modelos de distribución
+    reading_sources:
+    - id_ref: gaine1
+    - id_ref: Sadalage12
+      reference: Capítulo 4
+    sections:
+    - title: Replicación
+      tags:
+      - replicacion
+      sections:
+      - title: Maestro-esclavo
+        tags:
+        - replicacion-maestro-esclavo
+      - title: Peer-to-peer
+        tags:
+        - replicacion-peer-to-peer
+  - title: Indexación
+    reading_sources:
+    - id_ref: Ohene2012
+- id: 2
+  title: Bases de datos clave-valor (Redis)
+  tags:
+    - bbdd-clave-valor
+    - redis
+  reading_sources:
+  - id_ref: gaine2_1
+  - id_ref: gaine2_2
+  sections:
+    - id: 2.0
+      title: Preámbulo
+      sections:
+      - id: 2.0.1
+        title: Puesta en marcha del entorno de prácticas
+      - id: 2.0.2
+        title: Caso práctico de uso de redis
+    - id: 2.1
+      title: "Módulo 1: Introducción redis"
+    - id: 2.2
+      title: "Módulo 2: Modelado"
+      sections:
+      - id: 2.2.1
+        title: Tipos, estructuras de datos y Modelado
+        sections:
+          - id: 2.1.2.
+            title: Estructuras de datos
+            sections:
+            - id: 2.1.2.1.
+              title: Estructuras String
+              tags:
+              - redis-estructuras-string
+            - id: 2.1.2.2.
+              title: Estructuras List
+              tags:
+              - redis-estructuras-list
+            - id: 2.1.2.3.
+              title: Estructuras Set
+              tags:
+              - redis-estructuras-set
+            - id: 2.1.2.4.
+              title: Estructuras Sorted Set
+              tags:
+              - redis-estructuras-sorted-set
+            - id: 2.1.2.5.
+              title: Estructuras Hash
+              tags:
+              - redis-estructuras-hash
+    - id: 2.3
+      title: Operaciones CRUD
+      sections:
+      - id: 2.3.1
+        title: Creación de información
+        sections:
+        - id: 2.3.1.1
+          title: Sintaxis de creación de estructuras
+          tags:
+          - redis-sintaxis-creacion-estructuras
+          - redis-comando-set
+          - redis-comando-sadd
+          - redis-comando-zadd
+          - redis-comando-lpush
+          - redis-comando-rpush
+          - redis-comando-hset
+          - redis-comando-hmset
+        - id: 2.3.1.2
+          title: Creación e inserción de información
+        - id: 2.3.1.3
+          title: Expiración de las claves
+          tags: redis-expiracion-claves
+      - id: 2.3.2
+        title: 3.2 Recuperación de información
+        sections:
+        - id: 2.3.2.1
+          title: Sintaxis de recuperación de información
+          tags:
+          - redis-comando-get
+          - redis-comando-lrange
+        - id: 2.3.2.2
+          title: Recuperación de información en las distintas estructuras de datos
+          tags:
+          - redis-comando-sort
+        - id: 2.3.2.3
+          title: Operaciones entre conjuntos
+          tags:
+          - redis-operaciones-entre-conjuntos
+      - id: 2.3.3
+        title: Borrado de información
+      - id: 2.3.4
+        title: Modificación de información
+        sections:
+        - id: 2.3.4.1
+          title: Sintaxis de modificación de información
+          tags:
+          - redis-sintaxis-modificacion-informacion
+          - redis-comando-incr
+          - redis-comando-incrby
+        - id: 2.3.4.2
+          title: Modificación de información almacenada en Redis
+    - id: 2.4
+      title: Transacciones
+      sections:
+      - id: 2.4.1
+        title: Transacciones
+        sections:
+        - id: 2.4.1.1
+          title: Introducción a las transacciones
+          tags:
+          - redis-clausula-discard
+    - id: 2.5
+      title: Estructuras de datos avanzadas
+      sections:
+      - title: Mapas de bits
+      - title: Geoespaciales
+    - id: 2.6
+      title: "Publicación/Suscripción"
+      sections:
+      - Publicación/Suscripción
+    - id: 2.7
+      title: "Módulo 7: Practica el examen"
+      sections:
+      - title: Examen
+    - title: Arquitectura.
+    - title: Características principales.
+    - title: Preparación del entorno para ejercicios prácticos.
+    - title: Lenguaje de consultas.
+- id: 3
+  title: Bases de datos documentales (MongoDB)
+  tags:
+    - bbdd-documental
+    - mongodb
+    - ferretdb
+    - bson
+  sections:
+  - title: Arquitectura.
+  - title: Características principales.
+  - title: Preparación del entorno para ejercicios prácticos.
+  - title: Lenguaje de consultas.
+- id: 4
+  title: Bases de datos columnar (Cassandra)
+  tags:
+    - bbdd-columnar
+    - bbdd-columnas
+    - cassandra
+  sections:
+  - title: Introducción a Cassandra
+    tags:
+    - cassandra-introduccion
+  - title: Características de Cassandra
+    tags:
+    - cassandra-caracteristicas
+    sections:
+    - title: Distribuido y descentralizado
+    - title: Escalabilidad elástica
+    - title: Alta disponibilidad y tolerancia a fallos
+    - title: Consistencia configurable
+    - title: Orientado a filas
+    - title: Alto rendimiento
+  - title: Instalación de Cassandra
+  - title: Arquitectura de Cassandra
+  - title: Características internas de Cassandra
+  - title: Lenguaje de consultas de Cassandra
+    tags:
+    - cassandra-lenguaje-consultas
+    - cql
+    - cassandra-query-language
+    - cqlsh
+  - title: Modelado de datos con Cassandra
+- id: 5
+  title: Bases de datos orientadas a grafos (Neo4j)
+  tags:
+    - bbdd-grafos
+    - neo4j
+    - cypher
+  sections:
+  - title: Introduccion a Neo4j y Cypher
+    sections:
+    - title: Arquitectura de Neo4j
+    - title: Características principales de Neo4j
+    - title: Introducción a Cypher
+  - title: Importación de datos desde ficheros CSV en Neo4j
+  - title: Modelado en Neo4j
+  - title: Operaciones CRUD en Neo4j
+    sections:
+    - Operadores en Neo4j
+    - Creación de nodos y relaciones en Neo4j
+    - Búsqueda de información en Neo4j
+    - Actualización de propiedades en Neo4j
+    - Borrado de información en Neo4j
+  - title: Optimización y rendimiento en Neo4j
+
+  - title: Preparación del entorno para ejercicios prácticos.
+  - title: Lenguaje de consultas.
