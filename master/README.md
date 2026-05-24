@@ -27,7 +27,7 @@ $$\text{horas por semana necesarias} = (\text{créditos ECTS} * 25) / 16$$
 
 En resumen:
 
-| ECTS | Dedicación semanal (h) |
+| ECTS de asignatura | Dedicación semanal por asignatura (h) |
 | :-: | :-: |
 | 6 | 10 |
 | 4 | 6 |
