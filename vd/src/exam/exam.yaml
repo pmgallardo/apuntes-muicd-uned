@@ -1,0 +1,289 @@
+
+exams:
+  - id: vd.2022j2
+    cuestiones:
+    - id: vd.2022j2.c.1
+      tags: 
+      - tipos-variables
+    - id: vd.2022j2.c.2
+      tags: 
+      - transformacion-variables
+    - id: vd.2022j2.c.3
+      tags: 
+      - objetivo-visualizacion
+    - id: vd.2022j2.c.4
+      tags: 
+      - grafico-barras
+    - id: vd.2022j2.c.5
+      tags: 
+      - grafico-barras-apiladas
+    - id: vd.2022j2.e
+      sections:
+      - id: vd.2022j2.e.1
+        tags:
+        - preprocesado-datos
+      - id: vd.2022j2.e.2
+        tags:
+        - tipos-variables
+      - id: vd.2022j2.e.3
+        tags:
+        - tipos-graficos
+      - id: vd.2022j2.e.4
+        tags:
+        - tipos-graficos
+  - id: vd.2022so
+    cuestiones:
+    - id: vd.2022so.c.1
+      tags:
+      - grafico-barras
+    - id: vd.2022so.c.2
+      tags: tipos-variables
+    - id: vd.2022so.c.3
+      tags:
+      - tono
+    - id: vd.2022so.c.4
+      tags: color
+    - id: vd.2022so.c.5
+      tags:
+      - tipos-representaciones-visuales
+    - id: vd.2022so.e
+      sections:
+      - id: vd.2022so.e.1
+        tags:
+        - preprocesado-datos
+      - id: vd.2022so.e.2
+        tags:
+        - tipos-variables
+      - id: vd.2022so.e.3
+        tags:
+        - tipos-graficos
+      - id: vd.2022so.e.4
+        tags:
+        - tipos-graficos
+  - id: vd.2023j2
+    cuestiones:
+    - id: vd.2023j2.c.1
+      tags:
+      - teoria-sistemas
+    - id: vd.2023j2.c.2
+      tags:
+      - limpieza-datos
+    - id: vd.2023j2.c.3
+      tags:
+      - proceso-analisis-datos
+    - id: vd.2023j2.c.4
+      tags:
+      - roles-visualizacion
+    - id: vd.2023j2.c.5
+      tags:
+      - nubes-palabras
+    - id: vd.2023j2.e
+      sections:
+      - id: vd.2023j2.e.1
+        tags:
+        - preprocesado-datos
+      - id: vd.2023j2.e.2
+        tags:
+        - tipos-variables
+      - id: vd.2023j2.e.3
+        tags:
+        - tipos-graficos
+      - id: vd.2023j2.e.4
+        tags:
+        - tipos-graficos
+  - id: vd.2023so
+    cuestiones:
+    - id: vd.2023so.c.1
+      tags:
+      - big-data
+    - id: vd.2023so.c.2
+      tags:
+      - aproximaciones-descripcion-realidad
+    - id: vd.2023so.c.3
+      tags:
+      - elementos-graficos
+    - id: vd.2023so.c.4
+      tags:
+      - canales-informacion-visual
+    - id: vd.2023so.c.5
+      tags:
+      - objetivo-visualizacion
+    - id: vd.2023so.e
+      sections:
+      - id: vd.2023so.e.1
+        tags:
+        - preprocesado-datos
+      - id: vd.2023so.e.2
+        tags:
+        - tipos-variables
+      - id: vd.2023so.e.3
+        tags:
+        - tipos-graficos
+      - id: vd.2023so.e.4
+        tags:
+        - tipos-graficos
+  - id: vd.2024j2
+    cuestiones:
+    - id: vd.2024j2.1.a
+      sections:
+      - id: vd.2024j2.1.a
+        tags:
+        - proceso-abordar-visualizacion
+      - id: vd.2024j2.1.b
+        tags:
+        - 
+      - id: vd.2024j2.1.c
+        tags:
+        - roles
+    - id: vd.2024j2.2
+      sections:
+      - id: vd.2024j2.2.a
+        tags:
+        - tipos-variables
+      - id: vd.2024j2.2.b
+        tags:
+        - estructuras-datos
+      - id: vd.2024j2.2.c
+        tags:
+        - 
+    - id: vd.2024j2.3
+      sections:
+      - id: vd.2024j2.3.a
+        tags:
+        - tipos-variables
+      - id: vd.2024j2.3.b
+        tags:
+        - tono
+        - intensidad
+    - id: vd.2024j2.4
+      sections:
+      - id: vd.2024j2.4.a
+        tags:
+        - grafico-barras
+      - id: vd.2024j2.4.b
+        tags:
+        - 
+      - id: vd.2024j2.4.c
+        tags:
+        - 
+  - id: vd.2024so
+    cuestiones:
+    - id: vd.2024so.1.a
+      sections:
+      - id: vd.2024so.1.a
+        tags:
+        - tipos-graficos
+      - id: vd.2024so.1.b
+        tags:
+        - proceso-abordar-visualizacion
+      - id: vd.2024so.1.c
+        tags:
+        - proceso-analisis-datos
+    - id: vd.2024so.2
+      sections:
+      - id: vd.2024so.2.a
+        tags:
+        - 
+      - id: vd.2024so.2.b
+        tags:
+        - altair
+      - id: vd.2024so.2.c
+        tags:
+        - dendograma
+    - id: vd.2024so.3
+      sections:
+      - id: vd.2024so.3.a
+        tags:
+        - tipos-variables
+        - conexiones-y-relaciones
+      - id: vd.2024so.3.b
+        tags:
+        - 
+    - id: vd.2024so.4
+      sections:
+      - id: vd.2024so.4.a
+        tags:
+        - grafico-barras
+      - id: vd.2024so.4.b
+        tags:
+        - tipos-representaciones-visuales
+      - id: vd.2024so.4.c
+        tags:
+        - 
+  - id: vd.2025j2
+    cuestiones:
+    - id: vd.2025j2.1.a
+      sections:
+      - id: vd.2025j2.1.a
+        tags:
+        - proceso-abordar-visualizacion
+      - id: vd.2025j2.1.b
+        tags: 
+        - creacion-visualizacion
+      - id: vd.2025j2.1.c
+        tags:
+        - roles
+    - id: vd.2025j2.2
+      sections:
+      - id: vd.2025j2.2.a
+        tags:
+        - tareas-procesado
+      - id: vd.2025j2.2.b
+        tags:
+        - correlacion
+      - id: vd.2025j2.2.c
+        tags:
+        - grafos
+    - id: vd.2025j2.3
+      tags:
+      - principios-gestalt
+    - id: vd.2025j2.4
+      sections:
+      - id: vd.2025j2.4.a
+        tags:
+        - objetivo-visualizacion
+      - id: vd.2025j2.4.b
+        tags:
+        - tipos-representaciones-visuales
+      - id: vd.2025j2.4.c
+        tags:
+        - grafico-lineas
+  - id: vd.2025so
+    cuestiones:
+    - id: vd.2025so.1.a
+      sections:
+      - id: vd.2025so.1.a
+        tags:
+        - principios-gestalt
+        - principios-organizacion-composicion
+      - id: vd.2025so.1.b
+        tags:
+        - grafico-lineas
+      - id: vd.2025so.1.c
+        tags:
+        - grafico-lineas
+    - id: vd.2025so.2
+      sections:
+      - id: vd.2025so.2.a
+        tags:
+        - transformacion-variables
+      - id: vd.2025so.2.b
+        tags:
+        - altair
+      - id: vd.2025so.2.c
+        tags:
+        - transformacion-variables
+    - id: vd.2025so.3
+      tags:
+      - principios-gestalt
+    - id: vd.2025so.4
+      sections:
+      - id: vd.2025so.4.a
+        tags:
+        - objetivo-visualizacion
+      - id: vd.2025so.4.b
+        tags:
+        - 
+      - id: vd.2025so.4.c
+        tags:
+        - 
