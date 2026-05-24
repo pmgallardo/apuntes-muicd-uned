@@ -20,7 +20,7 @@ Se aceptan contribuciones relacionadas con el contenido académico del MUICD, in
 - Soluciones razonadas y desarrolladas.
 - Conjuntos de datos originales.
 
-No se aceptan contribuciones ajenas al ámbito del MUICD ni material promocional.
+No se aceptan contribuciones ajenas al ámbito del máster ni material promocional.
 
 ## Reglas sobre propiedad intelectual
 
@@ -28,7 +28,7 @@ Para proteger a los colaboradores y al repositorio, se aplican las siguientes no
 
 - Todo el material aportado debe ser original del autor o una transformación que conserve la idea original pero no la expresión literal.
 - No se permite subir material protegido por derechos de autor de la UNED, sus docentes u otras fuentes, salvo que se disponga de permiso explícito para su redistribución.
-- No se deben incluir copias de exámenes, enunciados oficiales o material lectivo oficial.
+- No se permite subir exámenes oficiales, enunciados oficiales o material lectivo oficial.
 - Se permite hacer referencia a material oficial mediante enlaces a la fuente correspondiente, siempre que el acceso quede restringido a usuarios autorizados.
 
 ## Licencias
@@ -44,7 +44,7 @@ Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar 
 
 - Para los ficheros con cabecera no editable (ej.: .pdf, .json, .docx) no hace falta hacer nada, puesto que su extensión está registrada en el fichero `REUSE.toml` y tienen asociada una licencia.
 - Para los ficheros con cabecera editable (ej.: `.py`, `.md`) se debe añadir una cabecera con información de licencia mediante uno de estos métodos:  
-  - Copiando y pegando manualmente la cabecera de otro fichero similar que ya se encuentre en el repositorio.
+  - Copiando y pegando manualmente la cabecera de otro fichero del mismo tipo que ya se encuentre en el repositorio.
   - Ejecutando el comando `reuse annotate` contra el fichero concreto:
 
       ```text
