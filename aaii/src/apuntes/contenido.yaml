@@ -456,12 +456,16 @@ units:
     - title: Error OOB
       tags: 
       - error-oob
-    - title: Random Subspace
-      study_materials:
-      - id_ref: 1_vid_rs
-    - title: Feature Selection Subspace
-      study_materials:
-      - id_ref: 1_vid_fss
+  - title: Random Subspace
+    study_materials:
+    - id_ref: 1_vid_rs
+    tags:
+    - random-subspace
+  - title: Feature Selection Subspace
+    study_materials:
+    - id_ref: 1_vid_fss
+    tags:
+    - feature-selection-subspace
   - id: 1.4
     title: Bosques aleatorios
     tags: 
@@ -469,13 +473,16 @@ units:
     - random-forest
     study_materials:
     - id_ref: 1_vid_rf
-    sections:
-    - title: ExtraTrees
-      study_materials:
-      - id_ref: 1_vid_et
-    - title: Data Transform Bagging
-      study_materials:
-      - id_ref: 1_vid_dtb
+  - title: ExtraTrees
+    tags:
+    - extratree
+    study_materials:
+    - id_ref: 1_vid_et
+  - title: Data Transform Bagging
+    study_materials:
+    - id_ref: 1_vid_dtb
+    tags:
+    - data-transform-bagging
 - id: 2
   title: Intensificación (anteriormente, potenciación ("Boosting") y árboles aditivos)
   sections:
@@ -633,17 +640,20 @@ units:
       tags:
       - clasificacion-no-supervisada
   - id: 4.3
-    title: Combinación de las medidas de similitud en las diferentes dimensiones (atributos) que constituyen los patrones
+    title: Medidas de similitud y disimilitud
     sections:
-    - title: Agrupamiento datos ausentes
+    - title: Matrices de proximidad
       tags:
-      - agrupamiento-datos-ausentes
+      - matrices-proximidad
     - title: Disimilitud
       tags: 
       - disimilitud
       - disimilitud-confenetica
+      - agrupamiento-datos-ausentes
   - id: 4.4
-    title: Métodos simples y clásicos de clasificación no supervisada
+    title: Familias de métodos de agrupamiento
+  - id: 4.5
+    title: Métodos de clasificación no supervisada
     sections:
     - title: Agrupamiento combinatorio
       tags:
@@ -655,9 +665,10 @@ units:
       study_materials:
       - id_ref: 4_vid_km
       - id_ref: 4_vid_ikm
-    - title: Agrupamiento mezclas gaussianas
+    - title: Mezclas de Gaussianas
       tags:
       - agrupamiento-mezclas-gaussianas
+      - mezcla-gaussianas
     - title: Cuantización de vectores
     - title: K-medioids
     - tags:
@@ -697,8 +708,8 @@ units:
         - mean-shift
         study_materials:
         - id_ref: 4_vid_ms
-  - id: 4.5
-    title: Taxonomía de medidas de evaluación de agrupamientos
+  - id: 4.6
+    title: Evaluación de agrupamientos
     study_materials:
     - id_ref: emul
     sections:
@@ -725,3 +736,12 @@ units:
     - title: Algoritmo a priori
       study_materials:
       - id_ref: 4_vid_aa
+  - id: 4.7
+    title: Reglas de asociación
+    sections:
+    - title: Introducción a las reglas de asociación
+      tags:
+      - reglas-asociacion
+    - title: Algoritmo apriori
+      tags:
+      - algoritmo-apriori
