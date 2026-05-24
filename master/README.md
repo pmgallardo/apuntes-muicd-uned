@@ -46,18 +46,27 @@ Diagrama de **dependencias entre asignaturas** del MUICD:
 
 ```mermaid
 graph LR
-   31110018[Modelado estadístico de datos] --> 31110037[Aprendizaje automático 1]
-   31110018 --> 31110094[Modelos bayesianos jerárquicos]
-   31110022[Programación en Entornos de Datos] --> 31110041[Minería de textos]
-   31110022 --> 31110037
-   31110022 --> 31110060[Visualización de datos]
-   31110037 --> 31110130[Aprendizaje Automático 2]
-   31110037 --> 31110107[Minería de datos de los medios sociales]
-   31110037 --> 31110111[Deep Learning]
-   31110056[Infraestructuras computacionales para procesamiento de datos masivos] --> 31110111
+   MED[Modelado estadístico de datos] --> AAI[Aprendizaje automático 1]
+   MED --> MBJ[Modelos bayesianos jerárquicos]
+   PED[Programación en Entornos de Datos] --> 31110041[Minería de textos]
+   PED --> AAI
+   PED --> VD[Visualización de datos]
+   PED --> MDMS[Minería de datos de los medios sociales]
+   GAINE[Gestión/Almacenamiento de información no estructurada] --> VD
+   ICPDM[Infraestructuras computacionales para procesamiento de datos masivos] --> VD
+   AAI --> AAII[Aprendizaje Automático 2]
+   AAI --> MDMS
+   AAI --> DL[Deep Learning]
+   ICPDM --> DL
 ```
 
 [Codificación de las dependencias en formato Mermaid](depedencias_asignaturas.mmd)
+
+## Pruebas de evaluación continua
+
+En algunas asignaturas, el profesorado permite expresamente el uso de inteligencia artificial generativa.
+
+En el resto de casos que no se comente nada, se entiende que se debe seguir las guías sobre el [Uso de la Inteligencia Artificial Generativa](https://www.uned.es/universidad/inicio/institucional/areas-direccion/vicerrectorados/innovacion/iaeducativa.html) del Vicerrectorado de Innovación Educativa de la UNED, y más concretamente la [Guía de uso de las herramientas de Inteligencia Artificial Generativa para el estudiantado](https://unedo365-my.sharepoint.com/:b:/g/personal/smartin_ieec_uned_es/Ef6tiDpSXUJHrb7usuE1JWsB0rSJFaED09CB6ofqQnXzvg?e=YKII1P).
 
 ## Exámenes
 
@@ -73,15 +82,9 @@ Los exámenes del MUICD se concentran en una única semana en cada convocatoria.
 
 [Calendario de exámenes](https://www.uned.es/universidad/inicio/estudiantes/calendario-examenes.html)
 
-Los exámenes se realizan en sesión ordinaria o de reserva.
+Los exámenes se pueden realizar cada exámen en la sesión ordinaria o en la de reserva.
 
-La fecha de la sesión ordinaria es la marcada en el calendario, y es la que realizan por defecto los alumnos.
-
-La **sesión de reserva** está dirigida a los alumnos a los que le coinciden exámenes o que alegan una situación extraordinaria (ej.: laboral, movilidad).
-
-El alumno debe realizar una petición hasta la semana anterior al comienzo de exámenes, la cual es aprobada o rechazada por un tribunal. No obstante, algunos alumnos informan que no tuvieron que hacer ninguna solicitud o aviso.
-
-[Solicitud de exámenes en reserva](https://serviweb.uned.es/matricula/examenes-extranjero/index.asp)
+La fecha de la sesión ordinaria es la marcada en el calendario. Opcionalmente y sin necesidad de preaviso, los alumnos pueden presentarse a la sesión de reserva siempre y cuando no se han presentado a la ordinaria y no superen un máximo de 3 exámenes en la misma sesión de reserva.
 
 Cada convocatoria cuenta con uno o dos slots de exámenes de reserva. Cada slot abarca 4 horas y permite presentarse a un máximo de 3 exámenes:
 
@@ -91,7 +94,7 @@ Cada convocatoria cuenta con uno o dos slots de exámenes de reserva. Cada slot 
   - Slot de mañana: exámenes de los 3 primeros días de la convocatoria.  
   - Slot de tarde: exámenes del resto de días.  
 
-Los exámenes de reserva están reglados en el apartado 2.2. del [Reglamento de pruebas presenciales UNED](https://www.uned.es/universidad/inicio/unidad/pruebas-presenciales/reglamento-de-pruebas-presenciales.html#a4a3c2ee-eb91-4587-bdd0-b1489088ae8b)
+Los exámenes de reserva están regulados en el apartado 2.2. del [Reglamento de pruebas presenciales UNED](https://www.uned.es/universidad/inicio/unidad/pruebas-presenciales/reglamento-de-pruebas-presenciales.html#a4a3c2ee-eb91-4587-bdd0-b1489088ae8b)
 
 ### Lugar de exámenes
 
@@ -104,7 +107,7 @@ A los alumnos de los centros de la Comunidad de Madrid se les convoca en un cent
 Recuerda llevar:
 
 - Carnet de la UNED  
-- Boligrafo(s) (no se permite entregar el exámen a lápiz)  
+- Boligrafo/s (no se permite entregar el exámen a lápiz)  
 - Calculadora (si se permite)  
 - Material escrito (si se permite)  
 
@@ -115,7 +118,7 @@ Las calificaciones se pueden revisar:
 - Campus UNED - Identificarse - Acceder a la Secretaría Virtual - Ver Calificaciones
 - App "Calificaciones" de la UNED
 
-La manera más cómoda de recibir un aviso sobre cuándo está una nota disponible es instalarse la app para móvil "Calificaciones" de la UNED, disponible para [Android](https://play.google.com/store/apps/details?id=es.uned.intecca.calificaciones&hl=es) y [iOS](https://apps.apple.com/es/app/calificaciones/id1006830451).
+La manera más cómoda de recibir un aviso sobre cuándo está una nota disponible es instalarse la app para móvil "Calificaciones" de la UNED, disponible para [Android](https://play.google.com/store/apps/details?id=es.uned.intecca.calificaciones&hl=es) y [iOS](https://apps.apple.com/es/app/calificaciones/id1006830451) y activar las notificaciones.
 
 ### Evaluación asignaturas por alumnos
 
@@ -127,6 +130,8 @@ Fechas límite para la evaluación:
 | - | - |
 | Febrero | 15-Mar |
 | Junio | 15-Jul |
+
+Para saber más sobre la confidencialidad de las respuestas y otros aspectos, leer la página de [información sobre cuestionarios y formularios de recogida de información](https://www.uned.es/universidad/inicio/unidad/oficina-calidad/informacion-sobre-cuestionarios-y-formularios-de-recogida-de-informacion.html) de la UNED.
 
 ## Comunidades
 
