@@ -152,6 +152,8 @@ units:
           - relacion
           sections:
           - title: Predicción de enlaces
+            tags:
+            - prediccion-enlaces
         - title: Contenidos
           tags:
           - contenido
@@ -478,5 +480,7 @@ units:
       sections:
       - title: Influencia
       - title: Homofilia
+        tags:
+        - homofilia
       - title: Recomendaciones
       - title: Comportamientos
