@@ -98,7 +98,7 @@ exams:
      tags:
      - teoria-correlacion-social
      - prediccion-enlaces
-     - homofilia
+     - coeficiente-homofilia
    - id: 2024so.c.3
      tags:
      - algoritmos-aprendizaje-no-supervisado
