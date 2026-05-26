@@ -3,46 +3,46 @@ acronym: mdms
 exams:
  - id: 2022j2
    cuestiones:
-   - id: c.1
+   - id: 2022j2.c.1
      tags:
      - teoria-estatus
-   - id: c.2
+   - id: 2022j2.c.2
      tags:
      - algoritmos-aprendizaje-supervisado-valor-continuo
-   - id: c.3
+   - id: 2022j2.c.3
      tags:
      - matriz-adyacencia
    preguntas:
    - id: p.1
      apartados:
-     - id: p.1.1
+     - id: 2022j2.p.1.1
        tags:
        - similitud
-     - id: p.1.2
+     - id: 2022j2.p.1.2
        tags:
        - similitud
-     - id: p.1.3
+     - id: 2022j2.p.1.3
        tags:
        - analisis-redes-sociales
-     - id: p.1.4
+     - id: 2022j2.p.1.4
        tags:
        - algoritmos-aprendizaje-supervisado
-     - id: p.1.5
+     - id: 2022j2.p.1.5
        tags:
        - algoritmos-aprendizaje-no-supervisado
  - id: 2023j2
    cuestiones:
-   - id: c.1
+   - id: 2023j2.c.1
      tags:
      - deteccion-comunidades-basico
-   - id: c.2
+   - id: 2023j2.c.2
      tags:
      - hits
-   - id: c.3
+   - id: 2023j2.c.3
      tags:
      - ruido
    preguntas:
-   - id: p.1
+   - id: 2023j2.p.1
      tags: 
      - algoritmos-aprendizaje-supervisado
      - algoritmos-aprendizaje-no-supervisado
@@ -51,30 +51,30 @@ exams:
      - teoria-estatus
  - id: 2023so
    cuestiones:
-   - id: c.1
+   - id: 2023so.c.1
      tags:
      - dilema-evaluacion
-   - id: c.2
+   - id: 2023so.c.2
      tags:
      - centralidad
-   - id: c.3
+   - id: 2023so.c.3
      tags:
      - extraccion-atributos
      - muestreo
    preguntas:
-   - id: p.1
+   - id: 2023so.p.1
      tags:
      - analisis-redes-sociales
      - cohesion
  - id: 2024j2
    cuestiones:
-   - id: c.1
+   - id: 2024j2.c.1
      tags:
      - propiedades-representacion-grafos
-   - id: c.2
+   - id: 2024j2.c.2
      tags:
      - ruido
-   - id: c.3
+   - id: 2024j2.c.3
      tags:
      - escala-temporal
    preguntas:
@@ -85,7 +85,7 @@ exams:
        - analisis-redes-sociales
      - id: 2024j2.p.1.2
        tags:
-       - metricas-basicas
+       - metricas-basicas-grafos
      - id: 2024j2.p.1.3
        tags:
        - algoritmos-aprendizaje-automatico
@@ -94,20 +94,22 @@ exams:
    - id: c.1
      tags:
      - hits
-   - id: c.2
+   - id: 2024so.c.2
      tags:
      - teoria-correlacion-social
-   - id: c.3
+     - prediccion-enlaces
+     - homofilia
+   - id: 2024so.c.3
      tags:
      - algoritmos-aprendizaje-no-supervisado
    preguntas:
-   - id: p.1
+   - id: 2024so.p.1
      tags:
      - analisis-redes-sociales
      - metricas-basicas-grafos
  - id: 2025j2
    cuestiones:
-   - id: c.1
+   - id: 2025j2.c.1
      tags:
      - teoria-estatus
    - id: c.2
@@ -120,38 +122,40 @@ exams:
    preguntas:
    - id: p.1
      apartados:
-     - id: 2024so.p.1.1.
+     - id: 2025j2.p.1.1.
        tags:
        - analisis-redes-sociales
      - id: 2024so.p.1.2
        tags:
        - algoritmos-aprendizaje-automatico
-     - id: 2024so.p.1.3
+     - id: 2025j2.p.1.3
        tags:
        - redes-dinamicas
  - id: 2025so
    cuestiones:
-   - id: c.1
+   - id: 2025so.c.1
      tags:
      - matriz-adyacencia
-   - id: c.2
+   - id: 2025so.c.2
      tags:
      - modularidad
      - teoria-correlacion-social
-   - id: c.3
+   - id: 2025so.c.3
+     tags:
+     - teoria-balance
    preguntas:
-   - id: p.1
+   - id: 2025so.p.1
      apartados:
-     - id: p.1.1
+     - id: 2025so.p.1.1
        tags:
        - similitud
-     - id: p.1.2
+     - id: 2025so.p.1.2
        tags:
        - similitud
-     - id: p.1.3
+     - id: 2025so.p.1.3
        tags:
        - analisis-redes-sociales
-     - id: p.1.4
+     - id: 2025so.p.1.4
        tags:
        - algoritmos-aprendizaje-supervisado
        - algoritmos-aprendizaje-no-supervisado
