@@ -154,6 +154,7 @@ units:
           - title: Predicción de enlaces
             tags:
             - prediccion-enlaces
+            - coeficiente-homofilia
         - title: Contenidos
           tags:
           - contenido
