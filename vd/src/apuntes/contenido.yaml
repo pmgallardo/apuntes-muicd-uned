@@ -119,11 +119,13 @@ units:
           titulo: Limpieza de datos )
           tags:
           - limpieza-datos
+          - valores-nulos
         - titulo: Filtrado/selección de variables y/o instancias )
         - titulo: Transformación de variables )
           tags:
           - transformacion-variables
-      - title: Tareas de preprocesado
+      - title: Procesado de datos
+        tags: procesado-datos
         sections:
         - title: Ordenación
           tags:
@@ -135,6 +137,7 @@ units:
         - title: Correlación
           tags:
           - correlacion
+          - coocurrencia
         - title: Combinación de información
           tags:
           - combinacion-informacion
@@ -196,6 +199,18 @@ units:
         - gestalt
   - id: 3.2
     title: Elección de la representación más adecuada. Visual mapping
+    tags:
+    - eleccion-representacion
+    sections:
+      - title: Aspectos de la representación
+        sections:
+        - title: Percepción-Acción
+        - title: Número de variables y sus dimensiones
+        - title: Número de instancias
+        - title: Tipos de variables en la representación
+          tags:
+          - tipos-variables-representacion
+        - title: Relaciones entre instancias
   - id: 3.3
     title: Del análisis visual a la comunicación visual. Storytelling
     sections: 
