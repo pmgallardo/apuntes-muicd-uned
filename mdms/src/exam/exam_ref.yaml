@@ -91,7 +91,7 @@ exams:
        - algoritmos-aprendizaje-automatico
  - id: 2024so
    cuestiones:
-   - id: c.1
+   - id: 2024so.c.1
      tags:
      - hits
    - id: 2024so.c.2

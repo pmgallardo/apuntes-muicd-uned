@@ -68,6 +68,7 @@ exams:
     - id: vd.2023j2.c.2
       tags:
       - limpieza-datos
+      - valores-nulos
     - id: vd.2023j2.c.3
       tags:
       - proceso-analisis-datos
@@ -108,18 +109,18 @@ exams:
     - id: vd.2023so.c.5
       tags:
       - objetivo-visualizacion
-    - id: vd.2023so.e
+    - id: vd.2023so.p
       sections:
-      - id: vd.2023so.e.1
+      - id: vd.2023so.p.1
         tags:
-        - preprocesado-datos
-      - id: vd.2023so.e.2
+        - procesado-datos
+      - id: vd.2023so.p.2
         tags:
         - tipos-variables
-      - id: vd.2023so.e.3
+      - id: vd.2023so.p.3
         tags:
         - tipos-graficos
-      - id: vd.2023so.e.4
+      - id: vd.2023so.p.4
         tags:
         - tipos-graficos
   - id: vd.2024j2
@@ -128,7 +129,7 @@ exams:
       sections:
       - id: vd.2024j2.1.a
         tags:
-        - proceso-abordar-visualizacion
+        - procesado-datos
       - id: vd.2024j2.1.b
         tags:
         - 
@@ -153,8 +154,7 @@ exams:
         - tipos-variables
       - id: vd.2024j2.3.b
         tags:
-        - tono
-        - intensidad
+        - tipos-variables-representacion
     - id: vd.2024j2.4
       sections:
       - id: vd.2024j2.4.a
@@ -233,7 +233,8 @@ exams:
         - correlacion
       - id: vd.2025j2.2.c
         tags:
-        - grafos
+        - coocurrencia
+        - mapa-calor
     - id: vd.2025j2.3
       tags:
       - principios-gestalt
