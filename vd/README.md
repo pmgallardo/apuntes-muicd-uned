@@ -51,7 +51,9 @@ Las actividades voluntarias incluyen:
 % nota sobre el total: 30
 % nota mínima actividad: 40
 
-El exámen consta de 4 preguntas de desarrollo.
+El exámen consta de **4 preguntas de desarrollo**.
+
+Desde el curso 2023/2024, se restringe **la extensión máxima de las respuestas** a dos caras de un **folio**. Esta es una indicación de que cada respuesta debe ocupar media página y ser directa, si bien se admite cierta flexibilidad.
 
 ## Bibliografía
 
