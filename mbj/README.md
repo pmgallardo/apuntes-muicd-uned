@@ -22,5 +22,7 @@ Más información en la [ficha web oficial](https://www.uned.es/universidad/inic
 
 Existen comunidades no oficiales de alumnos y alumni del máster:
 
-- Comunidad [UNED - MBJ (Máster Datos)](https://t.me/joinchat/mrUDs1vBa_Q5ZTU0) en Telegram
-- [Carpeta `Modelos bayesianos jerárquicos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgDlJ6N2A3J7Q6QK3P5fXCBgAXUr1bFjEoDjtsZfW-yQkoQ) en SharePoint UNED
+- Activas
+  - Comunidad [UNED - MBJ (Máster Datos)](https://t.me/joinchat/mrUDs1vBa_Q5ZTU0) en Telegram
+- Inactivas
+  - [Carpeta `Modelos bayesianos jerárquicos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgDlJ6N2A3J7Q6QK3P5fXCBgAXUr1bFjEoDjtsZfW-yQkoQ) en SharePoint UNED
