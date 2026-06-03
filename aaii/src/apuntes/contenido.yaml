@@ -497,6 +497,10 @@ units:
     title: AdaBoost
     tags:
     - adaboost
+    - aprendiz-debil
+    - weak-learner
+    - asuncion-aprendizaje-debil
+    - weak-learning-assumption
     study_materials:
     - id_ref: bfa
       reference: 1.2
@@ -559,6 +563,15 @@ units:
       - title: Combinación clasificadores
         tags:
         - combinacion-clasificadores
+        sections:
+        - title: Tipos de salidas combinadas )
+        - title: Niveles de combinación )
+        - title: Combinación a nivel de decisión )
+        - title: Combinación basada en rankings )
+        - title: Dureza de la combinación )
+          sections:
+          - Combinación dura )
+          - Combinación blanda )
       study_materials:
       - id_ref: cct
         reference: Sección II
@@ -570,6 +583,8 @@ units:
         mandatory: false
       - id_ref: ccs
         mandatory: false
+    - id: 4.4
+      title: Técnicas de combinación de clasificadores
       sections:
       - title: Votación
         tags:
@@ -578,6 +593,9 @@ units:
         study_materials:
         - id_ref: 3_vid_voting
       - title: Weighted average
+        tags:
+        - votacion-ponderada
+        - weighted-average
         study_materials:
         - id_ref: 3_vid_wa
       - title: Selección Miembros Conjunto
