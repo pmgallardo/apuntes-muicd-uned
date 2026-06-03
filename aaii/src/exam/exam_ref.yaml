@@ -215,8 +215,8 @@ exercise_collection:
     - adaboost
   - id: AAII.EX.2025J2.10
     tags:
-    - apilamiento
     - bagging
+    - apilamiento
   - id: AAII.EX.2025SO.1
     tags:
     -  bosque-aleatorio
