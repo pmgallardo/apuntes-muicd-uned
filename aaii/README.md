@@ -80,3 +80,4 @@ Existen comunidades no oficiales de alumnos y alumni del máster:
   - Comunidad [UNED - Aprendizaje Automático II (Máster Datos)](https://t.me/joinchat/VrRO59IZYENjMzNk) en Telegram
 - Inactivas
   - [Carpeta `Aprendizaje Automático II` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgAhrQlnu8HdS4tEmOXFoycbAXBtbnuItHrhgTRV8nkc36A) en SharePoint UNED
+  - Comunidad [(2C) Aprendizaje Automático II](https://teams.microsoft.com/l/channel/19%3Afc1f29429e3c4665b2df517721831183%40thread.skype/(2C)%20Aprendizaje%20Autom%C3%A1tico%20II?groupId=7c9f8977-f3e0-4c30-a8e7-b379f521d869&tenantId=b5587048-a070-43ad-b654-20a31e9b2d99) en Teams
