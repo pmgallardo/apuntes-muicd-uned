@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 #
 # SPDX-License-Identifier: MIT
 
