@@ -101,6 +101,7 @@ exams:
      - coeficiente-homofilia
    - id: 2024so.c.3
      tags:
+     - verificacion-aprendizaje-no-supervisado
      - algoritmos-aprendizaje-no-supervisado
    preguntas:
    - id: 2024so.p.1
