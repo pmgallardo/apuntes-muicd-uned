@@ -192,7 +192,7 @@ units:
         tags:
         - tipos-representacion-grafos
         sections:
-        - title: Matriz de proximidad )
+        - title: Matriz de adyacencia )
         - title: Lista de proximidad )
         - title: Lista de aristas )
     - title: Tipos de grafos )
