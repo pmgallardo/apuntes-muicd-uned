@@ -1,0 +1,22 @@
+# VD - Repaso
+
+- Tema 1
+  - **Pasos para crear una visualización** (cuestión...)
+  - **Roles en el proceso** (iniciador...) (ICPIDCCC)
+- Tema 2
+  - **Definición de teoría de sistemas**
+  - **Aproximaciones de teoría de sistemas** (analítica...) (AS)
+  - **Tipos de variables** (cualitativa...) 
+  - **Estructuras formales de representación de datos** (variable...)
+  - **Proceso de análisis de datos** (procesado...)
+  - **Tareas del preprocesado** (limpieza...) (LFT)
+  - **Tareas de procesado** (ordenación...) (OACCNE)
+- Tema 3
+  - **Elementos gráficos** (línea...) (PLFV)
+  - **Canales** (color...) (CTFOT)
+  - **Principios de Gestalt** (figura-fondo...) (FPPSDCJ)
+  - **Precisión en la representación** (posición...) (PLOAVC)
+  - **Principios de composición visual** (unidad...) (UGEJBCEDS)
+- Tema 4
+  - **Tipos de representaciones visuales** (comparación de categorías...) (CCECM)
+  - **todos los tipos de gráficos y para que sirve cada uno**
