@@ -1,0 +1,41 @@
+# GAINE - Repaso
+
+- Tema 1
+  - Acrónimo ACID.
+  - Acrónimo BASE.
+  - Teorema de CAP.
+    - Teorema de CAP en cada base de datos NoSQL.
+  - Elección base de datos NoSQL.
+  - Concepto de sharding.
+
+- Tema 2. Bases de datos clave-valor (Redis)
+  - Cadenas
+    - `SET` / `INCR` / `DEL`
+    - `EXPIRE` / `TTL`
+  - Listas
+    - **Adición: `LPUSH` / `RPUSH`**
+    - `LRANGE` para recuperar valores
+  - Conjuntos
+    - `SADD`
+  - Listas ordenadas
+    - Adición: `ZADD`
+  - `SORT` (como queries de SQL)
+  - Hash
+    - `HSET`
+- Tema 3. Bases de datos documental (MongoDB)
+  - Sharding en MongoDB
+    - Requisitos mínimos de sharding en MongoDB <-
+  - Las funciones MongoDB usan camel case.
+  - Índices multikey
+  - `$match`
+  - `$project`
+  - `$unwind`
+  - `$filter`
+- Tema 4
+- Tema 5
+  - `CREATE` vs `MERGE`
+  - `SET`
+  - `RETURN DISTINCT`
+  - `RETURN LIMIT`
+  - `collect()`
+  - CONTAINS / ENDS WITH / STARTS WITH / IN
