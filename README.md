@@ -13,9 +13,13 @@ Repositorio no afiliado institucionalmente con la UNED.
 
 Para más información sobre el máster, visita la [página web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos.html).
 
-## Estructura
+## Información general del máster
 
-En la carpeta [`master`](master/) se comparte información general sobre el máster. Si eres nuevo/a, te recomendamos empezar por aquí.
+En la carpeta [`master`](master/) se comparte información general sobre el máster.
+
+Si eres nuevo/a, te recomendamos empezar por aquí.
+
+## Asignaturas
 
 El resto de carpetas están dedicadas a una asignatura concreta:
 
@@ -42,7 +46,7 @@ Las asignaturas se organizan en dos carpetas:
 
 ## Material ofrecido
 
-El repositorio ofrece material propio de utilidad para los actuales o futuros alumnos del máster, pudiéndose incluir:
+El repositorio ofrece material propio de utilidad para los actuales y futuros alumnos del máster, pudiendo incluir:
 
 - Esquemas y resúmenes del temario.  
 - Notas ampliadas sobre el contenido.  
