@@ -8,9 +8,13 @@ SPDX-License-Identifier: CC-BY-4.0
 
 En esta carpeta se comparte comparte información general sobre el máster MUICD y material común a todas las asignaturas.
 
+Para obtener la información oficial del máster, visita la [página web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos.html).
+
 ## Asignaturas
 
 El **listado completo de asignaturas** se encuentra en [este enlace](src/asig/asignaturas.csv).
+
+Recuerda que puedes acceder a recursos de cada asignatura desde la [página principal del repositorio](../).
 
 ### Elección
 
@@ -40,17 +44,19 @@ En resumen:
     - **Tasa de rendimiento**: porcentaje de aprobados respecto a matriculados.
     - **Valoración de la asignatura**: puntuación dada por los estudiantes.
 
+Según la opinión de algunos antiguos alumnos, el número de créditos de la asignatura no se corresponde siempre con el número de horas que hay que dedicarla, por lo que son más fiables las opiniones de los alumnos y las estadísticas
+
 ### Dependencias de asignaturas
 
-Diagrama de **dependencias entre asignaturas** del MUICD en función del contenido del temario, de acuerdo a las opiniones de los alumnos:
+Diagrama de **dependencias entre asignaturas** del MUICD en función del contenido del temario, de acuerdo a las opiniones de antiguos alumnos:
 
 ```mermaid
 graph LR
-   MED[Modelado Estadístico de Datos] --> AAI[Aprendizaje Automático 1]
+   MED[Modelado Estadístico de Datos] --> AAI[Aprendizaje Automático I]
    MED --> MBJ(Modelos Bayesianos Jerárquicos)
    PED[Programación en Entornos de Datos] --> MT[Minería de Textos]
    PED --> AAI
-   AAI --> AAII[Aprendizaje Automático 2]
+   AAI --> AAII[Aprendizaje Automático II]
    AAI --> MDMS(Minería de Datos de los Medios Sociales)
    AAI --> DL(Deep Learning)
    AAI --> VD[Visualización de Datos]
@@ -71,7 +77,7 @@ graph LR
   class AAI,AAII,GAINE,ICPDM,MED,MT,PED,TFM,VD obligatoria;
 ```
 
-Adicionalmente, para poder presentar el Trabajo Fin de Máster es requisito haber superado todas las asignaturas en la convocatoria ordinaria de ese curso, o en cualquiera para cursos anteriores.
+Adicionalmente, para poder presentar el Trabajo Fin de Máster es requisito haber superado todas las asignaturas en la convocatoria de febrero y junio de ese curso, o en cualquiera para cursos anteriores.
 
 ## Pruebas de evaluación continua
 
@@ -101,7 +107,7 @@ Cada convocatoria cuenta con uno o dos slots de exámenes de reserva. Cada slot 
 
 - Conv. febrero: 1 slot  
 - Conv. junio: 1 slot  
-- Conv. septiembre: 2 slots, donde  
+- Conv. septiembre: 2 slots en el mismo día, donde  
   - Slot de mañana: exámenes de los 3 primeros días de la convocatoria.  
   - Slot de tarde: exámenes del resto de días.  
 
@@ -119,12 +125,13 @@ Recuerda llevar:
 
 - Carnet de la UNED  
 - Boligrafo/s (no se permite entregar el exámen a lápiz)  
+- Reloj de pulsera analógico (no se permiten los digitales)
 - Calculadora (si se permite)  
 - Material escrito (si se permite)  
 
 ### Calificaciones
 
-Las calificaciones se pueden revisar:
+Las calificaciones se pueden revisar en:
 
 - Campus UNED - Identificarse - Acceder a la Secretaría Virtual - Ver Calificaciones
 - App "Calificaciones" de la UNED
