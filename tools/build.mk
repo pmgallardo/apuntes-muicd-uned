@@ -133,7 +133,7 @@ $(DIST_DIR)/pdf/%.pdf: $(SRC_DIR)/%.md
 	[ -f "$$hdr_global" ] && args="$$args -H $$hdr_global"; \
 	[ -f "$$hdr_dir"    ] && args="$$args -H $$hdr_dir"; \
 	[ -f "$$hdr_file"   ] && args="$$args -H $$hdr_file"; \
-	$(PANDOC) "$<" -o "$@" $(PANDOC_pdf_OPTS) $$args
+	$(PANDOC) "$<" -o "$@" $(PANDOC_pdf_OPTS) --resource-path=.:$(dir $<) $$args
 
 # MD -> EPUB
 $(DIST_DIR)/epub/%.epub: $(SRC_DIR)/%.md
