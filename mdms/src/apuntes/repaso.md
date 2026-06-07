@@ -1,0 +1,72 @@
+# MDMS - Repaso
+
+- Tema 1: Herramientas y métodos de extracción de información en redes sociales
+  - **Retos MDMS** (PMED) (paradoja del big data...)
+  - **Características datos** (GERDI) (grandes...)
+  - **Teoría correlación social**
+  - **Teoría del balance**
+  - **Teoría del estatus**
+  - **Razones de la importancia de detección de comunidades**
+  - **Tipos de comunidades**
+  - **Teorías relacionadas con la predicción de enlaces**
+- Tema 2: Análisis y visualización de redes sociales estáticas y dinámicas
+  - **Propiedades de representación de grafos** (ICT) (integridad...)
+  - **Representaciones de grafos** (MLL) (matriz de adyacencia...)
+  - **Tipos de grafos**
+  - Definiciones
+    - Nodos próximos
+    - Aristas incidentes
+    - Camino
+      - Longitud del camino
+    - Sendero
+    - Trayectoria
+    - Ciclo
+      - Longitud del ciclo
+    - Nodos conectados
+    - Grafo conectado
+    - Grafo denso
+    - Componente
+      - Fuertemente conectado
+      - Débilmente conectado
+    - Trayectoria más corta
+    - Diámetro
+    - Puente
+  - Métricas básicas de grafos
+    - Centralidad
+    - Coeficiente de agrupamiento
+    - Cohesión
+    - Densidad
+    - Puente local
+    - Longitud de la trayectoria
+    - Prestigio
+    - Radialidad
+    - Alcance
+    - Cohesión estructural
+    - Agujero estructural
+    - Transitividad
+    - Coeficiente de agrupamiento global
+    - Coeficiente de agrupamiento local
+    - Reciprocidad
+    - Similitud
+    - Equivalencia estructural
+  - Constructos
+    - Centralidad
+    - Densidad
+    - Transitividad
+    - Similitud
+      - **Equivalencia estructural**
+  - Métricas
+    - Centralidad
+      - Centr. grado
+      - Centr. vector propio
+      - PageRank
+      - HITS
+    - Transitividad
+      - Coeficiente de agrupamiento global
+      - Coeficiente de agrupamiento local
+    - Intermediación
+  - **Formas de representar una red dinámica** (RSG) (red agregada)
+- Tema 3: Técnicas de minería de datos en redes sociales
+  - Definición de ruido
+  - Métodos de verificación de aprendizaje no supervisado
+  
