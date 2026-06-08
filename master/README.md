@@ -129,6 +129,16 @@ Recuerda llevar:
 - Calculadora (si se permite)  
 - Material escrito (si se permite)  
 
+El tiempo mínimo que se debe permanecer en un exámen es una hora.
+
+### Justificante de exámenes
+
+Si necesitas un justificante de exámenes, puedes marcar en la hoja de respuestas la casilla que indica que requieres justificante. Esto hará que al entregar el exámen te impriman un justificante.
+
+Alternativamente, a partir del día siguiente de la realización del exámen puedes encontrar el exámen en:
+
+[Campus del estudiante](https://www.uned.es/universidad/campus/estudiantes.html) > "Evaluación" > "Ver exámenes realizados" <https://retorno.uned.es/FrmTabla.aspx>.
+
 ### Calificaciones
 
 Las calificaciones se pueden revisar en:
