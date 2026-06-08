@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# AAII - Exámen 2025SO
+# AAII - Exámen 2026J2
 
 Ejercicios elaborados con fines educativos, inspirados en los contenidos evaluados en el exámen de la sesión ordinaria de la convocatoria de junio 2026 de Aprendizaje Automático II del MUICD de la UNED.
 
