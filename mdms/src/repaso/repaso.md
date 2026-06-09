@@ -72,5 +72,5 @@
   - Definiciones de calidad de los datos
   - Etapas preprocesado (ADNSEME) (agregación...)
   - Algoritmos agrupamiento (ANRK) (árboles de decisión...)
-  - Pasos estudio agrupamiento (SMCAV) (selección...)
+  - Pasos estudio agrupamiento (SMCAVI) (selección...)
   - Métodos de verificación de aprendizaje no supervisado (SCI) (separación, cohesión, índice silueta)
