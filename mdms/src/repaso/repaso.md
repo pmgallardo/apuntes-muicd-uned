@@ -49,8 +49,8 @@
     - Reciprocidad
     - Similitud
     - Equivalencia estructural
-  - Constructos
-    - Centralidad
+  - Características
+    - Centralidad / Importancia
     - Densidad
     - Transitividad
     - Similitud
@@ -58,6 +58,8 @@
   - Métricas
     - Centralidad
       - Centr. grado
+      - Centr. cercanía
+      - Centr. intermediación
       - Centr. vector propio
       - PageRank
       - HITS
@@ -67,6 +69,8 @@
     - Intermediación
   - **Formas de representar una red dinámica** (RSG) (red agregada)
 - Tema 3: Técnicas de minería de datos en redes sociales
-  - Definición de ruido
-  - Métodos de verificación de aprendizaje no supervisado
-  
+  - Definiciones de calidad de los datos
+  - Etapas preprocesado (ADNSEME) (agregación...)
+  - Algoritmos agrupamiento (ANRK) (árboles de decisión...)
+  - Pasos estudio agrupamiento (SMCAV) (selección...)
+  - Métodos de verificación de aprendizaje no supervisado (SCI) (separación, cohesión, índice silueta)
