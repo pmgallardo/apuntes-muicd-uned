@@ -1,12 +1,12 @@
 # VD - Repaso
 
 - Tema 1
-  - **Pasos para crear una visualización** (cuestión...)
+  - **Pasos para crear una visualización** (CREEC) (cuestión...)
   - **Roles en el proceso** (iniciador...) (ICPIDCCC)
 - Tema 2
   - **Definición de teoría de sistemas**
   - **Aproximaciones de teoría de sistemas** (analítica...) (AS)
-  - **Tipos de variables** (cualitativa...) 
+  - **Tipos de variables** (cualitativa...)
   - **Estructuras formales de representación de datos** (variable...)
   - **Proceso de análisis de datos** (procesado...)
   - **Tareas del preprocesado** (limpieza...) (LFT)
