@@ -1,6 +1,7 @@
 # VD - Repaso
 
 - Tema 1
+  - **Diferencia representación y presentación de datos**
   - **Pasos para crear una visualización** (CREEC) (cuestión...)
   - **Roles en el proceso** (iniciador...) (ICPIDCCC)
   - Objetivos representación (O)
