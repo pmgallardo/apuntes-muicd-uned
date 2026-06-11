@@ -3,20 +3,25 @@
 - Tema 1
   - **Pasos para crear una visualización** (CREEC) (cuestión...)
   - **Roles en el proceso** (iniciador...) (ICPIDCCC)
+  - Objetivos representación (O)
 - Tema 2
   - **Definición de teoría de sistemas**
   - **Aproximaciones de teoría de sistemas** (analítica...) (AS)
   - **Tipos de variables** (cualitativa...)
-  - **Estructuras formales de representación de datos** (variable...)
-  - **Proceso de análisis de datos** (procesado...)
-  - **Tareas del preprocesado** (limpieza...) (LFT)
+  - **Estructuras formales de representación de datos** (variable...) (VLT)
+  - **Proceso de análisis de datos** (procesado...) (PPEPI)
+  - **Tareas del preprocesado** (limpieza...) (LeFT)
   - **Tareas de procesado** (ordenación...) (OACCNE)
 - Tema 3
   - **Elementos gráficos** (línea...) (PLFV)
-  - **Canales** (color...) (CTFOT)
+  - **Canales de información visual** (color...) (CTFOT)
   - **Principios de Gestalt** (figura-fondo...) (FPPSDCJ)
-  - **Precisión en la representación** (posición...) (PLOAVC)
+  - **Efectividad de los canales de información visual** (precisión, velocidad de proceso)
+  - **Teoría de integración de características** (preatencional, atencional)
+  - **Aspectos de la representación** (PNNTR)
+  - **Precisión en la representación** (posición...) +(PLOAVC)-
   - **Principios de composición visual** (unidad...) (UGEJBCEDS)
+  - **Storytelling de datos** (componer una narrativa...) (5)
 - Tema 4
   - **Tipos de representaciones visuales** (comparación de categorías...) (CCECM)
   - **todos los tipos de gráficos y para que sirve cada uno**
