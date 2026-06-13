@@ -160,3 +160,55 @@ exams:
        tags:
        - algoritmos-aprendizaje-supervisado
        - algoritmos-aprendizaje-no-supervisado
+ - id: 2026j2
+   cuestiones:
+   - id: 2026j2.c.1
+     tags:
+     - modelo-representacion-temporal
+   - id: 2026j2.c.2
+     analogue: 2024so.c.2
+     tags:
+     - teoria-correlacion-social
+     - prediccion-enlaces
+     - coeficiente-homofilia
+   - id: 2026j2.c.3
+     tags:
+     - metodos-verificacion-aprendizaje-no-supervisado
+   preguntas:
+   - id: 2026j2.p.1
+     apartados:
+     - id: 2026j2.p.1.1
+       tags:
+       - procedimiento-analisis-redes-mineria-datos
+     - id: 2026j2.p.1.2
+       tags:
+       - metricas-basicas-grafos
+     - id: 2026j2.p.1.3
+       tags:
+       - algoritmos-aprendizaje-automatico
+     - id: 2026j2.p.1.4
+       tags:
+       - teoria-balance
+ - id: 2026jr
+   cuestiones:
+   - id: 2026jr.c.1
+     tags:
+     - ego-red
+   - id: 2026jr.c.2
+     tags:
+     - hits
+   - id: 2026jr.c.3
+     tags:
+     - modularidad
+   preguntas:
+   - id: 2026jr.p.1
+     apartados:
+     - id: 2026jr.p.1.1
+       tags:
+       - analisis-redes-sociales
+     - id: 2026jr.p.1.2
+       tags:
+       - aprendizaje-automatico
+     - id: 2026jr.p.1.3
+       tags:
+       - recomendacion-social
