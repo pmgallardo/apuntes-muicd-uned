@@ -92,6 +92,7 @@ exams:
  - id: 2024so
    cuestiones:
    - id: 2024so.c.1
+     analogue: 2023j2.c.2
      tags:
      - hits
    - id: 2024so.c.2
@@ -195,11 +196,14 @@ exams:
      tags:
      - ego-red
    - id: 2026jr.c.2
+     analogue: 2023j2.c.2
      tags:
      - hits
    - id: 2026jr.c.3
+     analogue: 2025so.c.2
      tags:
      - modularidad
+     - teoria-correlacion-social
    preguntas:
    - id: 2026jr.p.1
      apartados:
