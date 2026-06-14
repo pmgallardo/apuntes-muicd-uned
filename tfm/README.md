@@ -44,7 +44,7 @@ La fecha límite de entrega de junio suele coincidir con los exámenes.
 
 ## Defensa
 
-La fecha de defensa se publica aproximadamente una semana después 
+La fecha de defensa se publica aproximadamente una semana después de haber realizado la entrega.
 
 Las defensas son online, no presenciales.
 
