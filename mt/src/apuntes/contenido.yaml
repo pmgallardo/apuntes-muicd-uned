@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+temas:
+  - titulo: "Tema 1: Introdución al procesamiento de lenguaje natural"
+  - titulo: "Tema 2: Extracción de información"
+    sections:
+    - id: 2.1
+      titulo: "Extracción de información"
+      sections:
+      - titulo: "Tareas y subtareas"
+    - id: 2.2
+      titulo: Reconocimiento de entidades
+    - id: 2.3
+      titulo: Extracción de relaciones
+    - id: 2.4
+      titulo: Principales técnicas
+      sections:
+      - titulo: Patrones
+      - titulo: Aprendizaje automático supervisado
+      - titulo: Técnicas semisupervisadas
+      - titulo: Técnicas no supervisadas
+  - titulo: "Tema 3: Representación de documentos"
+  - titulo: "Tema 4: Clustering y clasificación"
+  - titulo: "Tema 5: Aplicaciones"
