@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
@@ -36,6 +36,8 @@ En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de In
 
 Existen comunidades no oficiales de alumnos y alumni del máster:
 
-- Comunidad [UNED - ICPDM (Máster Datos)](https://t.me/+JiztojJ1WNRjYjE0) en Telegram
-- [Carpeta `INFRAESTRUCTURAS CMP PARA PRCSMTO DE DATOS MASIVOS` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgB12rtCAxEvRKkRWVoABxAjAZnJJwrWobXMiLlN6c0tTkM) en SharePoint UNED
-- Entrada a [ICP](https://github.com/adzarei/uned-master-bigdata/tree/master/ICP) de curso 2019/2020 en repositorio `uned-master-bigdata` de Adrián José Zapater Reig
+- Activa
+  - Comunidad [UNED - ICPDM (Máster Datos)](https://t.me/+JiztojJ1WNRjYjE0) en Telegram
+- Inactiva
+  - [Carpeta `INFRAESTRUCTURAS CMP PARA PRCSMTO DE DATOS MASIVOS` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgB12rtCAxEvRKkRWVoABxAjAZnJJwrWobXMiLlN6c0tTkM) en SharePoint UNED
+  - Entrada a [ICP](https://github.com/adzarei/uned-master-bigdata/tree/master/ICP) de curso 2019/2020 en repositorio `uned-master-bigdata` de Adrián José Zapater Reig
