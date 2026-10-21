@@ -8,131 +8,334 @@ SPDX-License-Identifier: MIT
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apuntes MUICD UNED</title>
+    
+    <!-- Tipografías de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* =========================================
+           PALETA DE COLORES (Gama Azules/Morados)
+           ========================================= */
+        :root {
+            --color-master: #1A365D; /* Azul Marino Intenso - General */
+            
+            /* Colores individuales para las 14 asignaturas */
+            --color-med:    #2B6CB0; /* Azul Cobalto */
+            --color-ped:    #3182CE; /* Azul Claro */
+            --color-aai:    #4C51BF; /* Añil */
+            --color-mt:     #6B46C1; /* Púrpura */
+            --color-icpdm:  #805AD5; /* Morado Suave */
+            --color-vd:     #2C5282; /* Azul Oscuro */
+            --color-gaine:  #5A67D8; /* Azul Real */
+            --color-aaii:   #7F9CF5; /* Azul Lavanda */
+            --color-mbj:    #9F7AEA; /* Lila Oscuro */
+            --color-mdms:   #B794F4; /* Lila Claro */
+            --color-dl:     #4A5568; /* Azul Pizarra */
+            --color-sgd:    #718096; /* Gris Azulado */
+            --color-tfm:    #2D3748; /* Antracita */
+
+            --bg-page: #F7FAFC;
+            --text-main: #2D3748;
+            --text-muted: #718096;
+        }
+
+        /* =========================================
+           ESTILOS BASE
+           ========================================= */
+        body {
+            font-family: 'Lora', serif; /* Texto principal de lectura */
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, .ui-text {
+            font-family: 'Inter', sans-serif; /* Interfaz y titulares */
+        }
+
+        a { text-decoration: none; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* =========================================
+           CABECERA Y PRESENTACIÓN
+           ========================================= */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            color: var(--color-master);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .intro-text {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            color: var(--text-muted);
+        }
+
+        /* Tarjeta Destacada: Guía del Máster */
+        .master-card {
+            background: var(--color-master);
+            color: white;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 50px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            display: block;
+        }
+        
+        .master-card:hover { transform: translateY(-5px); }
+        .master-card h2 { color: white; margin: 0 0 10px 0; }
+        .master-card p { margin: 0; color: #E2E8F0; font-family: 'Inter', sans-serif; }
+
+        /* =========================================
+           GRID DE ASIGNATURAS (Sustituye a la tabla)
+           ========================================= */
+        .section-title {
+            color: var(--text-main);
+            border-bottom: 2px solid #E2E8F0;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            border-top: 5px solid; /* Aquí inyectamos el color específico */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Asignación de colores por libro */
+        .card.med { border-color: var(--color-med); }
+        .card.med h3 { color: var(--color-med); }
+        .card.ped { border-color: var(--color-ped); }
+        .card.ped h3 { color: var(--color-ped); }
+        .card.aai { border-color: var(--color-aai); }
+        .card.aai h3 { color: var(--color-aai); }
+        .card.mt { border-color: var(--color-mt); }
+        .card.mt h3 { color: var(--color-mt); }
+        .card.icpdm { border-color: var(--color-icpdm); }
+        .card.icpdm h3 { color: var(--color-icpdm); }
+        .card.vd { border-color: var(--color-vd); }
+        .card.vd h3 { color: var(--color-vd); }
+        .card.gaine { border-color: var(--color-gaine); }
+        .card.gaine h3 { color: var(--color-gaine); }
+        .card.aaii { border-color: var(--color-aaii); }
+        .card.aaii h3 { color: var(--color-aaii); }
+        .card.mbj { border-color: var(--color-mbj); }
+        .card.mbj h3 { color: var(--color-mbj); }
+        .card.mdms { border-color: var(--color-mdms); }
+        .card.mdms h3 { color: var(--color-mdms); }
+        .card.dl { border-color: var(--color-dl); }
+        .card.dl h3 { color: var(--color-dl); }
+        .card.sgd { border-color: var(--color-sgd); }
+        .card.sgd h3 { color: var(--color-sgd); }
+        .card.tfm { border-color: var(--color-tfm); }
+        .card.tfm h3 { color: var(--color-tfm); }
+
+        .card h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.2rem;
+            line-height: 1.3;
+        }
+
+        .card-meta {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .badge {
+            background: #EDF2F7;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        /* =========================================
+           FOOTER
+           ========================================= */
+        footer {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #E2E8F0;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        footer a { color: var(--color-master); font-weight: 600; }
+        footer a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-    <h1>Apuntes MUICD UNED</h1>
-    <p>En esta página encontrarás recursos de estudio no oficiales para el Máster Universitario de Ingeniería y Ciencia del Dato (MUICD) impartido por la Universidad Nacional de Educación a Distancia (UNED).</p>
-    <p>El proyecto se realiza a partir de contenido aportado por voluntarios y con fines educativos, y no está afiliado con la UNED.</p>
+
+<div class="container">
     
-    <h2>Información general del máster</h2>
+    <header>
+        <h1>Apuntes MUICD UNED</h1>
+        <div class="intro-text">
+            <p>Repositorio colaborativo con recursos de estudio no oficiales para el Máster Universitario de Ingeniería y Ciencia del Dato (MUICD) de la UNED.</p>
+            <p>Creado por y para estudiantes con fines puramente educativos. Proyecto independiente no afiliado a la universidad.</p>
+        </div>
+    </header>
+
+    <a href="master/" class="master-card ui-text">
+        <h2>Guía general del máster</h2>
+        <p>Recomendado para nuevos estudiantes. Aspectos generales y metodología.</p>
+    </a>
+
+    <h2 class="section-title">Asignaturas y Materiales</h2>
     
-    <p>Si eres nuevo/a, te recomendamos que empieces revisando este libro sobre aspectos generales del máster.</p>
-    <p><a href="master/">Guía general del máster</a></p>
-    
-    <h2>Asignaturas</h2>
-    
-    <p>Haz clic en el enlace para ver obtener más información sobre la asignatura:</p>
-    
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Código</th>
-          <th>Abrev.</th>
-          <th>Título asignatura</th>
-          <th>Sem.</th>
-          <th>Car.</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>31110018</td>
-          <td><a href="med/">med</a></td>
-          <td>Modelado estadístico de datos</td>
-          <td>1</td>
-          <td>Ob</td>
-        </tr>
-        <tr>
-          <td>31110022</td>
-          <td><a href="ped/">ped</a></td>
-          <td>Programación en entornos de datos</td>
-          <td>1</td>
-          <td>Ob</td>
-        </tr>
-        <tr>
-          <td>31110037</td>
-          <td><a href="aai/">aai</a></td>
-          <td>Aprendizaje automático I</td>
-          <td>1</td>
-          <td>Ob</td>
-        </tr>
-        <tr>
-          <td>31110041</td>
-          <td><a href="mt/">mt</a></td>
-          <td>Minería de textos</td>
-          <td>1</td>
-          <td>Ob</td>
-        </tr>
-        <tr>
-          <td>31110056</td>
-          <td><a href="icpdm/">icpdm</a></td>
-          <td>Infraestructuras computacionales para procesamiento de datos masivos</td>
-          <td>1</td>
-          <td>Ob</td>
-        </tr>
-        <tr>
-          <td>31110060</td>
-          <td><a href="vd/">vd</a></td>
-          <td>Visualización de datos</td>
-          <td>2</td>
-          <td>Ob</td>
-        </tr>
-        <tr>
-          <td>3111008-</td>
-          <td><a href="gaine/">gaine</a></td>
-          <td>Gestión/almacenamiento de información no estructurada</td>
-          <td>2</td>
-          <td>Ob</td>
-        </tr>
-        <tr>
-          <td>31110130</td>
-          <td><a href="aaii/">aaii</a></td>
-          <td>Aprendizaje automático II</td>
-          <td>2</td>
-          <td>Ob</td>
-        </tr>
-        <tr>
-          <td>31101305</td>
-          <td><a href="mbj/">mbj</a></td>
-          <td>Modelos bayesianos jerárquicos</td>
-          <td>2</td>
-          <td>Op</td>
-        </tr>
-        <tr>
-          <td>31110107</td>
-          <td><a href="mdms/">mdms</a></td>
-          <td>Minería de datos de los medios sociales</td>
-          <td>2</td>
-          <td>Op</td>
-        </tr>
-        <tr>
-          <td>31110111</td>
-          <td><a href="dl/">dl</a></td>
-          <td>Deep learning</td>
-          <td>2</td>
-          <td>Op</td>
-        </tr>
-        <tr>
-          <td>31110126</td>
-          <td><a href="sgd/">sgd</a></td>
-          <td>Seguridad de la gestión de datos</td>
-          <td>2</td>
-          <td>Op</td>
-        </tr>
-        <tr>
-          <td>31110075</td>
-          <td><a href="tfm/">tfm</a></td>
-          <td>Trabajo fin de máster</td>
-          <td>2</td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <h2>Repositorio y licencias</h2>
-    
-    Contenido distribuido con licencias abiertas (<a href="https://mit-license.org/" target="_blank">MIT</a> para código y <a href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">CC-BY-4.0</a>   para el resto).
-    
-    <p><a href="https://github.com/pmgallardo/apuntes-muicd-uned" target="_blank">Repositorio de ficheros fuente</a></p>
-    
+    <div class="grid">
+        <!-- Tarjetas de asignaturas -->
+        <a href="med/" class="card med">
+            <h3>Modelado estadístico de datos</h3>
+            <div class="card-meta">
+                <span>Cód. 31110018</span>
+                <span class="badge">Sem 1 · Obligatoria</span>
+            </div>
+        </a>
+
+        <a href="ped/" class="card ped">
+            <h3>Programación en entornos de datos</h3>
+            <div class="card-meta">
+                <span>Cód. 31110022</span>
+                <span class="badge">Sem 1 · Obligatoria</span>
+            </div>
+        </a>
+
+        <a href="aai/" class="card aai">
+            <h3>Aprendizaje automático I</h3>
+            <div class="card-meta">
+                <span>Cód. 31110037</span>
+                <span class="badge">Sem 1 · Obligatoria</span>
+            </div>
+        </a>
+
+        <a href="mt/" class="card mt">
+            <h3>Minería de textos</h3>
+            <div class="card-meta">
+                <span>Cód. 31110041</span>
+                <span class="badge">Sem 1 · Obligatoria</span>
+            </div>
+        </a>
+
+        <a href="icpdm/" class="card icpdm">
+            <h3>Infraestructuras computacionales para procesamiento de datos masivos</h3>
+            <div class="card-meta">
+                <span>Cód. 31110056</span>
+                <span class="badge">Sem 1 · Obligatoria</span>
+            </div>
+        </a>
+
+        <a href="vd/" class="card vd">
+            <h3>Visualización de datos</h3>
+            <div class="card-meta">
+                <span>Cód. 31110060</span>
+                <span class="badge">Sem 2 · Obligatoria</span>
+            </div>
+        </a>
+
+        <a href="gaine/" class="card gaine">
+            <h3>Gestión/almacenamiento de inf. no estructurada</h3>
+            <div class="card-meta">
+                <span>Cód. 3111008-</span>
+                <span class="badge">Sem 2 · Obligatoria</span>
+            </div>
+        </a>
+
+        <a href="aaii/" class="card aaii">
+            <h3>Aprendizaje automático II</h3>
+            <div class="card-meta">
+                <span>Cód. 31110130</span>
+                <span class="badge">Sem 2 · Obligatoria</span>
+            </div>
+        </a>
+
+        <a href="mbj/" class="card mbj">
+            <h3>Modelos bayesianos jerárquicos</h3>
+            <div class="card-meta">
+                <span>Cód. 31101305</span>
+                <span class="badge">Sem 2 · Optativa</span>
+            </div>
+        </a>
+
+        <a href="mdms/" class="card mdms">
+            <h3>Minería de datos de los medios sociales</h3>
+            <div class="card-meta">
+                <span>Cód. 31110107</span>
+                <span class="badge">Sem 2 · Optativa</span>
+            </div>
+        </a>
+
+        <a href="dl/" class="card dl">
+            <h3>Deep learning</h3>
+            <div class="card-meta">
+                <span>Cód. 31110111</span>
+                <span class="badge">Sem 2 · Optativa</span>
+            </div>
+        </a>
+
+        <a href="sgd/" class="card sgd">
+            <h3>Seguridad de la gestión de datos</h3>
+            <div class="card-meta">
+                <span>Cód. 31110126</span>
+                <span class="badge">Sem 2 · Optativa</span>
+            </div>
+        </a>
+
+        <a href="tfm/" class="card tfm">
+            <h3>Trabajo fin de máster</h3>
+            <div class="card-meta">
+                <span>Cód. 31110075</span>
+                <span class="badge">Sem 2 · Obligatoria</span>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <p>Contenido distribuido con licencias abiertas (<a href="https://mit-license.org/" target="_blank">MIT</a> para código y <a href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">CC-BY-4.0</a> para el resto).</p>
+        <p><a href="https://github.com/pmgallardo/apuntes-muicd-uned" target="_blank">Repositorio de ficheros fuente en GitHub</a></p>
+    </footer>
+
+</div>
+
 </body>
 </html>
