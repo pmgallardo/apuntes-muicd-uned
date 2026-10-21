@@ -7,16 +7,16 @@ project:
   output-dir: _book
 
 book:
-  title: "Visualización de datos"
+  title: "Infraestructuras computacionales para procesamiento de datos masivos"
   subtitle: "Guía de estudio de la asignatura del MUICD de la UNED"
   author: "Colaboradores de apuntes-muicd-uned"
   date: today
   language: es
   downloads: [pdf, epub]
-  output-file: "vd"
+  output-file: "icpdm"
   
-  site-url: https://pmgallardo.github.io/apuntes-muicd-uned/vd
-  repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/vd
+  site-url: https://pmgallardo.github.io/apuntes-muicd-uned/icpdm
+  repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/icpdm
   repo-actions: [edit, issue, source]
 
   sidebar:
