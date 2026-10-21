@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
 # MDMS - Repaso
 
 - Tema 1: Herramientas y métodos de extracción de información en redes sociales

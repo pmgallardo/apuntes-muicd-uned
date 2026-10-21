@@ -7,7 +7,7 @@ project:
   output-dir: _book
 
 book:
-  title: "Máster Universitario en Ingeniería y Ciencia del Dato"
+  title: "Máster Universitario en Ingeniería y Ciencia de Datos"
   subtitle: "Guía de estudio del MUICD de la UNED"
   author: "Colaboradores de apuntes-muicd-uned"
   date: today
