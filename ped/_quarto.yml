@@ -9,9 +9,14 @@ book:
   date: today
   language: es
   
+  downloads: [pdf, epub]
+  output-file: "ped"
+  
   site-url: https://pmgallardo.github.io/apuntes-muicd-uned/ped
   repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/ped
   repo-actions: [edit, issue, source]
+
+
 
   sidebar:
     style: "docked"

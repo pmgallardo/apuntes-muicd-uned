@@ -8,10 +8,13 @@ book:
   author: "Colaboradores de apuntes-muicd-uned"
   date: today
   language: es
+  output-file: "vd"
+  downloads: [pdf, epub]
   
   site-url: https://pmgallardo.github.io/apuntes-muicd-uned/vd
   repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/vd
   repo-actions: [edit, issue, source]
+
 
   sidebar:
     style: "docked"
