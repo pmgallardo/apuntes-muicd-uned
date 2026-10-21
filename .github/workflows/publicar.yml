@@ -53,7 +53,7 @@ jobs:
 
       - name: Renderizar y copiar icpmd
         run: |
-          quarto render ipnl
+          quarto render icpmd
           cp -r icpmd/_book _site/icpmd
 
       - name: Renderizar y copiar master
@@ -90,6 +90,16 @@ jobs:
         run: |
           quarto render sgd
           cp -r sgd/_book _site/sgd
+          
+      - name: Renderizar y copiar vd
+        run: |
+          quarto render vd
+          cp -r vd/_book _site/vd
+          
+      - name: Renderizar y copiar tfm
+        run: |
+          quarto render tfm
+          cp -r tfm/_book _site/tfm
 
       # Repite el bloque anterior para cada asignatura adicional
 
