@@ -1,96 +1,60 @@
-# SPDX-FileCopyrightText: 2026 Pablo Gallardo
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 #
 # SPDX-License-Identifier: MIT
 
-# Makefile raíz
+# Detectar el SO y asignar los comandos correspondientes
+ifeq ($(OS),Windows_NT)
+    RM_DIR = rmdir /s /q
+    MKDIR_SITE = if not exist _site mkdir _site
+    CP_INDEX = copy /Y index.html _site\ >nul
+    # Añade la barra invertida (\) antes de _book
+    CP_BOOK = xcopy /E /I /Y "$(@:site-%=%)\_book" "_site\$(@:site-%=%)" >nul 2>&1
+else
+    RM_DIR = rm -rf
+    MKDIR_SITE = mkdir -p _site
+    CP_INDEX = cp index.html _site/
+    # Añade la barra normal (/) antes de _book
+    CP_BOOK = cp -r "$(@:site-%=%)/_book" "_site/$(@:site-%=%)" 2>/dev/null
+endif
 
-SHELL := /bin/bash
+# Encuentra automáticamente todas las subcarpetas que contienen un Makefile
+# (Esto devuelve las carpetas con una barra al final, ej: "asignatura1/")
+SUBDIRS := $(dir $(wildcard */Makefile))
 
-# Carpetas que debe excluir
-EXCLUDE := LICENSES tools .git .github .vscode
+# Quita la barra final para tener nombres limpios (ej: "asignatura")
+DIR_NAMES := $(patsubst %/,%,$(SUBDIRS))
 
-# Recorre todas las carpetas y las guarda en SUBJECTS
-# Elimina la barra / que aparece al final
-# Skip es la bandera para incluir/excluir la carpeta
-# Si la carpeta no está excluida y tiene un Makefile, guarda el nombre
-SUBJECTS := $(shell \
-for d in */ ; do \
-  name=$${d%/}; \
-  skip=0; \
-  for x in $(EXCLUDE); do \
-    [ "$$name" = "$$x" ] && skip=1; \
-  done; \
-  if [ $$skip -eq 0 ] && [ -f "$$name/Makefile" ]; then \
-    echo $$name; \
-  fi; \
-done)
+# Crea listas virtuales de objetivos (ej: "clean-asignatura" y "site-asignatura")
+CLEANDIRS := $(DIR_NAMES:%=clean-%)
+SITEDIRS  := $(DIR_NAMES:%=site-%)
 
-# Indica los parámetros que son opciones
-# Esto sobreescribe a los ficheros con el mismo nombre
-.PHONY: all pdf epub html docx formats all-formats sync clean list
+# Declara que estos nombres no son archivos, sino comandos
+.PHONY: all clean site _site_base $(SUBDIRS) $(CLEANDIRS) $(SITEDIRS)
 
-# Aplica "make" (a secas) en cada carpeta
-all:
-	@for d in $(SUBJECTS); do \
-	  echo "==> $$d"; \
-	  $(MAKE) -C $$d; \
-	done
+# Compila todos los libros
+all: $(SUBDIRS)
 
-pdf:
-	@set -e; \
-	for d in $(SUBJECTS); do \
-	  echo "==> $$d: make pdf"; \
-	  $(MAKE) -C "$$d" pdf; \
-	done
+# Entra en cada subcarpeta y ejecuta el make local
+$(SUBDIRS):
+	$(MAKE) -C $@
 
-epub:
-	@set -e; \
-	for d in $(SUBJECTS); do \
-	  echo "==> $$d: make epub"; \
-	  $(MAKE) -C "$$d" epub; \
-	done
+# El comando (make clean) propaga la limpieza y borra la carpeta web
+clean: $(CLEANDIRS)
+	-$(RM_DIR) _site
 
-html:
-	@set -e; \
-	for d in $(SUBJECTS); do \
-	  echo "==> $$d: make html"; \
-	  $(MAKE) -C "$$d" html; \
-	done
+# Regla para limpiar: extrae el nombre de la carpeta y ejecuta 'make clean' dentro
+$(CLEANDIRS):
+	$(MAKE) -C $(@:clean-%=%) clean 
 
-# A la carta. Ejemplo: make formats FORMATS="pdf epub"
-formats:
-	@set -e; \
-	for d in $(SUBJECTS); do \
-	  echo "==> $$d: make formats FORMATS='$(FORMATS)'"; \
-	  $(MAKE) -C "$$d" formats FORMATS="$(FORMATS)"; \
-	done
+# Ensambla la web completa localmente
+site: all _site_base $(SITEDIRS)
 
-# Default: todos los formatos típicos (puedes overridear: make all-formats FORMATS_ALL="pdf epub")
-all-formats:
-	@set -e; \
-	for d in $(SUBJECTS); do \
-	  echo "==> $$d: make all-formats"; \
-	  $(MAKE) -C "$$d" all-formats; \
-	done
+# Prepara el directorio _site copiando el index
+_site_base:
+	-$(MKDIR_SITE)
+	-$(CP_INDEX)
 
-# Aplica "make clean" en cada carpeta
-clean:
-	@for d in $(SUBJECTS); do \
-		echo "==> $$d: make clean"; \
-	  $(MAKE) -C $$d clean; \
-	done
-
-# Lista las carpetas sobre las que aplica make
-list:
-	@echo "Asignaturas detectadas:"
-	@for d in $(SUBJECTS); do echo "- $$d"; done
-
-help:
-	@echo "Salidas disponibles:"
-	@echo "  make          Construye en el formato por defecto (PDF)"
-	@echo "  make pdf      Construye la salida en PDF"
-	@echo "  make epub     Construya la salida en EPUB"
-	@echo "  make html     Construye la salida en HTML"
-	@echo "  make all-formats  Construye en todos los formatos"
-	@echo "  make sync     Copia los ficheros"
-	@echo "  make clean    Remove build artifacts"
+# Regla para copiar cada libro compilado a su subcarpeta en _site
+# Depende de "all" y "_site_base" para asegurar el orden de ejecución correcto
+$(SITEDIRS): all _site_base
+	-$(CP_BOOK)

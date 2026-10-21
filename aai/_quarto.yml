@@ -1,0 +1,82 @@
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Aprendizaje automático I"
+  subtitle: "Guía de estudio de la asignatura del MUICD de la UNED"
+  author: "Colaboradores de apuntes-muicd-uned"
+  date: today
+  language: es
+  output-file: "aai"
+  downloads: [pdf, epub]
+  
+  site-url: https://pmgallardo.github.io/apuntes-muicd-uned/aai
+  repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/aai
+  repo-actions: [edit, issue, source]
+
+  sidebar:
+    style: "docked"
+    search: true
+    
+  chapters:
+    - index.qmd
+    - part: "Apuntes"
+      chapters:
+      - apuntes/00_estruc_contenido.qmd
+      - apuntes/01.qmd
+      - apuntes/03.qmd
+      - apuntes/04.qmd
+      - apuntes/05.qmd
+      - apuntes/07.qmd
+      - apuntes/08.qmd
+    - part: "Exámenes"
+      chapters:
+      - exam/20250902/ex_20250902.qmd
+      - exam/20250204/ex_20250204.qmd
+      - exam/20240902/ex_20240902.qmd
+      - exam/20240206/ex_20240206.qmd
+      - exam/20230904/ex_20230904.qmd
+      - exam/20230207/ex_20230207.qmd
+      - exam/20220208/ex_20220208.qmd
+      - exam/20200901/ex_20200901.qmd
+      - exam/20200201/ex_20200201.qmd
+
+lang: es
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+    toc-location: right-body
+    number-sections: true
+  pdf:
+    documentclass: scrreprt
+    pdf-engine: lualatex
+    # Necesario para que no dé error de viñetas muy anidadas
+    include-in-header: _header.tex
+
+    mainfont: "Source Sans 3"
+    sansfont: "Source Sans 3"
+    monofont: "Source Code Pro"
+
+    fontsize: 11pt
+    linestretch: 1.15
+
+    papersize: a4
+
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - left=27mm
+      - right=25mm
+
+    toc: true
+    toc-depth: 4
+    number-sections: true

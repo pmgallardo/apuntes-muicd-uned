@@ -1,0 +1,109 @@
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+#
+# SPDX-License-Identifier: MIT
+
+name: Publicar web del MUTL UNED
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Instalar TinyTeX para PDFs
+        run: quarto install tinytex --update-path
+
+      - name: Crear carpeta de ensamblaje (_site)
+        run: mkdir _site
+
+      - name: Renderizar y copiar aai
+        run: |
+          quarto render aai
+          cp -r aai/_book _site/aai
+
+      - name: Renderizar y copiar aai
+        run: |
+          quarto render aaii
+          cp -r aaii/_book _site/aaii
+
+      - name: Renderizar y copiar dl
+        run: |
+          quarto render dl
+          cp -r dl/_book _site/dl
+
+      - name: Renderizar y copiar gaine
+        run: |
+          quarto render gaine
+          cp -r gaine/_book _site/gaine
+
+      - name: Renderizar y copiar icpmd
+        run: |
+          quarto render ipnl
+          cp -r icpmd/_book _site/icpmd
+
+      - name: Renderizar y copiar master
+        run: |
+          quarto render master
+          cp -r master/_book _site/master
+          
+      - name: Renderizar y copiar mbj
+        run: |
+          quarto render mbj
+          cp -r mbj/_book _site/mbj
+
+      - name: Renderizar y copiar mdms
+        run: |
+          quarto render mdms
+          cp -r mdms/_book _site/mdms
+          
+      - name: Renderizar y copiar med
+        run: |
+          quarto render med
+          cp -r med/_book _site/med
+
+      - name: Renderizar y copiar mt
+        run: |
+          quarto render mt
+          cp -r mt/_book _site/mt
+          
+      - name: Renderizar y copiar ped
+        run: |
+          quarto render ped
+          cp -r ped/_book _site/ped
+
+      - name: Renderizar y copiar sgd
+        run: |
+          quarto render sgd
+          cp -r sgd/_book _site/sgd
+
+      # Repite el bloque anterior para cada asignatura adicional
+
+      - name: Copiar página principal (index.html)
+        run: cp index.html _site/index.html
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

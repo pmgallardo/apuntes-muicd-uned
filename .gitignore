@@ -1,8 +1,31 @@
-# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 #
-# SPDX-License-Identifier: CC-BY-4.0
+# SPDX-License-Identifier: MIT
 
-# Temp folders during building
-**/dist/.tmp/
-# Folder created when opening a Jupyter Notebook
-.ipynb_checkpoints
+# ==========================================
+# Archivos y carpetas generados por Quarto
+# ==========================================
+# El directorio oculto de caché y estado de Quarto (generado en cada carpeta)
+**/.quarto/
+
+# ==========================================
+# Archivos y carpetas generados por Jupyter Notebook
+# ==========================================
+# Carpeta creada cuando se abre un Jupyter Notebook
+**/.ipynb_checkpoints
+
+# Carpetas donde Quarto guarda el libro renderizado
+**/_book/
+
+# ==========================================
+# GitHub Actions
+# ==========================================
+# La carpeta temporal de ensamblaje que se define en el workflow (publicar.yml)
+_site/
+
+# ==========================================
+# Archivos del Sistema Operativo
+# ==========================================
+.DS_Store
+Thumbs.db
+

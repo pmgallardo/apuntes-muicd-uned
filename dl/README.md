@@ -38,11 +38,11 @@ Entre los cursos 2020/2021 y 2022/2023 eran 10 preguntas tipo test.
 - Complementaria
   - PATTERSON, Josh, GIBSON, Adam. Deep Learning. O'Reilly Media. ISBN(13): 9781491914250.
   - BUDUMA, Nikhil. Fundamentals of Deep Learning. O'Reilly Media. ISBN(13): 9781491925614.
-  - ROELANTS, Peter, ZOCCA, Valentino; SPACAGNA, Gianmario; SLATER, Daniel. Python Deep Learning. Packt Publishing. ISBN(13): 9781786464453.
-  - SOUZA, Alan M. F., SUGOMORI, Yusuke, KALUŽA, Boštjan, SOARES, Fábio M. Deep Learning: Practical Neural Networks with Java. Packt Publishing. ISBN(13): 9781788470315.
-  - ARUMUGAM, Rajesh, SHANMUGAMANI, Rajalingappaa. Hands-on Natural Language Processing with Python. Packt Publishing, Julio 2018. ISBN(13): 9781789139495.
-  - JULIAN, David. DEEP LEARNING WITH PYTORCH QUICK START GUIDE. Packt Publishing. ISBN(13): 9781789534092
-  - MEINTS, Willem. DEEP LEARNING WITH MICROSOFT COGNITIVE TOOLKIT QUICK START GUIDE. Packt Publishing. ISBN(13): 9781789802993.
+  - ROELANTS, Peter, ZOCCA, Valentino; SPACAGNA, Gianmario; SLATER, Daniel. Python Deep Learning. Packt Publishing. ISBN 9781786464453.
+  - SOUZA, Alan M. F., SUGOMORI, Yusuke, KALUŽA, Boštjan, SOARES, Fábio M. Deep Learning: Practical Neural Networks with Java. Packt Publishing. ISBN 9781788470315.
+  - ARUMUGAM, Rajesh, SHANMUGAMANI, Rajalingappaa. Hands-on Natural Language Processing with Python. Packt Publishing, Julio 2018. ISBN 9781789139495.
+  - JULIAN, David. Deep Learning with Pytorch Quick Start Guide. Packt Publishing. ISBN 9781789534092.
+  - MEINTS, Willem. Deep Learning with Microsoft Cognitive Toolkit Quick Start Guide. Packt Publishing. ISBN 9781789802993.
 
 ## Comunidades
 

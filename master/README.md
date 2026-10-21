@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
@@ -12,7 +12,7 @@ Para obtener la información oficial del máster, visita la [página web oficial
 
 ## Asignaturas
 
-El **listado completo de asignaturas** se encuentra en [este enlace](src/asig/asignaturas.csv).
+El **listado completo de asignaturas** se encuentra en [este enlace](asig/asignaturas.csv).
 
 Recuerda que puedes acceder a recursos de cada asignatura desde la [página principal del repositorio](../).
 
@@ -143,12 +143,15 @@ Alternativamente, a partir del día siguiente de la realización del exámen pue
 
 Las calificaciones se pueden revisar en:
 
-- Campus UNED - Identificarse - Acceder a la Secretaría Virtual - Ver Calificaciones
+- Ágora UNED -> Seleccionar asignatura > "Calificaciones"
 - App "Calificaciones" de la UNED
+- Campus UNED > Secretaría > "Ampliar expedientes" o "Consultar expediente académico" 
+
+Este último queda actualizado definitivamente tras el cierre de actas, y en él se informe si se ha asignado al alumno alguna matrícula de honor.
 
 La manera más cómoda de recibir un aviso sobre cuándo está una nota disponible es instalarse la app para móvil "Calificaciones" de la UNED, disponible para [Android](https://play.google.com/store/apps/details?id=es.uned.intecca.calificaciones&hl=es) y [iOS](https://apps.apple.com/es/app/calificaciones/id1006830451) y activar las notificaciones.
 
-### Evaluación asignaturas por alumnos
+### Evaluación de asignaturas por alumnos
 
 Al finalizar los exámenes los alumnos pueden valorar las asignaturas desde el enlace <https://app.uned.es/evacal/q_misq.aspx> (hace falta estar logueado antes).
 
@@ -161,6 +164,10 @@ Fechas límite para la evaluación:
 
 Para saber más sobre la confidencialidad de las respuestas y otros aspectos, leer la página de [información sobre cuestionarios y formularios de recogida de información](https://www.uned.es/universidad/inicio/unidad/oficina-calidad/informacion-sobre-cuestionarios-y-formularios-de-recogida-de-informacion.html) de la UNED.
 
+### Obtención del título
+
+Tan pronto se confirme la superación del TFM, se puede solicitar el título.
+
 ## Comunidades
 
 Comunidades y repositorios no oficiales de alumnos y alumni del máster:
@@ -170,3 +177,4 @@ Comunidades y repositorios no oficiales de alumnos y alumni del máster:
 - Inactivas
   - Grupo [Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/sites/GrupoMasterIngenieriayCienciasdeDatos/) en SharePoint UNED
   - [Repositorio `uned-master-bigdata` (curso 2019/2020)](https://github.com/adzarei/uned-master-bigdata/) de Adrián José Zapater Reig
+

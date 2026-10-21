@@ -1,0 +1,64 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Programación en entorno de datos"
+  subtitle: "Guía de estudio de la asignatura del MUICD de la UNED"
+  author: "Colaboradores de apuntes-muicd-uned"
+  date: today
+  language: es
+  
+  site-url: https://pmgallardo.github.io/apuntes-muicd-uned/ped
+  repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/ped
+  repo-actions: [edit, issue, source]
+
+  sidebar:
+    style: "docked"
+    search: true
+    
+  chapters:
+    - index.qmd
+    - part: "Apuntes"
+      chapters:
+      - apuntes/estruc_contenido_simple.qmd
+      - apuntes/01.qmd
+      - apuntes/02.qmd
+      - apuntes/03.qmd
+      - apuntes/04.qmd
+    - part: "Exámenes"
+      chapters:
+      - exam/20220210/ex_20220210.ipynb
+
+lang: es
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+    toc-location: right-body
+    number-sections: true
+  pdf:
+    documentclass: scrreprt
+    pdf-engine: lualatex
+
+    mainfont: "Source Sans 3"
+    sansfont: "Source Sans 3"
+    monofont: "Source Code Pro"
+
+    fontsize: 11pt
+    linestretch: 1.15
+
+    papersize: a4
+
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - left=27mm
+      - right=25mm
+
+    toc: true
+    toc-depth: 4
+    number-sections: true

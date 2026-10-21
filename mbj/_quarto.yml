@@ -1,0 +1,70 @@
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+#
+# SPDX-License-Identifier: CC-BY-4.0
+
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Máster Universitario en Ingeniería y Ciencia del Dato"
+  subtitle: "Guía de estudio del MUICD de la UNED"
+  author: "Colaboradores de apuntes-muicd-uned"
+  date: today
+  language: es
+  output-file: "mbj"
+  downloads: [pdf, epub]
+  
+  site-url: https://pmgallardo.github.io/apuntes-muicd-uned/mbj
+  repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/mbj
+  repo-actions: [edit, issue, source]
+
+  sidebar:
+    style: "docked"
+    search: true
+    
+  chapters:
+    - index.qmd
+    - part: "Exámenes"
+      chapters:
+      - exam/2022j2/ex_2022j2.md
+      - exam/2022so/ex_2022so.md
+      - exam/2023j2/ex_2023j2.md
+      - exam/2024j2/ex_2024j2.md   
+      - exam/2024so/ex_2024so.md
+      - exam/2024so/ex_2024so.md
+      - exam/2025j2/ex_2025j2.md
+      - exam/2025so/ex_2025so.md
+
+lang: es
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+    toc-location: right-body
+    number-sections: true
+  pdf:
+    documentclass: scrreprt
+    pdf-engine: lualatex
+
+    mainfont: "Source Sans 3"
+    sansfont: "Source Sans 3"
+    monofont: "Source Code Pro"
+
+    fontsize: 11pt
+    linestretch: 1.15
+
+    papersize: a4
+
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - left=27mm
+      - right=25mm
+
+    toc: true
+    toc-depth: 4
+    number-sections: true
