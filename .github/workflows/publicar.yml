@@ -36,7 +36,7 @@ jobs:
           quarto render aai
           cp -r aai/_book _site/aai
 
-      - name: Renderizar y copiar aai
+      - name: Renderizar y copiar aaii
         run: |
           quarto render aaii
           cp -r aaii/_book _site/aaii
@@ -51,10 +51,10 @@ jobs:
           quarto render gaine
           cp -r gaine/_book _site/gaine
 
-      - name: Renderizar y copiar icpmd
+      - name: Renderizar y copiar icpdm
         run: |
-          quarto render icpmd
-          cp -r icpmd/_book _site/icpmd
+          quarto render icpdm
+          cp -r icpdm/_book _site/icpdm
 
       - name: Renderizar y copiar master
         run: |
