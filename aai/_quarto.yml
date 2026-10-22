@@ -74,9 +74,4 @@ format:
     toc: true
     toc-depth: 4
   epub:
-    css: ../_assets/base_epub.css
-    include-in-header:
-      - text: |
-          <style>
-          :root { --color-libro: #4C51BF; }
-          </style>
+    css: color.css

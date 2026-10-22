@@ -38,26 +38,20 @@ format:
     toc: true
     toc-depth: 4
     toc-location: right-body
-    number-sections: true
   pdf:
-    documentclass: scrreprt
     pdf-engine: lualatex
-
-    mainfont: "Lora"
-    sansfont: "Inter"
+    variables:
+      colorlinks: true
+      linkcolor: colorLibro
+      urlcolor: colorLibro
+      filecolor: colorLibro
+      citecolor: colorLibro
     include-in-header:
       - text: |
           \usepackage{xcolor}
           \definecolor{colorLibro}{HTML}{4A5568}
       - ../_assets/base_pdf.tex
-
     toc: true
     toc-depth: 4
-    number-sections: true
   epub:
-    css: ../_assets/base_epub.css
-    include-in-header:
-      - text: |
-          <style>
-          :root { --color-libro: #4A5568; }
-          </style>
+    css: color.css
