@@ -1,0 +1,16 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+Esta documentación forma parte del proyecto **Apuntes MUICD UNED**, que comparte contenido abierto de ayuda al máster cedido de forma voluntaria por sus colaboradores.
+
+| Apuntes MUICD UNED | URL |
+| - | - |
+| Web principal | [pmgallardo.github.io/apuntes-muicd-uned](https://pmgallardo.github.io/apuntes-muicd-uned){target="_blank"} |
+| Repositorio GitHub | [github.com/pmgallardo/apuntes-muicd-uned](https://github.com/pmgallardo/apuntes-muicd-uned){target="_blank"} |
+
+Si estás interesado/a en **colaborar** corrigiendo o ampliando el contenido, visita la sección de [Contribuciones](anexos/contribuciones.qmd).
+
+Para cualquier **duda o comentario**, puedes unirte al grupo "[apuntes-muicd-uned](https://t.me/+U49Efvmu-hc5MWNk){target="_blank"}" de Telegram.
