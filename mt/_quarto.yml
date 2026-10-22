@@ -37,6 +37,10 @@ book:
       - apuntes/3.md
       - apuntes/4.md
       - apuntes/5.md
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 

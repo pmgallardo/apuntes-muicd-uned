@@ -6,3 +6,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Introducción
 
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Visualización de datos** del [MUICD](../master/) de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-muicd-uned/vd/), [PDF](https://pmgallardo.github.io/apuntes-muicd-uned/vd/vd.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-muicd-uned/vd/vd.epub) (ebook).
+
+{{< include ../master/_index.qmd >}}

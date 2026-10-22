@@ -26,9 +26,14 @@ book:
     - icon: house
       href: https://pmgallardo.github.io/apuntes-muicd-uned
       text: "Web principal"
-    
+
   chapters:
     - index.qmd
+    - general.qmd
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd 
 
 lang: es
 

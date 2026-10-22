@@ -52,6 +52,10 @@ book:
       - exam/20250202/ex_20250202.md
       - exam/20250206/ex_20250206.md
       - exam/20250903/ex_20250903.md
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 

@@ -48,6 +48,10 @@ book:
       - exam/2024so/ex_2024so.md
       - exam/2025j2/ex_2025j2.md
       - exam/2025so/ex_2025so.md
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 

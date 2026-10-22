@@ -35,6 +35,10 @@ book:
     - part: "Exámenes"
       chapters:
       - exam/2022j2/ex_2022j2.qmd
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 

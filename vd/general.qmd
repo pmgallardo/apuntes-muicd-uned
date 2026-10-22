@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# General
+# Información general
 
 En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Visualización de datos.
 

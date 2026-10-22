@@ -31,7 +31,7 @@ book:
     - index.qmd
     - part: "Apuntes"
       chapters:
-      - apuntes/estruc_contenido_simple.qmd
+      - apuntes/estruc-contenido-simple.qmd
       - apuntes/01.qmd
       - apuntes/02.qmd
       - apuntes/03.qmd
@@ -39,6 +39,10 @@ book:
     - part: "Exámenes"
       chapters:
       - exam/20220210/ex_20220210.ipynb
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 

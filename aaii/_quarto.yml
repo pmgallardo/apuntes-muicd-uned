@@ -45,6 +45,10 @@ book:
       - exam/2025j2/aaii_ex_2025j2.md
       - exam/2025so/aaii_ex_2025so.md
       - exam/2026j2/aaii_ex_2026j2.md
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 

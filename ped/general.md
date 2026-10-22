@@ -4,17 +4,20 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Información general
 
 En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Programación en entorno de datos del MUICD de la UNED.
+
+## Información básica
 
 Puedes ver la [ficha oficial de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110022&codTitulacion=311001&idContenido=1).
 
 ## Contenido
 
-La carpeta se organiza en la siguiente estructura:
+La documentación se organiza en la siguiente estructura:
 
-- **[`exam`](dist/pdf/exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
+- **[Apuntes](apuntes/estruc-contenido-simple.qmd)**.
+- **[Exámenes](exam/20220210/ex_20220210.ipynb)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
 
 ## Evaluación
 
