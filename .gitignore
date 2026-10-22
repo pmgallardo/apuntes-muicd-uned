@@ -8,14 +8,14 @@
 # El directorio oculto de caché y estado de Quarto (generado en cada carpeta)
 **/.quarto/
 
+# Carpetas donde Quarto guarda el libro renderizado
+**/_book/
+
 # ==========================================
 # Archivos y carpetas generados por Jupyter Notebook
 # ==========================================
 # Carpeta creada cuando se abre un Jupyter Notebook
 **/.ipynb_checkpoints
-
-# Carpetas donde Quarto guarda el libro renderizado
-**/_book/
 
 # ==========================================
 # GitHub Actions
