@@ -26,6 +26,7 @@ book:
     
   chapters:
     - index.qmd
+    - general.qmd
     - part: "Apuntes"
       chapters:
       - apuntes/1.md

@@ -25,6 +25,7 @@ book:
     
   chapters:
     - index.qmd
+    - general.qmd
     - part: "Apuntes"
       chapters:
       - apuntes/00_estruc_contenido.qmd
@@ -50,33 +51,32 @@ lang: es
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - default
+      - ../_assets/base_html.scss
+      - color.scss
     toc: true
     toc-depth: 4
     toc-location: right-body
-    number-sections: true
   pdf:
-    documentclass: scrreprt
     pdf-engine: lualatex
-    # Necesario para que no dé error de viñetas muy anidadas
-    include-in-header: _header.tex
-
-    mainfont: "Source Sans 3"
-    sansfont: "Source Sans 3"
-    monofont: "Source Code Pro"
-
-    fontsize: 11pt
-    linestretch: 1.15
-
-    papersize: a4
-
-    geometry:
-      - top=25mm
-      - bottom=25mm
-      - left=27mm
-      - right=25mm
-
+    variables:
+      colorlinks: true
+      linkcolor: colorLibro
+      urlcolor: colorLibro
+      filecolor: colorLibro
+      citecolor: colorLibro
+    include-in-header:
+      - text: |
+          \usepackage{xcolor}
+          \definecolor{colorLibro}{HTML}{4C51BF}
+      - ../_assets/base_pdf.tex
     toc: true
     toc-depth: 4
-    number-sections: true
+  epub:
+    css: ../_assets/base_epub.css
+    include-in-header:
+      - text: |
+          <style>
+          :root { --color-libro: #4C51BF; }
+          </style>
