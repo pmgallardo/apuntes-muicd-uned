@@ -14,7 +14,6 @@ book:
   language: es
   output-file: "master"
   downloads: [pdf, epub]
-  
   site-url: https://pmgallardo.github.io/apuntes-muicd-uned/master
   repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/master
   repo-actions: [edit, issue, source]
@@ -25,6 +24,10 @@ book:
     
   chapters:
     - index.qmd
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 

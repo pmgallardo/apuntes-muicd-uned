@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-Esta documentación forma parte del proyecto **Apuntes MUICD UNED**, que comparte contenido abierto de ayuda al máster cedido de forma voluntaria por sus colaboradores.
+Esta documentación forma parte del proyecto [Apuntes MUICD UNED](https://pmgallardo.github.io/apuntes-muicd-uned), que comparte contenido abierto de ayuda al máster cedido de forma voluntaria por sus colaboradores.
 
 | Apuntes MUICD UNED | URL |
 | - | - |
