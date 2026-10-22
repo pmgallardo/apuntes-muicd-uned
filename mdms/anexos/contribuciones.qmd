@@ -1,0 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Contribuciones {.unnumbered}
+  
+{{< include ../../master/anexos/_contribuciones.qmd >}}
+
