@@ -70,8 +70,6 @@ Según la opinión de algunos antiguos alumnos, el número de créditos de la as
 Diagrama de **dependencias entre asignaturas** del MUICD en función del contenido del temario, de acuerdo a las opiniones de antiguos alumnos:
 
 ```{mermaid}
-%%| out-width: 100%
-
 graph LR
    MED[Modelado Estadístico de Datos] --> AAI[Aprendizaje Automático I]
    MED --> MBJ(Modelos Bayesianos Jerárquicos)
