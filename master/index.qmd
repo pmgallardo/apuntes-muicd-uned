@@ -4,5 +4,8 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Presentación
 
+Aquí encontrás recursos de aprendizaje de carácter general para el máster **Máster Universitario en Ingeniería y Ciencias del Dato** (MUICD) de la UNED, disponibles en formatos [HTML](https://pmgallardo.github.io/apuntes-muicd-uned/aai/), [PDF](https://pmgallardo.github.io/apuntes-muicd-uned/aai/aai.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-muicd-uned/aai/aai.epub) (ebook).
+
+{{< include ../master/_index.qmd >}}

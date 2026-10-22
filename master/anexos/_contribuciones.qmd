@@ -15,7 +15,7 @@ Es posible que la versión que estés viendo esté incompleta o contenga errores
 Si estás interesado/a en **aportar contenido** al proyecto, puedes hacerlo de alguna de las siguientes maneras:
 
 - Si estás familiarizado con GitHub, puedes **abrir** directametne una **issue o** una **pull request** en el repositorio.
-- En caso contrario, puedes acceder al **grupo [apuntes-muicd-uned]() de Telegram** y compartir allí tu aportación.
+- En caso contrario, puedes acceder al **grupo [apuntes-muicd-uned](https://t.me/+U49Efvmu-hc5MWNk) de Telegram** y compartir allí tu aportación.
 
 Cuando elabores el material, te agradeceríamos que siguieras estos **consejos**: 
 
@@ -25,7 +25,7 @@ Cuando elabores el material, te agradeceríamos que siguieras estos **consejos**
   3. **PDF** (`.pdf`). Antes que enviar un PDF, es siempre mejor enviar el fichero original con el que se generó.
 - Revisar y **actualizar los ficheros fuente existentes** del repositorio, en caso de que una asignatura incluya ya contenido sobre el tema aportado.
 
-En caso de dudas, puedes escribir al grupo [apuntes-muicd-uned]() de Telegram.
+En caso de dudas, puedes escribir al grupo [apuntes-muicd-uned](https://t.me/+U49Efvmu-hc5MWNk) de Telegram.
 
 ## Trabajar en local
 
