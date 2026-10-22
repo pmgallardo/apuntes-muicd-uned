@@ -6,15 +6,34 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Información general
 
-En esta documentación se comparte comparte información general sobre el máster MUICD y material común a todas las asignaturas.
+En esta documentación se comparte información general sobre el máster MUICD y material común a todas las asignaturas.
 
 Para obtener la información oficial del máster, visita la [página web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos.html).
 
 ## Asignaturas
 
-El **listado completo de asignaturas** se encuentra en [este enlace](asig/asignaturas.csv).
+Se muestra a continuación las asignaturas impartidas en el MUICD.
 
-Recuerda que puedes acceder a recursos de cada asignatura desde la [web principal del repositorio](https://pmgallardo.github.io/apuntes-muicd-uned).
+| Código | Abr. | Nombre asignatura | Sem. | Car.
+| ---------- | ----- | ----------------------------- | - | - |
+| `31110018` | [`med`](../med/) | Modelado estadístico de datos | 1 | Ob |
+| `31110022` | [`ped`](../ped/) | Programación en entornos de datos | 1 | Ob |
+| `31110037` | [`aai`](../aai/) | Aprendizaje automático I | 1 | Ob |
+| `31110041` | [`mt`](../mt/) | Minería de textos | 1 | Ob |
+| `31110056` | [`icpdm`](../icpdm/) | Infraestructuras computacionales para procesamiento de datos masivos | 1 | Ob |
+| `31110060` | [`vd`](../vd/) | Visualización de datos | 2 | Ob |
+| `3111008-` | [`gaine`](../gaine/) | Gestión/almacenamiento de información no estructurada | 2 | Ob |
+| `31110130` | [`aaii`](../aaii/) | Aprendizaje automático II | 2 | Ob |
+| `31110094` | [`mbj`](../mbj/) | Modelos bayesianos jerárquicos | 2 | Op |
+| `31110107` | [`mdms`](../mdms/) | Minería de datos de los medios sociales | 2 | Op |
+| `31110111` | [`dl`](../dl/) | Deep learning | 2 | Op |
+| `31110126` | [`sgd`](../sgd/) | Seguridad de la gestión de datos | 2 | Op |
+| `31110075` | [`tfm`](../tfm/) | Trabajo fin de máster | 2 | Ob |
+
+Ob = Obligatorio  
+Op = Optativo  
+
+Puedes descargar **listado completo de asignaturas** en formato CSV de [este enlace](asig/asignaturas.csv).
 
 ### Elección
 
@@ -50,7 +69,9 @@ Según la opinión de algunos antiguos alumnos, el número de créditos de la as
 
 Diagrama de **dependencias entre asignaturas** del MUICD en función del contenido del temario, de acuerdo a las opiniones de antiguos alumnos:
 
-```mermaid
+```{mermaid}
+%%| out-width: 100%
+
 graph LR
    MED[Modelado Estadístico de Datos] --> AAI[Aprendizaje Automático I]
    MED --> MBJ(Modelos Bayesianos Jerárquicos)

@@ -4,11 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Contribuciones {.unnumbered}
-
-La documentación de este repositorio está elaborada de manera voluntaria, por lo que necesitamos tu colaboración para poder mejorar y actualizar el contenido.
-
-Es posible que la versión que estés viendo esté incompleta o contenga errores, y la única manera de mejorarla es que entre todos aportemos pequeños cambios.
+Esta documentación es un proyecto vivo construido gracias al trabajo voluntario de la comunidad. Al estar en constante evolución, es natural que encuentres secciones incompletas o erratas. Te animamos a participar, ya sea corrigiendo un simple fallo o ampliando un tema; cada pequeña aportación es fundamental para mantener el contenido actualizado.
 
 ## Colaborar con el proyecto
 
@@ -29,9 +25,9 @@ En caso de dudas, puedes escribir al grupo [apuntes-muicd-uned](https://t.me/+U4
 
 ## Trabajar en local
 
-La documentación está subida a una web (alojada en GitHub Pages), desde la cual puedes explorar la versión HTML o descargar las de PDF y EPUB (los llamados ficheros finales o distribuibles). No obstante, si vas a aplicar tus propios cambios a los ficheros fuente en local querrás generar también los distribuibles para poder visualizar tus cambios.
+La documentación está subida a una web (alojada en GitHub Pages), desde la cual puedes explorar la versión HTML o descargar las de PDF y EPUB (los llamados ficheros finales o distribuibles). No obstante, si vas a aplicar tus propios cambios a los ficheros fuente en local querrás generar también los distribuibles para poder visualizar los cambios.
 
-Por si estás en esta situación, resumimos aquí los pasos para configurar el sistema y visualizar documentos en local. Las instrucciones pueden variar dependiendo del sistema operativo empleado.  
+Resumimos aquí los pasos para configurar el sistema y visualizar documentos en local. Las instrucciones pueden variar dependiendo del sistema operativo empleado.  
 
 1. Configurar el sistema local
 2. Descargar el proyecto
@@ -40,16 +36,27 @@ Por si estás en esta situación, resumimos aquí los pasos para configurar el s
 
 ### Configurar el sistema local
 
-La configuración del sistema local supone lo siguientes pasos:
+La configuración del sistema local tener el siguiente software instalado en el equipo:
 
-1. Instalar Quarto
-2. Instalar Make
+- Quarto
+- Chrome de Quarto
+- Make
 
 #### Instalar Quarto en local
 
 Puedes descargar el instalador de los sistemas operativos disponibles (Windows, macOS, Linux) desde la [página de descarga de Quarto](https://quarto.org/docs/download/).
 
 Las instrucciones de instalación varían dependiendo del sistema operativo.
+
+#### Instalar Chrome para Quarto
+
+Chrome para Quarto es necesario para, por ejemplo, renderizar diagramas Mermaid incluido en el formato PDF o EPUB.
+
+Para instalar Chrome para Quarto, abre una terminal y escribe:
+
+```shell
+quarto install chrome-headless-shell
+```
 
 #### Instalar Make
 
@@ -79,7 +86,7 @@ make -v
 
 ### Descargar el proyecto
 
-Para descargar el proyecto en local, se debe ir al repositorio GitHub y descargar desde la página principal el fichero completo. El fichero descargado será uno 
+Para descargar el proyecto en local, se debe ir al repositorio GitHub y descargar desde la página principal el fichero completo. El fichero descargado estará comprimido, por lo que será necesario descomprimirlo en una carpeta.
 
 ### Generar la versión distribuible
 
@@ -91,7 +98,7 @@ Automáticamente se ejecutarán los `make` contenidos en cada carpeta y se crear
 
 Es necesario lanzar un servidor web para poder ejecutar la web. Para ello abre una terminal y ve al directorio raíz del proyecto. Aquí hay varias opciones, por ejemplo empleando Python o NPX (Node.js)
 
-Si tienes instalado Python y usas Windows, tendrás que emplear el comando `python`:
+Abre un terminal y dirígete a la carpeta raíz del proyecto. Si tienes instalado Python y usas Windows, tendrás que emplear el comando `python`:
 
 ```powershell
 python -m http.server 8000 --directory _site
@@ -118,5 +125,4 @@ Si se quiere tratar con una asingatura individual, abrir un terminal y una vez a
 
 En caso de querer borrar los ficheros distribuibles generados, si se tiene `make` instalado es suficiente con abrir un terminal y ejecutar `make clean` desde la carpeta raíz del proyecto.
 
-La alternativa manual es borrar la carpeta `_site` de la carpeta raíz del proyecto y el fichero `.quarto` y la carpeta `_book` de cada una de las carpetas de asignaturas. 
-
+La alternativa manual es borrar la carpeta `_site` de la carpeta raíz del proyecto y el fichero `.quarto` y la carpeta `_book` de cada una de las carpetas de asignaturas.
