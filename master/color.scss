@@ -4,5 +4,8 @@
  * SPDX-License-Identifier: CC-BY-4.0
  */
 
-/*-- scss:defaults --*/
-$primary: #1A365D;
+@import "../_assets/base_epub.css";
+
+:root { 
+    --color-libro: #1A365D; 
+}
