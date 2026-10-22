@@ -1,0 +1,28 @@
+/*
+ * SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+ *
+ * SPDX-License-Identifier: CC-BY-4.0
+ */
+
+/*-- scss:defaults --*/
+/* Aquí van las variables que sobrescriben a Bootstrap */
+$font-family-base: 'Lora', serif !default;
+$headings-font-family: 'Inter', sans-serif !default;
+
+/*-- scss:rules --*/
+/* Aquí van las importaciones y el CSS normal */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+body {
+  background-color: #F7FAFC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+  font-weight: 700;
+}
+
+.sidebar nav[role="doc-toc"] ul li > a.active {
+  border-left-color: $primary;
+  color: $primary;
+}
