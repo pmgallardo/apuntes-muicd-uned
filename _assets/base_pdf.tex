@@ -2,7 +2,9 @@
 %
 % SPDX-License-Identifier: CC-BY-4.0
 
-% Niveles de viñetas
+% ==========================================
+% 1. NIVELES DE VIÑETAS (Listas profundas)
+% ==========================================
 \usepackage{enumitem}
 \setlistdepth{9}
 \renewlist{itemize}{itemize}{9}
@@ -16,8 +18,12 @@
 \setlist[itemize,8]{label=$\star$}
 \setlist[itemize,9]{label=$\bullet$}
 
-% Color de títulos
-\usepackage{sectsty}
-\chapterfont{\color{colorLibro}}
-\sectionfont{\color{colorLibro}}
-\subsectionfont{\color{colorLibro}}
+% ==========================================
+% 2. DISEÑO Y COLORES (Nativo KOMA-Script)
+% ==========================================
+% KOMA-Script no soporta sectsty, usamos \addtokomafont
+\addtokomafont{part}{\color{colorLibro}}
+\addtokomafont{chapter}{\color{colorLibro}}
+\addtokomafont{section}{\color{colorLibro}}
+\addtokomafont{subsection}{\color{colorLibro}}
+\addtokomafont{subsubsection}{\color{colorLibro}}
