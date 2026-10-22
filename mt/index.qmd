@@ -6,7 +6,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Introducción
 
-En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Minería de textos del Máster Universitario de Ingeniería y Ciencia de Datos (MUICD) de la UNED.
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Minería de textos** del MUICD de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-muicd-uned/mt/), [PDF](https://pmgallardo.github.io/apuntes-muicd-uned/mt/mt.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-muicd-uned/mt/mt.epub) (ebook).
 
-Puedes consultar también la [ficha oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos.html).
-
+{{< include ../master/_index.qmd >}}

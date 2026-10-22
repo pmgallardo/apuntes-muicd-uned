@@ -6,7 +6,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Introducción
 
-Este documento contiene recursos de apoyo educativo para la asignatura de Modelado Estadístico de Datos (MED) del MUICD la UNED, con código 31110018.
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Modelado estadístico de datos** del MUICD de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-muicd-uned/med/), [PDF](https://pmgallardo.github.io/apuntes-muicd-uned/med/med.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-muicd-uned/med/med.epub) (ebook).
 
-Más información en la [ficha web oficial](https://www.uned.es/universidad/inicio/en/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110018&codTitulacion=311001&idContenido=1).
-
+{{< include ../master/_index.qmd >}}
