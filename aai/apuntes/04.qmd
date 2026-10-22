@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# AAI - Tema 4: Métodos simples de aprendizaje automático no-supervisado y semi-supervisado - Teoría
+# Tema 4: Métodos simples de aprendizaje automático no-supervisado y semi-supervisado - Teoría
 
 ## Agrupamiento
 

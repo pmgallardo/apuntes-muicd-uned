@@ -4,9 +4,8 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Presentación {.unnumbered}
 
-En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Aprendizaje automático I del MUICD de la UNED, con código 31110037.
+Aquí encontrás recursos de aprendizaje para la asignatura **Aprendizaje Automático I** del MUICD de la UNED, disponibles en formatos [HTML](https://pmgallardo.github.io/apuntes-muicd-uned/aai/), [PDF](https://pmgallardo.github.io/apuntes-muicd-uned/aai/aai.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-muicd-uned/aai/aai.epub) (ebook).
 
-Más información en la [ficha web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110037&codTitulacion=311001&idContenido=1).
-
+{{< include ../master/_index.qmd >}}

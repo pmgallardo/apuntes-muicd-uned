@@ -28,7 +28,7 @@ book:
     - general.qmd
     - part: "Apuntes"
       chapters:
-      - apuntes/00_estruc_contenido.qmd
+      - apuntes/00-estruc-contenido.qmd
       - apuntes/01.qmd
       - apuntes/03.qmd
       - apuntes/04.qmd
@@ -46,6 +46,10 @@ book:
       - exam/20220208/ex_20220208.qmd
       - exam/20200901/ex_20200901.qmd
       - exam/20200201/ex_20200201.qmd
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 
@@ -57,7 +61,7 @@ format:
       - color.scss
     toc: true
     toc-depth: 4
-    toc-location: right-body
+    toc-location: right
   pdf:
     pdf-engine: lualatex
     variables:

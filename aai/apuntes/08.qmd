@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_muicd_uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# AAI - Tema 8: Selección de variables y reducción de la dimensionalidad
+# Tema 8: Selección de variables y reducción de la dimensionalidad
 
 - Maldición de la dimensionalidad
 - Enfoques

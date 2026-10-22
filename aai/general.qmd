@@ -4,19 +4,24 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Información general {.unnumbered}
 
-En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Aprendizaje automático I del MUICD de la UNED, con código 31110037.
+En este apartado se ofrece información general de la asignatura.
 
-Más información en la [ficha web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110037&codTitulacion=311001&idContenido=1).
+## Datos básicos
+
+| Clave | Valor |
+| - | - |
+| Nombre | Aprendizaje automático I |
+| Código | 31110037 |
+| Ficha web oficial | <https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110037&codTitulacion=311001&idContenido=1> |  
 
 ## Contenido
 
 La carpeta se organiza en la siguiente estructura:
 
-- **[`apuntes`](dist/pdf/apuntes/)**: Incluye apuntes originales.
-- **[`exam`](dist/pdf/exam/)**: Incluye soluciones y enunciados inspirados en exámenes anteriores.
-- **[`resumen`](dist/pdf/resumen/)**: Incluye resúmenes y síntesis del temario.
+- [apuntes](apuntes/00-estruc-contenido.qmd): Incluye apuntes propios.
+- [examenes](exam/20200201/ex_20200201): Incluye respuestas a exámenes.
 
 ## Evaluación
 
@@ -42,6 +47,8 @@ La **puntuación mínima del exámen** para aprobar la asignatura depende de lo 
 $$ x = \frac{125 - y}{150} \Leftarrow 6x + 4\frac{y}{100} = 5$$
 
 donde $y$ es el porcentaje de puntuación obtenida sobre la máxima posible en los PECs.
+
+O calculado de otra manera:
 
 $$ x = \frac{25 - 2y}{30} \Leftarrow 6x + 4\frac{y}{10} = 5$$
 
@@ -75,3 +82,4 @@ Existen comunidades no oficiales de alumnos y alumni del máster:
   - Comunidad [UNED - AAI (Máster Datos)](https://t.me/+ARj7HEe3it81NzY0) en Telegram
 - Inactivas
   - [Carpeta `Aprendizaje Automatico I` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgAIEIa-pGO4T4ZmsG-DuRFXAYxzcXISQL_ARzrX5L3T-54) en SharePoint UNED
+  
