@@ -69,6 +69,4 @@ format:
     toc: true
     toc-depth: 4
   epub:
-    css: 
-      - ../_assets/base_epub.css
-      - color.css
+    css: color.css
