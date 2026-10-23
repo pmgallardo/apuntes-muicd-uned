@@ -13,13 +13,9 @@ Repositorio no afiliado institucionalmente con la UNED.
 
 Para más información sobre el máster, visita la [página web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos.html).
 
-## Información general del máster
+## Estructura del repositorio
 
 En la carpeta [`master`](master/) se comparte información general sobre el máster.
-
-Si eres nuevo/a, te recomendamos empezar por aquí.
-
-## Asignaturas
 
 El resto de carpetas están dedicadas a una asignatura concreta:
 
@@ -39,11 +35,6 @@ El resto de carpetas están dedicadas a una asignatura concreta:
 | `31110126` | [`sgd`](sgd/) | Seguridad de la gestión de datos | 2 |
 | `31110075` | [`tfm`](tfm/) | Trabajo fin de máster | 2 |
 
-Las asignaturas se organizan en dos carpetas:
-
-- `dist`, que contiene los ficheros finales, listos para leer. Incluye una carpeta por cada formato disponible (ej: `pdf`).
-- `src`, que contiene los ficheros fuente. Útil si quieres modificar o extraer el contenido.
-
 ## Material ofrecido
 
 El repositorio ofrece material propio de utilidad para los actuales y futuros alumnos del máster, pudiendo incluir:
@@ -55,6 +46,40 @@ El repositorio ofrece material propio de utilidad para los actuales y futuros al
 - Estrategias de estudio.  
 
 El repositorio no incluye material original protegido por derechos de autor que esté disponible para los alumnos del máster a través de los canales oficiales de la UNED. Cuando se hace referencia a este material, se incluye un enlace a la fuente de origen donde los alumnos pueden acceder.
+
+## Ejecución en local
+
+Requisitos de software para ejecutar el repositorio en local:
+
+- Make
+- Quarto (con  `chrome-headless-shell`)
+- Entorno de ejecución del servidor (Python, Node.js)
+
+Para compilar el proyecto, abrir una terminal y ejecutar desde el directorio raíz:
+
+```shell
+make site
+```
+
+Desde la misma carpeta, ejecutar un servidor sobre la carpeta `_site`, de cualquiera de las maneras indicadas a continuación o alternativa similar.
+
+Windows con Python:
+
+```powershell
+python -m http.server 8000 --directory _site
+```
+
+POSIX (macOS / Linux) con Python:
+
+```sh
+python3 -m http.server 8000 --directory _site
+```
+
+Ejecutar servidor con NPM (Node.js):
+
+```shell
+npx serve _site
+```
 
 ## Licencias
 
