@@ -91,9 +91,3 @@ graph LR
 ```
 
 Adicionalmente, para poder presentar el Trabajo Fin de Máster es requisito haber superado todas las asignaturas en la convocatoria de febrero y junio de ese curso, o en cualquiera para cursos anteriores.
-
-## Pruebas de evaluación continua
-
-En algunas asignaturas, el profesorado permite expresamente el uso de inteligencia artificial generativa.
-
-En el resto de casos que no se comente nada, se entiende que se debe seguir las guías sobre el [Uso de la Inteligencia Artificial Generativa](https://www.uned.es/universidad/inicio/institucional/areas-direccion/vicerrectorados/innovacion/iaeducativa.html) del Vicerrectorado de Innovación Educativa de la UNED, y más concretamente la [Guía de uso de las herramientas de Inteligencia Artificial Generativa para el estudiantado](https://unedo365-my.sharepoint.com/:b:/g/personal/smartin_ieec_uned_es/Ef6tiDpSXUJHrb7usuE1JWsB0rSJFaED09CB6ofqQnXzvg?e=YKII1P).
