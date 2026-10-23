@@ -23,6 +23,50 @@ Cuando elabores el material, te agradeceríamos que siguieras estos **consejos**
 
 En caso de dudas, puedes escribir al grupo [apuntes-muicd-uned](https://t.me/+U49Efvmu-hc5MWNk) de Telegram.
 
+## Alcance del repositorio
+
+Se aceptan contribuciones relacionadas con el contenido académico del MUICD, incluyendo:
+
+- Apuntes, esquemas y resúmenes elaborados por los colaboradores.
+- Notas ampliadas y explicaciones adicionales.
+- Enunciados reescritos de ejercicios y problemas.
+- Soluciones razonadas y desarrolladas.
+- Conjuntos de datos originales.
+
+No se aceptan contribuciones ajenas al ámbito del máster ni material promocional.
+
+## Reglas sobre propiedad intelectual
+
+Para proteger a los colaboradores y al repositorio, se aplican las siguientes normas:
+
+- Todo el material aportado debe ser original del autor o una transformación que conserve la idea original pero no la expresión literal.
+- No se permite subir material protegido por derechos de autor de la UNED, sus docentes u otras fuentes, salvo que se disponga de permiso explícito para su redistribución.
+- No se permite subir exámenes oficiales, enunciados oficiales o cualquier otro material lectivo oficial.
+- Se permite hacer referencia a material oficial mediante enlaces a la fuente correspondiente, siempre que el acceso quede restringido a usuarios autorizados.
+
+## Licencias
+
+Al contribuir a este repositorio, aceptas que:
+
+- Los ficheros de código fuente y notebooks interactivos se publiquen bajo [licencia MIT](https://es.wikipedia.org/wiki/Licencia_MIT).
+- Los ficheros de datos y documentación se publiquen bajo [licencia CC-BY-4.0](https://es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_4.0_Internacional).
+
+Si una contribución requiere una licencia distinta, debe indicarse explícitamente y ser aprobada por los mantenedores.
+
+Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar la información de licencias al proyecto. Como regla general:
+
+- Para los ficheros con cabecera no editable (ej.: .pdf, .json, .docx) no hace falta hacer nada, puesto que su extensión está registrada en el fichero `REUSE.toml` y tienen asociada una licencia.
+- Para los ficheros con cabecera editable (ej.: `.py`, `.md`) se debe añadir una cabecera con información de licencia mediante uno de estos métodos:  
+  - Copiando y pegando manualmente la cabecera de otro fichero del mismo tipo que ya se encuentre en el repositorio.
+  - Ejecutando el comando `reuse annotate` contra el fichero concreto:
+
+      ```text
+      # Para ficheros de datos y documentación
+      reuse annotate --license CC-BY-4.0 --copyright "Colaboradores de apuntes_muicd_uned" fichero.ext
+      # Para código fuente y notebooks interactivos
+      reuse annotate --license MIT --copyright "Colaboradores de apuntes_muicd_uned" fichero.ext
+      ```
+
 ## Trabajar en local
 
 La documentación está subida a una web (alojada en GitHub Pages), desde la cual puedes explorar la versión HTML o descargar las de PDF y EPUB (los llamados ficheros finales o distribuibles). No obstante, si vas a aplicar tus propios cambios a los ficheros fuente en local querrás generar también los distribuibles para poder visualizar los cambios.
