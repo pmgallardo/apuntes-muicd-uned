@@ -1,0 +1,15 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Comunidades
+
+Comunidades y repositorios no oficiales de alumnos y alumni del máster:
+
+- Activas
+  - Comunidad [UNED Data Science](https://t.me/uneddatascience) en Telegram
+- Inactivas
+  - Grupo [Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/sites/GrupoMasterIngenieriayCienciasdeDatos/) en SharePoint UNED
+  - [Repositorio `uned-master-bigdata` (curso 2019/2020)](https://github.com/adzarei/uned-master-bigdata/) de Adrián José Zapater Reig
