@@ -34,7 +34,7 @@ book:
       - apuntes/1.qmd
     - part: "Exámenes"
       chapters:
-      - exam/2022j2/ex_2022j2.qmd
+      - exam/2022f2/ex_2022f2.md
     - part: "Anexos"
       chapters:
       - anexos/contribuciones.qmd
