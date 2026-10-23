@@ -1,7 +1,0 @@
-<!--
-SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
-
-SPDX-License-Identifier: CC-BY-4.0
--->
-
-# EX.2022J2
