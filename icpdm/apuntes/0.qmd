@@ -1,0 +1,10 @@
+# Estructura de contenidos
+
+- Ecosistema Big Data
+  - Introducción a Big Data
+  - El núcleo de Hadoop
+  - Programación MapReduce
+  - Herramientas de serialización/deserialización e inyección/extracción de datos
+- Técnicas de procesamiento masivo
+- Gestión de la información en tiempo real
+- Servicios en la nube para el almacenamiento y procesamiento de datos

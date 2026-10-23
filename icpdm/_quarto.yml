@@ -31,7 +31,11 @@ book:
     - index.qmd
     - part: "Apuntes"
       chapters:
+      - apuntes/0.qmd
       - apuntes/1.qmd
+      - apuntes/2.qmd
+      - apuntes/3.qmd
+      - apuntes/4.qmd
     - part: "Exámenes"
       chapters:
       - exam/2022f2/ex_2022f2.md

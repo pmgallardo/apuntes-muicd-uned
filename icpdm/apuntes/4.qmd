@@ -1,0 +1,7 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Módulo 4: Servicios en la nube para el almacenamiento y procesamiento de datos
