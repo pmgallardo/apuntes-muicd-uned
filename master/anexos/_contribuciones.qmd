@@ -98,7 +98,7 @@ Chrome para Quarto es necesario para, por ejemplo, renderizar diagramas Mermaid 
 
 Para instalar Chrome para Quarto, abre una terminal y escribe:
 
-```shell
+```sh
 quarto install chrome-headless-shell
 ```
 
@@ -124,7 +124,7 @@ winget install GnuWin32.Make
 
 Para probar que `make` está instalado correctamente, desde la terminal de tu sistema operativo ejecuta:
 
-```shell
+```sh
 make -v
 ```
 
@@ -150,13 +150,13 @@ python -m http.server 8000 --directory _site
 
 Si tienes instalado Python y usas macOS o Linux, tendrás que emplear el comando `python3`: 
 
-```shell
+```sh
 python3 -m http.server 8000 --directory _site
 ```
 
 Si tienes instalado NPM (Node.js), puedes ejecutar el siguiente comando:
 
-```shell
+```sh
 npx serve _site
 ```
 
