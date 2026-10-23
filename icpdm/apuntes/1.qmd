@@ -4,14 +4,14 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Módulo 1: 
+# Módulo 1: Ecosistema Big Data
 
 Tema 1 de la asignatura IPCDM.
 
-## Introducción a Big Data.
+## Introducción a Big Data
 
-## El núcleo de Hadoop.
+## El núcleo de Hadoop
 
-## Programación MapReduce.
+## Programación MapReduce
 
-## Herramientas de serialización/deserialización e inyección/extracción de datos.
+## Herramientas de serialización/deserialización e inyección/extracción de datos
