@@ -12,9 +12,8 @@ book:
   author: "Colaboradores de apuntes-muicd-uned"
   date: today
   language: es
-  output-file: "mt"
   downloads: [pdf, epub]
-  
+  output-file: "mt"
   site-url: https://pmgallardo.github.io/apuntes-muicd-uned/mt
   repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/mt
   repo-actions: [edit, issue, source]
@@ -52,7 +51,7 @@ format:
       - color.scss
     toc: true
     toc-depth: 4
-    toc-location: right-body
+    toc-location: right
   pdf:
     pdf-engine: lualatex
     variables:
