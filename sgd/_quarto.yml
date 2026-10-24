@@ -32,12 +32,12 @@ book:
     - general.qmd
     - part: "Apuntes"
       chapters:
-      - apuntes/p1.md
       - apuntes/t1.md
       - apuntes/t2.md
       - apuntes/t3.md
       - apuntes/t4.md
       - apuntes/t5.md
+      - apuntes/p1.md
     - part: "Exámenes"
       chapters:
       - exam/2022j2/ex_2022j2.md
