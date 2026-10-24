@@ -49,9 +49,9 @@ Se siguen las recomendaciones de [REUSE](https://reuse.software/) para adjuntar 
 
       ```text
       # Para ficheros de datos y documentación
-      reuse annotate --license CC-BY-4.0 --copyright "Colaboradores de apuntes_muicd_uned" fichero.ext
+      reuse annotate --license CC-BY-4.0 --copyright "Colaboradores de apuntes-muicd-uned" fichero.ext
       # Para código fuente y notebooks interactivos
-      reuse annotate --license MIT --copyright "Colaboradores de apuntes_muicd_uned" fichero.ext
+      reuse annotate --license MIT --copyright "Colaboradores de apuntes-muicd-uned" fichero.ext
       ```
 
 ## Cómo contribuir
