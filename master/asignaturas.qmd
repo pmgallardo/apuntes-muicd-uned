@@ -83,11 +83,28 @@ graph LR
    SGD[Seguridad de la Gestión de Datos] --> TFM
    VD --> TFM
 
+   %% Enlaces a los nodos
+   click AAI href "../aai/" _blank
+   click AAII href "../aaii/" _blank
+   click DL href "../dl/" _blank
+   click GAINE href "../gaine/" _blank
+   click ICPDM href "../icpdm/" _blank
+   click MBJ href "../mbj/" _blank
+   click MDMS href "../mdms/" _blank
+   click MED href "../med/" _blank
+   click MT href "../mt/" _blank
+   click PED href "../ped/" _blank
+   click SGD href "../sgd/" _blank
+   click TFM href "../tfm/" _blank
+   click VD href "../vd/" _blank
+
   classDef obligatoria fill:#bfdbfe,color:#1e3a8a,stroke:#60a5fa,stroke-width:2px;
   classDef optativa fill:#eff6ff,color:#1e3a8a,stroke:#93c5fd,stroke-width:2px,stroke-dasharray: 4 4;
     
   class DL,MBJ,MDMS,SGD optativa;
   class AAI,AAII,GAINE,ICPDM,MED,MT,PED,TFM,VD obligatoria;
+
+    
 ```
 
 Adicionalmente, para poder presentar el Trabajo Fin de Máster es requisito haber superado todas las asignaturas en la convocatoria de febrero y junio de ese curso, o en cualquiera para cursos anteriores.
