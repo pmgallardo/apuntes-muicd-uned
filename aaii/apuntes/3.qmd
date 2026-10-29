@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# AAII - Tema 3: Sistemas de clasificadores múltiples
+# Tema 3: Sistemas de clasificadores múltiples
 
 Este tema se llamaba originalmente "Otras combinaciones de modelos", pero se renombra a "Sistemas de clasificadores múltiples" para que sea más concreto respecto a los temas tratados.
 
@@ -754,14 +754,3 @@ El objetivo es obtener una combinación que rinda mejor que los modelos contribu
   - [ESL 8.8 "Model Averaging and Stacking"]
   - [ESL 16 "Ensemble learning"]
 - [FAQ](https://agora.uned.es/mod/glossary/view.php?id=704365)
-
-## Licencia y atribución
-
-[![CC BY 4.0][cc-by-shield]][cc-by]
-
-Este trabajo está licenciado bajo la licencia **[Creative Commons Atribución 4.0 Internacional][cc-by]**.
-
-© 2026, Colaboradores de [apuntes-muicd-uned](https://github.com/pmgallardo/apuntes-muicd-uned).
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.png

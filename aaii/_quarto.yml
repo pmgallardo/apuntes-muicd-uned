@@ -31,10 +31,10 @@ book:
     - index.qmd
     - part: "Apuntes"
       chapters:
-      - apuntes/0.md
-      - apuntes/1.md
-      - apuntes/2.md
-      - apuntes/3.md
+      - apuntes/0.qmd
+      - apuntes/1.qmd
+      - apuntes/2.qmd
+      - apuntes/3.qmd
     - part: "Exámenes"
       chapters:
       - exam/2022j2/aaii_ex_2022j2.md
@@ -51,6 +51,7 @@ book:
       - anexos/licencia.qmd
 
 lang: es-ES
+number-sections: false
 
 format:
   html:

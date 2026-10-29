@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# AAII.EX.2024J2
+# EX.2024J2
 
 Ejercicios elaborados con fines educativos, inspirados en los contenidos evaluados en el exámen de la sesión de la 2.ª semana de junio 2024 de Aprendizaje Automático II del MUICD de la UNED.
 

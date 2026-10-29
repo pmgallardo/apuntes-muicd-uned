@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# AAII.EX.2022SO
+# EX.2022SO
 
 Ejercicios elaborados con fines educativos, inspirados en los contenidos evaluados en el exámen de la sesión ordinaria de la convocatoria de septiembre 2022 de Aprendizaje Automático II del MUICD de la UNED.
 

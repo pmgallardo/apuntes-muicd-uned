@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# AAII - Tema 1: Métodos de ensamble paralelos
+# Tema 1: Métodos de ensamble paralelos
 
 Este tema se llamaba originalmente "Bosques aleatorios", pero se consideran alternativas como "Combinación paralela de modelos" o "Métodos de ensamble paralelos" para que engoble más genéricamente los distintos temas tratados.
 
@@ -27,12 +27,14 @@ Por último, se describen los siguientes métodos ensemble basados en árboles:
 
 ## Descomposición en sesgo/varianza
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - [ISL] 2.2.2.
 - [ESL] 7.1-7.3. Págs. 219-228
 - Diagrama sesgo varianza
 - [URF] 4.1.1 "Bias-variance decomposition" Págs. 55-60
+:::
 
 \
 En aprendizaje estadístico se distinguen entre los distintos tipos de errores:
@@ -40,7 +42,10 @@ En aprendizaje estadístico se distinguen entre los distintos tipos de errores:
 - **Error de entrenamiento**: error cometido sobre los mismos datos usados para ajustar el modelo.
 - **Error de test** o **error de generalización**: error cometido sobre datos nuevos, no usados para entrenar.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2026J2.3)`
+:::
 
 El error de entrenamiento suele ser demasiado optimista, porque se calcula sobre los mismos datos que el modelo ha usado para aprender. Por eso, normalmente será menor que el error de test, que se evalúa sobre datos nuevos no vistos durante el entrenamiento.
 
@@ -55,8 +60,11 @@ Un modelo más complejo o flexible suele poder reducir mucho su error de entrena
 Se habla de **sobreajuste** u ***overfitting*** cuando un modelo se ajusta excesivamente a los datos de entrenamiento y empeora en datos nuevos.
 
 <!-- Error esperado -->
-\
-`EXAM=(2022SO.3)`
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
+`2022SO.3`
+:::
 
 En regresión, usando como función de pérdida el error cuadrático, el error esperado de predicción puede descomponerse así:
 
@@ -186,13 +194,16 @@ Una de las motivaciones de los métodos basados en conjuntos de árboles será c
 
 ## El método bootstrap
 
-Bibliografía:
-
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 - [WIB]
 - [ISL 5.2]
+:::
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(AAII.EX.2022SO.2)`
+:::
 
 El **bootstrap** es una técnica estadística de remuestreo aleatorio con reemplazo.
 
@@ -361,8 +372,10 @@ Ejemplo:
 - $B = 10$: pocas remuestras, aproximación rudimentaria.
 - $B = 1000$: aproximación mucho más habitual y estable.
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=AAII.EX.2022SO.2`
+:::
 
 **Jackknife** es una técnica de remuestreo (*resampling*) estadístico determinista que permite mejorar la estimación del sesgo. A diferencia de bootstrap, no es aleatorio, por lo que en cada ejecución se obtendrán los mismos resultados.
 
@@ -370,27 +383,37 @@ No entra dentro del temario de la asignatura, pero en algún exámen se ha ofrec
 
 ## Agregación de Bootstrap: Bagging
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - [ISL 8.2.1]
 - [ESL 8.7] Pags. 282-288
 - [ESL 8.7.1]
 - Bloc de notas interactivo "Bagging" de la asignatura.
 - "Data Transform Bagging"
+:::
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2023J2.3,2025J2.3,AAII.EX.2025J2.9,2025SO.8,2025SO.10)`
+:::
 
 **Bagging** viene de **Bootstrap Aggregation**:
 
 - **Bootstrap**: se generan muchas muestras aleatorias con reemplazo a partir del conjunto de entrenamiento.
 - **Aggregation**: se entrenan modelos sobre esas muestras y se combinan sus predicciones.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2023J2.1,2025J2.2)`
+:::
 
 Cuando hay una función pérdida cuadrática, la idea teórica clave es que **promediar predicciones puede reducir la varianza sin modificar el sesgo**. Por eso se dice de manera general que el **objetivo principal** de bagging es **reducir la varianza** del modelo agregado, manteniendo aproximadamente el mismo sesgo.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2026J2.6)`
+:::
 
 Bagging es especialmente útil con modelos inestables o de alta varianza, como los árboles de decisión: pequeños cambios en los datos pueden producir árboles muy diferentes.
 
@@ -431,13 +454,19 @@ La intuición es la misma que al promediar medidas ruidosas:
 
 Si los modelos no cometen exactamente los mismos errores, el promedio es más estable que cualquiera de ellos por separado.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2021J2.20)`
+:::
 
 Con pérdida cuadrática, la idea teórica que debe memorizarse es que **promediar predicciones reduce la varianza y deja el sesgo sin cambios.**
 
 <!--Importancia de que los modelos no sean muy parecidos-->
-\
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.1)`
+:::
 
 Bagging funciona mejor cuando los modelos individuales tienen errores poco correlacionados.
 
@@ -445,9 +474,7 @@ Bagging funciona mejor cuando los modelos individuales tienen errores poco corre
 - Si sus errores son distintos, el promedio o la votación puede compensar fallos individuales.
 - Cuanto más correlacionados estén los modelos, menor será la reducción de varianza obtenida al agregarlos.
 
-**Matiz importante para una pregunta de examen:-->
-
-En una pregunta de 2022 aparece como correcta la opción que habla de modelos que no estén correlados mediante perturbaciones aleatorias que “incrementen la varianza”. La idea que conviene memorizar correctamente es:
+En una pregunta de 2022J2 aparece como correcta la opción que habla de modelos que no estén correlados mediante perturbaciones aleatorias que “incrementen la varianza”. La idea que conviene memorizar correctamente es:
 
 > Las perturbaciones bootstrap generan modelos individuales diferentes, típicamente de alta varianza; al agregarlos, se busca reducir la varianza de la predicción final.
 
@@ -471,8 +498,11 @@ La lógica es:
 > No intentamos que cada árbol individual sea estable; permitimos árboles muy ajustados y reducimos su varianza al combinarlos.
 
 <!--Por qué se usan árboles sin poda-->
-\
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2025SO.7,2025SO.9)`
+:::
 
 Podar un árbol suele simplificarlo, lo que puede aumentar su sesgo.
 
@@ -556,7 +586,10 @@ Cada árbol de bagging se entrena con una muestra bootstrap del conjunto de entr
 
 Las observaciones que no han sido utilizadas para entrenar un árbol concreto se llaman observaciones **OOB** (`out-of-bag`, fuera de bolsa) para ese árbol.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2023J2.3)`
+:::
 
 En promedio, una muestra bootstrap de tamaño $N$ deja fuera aproximadamente el $36.8\%$ de las observaciones originales, es decir, aproximadamente un tercio:
 
@@ -587,8 +620,11 @@ La idea clave es:
 Por eso el error OOB permite aproximar el error sobre datos nuevos sin reservar un conjunto de validación separado.
 
 <!--Para qué sirve el error OOB-->
-\
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2021J2.13,2024J2.2)`
+:::
 
 El error OOB es una estimación interna del error de generalización del conjunto bagging.
 
@@ -606,8 +642,11 @@ Ventajas del error OOB:
 - con suficientes árboles, proporciona una estimación muy próxima al error de test.
 
 <!--Matiz de examen sobre el error OOB-->
-\
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.3,2024SO.1)`
+:::
 
 En las preguntas de la asignatura aparece como correcta la idea de que el error OOB puede ser algo mayor que el error real del conjunto completo.
 
@@ -652,13 +691,14 @@ En regresión:
 
 ## Subespacio aleatorio
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - Básica
   - Vídeo "Random Subspace" de la asignatura.
   - Bloc de notas interactivo "Random Subspace" de la asignatura.
+:::
 
-\
 El método de **subespacio aleatorio** (en inglés, *random subspace*) es un método de ensemble en el que se entrenan varios modelos utilizando diferentes subconjuntos aleatorios de variables de entrada.
 
 Si el conjunto original tiene muchas variables, cada subconjunto de variables define un **subespacio** del espacio de características original.
@@ -694,15 +734,15 @@ En subespacio aleatorio se selecciona un subconjunto de variables para entrenar 
 
 ## Subespacio de selección de características
 
-Bibliografía:
-
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 - Básica
   - Vídeo "Feature Selection Subspace" de prácticas de la asignatura.
   - Bloc de notas interactivo "Feature Selection Subspace" de la asignatura.
 - Complementaria
   - [RSEFS]
+:::
 
-\
 El método de **subespacios mediante selección de características** (en inglés *feature selection subspace*) construye varios modelos sobre diferentes subconjuntos de variables de entrada, pero esos subconjuntos no se eligen al azar: se obtienen mediante técnicas de **selección de características** (`feature selection`).
 
 La diferencia principal respecto a `Random Subspace` es:
@@ -748,13 +788,15 @@ Por tanto, una pregunta que indique que en cada nodo se selecciona un subconjunt
 ## Bosques aleatorios
 <!--Algoritmo de bosque aleatorio-->
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - Básica
   - [ESL] 15 "Random Forests"
   - Bloc de notas interactivo "Random forest" de la asignatura.
 - Complementaria
   - [RF]
+:::
 
 \
 <!--Bosques aleatorios: Random Forest-->
@@ -765,7 +807,10 @@ La idea fundamental es:
 
 > Random Forest construye muchos árboles sobre muestras bootstrap y, además, en cada nodo limita la búsqueda de la mejor división a un subconjunto aleatorio de variables.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM-(2026J2.9)`
+:::
 
 Con ello se pretende reducir la correlación entre los árboles y conseguir que la agregación reduzca mejor la varianza.
 
@@ -773,7 +818,10 @@ Con ello se pretende reducir la correlación entre los árboles y conseguir que 
 \
 En bagging, cada árbol se entrena sobre una muestra bootstrap distinta, pero al dividir un nodo puede considerar todas las variables disponibles. Si existe una variable muy predictiva, muchos árboles tenderán a utilizarla en divisiones parecidas y acabarán siendo bastante similares.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2024J2.1,2024SO.2)`
+:::
 
 El bosque aleatorio añade una perturbación adicional:
 
@@ -819,8 +867,11 @@ Para construir un Random Forest:
 - La selección de las $m$ variables se repite en **cada nodo**, no se hace una única vez para todo el árbol.
 
 <!--Eficiencia computacional-->
-\
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2021J2.23)`
+:::
 
 Una ventaja del bosque aleatorio es que, al construir cada nodo, no se prueban todas las variables disponibles, sino solo un subconjunto aleatorio de $m$ variables.
 
@@ -883,8 +934,11 @@ Caso importante:
 > Si $m = p$, cada nodo puede considerar todas las variables y Random Forest se aproxima a bagging de árboles.
 
 <!--m pequeño cuando hay pocas variables relevantes-->
-\
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2021J2.1)`
+:::
 
 Si el número total de variables $p$ es grande, pero solo unas pocas variables son realmente relevantes, elegir un valor demasiado pequeño de $m$ puede perjudicar al bosque.
 
@@ -918,7 +972,10 @@ $$
 \hat{f}_{RF}(x) = \frac{1}{B} \sum_{b=1}^{B} T_b(x)
 $$
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.2,2024SO.3)`
+:::
 
 En clasificación, cada árbol vota una clase y el bosque devuelve la clase con más votos.
 
@@ -937,8 +994,11 @@ Ejemplo con tres clases:
 La predicción final es la clase **A**, aunque no supere el $50\%$ de los votos.
 
 <!--Por qué interesa que los árboles sean diferentes-->
-\
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2025SO.1)`
+:::
 
 **Por qué interesa que los árboles sean diferentes**:
 
@@ -970,7 +1030,10 @@ Los árboles de Random Forest suelen crecer bastante y no podarse:
 - individualmente puede tener varianza alta;
 - la agregación y la descorrelación buscan reducir la varianza del conjunto.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2022SO.1)`
+:::
 
 El parámetro $B$ controla cuántos árboles se agregan.
 
@@ -989,7 +1052,10 @@ En clasificación, los árboles necesitan un criterio para elegir la mejor divis
 - índice de Gini;
 - entropía.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2025J2.6)`
+:::
 
 El criterio de división (por ejemplo, Gini o entropía) determina cómo se eligen los cortes en cada nodo. Cambiarlo puede producir árboles con estructuras algo diferentes y modificar ligeramente la diversidad y el rendimiento del bosque.
 
@@ -1015,8 +1081,11 @@ En el temario aparecen dos medidas principales:
 | Importancia por reducción de Gini | Una variable es importante si sus splits reducen mucho la impureza en los árboles |
 
 <!--Importancia por permutación OOB-->
-\
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2023SO.2,2025J2.4)`
+:::
 
 **Importancia por permutación OOB**:
 
@@ -1043,8 +1112,10 @@ Interpretación:
 
 <!--Importancia basada en Gini-->
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2025J2.4)`
+:::
 
 **Importancia basada en Gini**:
 
@@ -1074,11 +1145,13 @@ Interpretación:
 
 ## ExtraTree
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - Básica
   - Vídeo "ExtraTrees" de prácticas de la asignatura.
   - Bloc de notas interactivo "ExtraTrees" de la asignatura.
+:::
 
 <!--Árboles extremadamente aleatorios: Extra Trees-->
 \
@@ -1120,11 +1193,13 @@ Los parámetros más importantes son:
 
 ## Data Transform Bagging
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - Básica
   - Vídeo "Data Transform Bagging" de prácticas de la asignatura.
   - Bloc de notas interactivo "Data Transform Bagging" de prácticas de la asignatura.
+:::
 
 <!--Conjuntos mediante transformaciones de datos: Data Transform Bagging-->
 \
@@ -1215,14 +1290,3 @@ Bibliografía:
 FAQ:
 
 - [FAQ](https://agora.uned.es/mod/glossary/view.php?id=704365)
-
-## Licencia y atribución
-
-[![CC BY 4.0][cc-by-shield]][cc-by]
-
-Este trabajo está licenciado bajo la licencia **[Creative Commons Atribución 4.0 Internacional][cc-by]**.
-
-© 2026, Colaboradores de [apuntes-muicd-uned](https://github.com/pmgallardo/apuntes-muicd-uned).
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.png

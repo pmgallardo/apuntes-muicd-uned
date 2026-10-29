@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# AAII - Tema 2: Métodos de ensamble secuenciales
+# Tema 2: Métodos de ensamble secuenciales
 
 Este tema se llamaba originalmente "Intensificación", pero se renombra a "Métodos de ensamble secuenciales" para que engoble más genéricamente los distintos temas tratados.
 
@@ -756,14 +756,3 @@ Bibliografía:
 FAQ:
 
 - [FAQ](https://agora.uned.es/mod/glossary/view.php?id=704365)
-
-## Licencia y atribución
-
-[![CC BY 4.0][cc-by-shield]][cc-by]
-
-Este trabajo está licenciado bajo la licencia **[Creative Commons Atribución 4.0 Internacional][cc-by]**.
-
-© 2026, Colaboradores de [apuntes-muicd-uned](https://github.com/pmgallardo/apuntes-muicd-uned).
-
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.png
