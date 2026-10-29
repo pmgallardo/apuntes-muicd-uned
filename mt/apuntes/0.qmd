@@ -1,0 +1,7 @@
+# Estructura del temario
+
+* [Tema 1: Introducción PLN](1.qmd) 
+* [Tema 2: Extracción de la información](2.qmd) 
+* [Tema 3: Representación de documentos](3.qmd) 
+* [Tema 4: Clustering y clasificación](4.qmd) 
+* [Tema 5: Aplicaciones](5.qmd) 

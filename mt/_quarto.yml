@@ -31,11 +31,12 @@ book:
     - general.qmd
     - part: "Apuntes"
       chapters:
-      - apuntes/1.md
-      - apuntes/2.md
-      - apuntes/3.md
-      - apuntes/4.md
-      - apuntes/5.md
+      - apuntes/0.qmd
+      - apuntes/1.qmd
+      - apuntes/2.qmd
+      - apuntes/3.qmd
+      - apuntes/4.qmd
+      - apuntes/5.qmd
     - part: "Anexos"
       chapters:
       - anexos/contribuciones.qmd
