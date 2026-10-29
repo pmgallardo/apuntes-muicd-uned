@@ -75,7 +75,10 @@ El **engaño de la eliminación del ruido** se refiere a las complejidades de la
 
 ### Dilema de la evaluación
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2023SO.C.1)`
+:::
 
 En la minería de datos convencional, lo habitual es fragmentar la información en conjuntos de entrenamiento y prueba para validar patrones.
 
@@ -92,8 +95,7 @@ Pese a esta dificultad, es necesario diseñar mecanismos de evaluación alternat
 * [@tang2014msmst, sec. 2 "Social media data is social"]
 :::
 
-\
-Los datos de los medios sociales presentan características propias que los diferencian de los datos tratados habitualmente en minería de datos. Las características son, de acuerdo a [MSMST]:
+Los datos de los medios sociales presentan características propias que los diferencian de los datos tratados habitualmente en minería de datos. Las características son, de acuerdo a @tang2014msmst:
 
 - Grandes
 - Enlazados
@@ -140,7 +142,10 @@ Teorías sociales estudiadas en la asignatura:
   * [@tang2014msmst, 3.1 "Social Correlation Theory]
 :::
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2023J2.P.1,2024SO.C.2,2025SO.C.2)`
+:::
 
 La **teoría de correlación social** trata de explicar cómo se propagan comportamientos y rasgos en un entorno conectado. Este fenómeno se fundamenta en los siguientes mecanismos, principalmente en los dos primeros:
 
@@ -150,14 +155,14 @@ La **teoría de correlación social** trata de explicar cómo se propagan compor
 
 #### Homofilia social (introducción)
 
-\
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Apartado 4.1 "Teoría de correlación social".
-  - [MSMST] 3.1 "Social Correlation Theory"
+  - [@rodriguez_tsms] Apartado 4.1 "Teoría de correlación social".
+  - [@tang2014msmst] 3.1 "Social Correlation Theory"
+:::
 
-\
 La **homofilia social** (en inglés, *social homophily*), descrita a menudo como la "afinidad por lo semejante", la homofilia es la inclinación natural de las personas a establecer vínculos con quienes comparten atributos similares. Esta convergencia en valores, educación o creencias actúa como un lubricante social, facilitando la comunicación y el fortalecimiento de la relación.
 
 En el análisis de redes, este concepto se mide técnicamente bajo el término de asortatividad.
@@ -166,36 +171,35 @@ El concepto de homofilia se amplía en el tema 3.
 
 #### Influencia
 
-\
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Apartado 4.1 "Teoría de correlación social".
+  - [@rodriguez_tsms] Apartado 4.1 "Teoría de correlación social".
 - Complementaria
-  - [SMMI] 8.2 "Influence"
-  - [MSMST] 3.1 "Social Correlation Theory"
+  - [@zafarani2014smmi] 8.2 "Influence"
+  - [@tang2014msmst] 3.1 "Social Correlation Theory"
+:::
 
-\
 La **influencia** ocurre cuando el vínculo social preexistente moldea el comportamiento del individuo. Es el proceso por el cual las personas adoptan rasgos, gustos o acciones de sus allegados. En esencia, la cercanía social fomenta la mimetización de conductas entre los nodos de la red.
 
 #### Confusión
 
-\
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Apartado 4.1 "Teoría de correlación social". Pág. 4.
-  - [SMMI] 8. "Influence and Homophily". Pág. 217.
-  - [MSMST] 3.1 "Social Correlation Theory"
+  - [@rodriguez_tsms] Apartado 4.1 "Teoría de correlación social". Pág. 4.
+  - [@zafarani2014smmi] 8. "Influence and Homophily". Pág. 217.
+  - [@tang2014msmst] 3.1 "Social Correlation Theory"
 - Complementaria
+:::
 
-\
 La **confusión** (en inglés, *confounding*) se produce cuando dos usuarios presentan semejanzas debido a un factor externo común, y no porque uno haya influido en el otro ni porque su relación se haya formado por homofilia. Por ejemplo, dos personas pueden hablar el mismo idioma porque viven en el mismo país, o presentar hábitos semejantes porque comparten un mismo entorno.
 
 La confusión es, por tanto, una explicación alternativa de la similitud observada entre usuarios: dos individuos pueden parecerse aunque esa semejanza no proceda de sus relaciones sociales.
 
-Según [MSMST], una consecuencia de la confusión es establecer relaciones comunes con individuos expuestos a los mismos factores externos. Esto se puede explicar por homofilia: si dos inviduos están en un mismo entorno, adquieren características similares y por tanto es probable que establezcan una relación por homofilia.
-
+Según @tang2014msmst, una consecuencia de la confusión es establecer relaciones comunes con individuos expuestos a los mismos factores externos. Esto se puede explicar por homofilia: si dos inviduos están en un mismo entorno, adquieren características similares y por tanto es probable que establezcan una relación por homofilia.
 
 ::: {.callout-note collapse=false}
 ## 📖Material asociado
@@ -207,21 +211,25 @@ Según [MSMST], una consecuencia de la confusión es establecer relaciones comun
 
 La **$k$-exposición** expresa que la probabilidad de que un usuario adopte un contenido, conducta o elemento es directamente proporcional al número ($k$) de contactos en su círculo que ya lo han hecho. A diferencia de la confusión, aquí interviene la exposición a la actividad de otros usuarios de la red.
 
-Según [TSMS], $k$-exposición y confusión están relacionados; no obstante, dadas las definiciones anteriores se comprueba que tienen matices distintos: en confusión la relación es una consecuencia, y en k-exposición una causa.
+Según [@rodriguez_tsms], $k$-exposición y confusión están relacionados; no obstante, dadas las definiciones anteriores se comprueba que tienen matices distintos: en confusión la relación es una consecuencia, y en k-exposición una causa.
 
-La teoría de correlación social según [MSMST] no incluye la $k$-exposición entre los mecanismos que la desarrollan, pero se incluye aquí para aclarar las diferencias.
+La teoría de correlación social según @tang2014msmst no incluye la $k$-exposición entre los mecanismos que la desarrollan, pero se incluye aquí para aclarar las diferencias.
 
 ### Teoría del balance {#teoria-del-balance}
 
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Apartado 4.2 "Teorías del balance".
+  - [@rodriguez_tsms] Apartado 4.2 "Teorías del balance".
 - Complementario
-  - [MSMST] Apartado 3.2. "Balance Theory"
+  - [@tang2014msmst] Apartado 3.2. "Balance Theory"
+:::
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2026J2.P.1.4)`
+:::
 
 La **teoría del balance** estudia la coherencia de las relaciones positivas y negativas dentro de una tríada formada por tres usuarios. Una relación positiva puede representar amistad, confianza o afinidad; una relación negativa, enemistad, desconfianza o aversión.
 
@@ -234,22 +242,29 @@ Una tríada está **equilibrada** cuando sus relaciones no producen una situaci�
 
 Para aplicar esta teoría es necesario disponer de relaciones etiquetadas como positivas o negativas. En muchos medios sociales estas etiquetas no aparecen directamente y deben inferirse a partir de acciones como confiar o desconfiar, apoyar o rechazar, etc. La teoría del balance se formula originalmente para redes no dirigidas; si se aplica a relaciones dirigidas, normalmente se ignora la dirección del enlace.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2025SO.C.3)`
+:::
 
 Cuando se comprueba en una red que los miembros del mismo grupo tienen afinidad y los de grupos distintos sienten aversión, es aplicable la teoría del balance.
 
 ### Teoría del estatus {#teoria-del-estatus}
 
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Apartado 4.3 "Teorías del estatus".
-  - [MSMST] Apartado 3.3. "Status theory"
+  - [@rodriguez_tsms] Apartado 4.3 "Teorías del estatus".
+  - [@tang2014msmst] Apartado 3.3. "Status theory"
 - Complementaria
-  - [SMMI] Apartado 3.3 "Balance and status"
+  - [@zafarani2014smmi] Apartado 3.3 "Balance and status"
+:::
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.C.1,2023J2.P.1,2025J2.C.1)`
+:::
 
 La **teoría del estatus** sostiene que el estatus define el nivel de prestigio, rango u honor que un individuo posee dentro de un colectivo. Aplicado al análisis de redes, los átomos sociales ocupan posiciones jerárquicas que se manifiestan a través de sus interacciones.
 
@@ -264,14 +279,15 @@ Para poder aplicar la teoría del estatus es necesario que:
 
 ## 1.4. Teorías sociales en las tareas de minería
 
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Apartado 5 "Teorías sociales en las tareas de minería".
-  - [MSMT]
+  - [@rodriguez_tsms] Apartado 5 "Teorías sociales en las tareas de minería".
+  - [@tang2014msmst]
+:::
 
-\
-En los medios sociales pueden identificarse tres tipos de objetos, de acuerdo a [MSMT]: los **usuarios**, que crean y consumen información; las **relaciones sociales**, que conectan a unos usuarios con otros, como amistades, seguimientos o respuestas; y los **contenidos**, como publicaciones, comentarios, imágenes o vídeos.
+En los medios sociales pueden identificarse tres tipos de objetos, de acuerdo a [@tang2014msmst]: los **usuarios**, que crean y consumen información; las **relaciones sociales**, que conectan a unos usuarios con otros, como amistades, seguimientos o respuestas; y los **contenidos**, como publicaciones, comentarios, imágenes o vídeos.
 
 Las tareas de minería de datos de los medios sociales se centra, por tanto, en los objetos mencionados:
 
@@ -281,13 +297,14 @@ Las tareas de minería de datos de los medios sociales se centra, por tanto, en 
 
 ### Tareas de MDMS basadas en usuarios
 
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Apartado 5.1. "Sobre los usuarios.
-  - [MSMT] 4.1. "Social Theories in User-Related Tasks"
+  - [@rodriguez_tsms] Apartado 5.1. "Sobre los usuarios.
+  - [@tang2014msmst] 4.1. "Social Theories in User-Related Tasks"
+:::
 
-\
 Tareas de minería basados en usuarios:
 
 - Detección de comunidades (básico)
@@ -296,27 +313,32 @@ Tareas de minería basados en usuarios:
 
 #### Detección de comunidades (básico)
 
-\
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Subpartado "Detección de comunidades" del apartado 5.1. "Sobre los usuarios.
+  - [@rodriguez_tsms] Subpartado "Detección de comunidades" del apartado 5.1. "Sobre los usuarios.
 - Complementaria
-  - [SMMI] 6.1 "Community Detection" Págs. 144-161
-  - [MSMT] 4.1.1 "Community Detection"
+  - [@zafarani2014smmi] 6.1 "Community Detection" Págs. 144-161
+  - [@tang2014msmst] 4.1.1 "Community Detection"
+:::
 
-\
 Nota: esta sección se refiere a la detección de comunidades "básica" puesto que el concepto se amplía en apartados con el mismo nombre en el tema 2, con las etiquetas "importante" y "avanzada", de acuerdo con el mapa conceptual de la asignatura para el tema 2. La diferencia real entre los distintos apartados es que cada uno se basa en una bibliografía distinta.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2023SO.C.1)`
+:::
 
 La **detección de comunidades** es importante en minería de datos de los medios sociales por los siguientes motivos:
 
 1. Permite **inferir los intereses de individuos**, puesto que los individuos pertenecen a comunidades de acuerdo a intereses.
 2. Permite obtener una **perspectiva integral de las dinámicas entre usuarios**. Mientras que el comportamiento de los individuos de la red suele ser errático, ruidoso o demasiado específico, las comunidades tienden a manifestar patrones comunes y más estables frente a variaciones externas. Esta cohesión permite deducir información valiosa sobre un sujeto analizando no solo sus acciones particulares, sino también su alineación con las tendencias globales del grupo al que pertenece.
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2023J2.C.1)`
+:::
 
 Tipos de comunidades:
 
@@ -329,59 +351,61 @@ Una **comunidad implícita** es aquella en la que los individuos interactúan en
 
 #### Clasificación de usuarios
 
-\
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Subapartado "Clasificación de usuarios" del apartado 5.1 "Sobre los usuarios".
+  - [@rodriguez_tsms] Subapartado "Clasificación de usuarios" del apartado 5.1 "Sobre los usuarios".
 - Complementaria
-  - [MSMST] 4.1. "User Classification"
+  - [@tang2014msmst] 4.1. "User Classification"
+:::
 
-\
 La **clasificación de usuarios** implica la categorización de individuos o colectivos a partir de la estructura de una red y ciertos datos personales, enriqueciendo sus perfiles con la información grupal.
 
 Por ejemplo, al delimitar una comunidad, sus integrantes pueden ser clasificados mediante el análisis agregado de los datos individuales de todos sus miembros, permitiendo que el conocimiento del conjunto complete las lagunas de información de cada usuario.
 
 #### Detección de spammers sociales
 
-\
-Bibliografía:
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
 - Básica
-  - [TSMS] Subapartado "Detección de spammers sociales" del apartado 5.1 "Sobre los usuarios"
+  - [@rodriguez_tsms] Subapartado "Detección de spammers sociales" del apartado 5.1 "Sobre los usuarios"
 - Complementaria
-  - [MSMST] 4.1.3 "Social Spammer Detection"
+  - [@tang2014msmst] 4.1.3 "Social Spammer Detection"
+:::
 
-\
 La **detección de spammers sociales** trata de identificar usuarios, denominados *spammers*, que realizan actividades no deseadas o artificiales en una red social. De acuerdo con la teoría de correlación social, los usuarios normales suelen presentar comportamientos similares a los de sus vecinos y, por ello, tienden a agruparse en zonas más densamente conectadas. En cambio, un *spammer* suele relacionarse principalmente con usuarios normales, pero su actividad difiere de la de estos. Por tanto, un usuario cuyo comportamiento resulte anómalo respecto al de sus vecinos puede considerarse sospechoso de ser *spammer*.
 
 ### Tareas de MDMS basadas en relaciones
 
-Bibliografía:
-
+::: {.callout-note collapse=false}
+## 📖Material asociado
 - Básica
-  - [TSMS] Apartado 5.2. "Sobre las relaciones sociales".
-  - [MSMST] 4.2 "Social Theories in Relation-Related Tasks"
+  - [@rodriguez_tsms] Apartado 5.2. "Sobre las relaciones sociales".
+  - [@tang2014msmst] 4.2 "Social Theories in Relation-Related Tasks"
+:::
 
-\
 Tareas de minería social basadas en relaciones:
 
 - Predicción de enlaces
 
-[MSMST] identifica otras dos tareas, pero estas no se listan en los apuntes de la asignatura [TSMS].
+@tang2014msmst identifica otras dos tareas, pero estas no se listan en los apuntes de la asignatura [@rodriguez_tsms].
 
 #### Predicción de enlaces
 
-\
-Bibliografía:
-
+::: {.callout-note collapse=false}
+## 📖Material asociado
 - Básica
-  - [TSMS] Subpartado "Predicción de enlaces" del apartado 5.2. "Sobre las relaciones sociales".
+  - [@rodriguez_tsms] Subpartado "Predicción de enlaces" del apartado 5.2. "Sobre las relaciones sociales".
 - Complementaria
-  - [MSMST] 4.2.1 "Link Prediction"
+  - [@tang2014msmst] 4.2.1 "Link Prediction"
+:::
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2024SO.C.2)`
+:::
 
 La **predicción de enlaces** consiste en estimar qué pares de usuarios que todavía no están conectados tienen mayor probabilidad de establecer una relación en el futuro. Esta tarea puede apoyarse en distintas teorías sociales.
 
@@ -394,7 +418,10 @@ En primer lugar, se puede aplicar la **teoría de la correlación social**.
 
 Según la **homofilia**, dos usuarios similares tienen mayor probabilidad de relacionarse.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2026J2.C.2)`
+:::
 
 El **coeficiente de homofilia social** mide la fuerza de la homofilia entre dos usuarios. Si se asume que una homofilia más fuerte implica una menor distancia en el espacio implícito o latente, entonces el coeficiente debe definirse como una función inversa de dicha distancia. Por tanto, cuanto menor sea la distancia entre dos nodos, mayor será su coeficiente de homofilia.
 
@@ -410,29 +437,31 @@ Finalmente, según la **teoría del estatus**, es más probable que se forme una
 
 ### Contenidos
 
-Bibliografía:
-
+::: {.callout-note collapse=false}
+## 📖Material asociado
 - Básica
-  - [TSMS] Subapartado "Recomendación social" del apartado 5.3 "Sobre los contenidos".
-  - [MSMST] Apartado 5.3. "Sobre los contenidos".
+  - [@rodriguez_tsms] Subapartado "Recomendación social" del apartado 5.3 "Sobre los contenidos".
+  - [@tang2014msmst] Apartado 5.3. "Sobre los contenidos".
+:::
 
-\
 Tareas de minería social para el tipo de objeto contenido:
 
 - Recomendación social
 
 #### Recomendación social
 
-\
-Bibliografía:
-
+::: {.callout-note collapse=false}
+## 📖Material asociado
 - Básica
-  - [TSMS] Subapartado "Recomendación social" del apartado 5.3 "Sobre los contenidos".
+  - [@rodriguez_tsms] Subapartado "Recomendación social" del apartado 5.3 "Sobre los contenidos".
 - Complementaria
-  - [MSMST]. Apartado 4.3.1. "Social Recommendation". Pág. 7.
+  - [@tang2014msmst]. Apartado 4.3.1. "Social Recommendation". Pág. 7.
+:::
 
-\
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 `EXAM=(2026JR.P.1.3)`
+:::
 
 Las plataformas digitales ofrecen una capa de datos adicional: el tejido de conexiones entre usuarios. Esta red permite optimizar los sistemas de **recomendación social** (en inglés, *social recommendation*) al integrar el impacto que el entorno cercano ejerce sobre el individuo, ya sea por homofilia, influencia directa o el efecto de la $k$-exposición. Se ha demostrado que este enfoque es altamente eficaz para resolver la saturación informativa y perfeccionar la sugerencia de contenidos, personalizando la experiencia según la dinámica social de cada nodo.
 
@@ -442,7 +471,7 @@ Las plataformas digitales ofrecen una capa de datos adicional: el tejido de cone
 Bibliografía:
 
 - Básica
-  - [TSMS] RODRÍGUEZ ANAYA, Antonio. Teorías sociales en la minería social.
+  - [@rodriguez_tsms] RODRÍGUEZ ANAYA, Antonio. Teorías sociales en la minería social.
   - [TRS] LOZARES, Carlos. [La teoría de las redes sociales](https://papers.uab.cat/article/view/v48-lozares/pdf-es). Universitat Autònoma de Barcelona, 1996.
 - Complementaria
   - [SMMI] ZAFARANI, Reza, ABBASI, Mohammad Ali, LIU, Huan Liu. [Social media mining: An introduction](https://www.cambridge.org/es/universitypress/subjects/computer-science/knowledge-management-databases-and-data-mining/social-media-mining-introduction). Cambridge University Press, 2014.

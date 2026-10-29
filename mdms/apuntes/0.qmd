@@ -1,0 +1,5 @@
+# Estructura de la asignatura
+
+* [Tema 1: Herramientas y métodos de extracción de información en redes sociales](1.qmd)
+* [Tema 2: Análisis y visualización de redes sociales estáticas y dinámicas](2.qmd)
+* [Tema 3: Técnicas de minería de datos en redes sociales](3.qmd)

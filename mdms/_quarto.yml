@@ -32,9 +32,10 @@ book:
     - general.qmd
     - part: "Apuntes"
       chapters:
-      - apuntes/1.md
-      - apuntes/2.md
-      - apuntes/3.md
+      - apuntes/0.qmd
+      - apuntes/1.qmd
+      - apuntes/2.qmd
+      - apuntes/3.qmd
     - part: "Repaso"
       chapters:
       - repaso/repaso.md
