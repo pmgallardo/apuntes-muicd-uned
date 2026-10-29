@@ -69,7 +69,6 @@ format:
     toc: true
     toc-depth: 4
     toc-location: right
-    number-sections: true
   pdf:
     pdf-engine: lualatex
     variables:
