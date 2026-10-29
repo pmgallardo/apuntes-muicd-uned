@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# PED - Tema 2: Manipulación y agrupación de datos
+# Tema 2: Manipulación y agrupación de datos
 
 ## Creación de estructuras de datos y acceso y modificación de datos (Numpy)
 

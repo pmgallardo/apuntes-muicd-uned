@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# PED - Tema 4: Programación de análisis numérico
+# Tema 4: Programación de análisis numérico
 
 ## Resolución de ecuaciones
 

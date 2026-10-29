@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# PED - Tema 4: Introducción a la programación en entorno de datos
+# Tema 1: Introducción a la programación en entorno de datos
 
 - Motivación
 - Repaso de conceptos de programacińo
@@ -15,10 +15,12 @@ Términos pendientes de añadir:
 
 ## Motivación
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - Capítulo 1, apartados 1.1 y 1.2 Python for Data Analysis (2nd Edition)
 - Capítulo 1, apartados 1.1 y 1.2 Python for Data Analysis (3rd Edition)
+:::
 
 ## Repaso de conceptos de programación
 
@@ -26,19 +28,29 @@ Bibliografía:
 
 Un objeto inmutable signfifica que los objetos de dicho tipo no disponen de métodos que permitan modificar su valor.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 Apareció en: EX.20200901.T.2
+:::
 
 **Objetos mutables**:
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 Apareció en: EX.20220210.T.4
+:::
 
 **Puntos y comas**:
 
 Se puede usar puntos y coma para separar declaraciones en una misma línea en Python.
 
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
 Apareció en: EX.20230209.T.3
+:::
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - Básica
   - Capítulo 2, apartado 2.3 Python for Data Analysis (2nd Edition)
@@ -49,6 +61,7 @@ Bibliografía:
   - Capítulo 2, apartados 2.1 y 2.2 Python for Data Analysis (3rd Edition)
   - [Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
   - Ejercicios para practicar la programación en Python: [Solve Python HackerRank](https://www.hackerrank.com/domains/python)
+:::
 
 ## Tipos de datos
 
@@ -69,7 +82,10 @@ Si la tercera parte del split tiene un valor `-1`, se invierte el array en ese e
 
 Si la tercera parte del split tiene un entero negativo, primero se invierte el array y después se van contando los números
 
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 Se preguntó en: EX.20250904.T.1
+:::
 
 **Generadores**:
 
@@ -77,15 +93,23 @@ Los generadores se identifican como una función que usa la palabra reservada `y
 
 Se mencionan en el apartado 3.2, "Namespaces, Scope, and Local Functions" del capítulo 3 de PfDA 3.
 
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 Se preguntó en: EX.20220907.T.4.
+:::
 
 **Variables globales**:
 
 Las variables globales y la palabra reservada `global` se mencionan en el apartado 3.2, "Namespaces, Scope, and Local Functions" del capítulo 3 de PfDA 3.
 
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 Se preguntó en: EX.20230906.T.3
+:::
 
-Bibliografía:
+::: {.callout-note collapse="false"}
+## 📖Material asociado
 
 - Capítulo 3 Python for Data Analysis (2nd Edition)
 - Capítulo 3 Python for Data Analysis(3rd Edition)
+:::
