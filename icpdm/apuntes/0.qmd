@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Estructura de contenidos
 
-- Módulo 1: Ecosistema Big Data
+- [Módulo 1: Ecosistema Big Data](1.qmd)
   - Preparación del entorno
     - Instalación y despliegue
     - Datasets a utilizar en los ejercicios prácticos
@@ -25,12 +25,12 @@ SPDX-License-Identifier: CC-BY-4.0
      - Lección 1: Apache Flume
      - Lección 2: Apache Avro
      - Lección 3: Apache Parquet
-- Módulo 2: Técnicas de procesamiento masivo
-- Módulo 3: Gestión de la información en tiempo real
+- [Módulo 2: Técnicas de procesamiento masivo](2.qmd)
+- [Módulo 3: Gestión de la información en tiempo real](3.qmd)
   - Tema 1: Introducción a las arquitecturas de procesamiento de streams: Lambda y Kappa
   - Tema 2: Componentes tecnológicos de adquisición y transmisión/distribución de eventos: Kafka
   - Tema 3: Procesamiento de Streams: Spark Streaming.
-- Módulo 4: Servicios en la nube para el almacenamiento y procesamiento de datos
+- [Módulo 4: Servicios en la nube para el almacenamiento y procesamiento de datos](4.qmd)
   - Tema 1: Soluciones en la nube para la gestión del almacenamiento de datos.
   - Tema 2: Soluciones en la nube para el procesamiento de datos.
   - Tema 3: Soluciones en la nube para la implementación de arquitecturas de Streaming
