@@ -56,6 +56,7 @@ book:
       - anexos/licencia.qmd
 
 lang: es-ES
+number-sections: false
 
 format:
   html:
