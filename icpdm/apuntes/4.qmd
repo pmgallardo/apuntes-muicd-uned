@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
@@ -5,3 +9,11 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 
 # Módulo 4: Servicios en la nube para el almacenamiento y procesamiento de datos
+
+## 4.1. Soluciones en la nube para la gestión del almacenamiento de datos
+
+## 4.2. Soluciones en la nube para el procesamiento de datos
+
+## 4.3. Soluciones en la nube para la implementación de arquitecturas de Streaming
+
+## Bibliografía

@@ -38,6 +38,7 @@ book:
       - apuntes/4.qmd
     - part: "Exámenes"
       chapters:
+      - exam/2020f2/ex_2020f2.md
       - exam/2022f2/ex_2022f2.md
     - part: "Anexos"
       chapters:
@@ -45,6 +46,7 @@ book:
       - anexos/licencia.qmd
 
 lang: es-ES
+number-sections: false
 
 format:
   html:

@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
@@ -5,3 +9,11 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 
 # Módulo 3: Gestión de la información en tiempo real
+
+## 3.1: Introducción a las arquitecturas de procesamiento de streams: Lambda y Kappa
+
+## 3.2: Componentes tecnológicos de adquisición y transmisión/distribución de eventos: Kafka
+
+## 3.3: Procesamiento de Streams: Spark Streaming.
+
+## Bibliografía

@@ -20,6 +20,14 @@ En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de In
 | Práctica 2 | 30 | 10-ene |
 | Exámen | 40 | feb |
 
+La nota mínima final para aprobar la asignatura es 5.
+
+En cada una de las entregas es necesario sacar al menos un 40% de la puntuación total de la nota.
+
+### Exámen
+
+El exámen es tipo test, contiene 20 preguntas y tiene una duración de 2 horas.
+
 ## Módulos
 
 Módulos de la asignatura:
@@ -60,4 +68,3 @@ Existen comunidades no oficiales de alumnos y alumni del máster:
 - Inactiva
   - [Carpeta `INFRAESTRUCTURAS CMP PARA PRCSMTO DE DATOS MASIVOS` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgB12rtCAxEvRKkRWVoABxAjAZnJJwrWobXMiLlN6c0tTkM) en SharePoint UNED
   - Entrada a [ICP](https://github.com/adzarei/uned-master-bigdata/tree/master/ICP) de curso 2019/2020 en repositorio `uned-master-bigdata` de Adrián José Zapater Reig
-

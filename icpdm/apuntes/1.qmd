@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
@@ -6,12 +10,264 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Módulo 1: Ecosistema Big Data
 
-Tema 1 de la asignatura IPCDM.
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* Básico
+  * [@candon2024hadoop]
+:::
 
-## Introducción a Big Data
+## Preparación del entorno
 
-## El núcleo de Hadoop
+### Instalación y despliegue
 
-## Programación MapReduce
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* Básico
+  * [Apartado "Instalación y despliegue" de la asignatura](https://agora.uned.es/pluginfile.php/3435599/mod_resource/content/2/CURSO-subido-2024-09-06/preparacion/instalacion-despliegue/index.html)
+:::
 
-## Herramientas de serialización/deserialización e inyección/extracción de datos
+En este apartado se explica cómo configurar los contenedores que se emplearán para el trabajo práctico (TP).
+
+#### Docker y Docker Compose
+
+Se requiere instalar en el sistema Docker Engine y Docker Compose para poder desplegar los contenedores Docker facilitados para el curso.
+
+Existen distintos paquetes de instalación de Docker, incluyendo `docker.io` o `docker-cm` (gestionado directamente por Docker, y que suelen).
+
+La instalación de estos elementos depende de cada sistema operativo. En el caso de `docker-cm`, las instruccciones vienen en la página de [instalación del paquete de Docker](https://docs.docker.com/desktop/setup/install/linux/debian/).
+
+Para comprobar si está instalado Docker, abrir una terminal y ejecutar:
+
+```shell
+docker --version
+```
+
+Para comprobar si está instalado Docker Compose, ejecutar:
+
+```shell
+docker compose version
+```
+
+En ambos casos, si está instalado debería reconocer el comando.
+
+Posteriormente se descarga el fichero `docker-compose.yaml` facilitado en la asignatura.
+
+Se debe modificar el fichero sustituyendo `LOCAL` por la carpeta donde se desea que se guarden los notebooks que vayan a ser manipulados desde el contenedor. Se debe tener en cuenta que uno de estos ficheros es el que se enviará para el TP 1 .
+
+##### Mapeo de IPs {.unnumbered .unlisted}
+
+Propone mapear las IPs de cada servicio con un dominio. Para ello, propone modificar el directorio `/etc/hosts/` en Linux o el correspondiente en otros SO.
+
+En sistemas Linux, se puede modificar desde una terminal con `sudo nano /etc/hosts`.
+
+#### Despliegue del entorno
+
+Para desplegar el contenedor, ir a la carpeta donde está el fichero `docker-compose.yaml` y ejecutar el siguiente comando:
+
+```shell
+docker compose up –d
+```
+
+\
+Es posible que dé el siguiente error en Linux:
+
+```bash
+$ docker compose up -d
+permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
+```
+
+Esto se soluciona anteponiendo el comando con `sudo` o, como solución permanente, añadiendo el usuario al grupo `docker` con:
+
+```bash
+sudo usermod -aG docker $USER
+```
+
+Requeriría posteriormente cerrar y reabrir la sesión para que tenga efecto.
+
+\
+Otro error posible es que el puerto 8888 esté ocupado, por ejemplo si tienes ya abierto Jupyter Notebook por otra instancia.
+
+#### URL's de interés
+
+Para comprobar que se ha desplegado bien el contenedor, se pueden probar las siguientes URLs:
+
+| Contenedor | IP | Dominio |
+| - | - | - |
+| Jupyter Notebook | <http://localhost:8888/tree> | <http://namenode:8888/tree> |
+| Interfaz Hadoop Namenode | <http://localhost:9870> | <http://namenode:9870> |
+| Job History MapReduce | <http://172.18.0.4:9864> | <http://datanode1:9864> |
+| Yarn Manager | <http://localhost:19888/jobhistory> | <http://yarnmanager:19888/jobhistory> |
+
+#### Gestión de los contenedores
+
+En este apartado se indican comandos comunes para trabajar con Docker, concretamente `docker compose stop` `start` y `down`.
+
+Aquí se propone también `restart`, útil cuando uno de los contenedores falla sin razón aparente.
+
+### Datasets a utilizar en los ejercicios prácticos
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+- Apuntes "[Datasets a utilizar en los ejercicios prácticos](https://agora.uned.es/pluginfile.php/3435599/mod_resource/content/2/CURSO-subido-2024-09-06/preparacion/datasets/index.html)" de la asignatura
+:::
+
+Este apartado incluye enlaces y descripciones de los campos para cada uno de los conjuntos de datos empleados en la asignatura.
+
+## Tema 1: Introducción a Big Data
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+
+* Básico
+  * [@candon2024hadoop].
+* Complementario
+  * [@achari2015 ch. 1 and 3].
+  * [@white2015] Cap. 3.
+  * [@deshpande2016] Cap. 2.
+  * [@arora2015] Cap. 1 y 10
+:::
+
+Para la PEC 1 menciona adicionalmente @wiki_bigdata.
+
+### Lección 1: Definición y conceptos básicos de Big Data
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* Básico
+  * <https://agora.uned.es/pluginfile.php/3435599/mod_resource/content/2/CURSO-subido-2024-09-06/modulo1/leccion01/index.html>
+:::
+
+Se hace una presentación de Big Data y las diferencias entre Big Data, ML y AI.
+
+### Lección 2: Características y desafíos de Big Data
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+
+* Básico
+  * <https://agora.uned.es/pluginfile.php/3435599/mod_resource/content/2/CURSO-subido-2024-09-06/modulo1/leccion02/index.html>
+  * [Big Data In 5 Minutes | What Is Big Data?| Big Data Analytics | Big Data Tutorial | Simplilearn](https://www.youtube.com/watch?v=bAyrObl7TYE)
+:::
+
+Se presentan las 5 V's que definen el Big Data: Volumen, Velocidad, Variedad, Veracidad y Valor
+
+Se dan ejemplos de caos de uso y de ventajas de Big Data.
+
+### Lección 3: Aplicaciones y casos de uso en diferentes industrias
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* Básico
+  * <https://agora.uned.es/pluginfile.php/3435599/mod_resource/content/2/CURSO-subido-2024-09-06/modulo1/leccion03/index.html>
+:::
+
+### Autoevaluación del tema
+
+## Tema 2: El núcleo de Hadoop
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+
+* Básico
+  * [@candon2024hadoop]
+  * Vídeo "[¿Qué es Hadoop](https://canal.uned.es/mmobj/iframe/id/39019)" de la asignatura
+  * Vídeo "[Introducción a Hadoop: MapReduce, YARN, HDFS](https://www.intecca.uned.es/portal/grabacion?ID_Sala=228584&ID_Grabacion=340080&hashData=7785bf1ee1d9e04120445ca5e92c7c19&paramsToCheck=SURfR3JhYmFjaW9uLElEX1NhbGEs)"
+* Complementario
+  * [@achari2015 ch. 3].
+  * [@white2015] Cap. 2.
+  * [@bengfort2016] Cap. 3 y 5.
+  * [@miner2012] Cap. 4.
+  * [@capriolo2012programming]
+  * Vídeo [Trabajo con HDFS y MapReduce utilizando la máquina virtual oficial de Cloudera](https://unedo365-my.sharepoint.com/:u:/g/personal/accaminero_scc_uned_es/EXo_EwhGGONPrjPFxEdoK34ByzIzy7mv__E0exjRPu_JAg?e=UrC8Mh)
+  * Charla "[Análisis, diseño e instalación de infraestructuras big data basadas en Apache Hadoop](https://canal.uned.es/video/5add9110b1111fb9018b4567)"
+  * Programa "[Nuevas tendencias en Big Data](https://www.youtube.com/watch?v=19XVU6d4mPM)"
+:::
+
+Para la PEC 1 se mencionan adicionalmente @apache_hadoop, @hadooptutorials y @hue_web para Hadoop y @apache_hive, @capriolo2012programming para programación en Hive y @diveintopython3 para Python 3..
+
+### Lección 1: Fundamentos y herramientas del ecosistema Hadoop
+
+### Lección 2: Sistema de ficheros distribuidos HDFS {#sistemas-de-ficheros-distribuidos-hdfs}
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
+
+[2020F2.2](../exam/2020f2/ex_2020f2.md#ex-2020f2-2), [2020F2.3](../exam/2020f2/ex_2020f2.md#ex-2020f2-3), [2020F2.4](../exam/2020f2/ex_2020f2.md#ex-2020f2-4), [2020F2.5](../exam/2020f2/ex_2020f2.md#ex-2020f2-2)
+:::
+
+### Lección 3: Yarn: Gestión de recursos {#yarn-gestion-de-recursos}
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
+
+[2020F2.1](../exam/2020f2/ex_2020f2.md#ex-2020f2-1)
+:::
+
+## Tema 3: Programación MapReduce
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* Básico
+  * [@candon2024hadoop]
+* Complementario
+  * [@achari2015 ch. 4].
+  * [@shaw2016] Cap. 1-6.
+  * [@bansal2016] Cap. 3-6.
+  * [@white2015] Cap. 17.
+  * [@deshpande2016] Cap. 4.
+  * Vídeo "[Ejemplo de trabajo con Jupyter notebooks](https://www.youtube.com/watch?v=o_JFCDNqvqM)"
+  * Vídeo [Trabajo con HDFS y MapReduce utilizando la máquina virtual oficial de Cloudera](https://unedo365-my.sharepoint.com/:u:/g/personal/accaminero_scc_uned_es/EXo_EwhGGONPrjPFxEdoK34ByzIzy7mv__E0exjRPu_JAg?e=UrC8Mh)
+  *  Vídeo "[Ejemplos de Hadoop y Hive utilizando la máquina virtual oficial de Clouderas](https://unedo365-my.sharepoint.com/:u:/g/personal/accaminero_scc_uned_es/EXo_EwhGGONPrjPFxEdoK34ByzIzy7mv__E0exjRPu_JAg?e=UrC8Mh)"
+  * Vídeo "[Ejemplos de Pig y Hive utilizando la máquina virtual oficial de Cloudera](https://canal.uned.es/video/5a6f924ab1111f1e158b457e)"
+:::
+
+Apache Pig en un momento dado estaba dentro del temario, pero ha quedado fuera.
+
+### Lección 1: El paradigma de programación MapReduce: Hadoop Streaming {#el-paradigma-de-programacion-mapreduce-hadoop-streaming}
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
+
+[2020F2.6](../exam/2020f2/ex_2020f2.html#ex-2020f2-6)
+:::
+
+### Lección 2: Programación MapReduce con lenguajes de alto nivel: Hive {#programacion-mapreduce-con-lenguajes-de-alto-nivel}
+
+::: {.callout-note collapse="true"}
+## 🎯Pregunta de exámen
+
+[2020F2.7](../exam/2020f2/ex_2020f2.html#ex-2020f2-7)
+:::
+
+## Tema 4: Herramientas de serialización/deserialización e inyección/extracción de datos
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* Básico
+  * [@candon2024hadoop]
+  * Vídeo "[Herramientas de serialización/deserialización e inyección/extracción de datos](https://www.intecca.uned.es/portal/grabacion?ID_Sala=241444&ID_Grabacion=357813&hashData=964ef15654e340144f7f43b877fb80df&paramsToCheck=SURfR3JhYmFjaW9uLElEX1NhbGEs)"
+  * Vídeo [Trabajo con HDFS y MapReduce utilizando la máquina virtual oficial de Cloudera](https://unedo365-my.sharepoint.com/:u:/g/personal/accaminero_scc_uned_es/EXo_EwhGGONPrjPFxEdoK34ByzIzy7mv__E0exjRPu_JAg?e=UrC8Mh)
+  *  Vídeo "[Ejemplos de Hadoop y Hive utilizando la máquina virtual oficial de Clouderas](https://unedo365-my.sharepoint.com/:u:/g/personal/accaminero_scc_uned_es/EXo_EwhGGONPrjPFxEdoK34ByzIzy7mv__E0exjRPu_JAg?e=UrC8Mh)"
+  * Vídeo "[Ejemplo de trabajo con Jupyter notebooks](https://www.youtube.com/watch?v=o_JFCDNqvqM)"
+  * Vídeo "[Ejemplos de Pig y Hive utilizando la máquina virtual oficial de Cloudera](https://canal.uned.es/video/5a6f924ab1111f1e158b457e)"
+* Complementario
+  * Presentación "Serialización" de la asignatura
+  * Presentación "Inyección" de la asignatura
+  * [@omalley2016fileformat]
+:::
+
+En este apartado se estudia:
+
+- [Apache Flume](#apache-flume)
+- [Apache Avro](#apache-avro)
+- [Apache Parquet](#apache-parquet)
+
+Ninguno de ellos en aplica a la PEC 1. No se ha evaluado si entra en el exámen.
+
+### Lección 1: Apache Flume {#apache-flume}
+
+### Lección 2: Apache Avro {#apache-avro}
+
+### Lección 3: Apache Parquet {#apache-parquet}
+
+## Bibliografía

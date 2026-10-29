@@ -6,11 +6,31 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Estructura de contenidos
 
-- Ecosistema Big Data
-  - Introducción a Big Data
-  - El núcleo de Hadoop
-  - Programación MapReduce
-  - Herramientas de serialización/deserialización e inyección/extracción de datos
-- Técnicas de procesamiento masivo
-- Gestión de la información en tiempo real
-- Servicios en la nube para el almacenamiento y procesamiento de datos
+- Módulo 1: Ecosistema Big Data
+  - Preparación del entorno
+    - Instalación y despliegue
+    - Datasets a utilizar en los ejercicios prácticos
+  - Tema 1: Introducción a Big Data
+    - Lección 1: Definición y conceptos básicos de Big Data
+    - Lección 2: Características y desafíos de Big Data
+    - Lección 3: Aplicaciones y casos de uso en diferentes industrias
+  - Tema 2: El núcleo de Hadoop
+    - Lección 1: Fundamentos y herramientas del ecosistema Hadoop
+    - Lección 2: Sistema de ficheros distribuidos HDFS
+    - Lección 3: Yarn: Gestión de recursos
+  - Tema 3: Programación MapReduce
+    - Lección 1: El paradigma de programación MapReduce: Hadoop Streaming
+    - Lección 2: Programación MapReduce con lenguajes de alto nivel: Hive
+   - Tema 4: Herramientas de serialización/deserialización e inyección/extracción de datos
+     - Lección 1: Apache Flume
+     - Lección 2: Apache Avro
+     - Lección 3: Apache Parquet
+- Módulo 2: Técnicas de procesamiento masivo
+- Módulo 3: Gestión de la información en tiempo real
+  - Tema 1: Introducción a las arquitecturas de procesamiento de streams: Lambda y Kappa
+  - Tema 2: Componentes tecnológicos de adquisición y transmisión/distribución de eventos: Kafka
+  - Tema 3: Procesamiento de Streams: Spark Streaming.
+- Módulo 4: Servicios en la nube para el almacenamiento y procesamiento de datos
+  - Tema 1: Soluciones en la nube para la gestión del almacenamiento de datos.
+  - Tema 2: Soluciones en la nube para el procesamiento de datos.
+  - Tema 3: Soluciones en la nube para la implementación de arquitecturas de Streaming
