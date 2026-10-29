@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
@@ -5,6 +9,17 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 
 # Tema 5: Aplicaciones
+
+Este capítulo está organizado empleando la estructura de la presentación @nlp_tema5_pres.
+
+## Minería de opinión y análisis de sentimientos
+### Introducción
+### Retos y dificultades
+### Enfoques
+### Demos
+## Análisis de tendencias
+### Introducción
+### Aplicaciones
 
 ## Bibliografía
 

@@ -7,7 +7,104 @@ SPDX-License-Identifier: CC-BY-4.0
 # Estructura del temario
 
 * [Tema 1: Introducción PLN](1.qmd) 
+  * Conceptos preliminares
+  * Procesamiento del lenguaje natural
+  * Evaluación de tareas de PLN
+  * Medidas
+  * Baseline
+  * Análisis de errores
+  * Herramientas
+  * Introducción al procesamiento del lenguaje natural
+  * Expresiones regulares
+  * Normalización de textos
+  * Distancia de edición
+  * Palabras vacías
+    * Spacy: palabras vacías
+  * Segmentación de palabras
+  * Segmentación (tokenización) de oraciones
+  * Análisis morfológico
+  * Lematización y stemming
+    * Stemming
+    * Lematizador
+    * Spacy: Lemas
+  * POS tagging
+    * Spacy: POS tagging
+  * Chunking
+    * Chunking con expresiones regulares
+  * Análisis sintáctico
+    * Análisis sintáctico con ntlk
+    * Técnicas frecuentes
+  * Análisis de constituyentes
+    * Análisis de constituyenes: PCFGs
+  * Análisis de dependencias
+  * Spacy
+    * Token, POS tag, análisis
+    * Más detalles
+    * Personalización
+  * Desambiguación del sentido de las palabras
+    * WSD basada en diccionarios
+    * WSD: algoritmo de Lesk
+    * WSD en ntlk
 * [Tema 2: Extracción de la información](2.qmd) 
+  * Extracción de información
+    * Tareas y subtareas
+  * Reconocimiento de entidades
+    * ejemplo (MUC-7)
+    * Dificultades
+    * Fuentes de información
+    * Diccionarios
+    * Reglas
+    * Expresiones regulares
+    * Aprendizaje automático
+    * Codificación de las clases
+    * Rasgos típico clasificador
+    * NER en ntlk
+    * NER en Spacy
+    * Evaluación
+    * Deep Learning
+    * Transformers
+  * Extracción de relaciones
+  * Principales técnicas
+    * Patrones léxico-sintácticos
+    * Extracción de relaciones supervisada / Aprendizaje automático supervisado
+      * Métodos basados en clasificadores secuenciales
+    * Extracción de relaciones semisupervisada / Técnicas semisupervisadas
+      * Bootstrap
+    * Extracción de relaciones con supervisión distante
+    * Extracción no supervisada de relaciones / Técnicas no supervisadas
+    * Evaluación de la extracción de relaciones semi o no supervisada
+    * Expresiones temporales
+      * Extracción de expresiones temporales
+      * Normalización temporal
+    * Extracción de sucesos
+    * Rellenado de plantillas
 * [Tema 3: Representación de documentos](3.qmd) 
-* [Tema 4: Clustering y clasificación](4.qmd) 
+  * Conceptos preliminares
+  * Modelos de representación
+    * Vectorial
+    * Probabilística
+    * Estadística
+    * Semánticos vectoriales
+  * Funciones de pesado
+  * Funciones de selección y reducción de rasgos
+  * Enlaces de interés
+* [Tema 4: Clustering y clasificación](4.qmd)
+  * Conceptos preliminares
+  * Clustering
+    * Tipos
+    * Evaluación
+    * Herramientas
+  * Clasificación
+    * Tipos
+    * Algoritmos
+    * Evaluación
+  * Herramientas clustering y clasificación
 * [Tema 5: Aplicaciones](5.qmd) 
+  * Minería de opinión y análisis de sentimientos
+    * Introducción
+    * Retos y dificultades
+    * Enfoques
+    * Demos
+  * Análisis de tendencias
+    * Introducción
+    * Aplicaciones

@@ -6,6 +6,28 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 4: Clustering y clasificación
 
+Este capítulo está organizado empleando la estructura de la presentación @nlp_tema4_pres.
+
+## Conceptos preliminares
+
+## Clustering
+
+### Tipos
+
+### Evaluación
+
+### Herramientas
+
+## Clasificación
+
+### Tipos
+
+### Algoritmos
+
+### Evaluación
+
+## Herramientas clustering y clasificación
+
 ## Bibliografía
 
 Bibliografía:

@@ -6,6 +6,18 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 3: Representación de documentos
 
+Este tema está organizado empleando la estructura de la presentación @nlp_tema3_pres.
+
+## Conceptos preliminares
+## Modelos de representación
+### Vectorial
+### Probabilística
+### Estadística
+### Semánticos vectoriales
+## Funciones de pesado
+## Funciones de selección y reducción de rasgos
+## Enlaces de interés
+
 ## Bibliografía
 
 Bibliografía:

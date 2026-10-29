@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
@@ -8,8 +12,108 @@ SPDX-License-Identifier: CC-BY-4.0
 
 <!-- Word tokenization es un tipo de text normalization, segun Jurafksy. ¿Se refiere la bibliografía a que se debe estudiar word tokenization? -->
 
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema1_pres]
+* Complementario
+  * [@jurafsky2009speech2]. Apartado 2.6 "Regular Expressions" (Regular Expressions), apartados 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization), apartado 2.9 "Minimum Edit Distance" (Edit Distance), capítulo 17 "Sequence Labelling for parts of Speech and Named Entities", apartado 18.5 "Ambiguity" y 18.6 "CKY Parsing: A Dynamic Programming Approach" (Syntactic Parsing) y apartado 9.3.1 "Contextual Embeddings and Word Sense" y 22.4.3 "Other Methods" (Word Senses and Wordnet)
+  * [@jurafsky2026speech3] Tema 2. Apartado 2.1. "Regular Expressions" (Regular Expressions), apartado 4.1 "Word counting in Corpora" (Text Normalization), apartado 3.11 "Minimum Edit Distance" (Edit Distance), capítulo 19 "Lexical Semantics" (Word Senses and Wordnet).
+  * [@bird2009natural] Capítulo 2 "Accessing Text Corpora and Lexical Resources", capítulo 3 "Processing Raw Text", capítulo 5 "Categorizing and Tagging Words", capítulo 7 "Extracting Information from Text" y capítulo 8 "Analyzing Sentence Structure".
+:::
+
+Este capítulo está organizado empleando la estructura de la presentación @nlp_tema1_pres.
+
+## Conceptos preliminares
+## Procesamiento del lenguaje natural
+## Evaluación de tareas de PLN
+## Medidas
+## Baseline
+## Análisis de errores
+## Herramientas
+## Introducción al procesamiento del lenguaje natural
+## Expresiones regulares
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema1_pres]
+* [@jurafsky2026speech3] Tema 2. Apartado 2.1. "Regular Expressions" (Regular Expressions)
+* [@jurafsky2009speech2]. Tema 2. Apartado 2.6 "Regular Expressions" (Regular Expressions), apartados 2.7.
+:::
+
+
+
+## Normalización de textos
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema1_pres]
+* [@jurafsky2026speech3] Tema 2. apartado 4.1 "Word counting in Corpora" (Text Normalization),
+* [@jurafsky2009speech2]. Tema 2. 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization).
+:::
+
+## Distancia de edición
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema1_pres]
+* [@jurafsky2026speech3] Tema 2. apartado 3.11 "Minimum Edit Distance" (Edit Distance).
+* [@jurafsky2009speech2]. Tema 2. Apartado 2.9 "Minimum Edit Distance" (Edit Distance).
+:::
+
+La distancia de edición (en inglés, *edit distance*)...
+
+## Palabras vacías
+### Spacy: palabras vacías
+## Segmentación de palabras
+## Segmentación (tokenización) de oraciones
+##  Análisis morfológico
+## Lematización y stemming
+### Stemming
+### Lematizador
+### Spacy: Lemas
+## POS tagging
+### Spacy: POS tagging
+## Chunking
+### Chunking con expresiones regulares
+## Análisis sintáctico
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema1_pres]
+* [@jurafsky2009speech2]. Capítulo 17 "Sequence Labelling for parts of Speech and Named Entities", apartado 18.5 "Ambiguity" y 18.6 "CKY Parsing: A Dynamic Programming Approach" (Syntactic Parsing).
+* [@jurafsky2026speech3]. Capítulo 19 "Context-Free Grammars and Constituency Parsing".
+:::
+
+### Análisis sintáctico con ntlk
+### Técnicas frecuentes
+## Análisis de constituyentes
+### Análisis de constituyenes: PCFGs
+## Análisis de dependencias
+## Spacy
+### Token, POS tag, análisis
+### Más detalles
+### Personalización
+## Desambiguación del sentido de las palabras
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema1_pres]
+* [@jurafsky2009speech2]. Apartado 9.3.1 "Contextual Embeddings and Word Sense" y 22.4.3 "Other Methods" (Word Senses and Wordnet)
+* [@jurafsky2026speech3] Capítulo 19 "Lexical Semantics" (Word Senses and Wordnet).
+:::
+
+La **desambiguación del sentido de las palabras** (en inglés, *word send disambiguation*, WSD)...
+
+### WSD basada en diccionarios
+
+### WSD: algoritmo de Lesk
+
+### WSD en ntlk
+
 ## Bibliografía
 
+<!--
 Bibliografía:
 
 - Básica
@@ -17,3 +121,4 @@ Bibliografía:
   - JURAFSKY, Dan, MARTIN, James H. Apartado 2.6 "Regular Expressions" (Regular Expressions), apartados 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization), apartado 2.9 "Minimum Edit Distance" (Edit Distance), capítulo 17 "Sequence Labelling for parts of Speech and Named Entities", apartado 18.5 "Ambiguity" y 18.6 "CKY Parsing: A Dynamic Programming Approach" (Syntactic Parsing) y apartado 9.3.1 "Contextual Embeddings and Word Sense" y 22.4.3 "Other Methods" (Word Senses and Wordnet). En: [Speech and Language Processing. An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models](https://web.stanford.edu/~jurafsky/slp3/). Borrador 3.ª ed. Enero 2026.
   - JURAFSKY, Dan, MARTIN, James H. Apartado 2.1. "Regular Expressions" (Regular Expressions), apartado 4.1 "Word counting in Corpora" (Text Normalization), apartado 3.11 "Minimum Edit Distance" (Edit Distance), capítulo 19 "Lexical Semantics" (Word Senses and Wordnet). En: [Speech and Language Processing. An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models](https://cdn.jsdelivr.net/gh/it-ebooks-0/it-ebooks-2019-03to12/Speech%20and%20Language%20Processing%202e%20%28SLP2e%29.pdf). 2nd ed. Pearson-Prentice Hall, 2009.
   - Steven Bird, Ewan Klein, Edward Loper. Capítulo 2 "Accessing Text Corpora and Lexical Resources", capítulo 3 "Processing Raw Text", capítulo 5 "Categorizing and Tagging Words", capítulo 7 "Extracting Information from Text" y capítulo 8 "Analyzing Sentence Structure". En: [Natural Language Processing with Python](https://www.oreilly.com/library/view/natural-language-processing/9780596803346/). O'Reilly, 2009.
+-->

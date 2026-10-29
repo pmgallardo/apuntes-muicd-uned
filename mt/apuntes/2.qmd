@@ -6,6 +6,62 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 2: Extracción de la información
 
+Este capítulo está organizado empleando la estructura de la presentación @nlp_tema2_pres.
+
+## Extracción de información
+### Tareas y subtareas
+## Reconocimiento de entidades
+### ejemplo (MUC-7)
+### Dificultades
+### Fuentes de información
+### Diccionarios
+### Reglas
+### Expresiones regulares
+### Aprendizaje automático
+### Codificación de las clases
+### Rasgos típico clasificador
+### NER en ntlk
+### NER en Spacy
+### Evaluación
+### Deep Learning
+### Transformers
+## Extracción de relaciones
+## Principales técnicas
+### Patrones
+### Aprendizaje automático supervisado
+### Técnicas semisupervisadas
+### Técnicas no supervisadas
+## Reconocimiento de entidades
+### ejemplo (MUC-7)
+### Dificultades
+### Fuentes de información
+### Diccionarios
+### Reglas
+### Expresiones regulares
+### Aprendizaje automático
+### Codificación de las clases
+### Rasgos típico clasificador
+### NER en ntlk
+### NER en Spacy
+### Evaluación
+### Deep Learning
+### Transformers
+## Extracción de relaciones
+## Principales técnicas
+### Patrones léxico-sintácticos
+### Extracción de relaciones supervisada / Aprendizaje automático supervisado
+#### Métodos basados en clasificadores secuenciales
+### Extracción de relaciones semisupervisada / Técnicas semisupervisadas
+#### Bootstrap
+### Extracción de relaciones con supervisión distante
+### Extracción no supervisada de relaciones / Técnicas no supervisadas
+### Evaluación de la extracción de relaciones semi o no supervisada
+### Expresiones temporales
+#### Extracción de expresiones temporales
+#### Normalización temporal
+### Extracción de sucesos
+### Rellenado de plantillas
+
 ## Bibliografía
 
 Bibliografía:
