@@ -37,6 +37,20 @@ book:
       - apuntes/3.qmd
       - apuntes/4.qmd
       - apuntes/5.qmd
+    - part: "Exámenes"
+      chapters:
+      - exam/2020f2.md
+      - exam/2020fr.md
+      - exam/2022f2.md
+      - exam/2022so.md
+      - exam/2023f2.md
+      - exam/2023so.md
+      - exam/2024f2.md
+      - exam/2024so.md
+      - exam/2025f2.md
+      - exam/2025so.md
+      - exam/2026f2.md
+      - exam/2026so.md
     - part: "Anexos"
       chapters:
       - anexos/contribuciones.qmd
