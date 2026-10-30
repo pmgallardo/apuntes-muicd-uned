@@ -27,6 +27,9 @@ jobs:
 
       - name: Instalar Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          # Trata de evitar error 403 Forbidden por tráfico anónimo
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Instalar TinyTeX para PDFs
         run: quarto install tinytex --update-path
