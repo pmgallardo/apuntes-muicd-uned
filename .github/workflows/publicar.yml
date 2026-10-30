@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
-#
-# SPDX-License-Identifier: MIT
-
 name: Publicar web del MUTL UNED
 
 on:
@@ -16,8 +12,15 @@ permissions:
   id-token: write
 
 jobs:
-  build-deploy:
+  build-books:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      # Evita que si falla un libro se cancelen los demás
+      fail-fast: false
+      matrix:
+        asignatura: [aai, aaii, dl, gaine, icpdm, master, mbj, mdms, med, mt, ped, sgd, vd, tfm]
+    
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
@@ -28,88 +31,44 @@ jobs:
       - name: Instalar TinyTeX para PDFs
         run: quarto install tinytex --update-path
 
-      - name: Crear carpeta de ensamblaje (_site)
+      - name: Renderizar asignatura
+        run: quarto render ${{ matrix.asignatura }}
+
+      - name: Subir artefacto parcial
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-${{ matrix.asignatura }}
+          path: ${{ matrix.asignatura }}/_book
+          retention-days: 1
+
+  deploy:
+    needs: build-books
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio (solo para index.html)
+        uses: actions/checkout@v4
+
+      - name: Crear carpeta de ensamblaje
         run: mkdir _site
 
-      - name: Renderizar y copiar aai
-        run: |
-          quarto render aai
-          cp -r aai/_book _site/aai
+      - name: Descargar todos los libros renderizados
+        uses: actions/download-artifact@v4
+        with:
+          path: artefactos
 
-      - name: Renderizar y copiar aaii
+      - name: Ensamblar la web
         run: |
-          quarto render aaii
-          cp -r aaii/_book _site/aaii
-
-      - name: Renderizar y copiar dl
-        run: |
-          quarto render dl
-          cp -r dl/_book _site/dl
-
-      - name: Renderizar y copiar gaine
-        run: |
-          quarto render gaine
-          cp -r gaine/_book _site/gaine
-
-      - name: Renderizar y copiar icpdm
-        run: |
-          quarto render icpdm
-          cp -r icpdm/_book _site/icpdm
-
-      - name: Renderizar y copiar master
-        run: |
-          quarto render master
-          cp -r master/_book _site/master
-          
-      - name: Renderizar y copiar mbj
-        run: |
-          quarto render mbj
-          cp -r mbj/_book _site/mbj
-
-      - name: Renderizar y copiar mdms
-        run: |
-          quarto render mdms
-          cp -r mdms/_book _site/mdms
-          
-      - name: Renderizar y copiar med
-        run: |
-          quarto render med
-          cp -r med/_book _site/med
-
-      - name: Renderizar y copiar mt
-        run: |
-          quarto render mt
-          cp -r mt/_book _site/mt
-          
-      - name: Renderizar y copiar ped
-        run: |
-          quarto render ped
-          cp -r ped/_book _site/ped
-
-      - name: Renderizar y copiar sgd
-        run: |
-          quarto render sgd
-          cp -r sgd/_book _site/sgd
-          
-      - name: Renderizar y copiar vd
-        run: |
-          quarto render vd
-          cp -r vd/_book _site/vd
-          
-      - name: Renderizar y copiar tfm
-        run: |
-          quarto render tfm
-          cp -r tfm/_book _site/tfm
-
-      # Repite el bloque anterior para cada asignatura adicional
-
-      - name: Copiar página principal (index.html)
-        run: cp index.html _site/index.html
+          # Extrae las carpetas descargadas y las coloca en _site con su nombre original
+          for folder in artefactos/book-*/; do
+            asignatura=$(basename "$folder" | sed 's/book-//')
+            mv "$folder" "_site/$asignatura"
+          done
+          cp index.html _site/index.html
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Subir artefacto
+      - name: Subir artefacto para Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: '_site'
