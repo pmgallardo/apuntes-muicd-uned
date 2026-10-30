@@ -4,7 +4,19 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# General
+# Información general
+
+En este apartado se muestra información general sobre la asignatura.
+
+## Datos básicos
+
+| Clave | Valor |
+| - | - |
+| Nombre | Minería de textos |
+| Código | `31110041` |
+| Tipo | Obligatoria |
+| Semestre | 1 |
+| Ficha web oficial | <https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110041&codTitulacion=311001&idContenido=1> |
 
 ## Evaluación
 
@@ -14,19 +26,27 @@ SPDX-License-Identifier: CC-BY-4.0
 | PEC 2 | 20 |
 | Exámen | 60 |
 
+## PECs
+
+Hay dos entregas, espaciadas a lo largo del curso, que suponen el 40% de la nota.
+
 ## Exámen
 
-Número de preguntas: 6.
-Tiempo: 120 minutos.
-Material permitido: calculadora.
+Número de preguntas: 6.  
+Tipos de pregunta: desarrollo.  
+Tiempo: 120 minutos.  
+Material permitido: calculadora.  
 
-## Temario
+Puedes consultar los [exámenes disponibles](exam/2020f2/2020f2.md).
 
-1. Introducción al procesamiento del lenguaje natural
-2. Extracción de información en documentos
-3. Representación de documentos
-4. Clustering y clasificación
-5. Aplicaciones
+## Comunidades
+
+Existen comunidades no oficiales de alumnos y alumni del máster:
+
+- Activa
+  - Comunidad [UNED - MT (Máster Datos)](https://t.me/+JqnvqE9W3Vc0OTFk) en Telegram
+- Inactiva
+  - [Carpeta `Minería de Textos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgC7hhfEGhuIQZsaTwk8RclpAYMx9IzdEJgcLXDyduPzjdk) en SharePoint UNED
 
 ## Bibliografía
 
@@ -37,12 +57,3 @@ Material permitido: calculadora.
   - JURAFSKY, Dan, MARTIN, James H. [Speech and Language Processing. An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models](https://web.stanford.edu/~jurafsky/slp3/). Borrador 3.ª ed. Enero 2026.
 - Complementaria
   - LIU, Yang, DENG, Li. Deep Learning in Natural Language Processing. Springer, 2018.
-
-## Comunidades
-
-Existen comunidades no oficiales de alumnos y alumni del máster:
-
-- Activa
-  - Comunidad [UNED - MT (Máster Datos)](https://t.me/+JqnvqE9W3Vc0OTFk) en Telegram
-- Inactiva
-  - [Carpeta `Minería de Textos` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgC7hhfEGhuIQZsaTwk8RclpAYMx9IzdEJgcLXDyduPzjdk) en SharePoint UNED

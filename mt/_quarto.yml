@@ -39,18 +39,18 @@ book:
       - apuntes/5.qmd
     - part: "Exámenes"
       chapters:
-      - exam/2020f2.md
-      - exam/2020fr.md
-      - exam/2022f2.md
-      - exam/2022so.md
-      - exam/2023f2.md
-      - exam/2023so.md
-      - exam/2024f2.md
-      - exam/2024so.md
-      - exam/2025f2.md
-      - exam/2025so.md
-      - exam/2026f2.md
-      - exam/2026so.md
+      - exam/2020f2/2020f2.md
+      - exam/2020fr/2020fr.md
+      - exam/2022f2/2022f2.md
+      - exam/2022so/2022so.md
+      - exam/2023f2/2023f2.md
+      - exam/2023so/2023so.md
+      - exam/2024f2/2024f2.md
+      - exam/2024so/2024so.md
+      - exam/2025f2/2025f2.md
+      - exam/2025so/2025so.md
+      - exam/2026f2/2026f2.md
+      - exam/2026so/2026so.md
     - part: "Anexos"
       chapters:
       - anexos/contribuciones.qmd

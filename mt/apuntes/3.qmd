@@ -6,15 +6,49 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 3: Representación de documentos
 
-Este tema está organizado empleando la estructura de la presentación @nlp_tema3_pres.
+Este capítulo está organizado empleando la misma estructura que la presentación del @nlp_tema3_pres.
 
 ## Conceptos preliminares
 ## Modelos de representación
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020F2.4](../exam/2020f2/2020f2.md#ex.2020f2.4), [2023SO.4](../exam/2023so/2023so.md#ex.2023so.4), 2024SO.4, 2026F2.4
+:::
+
 ### Vectorial
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+2022SO.4
+:::
+
 ### Probabilística
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+[2023F2.4](../exam/2023f2/2023f2.md#ex.2023f2.4)
+:::
+
+
 ### Estadística
 ### Semánticos vectoriales
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020FR.4](../exam/2020fr/2020fr.md#ex.2020fr.4), [2022F2.4](../exam/2022F2/2022f2.md#ex.2022F2.4), 2024F2.4, 2025SO.4
+:::
+
 ## Funciones de pesado
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2023SO.4](../exam/2023so/2023so.md#ex.2023so.4), [2025F2.4](../exam/2025f2/2025f2.md#ex.2025f2.4), 2026SO.4
+:::
+
 ## Funciones de selección y reducción de rasgos
 ## Enlaces de interés
 

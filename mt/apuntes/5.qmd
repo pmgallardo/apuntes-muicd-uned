@@ -13,11 +13,24 @@ SPDX-License-Identifier: CC-BY-4.0
 Este capítulo está organizado empleando la estructura de la presentación @nlp_tema5_pres.
 
 ## Minería de opinión y análisis de sentimientos
+
 ### Introducción
 ### Retos y dificultades
 ### Enfoques
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+[2022F2.6](../exam/2022f2/ex_2022f2.md#ex.2022f2.6), 2025F2.6
+:::
+
 ### Demos
 ## Análisis de tendencias
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+2023F2.6
+:::
+
 ### Introducción
 ### Aplicaciones
 

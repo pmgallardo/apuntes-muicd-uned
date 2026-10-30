@@ -10,7 +10,7 @@ SPDX-License-Identifier: CC-BY-4.0
   * Conceptos preliminares
   * Procesamiento del lenguaje natural
   * Evaluación de tareas de PLN
-  * Medidas
+    * Medidas
   * Baseline
   * Análisis de errores
   * Herramientas

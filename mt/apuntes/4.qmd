@@ -6,25 +6,100 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 4: Clustering y clasificación
 
-Este capítulo está organizado empleando la estructura de la presentación @nlp_tema4_pres.
+Este capítulo está organizado empleando la misma estructura que la presentación del @nlp_tema4_pres.
 
 ## Conceptos preliminares
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+2022SO.5, 2022SO.6, 2024SO.6, 2026SO.5, 2026SO.6
+:::
+
 ## Clustering
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020F2.5](../exam/2020f2/2020f2.md#ex.2020f2.5), [2020FR.5](../exam/2020fr/2020fr.md#ex.2020fr.5), 2026F2.6
+:::
 
 ### Tipos
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+2023F2.5, 2024SO.5, 2025F2.5
+:::
+
+#### Modelos de centroides {.unnumbered .unlisted}
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+[2022F2.5](../exam/2022f2/2022f2.md#ex.2022f2.5)
+:::
+
 ### Evaluación
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+2023SO.6, 2025SO.5
+:::
 
 ### Herramientas
 
 ## Clasificación
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+[2023SO.5](../exam/2023SO/2023SO.md#ex.2023SO-5), 2024F2.6, 2026F2.5
+:::
+
 ### Tipos
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020F2.6](../exam/2020f2/2020f2.md#ex.2020f2.6), 2025SO.6
+:::
 
 ### Algoritmos
 
-### Evaluación
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2025F2.1](../exam/2025f2/2025f2.md#ex.2025f2.1)
+:::
+
+### Evaluación (clasificación)
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020FR.6](../exam/2020fr/2020fr.md#ex.2020fr.6)
+:::
+
+Medidas utilizadas para la evaluación de la clasificación:
+
+- Exactitud
+- Error
+- Precisión
+- Cobertura
+- Medida-F
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2026SO.5](../exam/2026so/2026so.md#ex.2026so.5)
+:::
+
+En el contexto de la clasificación, la **exactitud** $\hat{A}$ (en inglés, *accuracy*) se calcula con la fórmula:
+
+$$\hat{A} = \frac{TP + TN}{TP + TN + FP + FN}$$
+
+La exactitud se presentó también en el [tema 1]() con una fórmula más simple.
+
+El **error** $\hat{E}$ se representa con la fórmula:
+
+$$\hat{E} = 1 - \hat{A} = \frac{FP + FN}{TP + TN + FP + FN}$$
 
 ## Herramientas clustering y clasificación
 

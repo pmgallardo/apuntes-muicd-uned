@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
@@ -6,60 +10,154 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 2: Extracción de la información
 
-Este capítulo está organizado empleando la estructura de la presentación @nlp_tema2_pres.
+Este capítulo está organizado empleando la misma estructura que la presentación del @nlp_tema2_pres.
 
 ## Extracción de información
+
 ### Tareas y subtareas
-## Reconocimiento de entidades
+
+## Reconocimiento de entidades {#reconocimiento-de-entidades}
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2022F2.3](../exam/2022f2/2022f2.md#ex.2022f2.3), [2022SO.1](../exam/2022so/2022so.md#ex.2022so.1), 2025F2.3, 2026F2.2
+:::
+
+El reconocimiento de nombre de entidades (en inglés, *name entity recognition*, **NER**)
+
 ### ejemplo (MUC-7)
+
 ### Dificultades
+
 ### Fuentes de información
+
 ### Diccionarios
+
 ### Reglas
-### Expresiones regulares
+
+### Expresiones regulares (reconocimiento-de-entidades) {#expresiones-regulares-reconocimiento-de-entidades}
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema2_pres]
+* [@jurafsky2026speech3]. Tema 2, apartado 2.1. "Regular Expressions" (Regular Expressions).
+* [@jurafsky2009speech2]. Tema 2, apartado 2.6 "Regular Expressions" (Regular Expressions).
+:::
+
+Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.qmd##expresiones-regulares-introduccion-pln) con el mismo nombre. En estos apuntes se tratan en su totalidad en este apartado.
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+2023F2.2, 2023SO.2, 2024F2.2, 2024SO.2, 2025SO.3
+:::
+
+
+
 ### Aprendizaje automático
+
 ### Codificación de las clases
+
 ### Rasgos típico clasificador
+
 ### NER en ntlk
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema2_pres]
+* [@bird2009natural]. Capítulo 7, apartado 7.5 "Named Entity Recognition".
+:::
+
 ### NER en Spacy
+
 ### Evaluación
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema2_pres]
+* [@jurafsky2026speech3]. Tema 18, apartado 8.6 "Evaluation of Named Entity Recognition".
+:::
+
 ### Deep Learning
+
 ### Transformers
+
 ## Extracción de relaciones
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema2_pres]
+* [@jurafsky2026speech3]. Tema 21, apartado 21.1 "Relation Extraction".
+:::
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+2026F2.3
+:::
+
 ## Principales técnicas
-### Patrones
-### Aprendizaje automático supervisado
-### Técnicas semisupervisadas
-### Técnicas no supervisadas
-## Reconocimiento de entidades
-### ejemplo (MUC-7)
-### Dificultades
-### Fuentes de información
-### Diccionarios
-### Reglas
-### Expresiones regulares
-### Aprendizaje automático
-### Codificación de las clases
-### Rasgos típico clasificador
-### NER en ntlk
-### NER en Spacy
-### Evaluación
-### Deep Learning
-### Transformers
-## Extracción de relaciones
-## Principales técnicas
+
 ### Patrones léxico-sintácticos
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+2026SO.1
+:::
+
 ### Extracción de relaciones supervisada / Aprendizaje automático supervisado
+
 #### Métodos basados en clasificadores secuenciales
+
 ### Extracción de relaciones semisupervisada / Técnicas semisupervisadas
+
 #### Bootstrap
+
 ### Extracción de relaciones con supervisión distante
+
 ### Extracción no supervisada de relaciones / Técnicas no supervisadas
+
 ### Evaluación de la extracción de relaciones semi o no supervisada
+
 ### Expresiones temporales
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema2_pres]
+* [@jurafsky2026speech3]. Tema 21, apartado 21.4 "Representing time".
+:::
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2023F2.3](../exam/2023f2/2023f2.md#ex.2023f2.3), [2023SO.1](../exam/2023so/2023so.md#ex.2023so.1), 2023SO.3, 2026F2.1
+:::
+
 #### Extracción de expresiones temporales
+
 #### Normalización temporal
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020FR.2](../exam/2020fr/2020fr.md#ex.2020fr.2), 2024SO.1
+:::
+
 ### Extracción de sucesos
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema2_pres]
+* [@jurafsky2026speech3]. Tema 21. Apartado 21.3. "Extracting events".
+:::
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2023F2.3](../exam/2023f2/2023f2.md#ex.2023f2.3), 2023SO.3
+:::
+
+2023F2.3
+
 ### Rellenado de plantillas
 
 ## Bibliografía
@@ -68,5 +166,5 @@ Bibliografía:
 
 - Básica
   - Presentación tema 2 "Extracción de la información" de la asignatura.
-  - JURAFSKY, Dan, MARTIN, James H. Tema 17 "Sequence Labeling for Parts of Speech and Named Entities" y tema 20 "Information Extraction: Relations, Events, and Time". En: [Speech and Language Processing. An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models](https://web.stanford.edu/~jurafsky/slp3/). Borrador 3.ª ed. Enero 2026.
+  - JURAFSKY, Dan, MARTIN, James H. Tema 18 "Sequence Labeling for Parts of Speech and Named Entities" y tema 21 "Information Extraction: Relations, Events, and Time". En: [Speech and Language Processing. An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models](https://web.stanford.edu/~jurafsky/slp3/). Borrador 3.ª ed. Enero 2026.
   - Steven Bird, Ewan Klein, Edward Loper. 7. "Extracting Information from Text". En: [Natural Language Processing with Python](https://www.oreilly.com/library/view/natural-language-processing/9780596803346/). O'Reilly, 2009.
