@@ -173,7 +173,7 @@ Solo las dos primeras se tratan en la asignatura
 
 En este apartado nada más se mencionan, sin definirse, algunos conceptos que estudian en otros apartados del tema:
 
-- Preprocesador de textos: [normalización](#normalizacion-de-textos), [expresiones regulares]({#expresiones-regulares-introduccion-pln}), [distancia de edición](#distancia-de-edicion)
+- Preprocesador de textos: [normalización](#normalizacion-de-textos), [expresiones regulares](#expresiones-regulares-introduccion-pln), [distancia de edición](#distancia-de-edicion)
 - [POS tagging](#pos-tagging)
 - [Stemming](#stemming)
 - [Chunking](#chunking)
@@ -213,7 +213,7 @@ Según @jurafsky2009speech2, la tokenización de palabras (en inglés, *word tok
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2025F2.2](](../exam/2025f2/2025f2.md#ex.2025f2.2)), [2026SO.3](](../exam/2026sof2/2026so.md#ex.2026so.3))
+[2025F2.2](../exam/2025f2/2025f2.md#ex.2025f2.2), [2026SO.3](../exam/2026sof2/2026so.md#ex.2026so.3)
 :::
 
 La **distancia de edición** (en inglés, *edit distance*)...
@@ -245,7 +245,7 @@ La **distancia de edición** (en inglés, *edit distance*)...
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020FR.3](../exam/2020fr/2020fr.md#ex.2020fr.3), 2024F2.3, 2025SO.2, 2026SO.2
+[2020FR.3](../exam/2020fr/2020fr.md#ex.2020fr.3), [2024F2.3](../exam/2024f2/2024f2.md#ex.2024f2.3), [2025SO.2](../exam/2025so/2025so.md#ex.2025so.2), [2026SO.2](../exam/2026so/2026so.md#ex.2026so.2)
 :::
 
 ### Spacy: POS tagging

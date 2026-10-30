@@ -21,7 +21,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2022F2.3](../exam/2022f2/2022f2.md#ex.2022f2.3), [2022SO.1](../exam/2022so/2022so.md#ex.2022so.1), 2025F2.3, 2026F2.2
+[2022F2.3](../exam/2022f2/2022f2.md#ex.2022f2.3), [2022SO.1](../exam/2022so/2022so.md#ex.2022so.1), [2025F2.3](../exam/2025f2/2025f2.md#ex.2025f2.3), [2026F2.2](../exam/2026f2/2026f2.md#ex.2026f2.2)
 :::
 
 El reconocimiento de nombre de entidades (en inglés, *name entity recognition*, **NER**)
@@ -49,10 +49,8 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-2023F2.2, 2023SO.2, 2024F2.2, 2024SO.2, 2025SO.3
+[2023F2.2](../exam/2023f2/2023f2.md#ex.2023f2.2), [2023SO.2](../exam/2023so/2023so.md#ex.2023so.2), [2024F2.2](../exam/2024f2/2024f2.md#ex.2024f2.2), [2024SO.2](../exam/2024so/2024so.md#ex.2024so.2), [2025SO.3](../exam/2025so/2025so.md#ex.2025so.3)
 :::
-
-
 
 ### Aprendizaje automático
 
@@ -92,7 +90,7 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-2026F2.3
+[2026F2.3](../exam/2026f2/2026f2.md#ex.2026f2.3)
 :::
 
 ## Principales técnicas
@@ -101,7 +99,7 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-2026SO.1
+[2026SO.1](../exam/2026so/2026so.md#ex.2026so.1)
 :::
 
 ### Extracción de relaciones supervisada / Aprendizaje automático supervisado
@@ -129,7 +127,7 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2023F2.3](../exam/2023f2/2023f2.md#ex.2023f2.3), [2023SO.1](../exam/2023so/2023so.md#ex.2023so.1), 2023SO.3, 2026F2.1
+[2023F2.3](../exam/2023f2/2023f2.md#ex.2023f2.3), [2023SO.1](../exam/2023so/2023so.md#ex.2023so.1), [2023SO.3](../exam/2023so/2023so.md#ex.2023so.3), [2026F2.1](../exam/2026f2/2026f2.md#ex.2026f2.1)
 :::
 
 #### Extracción de expresiones temporales
@@ -139,7 +137,7 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020FR.2](../exam/2020fr/2020fr.md#ex.2020fr.2), 2024SO.1
+[2020FR.2](../exam/2020fr/2020fr.md#ex.2020fr.2), [2024SO.1](../exam/2024so/2024so.md#ex.2024so.1)
 :::
 
 ### Extracción de sucesos
@@ -153,10 +151,8 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2023F2.3](../exam/2023f2/2023f2.md#ex.2023f2.3), 2023SO.3
+[2023F2.3](../exam/2023f2/2023f2.md#ex.2023f2.3), [2023SO.3](../exam/2023so/2023so.md#ex.2023so.3)
 :::
-
-2023F2.3
 
 ### Rellenado de plantillas
 
