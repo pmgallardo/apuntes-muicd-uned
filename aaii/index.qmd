@@ -8,4 +8,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Aprendizaje Automático II** del MUICD de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-muicd-uned/aaii/), [PDF](https://pmgallardo.github.io/apuntes-muicd-uned/aaii/aaii.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-muicd-uned/aaii/aaii.epub) (ebook).
 
+El material está actualizado hasta el curso 2025/2026.
+
 {{< include ../master/_index.qmd >}}

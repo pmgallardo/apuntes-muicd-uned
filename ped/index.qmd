@@ -8,5 +8,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Programación en entorno de datos** del [MUICD](../master/)  de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-muicd-uned/ped/), [PDF](https://pmgallardo.github.io/apuntes-muicd-uned/ped/ped.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-muicd-uned/ped/ped.epub) (ebook).
 
-{{< include ../master/_index.qmd >}}
+El material está actualizado hasta el curso 2025/2026.
 
+{{< include ../master/_index.qmd >}}
