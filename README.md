@@ -69,7 +69,7 @@ Windows con Python:
 python -m http.server 8000 --directory _site
 ```
 
-Basados en Unix (macOS / Linux) con Python:
+Tipo Unix (macOS / Linux) con Python:
 
 ```sh
 python3 -m http.server 8000 --directory _site
