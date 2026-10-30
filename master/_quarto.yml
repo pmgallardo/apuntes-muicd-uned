@@ -17,7 +17,7 @@ book:
   date: today
   language: es
   output-file: "master"
-  downloads: [pdf, epub]
+  # downloads: [pdf, epub]
   site-url: https://pmgallardo.github.io/apuntes-muicd-uned/master
   repo-url: https://github.com/pmgallardo/apuntes-muicd-uned/master
   repo-actions: [edit, issue, source]
@@ -53,20 +53,20 @@ format:
     toc: true
     toc-depth: 4
     toc-location: right
-  pdf:
-    pdf-engine: lualatex
-    variables:
-      colorlinks: true
-      linkcolor: colorLibro
-      urlcolor: colorLibro
-      filecolor: colorLibro
-      citecolor: colorLibro
-    include-in-header:
-      - text: |
-          \usepackage{xcolor}
-          \definecolor{colorLibro}{HTML}{1A365D}
-      - ../_assets/base_pdf.tex
-    toc: true
-    toc-depth: 4
-  epub:
-    css: color.css
+  # pdf:
+  #   pdf-engine: lualatex
+  #   variables:
+  #     colorlinks: true
+  #     linkcolor: colorLibro
+  #     urlcolor: colorLibro
+  #     filecolor: colorLibro
+  #     citecolor: colorLibro
+  #   include-in-header:
+  #     - text: |
+  #         \usepackage{xcolor}
+  #         \definecolor{colorLibro}{HTML}{1A365D}
+  #     - ../_assets/base_pdf.tex
+  #   toc: true
+  #   toc-depth: 4
+  # epub:
+  #   css: color.css
