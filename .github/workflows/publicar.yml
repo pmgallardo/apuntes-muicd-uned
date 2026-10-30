@@ -1,4 +1,8 @@
-name: Publicar web del MUTL UNED
+# SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
+#
+# SPDX-License-Identifier: MIT
+
+name: Publicar web del MUICD UNED
 
 on:
   push:
