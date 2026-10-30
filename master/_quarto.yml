@@ -6,6 +6,10 @@ project:
   type: book
   output-dir: _book
 
+execute:
+  # Se añade para tratar de depurar bloqueo en flujo gh-pages
+  freeze: auto
+
 book:
   title: "Máster Universitario en Ingeniería y Ciencia de Datos"
   subtitle: "Guía de estudio del MUICD de la UNED"

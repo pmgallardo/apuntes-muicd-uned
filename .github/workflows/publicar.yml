@@ -57,13 +57,14 @@ jobs:
           path: artefactos
 
       - name: Ensamblar la web
-        run: |
-          # Extrae las carpetas descargadas y las coloca en _site con su nombre original
-          for folder in artefactos/book-*/; do
-            asignatura=$(basename "$folder" | sed 's/book-//')
-            mv "$folder" "_site/$asignatura"
-          done
-          cp index.html _site/index.html
+        run: quarto render ${{ matrix.asignatura }} --log-level debug
+        # run: |
+        #   # Extrae las carpetas descargadas y las coloca en _site con su nombre original
+        #   for folder in artefactos/book-*/; do
+        #     asignatura=$(basename "$folder" | sed 's/book-//')
+        #     mv "$folder" "_site/$asignatura"
+        #   done
+        #   cp index.html _site/index.html
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
