@@ -13,3 +13,5 @@ Comunidades y repositorios no oficiales de alumnos y alumni del máster:
 - Inactivas
   - Grupo [Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/sites/GrupoMasterIngenieriayCienciasdeDatos/) en SharePoint UNED
   - [Repositorio `uned-master-bigdata` (curso 2019/2020)](https://github.com/adzarei/uned-master-bigdata/) de Adrián José Zapater Reig
+
+Se recomienda encarecidamente ingresar en una comunidad activa para poder obtener consejos o material de antiguos alumnos o los actuales.

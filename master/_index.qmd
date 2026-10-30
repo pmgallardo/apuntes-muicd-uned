@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-Esta documentación forma parte del proyecto [Apuntes MUICD UNED](https://pmgallardo.github.io/apuntes-muicd-uned), sin vinculación ni adscripción oficial con la UNED, y es construido gracias al contenido cedido de forma voluntaria por los colaboradores.
+Esta documentación forma parte del proyecto [Apuntes MUICD UNED](https://pmgallardo.github.io/apuntes-muicd-uned), sin vinculación oficial con la UNED, y es construido gracias al contenido cedido de forma voluntaria por los colaboradores.
 
 Si quieres **colaborar** actualizando o ampliando el material, visita la sección de [Contribuciones](anexos/contribuciones.qmd). Para cualquier **duda o comentario**, puedes unirte al grupo [apuntes-muicd-uned](https://t.me/+U49Efvmu-hc5MWNk){target="_blank"} de Telegram.
 
@@ -12,3 +12,4 @@ Si quieres **colaborar** actualizando o ampliando el material, visita la secció
 | - | - |
 | Web principal | [pmgallardo.github.io/apuntes-muicd-uned](https://pmgallardo.github.io/apuntes-muicd-uned){target="_blank"} |
 | Repositorio GitHub | [github.com/pmgallardo/apuntes-muicd-uned](https://github.com/pmgallardo/apuntes-muicd-uned){target="_blank"} |
+| Grupo Telegram | [github.com/pmgallardo/apuntes-muicd-uned](https://t.me/+U49Efvmu-hc5MWNk){target="_blank"} |

@@ -6,6 +6,21 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Información general
 
-En esta documentación se comparte información general sobre el máster MUICD y material común a todas las asignaturas.
+En este apartado y los siguientes se comparte información general sobre el máster MUICD y material común a todas las asignaturas.
 
-Para obtener la información oficial del máster, visita la [página web oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos.html).
+## Ficha básica
+
+| Clave | Valor |
+| - | - |
+| Nombre | Máster universitario en Ingeniería y Ciencia de Datos |
+| Entidad | UNED |
+| Curso inicial | 2019/2020 |
+| Ficha oficial | <https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos.html>{target="_blank"} |
+
+## Contenido
+
+En esta documentación se habla sobre:
+
+- [Evaluación](evaluacion.qmd)
+- [Asignaturas](asignaturas.qmd)
+- [Comunidades](comunidades.qmd)

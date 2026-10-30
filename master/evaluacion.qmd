@@ -62,7 +62,7 @@ El tiempo mínimo que se debe permanecer en un exámen es una hora.
 
 Si necesitas un justificante de exámenes, puedes marcar en la hoja de respuestas la casilla que indica que requieres justificante. Esto hará que al entregar el exámen te impriman un justificante.
 
-Alternativamente, a partir del día siguiente de la realización del exámen puedes encontrar el exámen en:
+Alternativamente, a partir del día siguiente de la realización del exámen puedes encontrar el justificante en:
 
 [Campus del estudiante](https://www.uned.es/universidad/campus/estudiantes.html) > "Evaluación" > "Ver exámenes realizados" <https://retorno.uned.es/FrmTabla.aspx>.
 
@@ -80,7 +80,7 @@ La manera más cómoda de recibir un aviso sobre cuándo está una nota disponib
 
 ### Evaluación de asignaturas por alumnos
 
-Al finalizar los exámenes los alumnos pueden valorar las asignaturas desde el enlace <https://app.uned.es/evacal/q_misq.aspx> (hace falta estar logueado antes).
+Al finalizar los exámenes, los alumnos pueden valorar las asignaturas desde el enlace <https://app.uned.es/evacal/q_misq.aspx> (hace falta estar logueado antes).
 
 Fechas límite para la evaluación:
 
