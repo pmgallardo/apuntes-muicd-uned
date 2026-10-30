@@ -10,9 +10,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 1: Introducción PLN
 
-<!-- Word tokenization es un tipo de text normalization, segun Jurafksy. ¿Se refiere la bibliografía a que se debe estudiar word tokenization? -->
-
-::: {.callout-note collapse="false"}
+::: {.callout-note collapse="true"}
 ## 📖Material asociado
 * Básico
   * [@nlp_tema1_pres]
@@ -22,28 +20,171 @@ SPDX-License-Identifier: CC-BY-4.0
   * [@bird2009natural] Capítulo 2 "Accessing Text Corpora and Lexical Resources", capítulo 3 "Processing Raw Text", capítulo 5 "Categorizing and Tagging Words", capítulo 7 "Extracting Information from Text" y capítulo 8 "Analyzing Sentence Structure".
 :::
 
-Este capítulo está organizado empleando la estructura de la presentación @nlp_tema1_pres.
+Este capítulo está organizado empleando la misma estructura que la presentación del @nlp_tema1_pres.
 
 ## Conceptos preliminares
+
+Existen diversas tareas asociadas a la minería de datos:
+
+- Extracción de la información
+- Recuperación de la información
+- Categorización de documentos
+- Agrupamiento de documentos
+
+La tarea de **extracción de la información** supone extraer información extructurada a partir de textos. Incluye las subtareas de [reconocimiento de nombre de entidades](2.qmd#reconocimiento-de-entidades), la extracción de terminología y de relaciones. El [tema 2](2.qmd) está dedicado a esta tarea.
+
+La **recuperación de la información** (*information retrieval*)...
+
+La **categorización de documentos**...
+
+El **agrupamiento de documentos** (*document clustering*)...
+
 ## Procesamiento del lenguaje natural
+
+El **procesamiento de lenguaje natural** (PLN) es...
+
 ## Evaluación de tareas de PLN
-## Medidas
-## Baseline
-## Análisis de errores
-## Herramientas
-## Introducción al procesamiento del lenguaje natural
-## Expresiones regulares
+
+En este apartado se introducen los conceptos de corpus y campaña de evaluación.
+
+### Corpus {.unnumbered .unlisted}
+
+Una **colección** o **corpus** es un conjunto de documentos o textos en formato electrónico.
+
+La existencia de corpus comunes permite comparar la eficacia de modelos y sistemas.
+
+#### Ejemplos de corpus {.unnumbered .unlisted}
 
 ::: {.callout-note collapse="false"}
-## 📖Material asociado
-* [@nlp_tema1_pres]
-* [@jurafsky2026speech3] Tema 2. Apartado 2.1. "Regular Expressions" (Regular Expressions)
-* [@jurafsky2009speech2]. Tema 2. Apartado 2.6 "Regular Expressions" (Regular Expressions), apartados 2.7.
+## 🎯Pregunta de exámen
+
+[2020F2.3](../exam/2020f2/2020f2.md#ex.2020f2.3)
 :::
 
+Ejemplos de corpus:
 
+- Corpus de Brown
+- Corpus de Susanne
+- Corpus ADE
+- Corpus Bioscope.
+- Corpus DDI
+- Corpus Europarl
+- Corpus DIANN
 
-## Normalización de textos
+A cada uno de estos corpus se le dedica una diapositiva en la presentación del @nlp_tema1_pres.
+
+### Campaña de evaluación {.unnumbered .unlisted}
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2024F2.1](../exam/2024f2/2024f2.md#ex.2024f2.1)
+:::
+
+Una **campaña de evaluación** es...
+
+### Medidas
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020F2.2](../exam/2020f2/2020f2.md#ex.2020f2.2)
+:::
+
+El temario introduce las siguientes medidas de evaluación de tareas de PLN:
+
+- Precisión 
+- Cobertura
+- Medida-F
+- Medida-Fbeta
+
+#### Precisión {.unnumbered .unlisted}
+
+**Precisión** (en inglés, *accuracy*) es la fracción de predicciones del modelo propuesto que son acertadas (coinciden con los datos de referencia). Se calcula como Verdaderos Positivos / (Verdaderos Positivos + Falsos Positivos).
+
+En los apuntes se desarrolla y viene una fórmula.
+
+#### Cobertura {.unnumbered .unlisted}
+
+**Cobertura (Recall):** Es la fracción de los datos de referencia que han sido propuestas y extraídas correctamente por el modelo evaluado. Se calcula como Verdaderos Positivos / (Verdaderos Positivos + Falsos Negativos).
+
+En los apuntes se desarrolla y viene una fórmula.
+
+#### Medida-F {.unnumbered .unlisted}
+
+**Medida-F:** Es la media armónica de precisión y cobertura, empleada cuando ambas métricas se ponderan por igual.
+
+En los apuntes se desarrolla y viene una fórmula.
+
+#### Medida-Fbeta {.unnumbered .unlisted}
+
+**Medida-Fbeta:** Es una forma general de la media armónica que utiliza el parámetro $\beta$. 
+
+En los apuntes se desarrolla y viene una fórmula.
+
+## Baseline
+
+Un **baseline** es una solución básica de referencia aplicada a una tarea que se emplea para evaluar sin un modelo más complejo aporta algún tipo de mejora.
+
+## Análisis de errores
+
+En el contexto del PLN, el **análisis de errores** es el proceso de examinar y estudiar los errores que comete un modelo o sistema para identificar sus causas y encontrar formas de mejorar su rendimiento.
+
+Posibles uso del análisis de errores:
+
+- Detectar errores en los programas
+- Encontrar problemas en los datos
+- Mejorar los modelos
+- Desarrollar nuevas soluciones
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2024F2.3](../exam/2024f2/2024f2.md#ex.2024f2.3), [2026SO.5](../exam/2026SO/2026SO.md#ex.2024so.5)
+:::
+
+Una **matriz de confusión** o **tablas de contigencia** es...
+
+La matriz de confusión se emplean para el análisis de errores.
+
+## Herramientas
+
+Las principales herramientas para el PLN son:
+
+- NLTK
+- Spacy
+- Stanford
+- Treetager
+- Freeling
+
+Solo las dos primeras se tratan en la asignatura
+
+### NTLK
+
+**Natural Language Toolkit** (**NLTK**) es una biblioteca Python.
+
+### Spacy
+
+**Spacy** es una biblioteca Python.
+
+## Introducción al procesamiento del lenguaje natural
+
+<!-- Probablemente la intención en la presentación era que este apartado englobe a los siguientes, pero al llamarse igual que el tema no se le mucho sentido a hacerlo en estos apuntes. -->
+
+En este apartado nada más se mencionan, sin definirse, algunos conceptos que estudian en otros apartados del tema:
+
+- Preprocesador de textos: [normalización](#normalizacion-de-textos), [expresiones regulares]({#expresiones-regulares-introduccion-pln}), [distancia de edición](#distancia-de-edicion)
+- [POS tagging](#pos-tagging)
+- [Stemming](#stemming)
+- [Chunking](#chunking)
+- Parsing
+- [Desambiguación del sentido de las palabras](#desambiguacion-del-sentido-de-las-palabras)
+
+## Expresiones regulares (introducción PLN) {#expresiones-regulares-introduccion-pln}
+
+Las expresiones regulares son apenas introducidas en este tema, pero se tratan con más extensión en el [apartado homónimo en el tema 2](2.qmd#expresiones-regulares-reconocimiento-de-entidades). En estos apuntes se posterga la explicación de este concepto a ese tema.
+
+## Normalización de textos {#normalizacion-de-textos}
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
@@ -52,7 +193,16 @@ Este capítulo está organizado empleando la estructura de la presentación @nlp
 * [@jurafsky2009speech2]. Tema 2. 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization).
 :::
 
-## Distancia de edición
+La **normalización de textos** (en inglés, *text normalization*) es...
+
+Según @jurafsky2009speech2, la tokenización de palabras (en inglés, *word tokenization*) es un tipo de normalización de textos. Es por ello que en el material asociado a este apartado se remite a los apartados sobre tokenización de palabras.
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+[2023F2.1](../exam/2023f2/2023f2.md#ex.2024f2.1)
+:::
+
+## Distancia de edición {#distancia-de-edicion}
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
@@ -61,20 +211,58 @@ Este capítulo está organizado empleando la estructura de la presentación @nlp
 * [@jurafsky2009speech2]. Tema 2. Apartado 2.9 "Minimum Edit Distance" (Edit Distance).
 :::
 
-La distancia de edición (en inglés, *edit distance*)...
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+[2025F2.2](](../exam/2025f2/2025f2.md#ex.2025f2.2)), [2026SO.3](](../exam/2026sof2/2026so.md#ex.2026so.3))
+:::
+
+La **distancia de edición** (en inglés, *edit distance*)...
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020F2.1](../exam/2020f2/2020f2.md#ex.2020f2.1), [2020FR.1](../exam/2020fr/2020fr.md#ex.2020fr.1)
+:::
 
 ## Palabras vacías
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2022SO.2](../exam/2022so/2022so.md#ex.2022so.2)
+:::
+
 ### Spacy: palabras vacías
 ## Segmentación de palabras
 ## Segmentación (tokenización) de oraciones
 ##  Análisis morfológico
 ## Lematización y stemming
-### Stemming
+### Stemming {#stemming}
 ### Lematizador
 ### Spacy: Lemas
-## POS tagging
+## POS tagging {#pos-tagging}
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2020FR.3](../exam/2020fr/2020fr.md#ex.2020fr.3), 2024F2.3, 2025SO.2, 2026SO.2
+:::
+
 ### Spacy: POS tagging
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+[2022SO.3](../exam/2022so/2022so.md#ex.2022so.3)
+:::
+
 ## Chunking
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema1_pres]
+* [@bird2009natural] Capítulo 7, apartado 7.2 "Chunking"
+:::
+
 ### Chunking con expresiones regulares
 ## Análisis sintáctico
 
@@ -89,12 +277,19 @@ La distancia de edición (en inglés, *edit distance*)...
 ### Técnicas frecuentes
 ## Análisis de constituyentes
 ### Análisis de constituyenes: PCFGs
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema1_pres]
+* [@bird2009natural] Apartado 8.6 Grammar Development, subapartado "Weighted Grammar".
+::: 
+
 ## Análisis de dependencias
 ## Spacy
 ### Token, POS tag, análisis
 ### Más detalles
 ### Personalización
-## Desambiguación del sentido de las palabras
+## Desambiguación del sentido de las palabras {#desambiguacion-del-sentido-de-las-palabras}
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
@@ -103,11 +298,39 @@ La distancia de edición (en inglés, *edit distance*)...
 * [@jurafsky2026speech3] Capítulo 19 "Lexical Semantics" (Word Senses and Wordnet).
 :::
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2022F2.1](../exam/2022f2/2022f2.md#ex.2020f2.3)
+:::
+
 La **desambiguación del sentido de las palabras** (en inglés, *word send disambiguation*, WSD)...
+
+### Aplicaciones {.unnumbered .unlisted}
+
+### Técnicas {.unnumbered .unlisted}
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2025SO.1](../exam/2025so/2025so.md#ex.2025so.1)
+:::
+
+### Relación entre sentidos {.unnumbered .unlisted}
+
+### WordNet {.unnumbered .unlisted}
+
+**WordNet** es...
 
 ### WSD basada en diccionarios
 
 ### WSD: algoritmo de Lesk
+
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+
+[2024SO.3](../exam/2024so/2024so.md#ex.2024so.3)
+:::
 
 ### WSD en ntlk
 
