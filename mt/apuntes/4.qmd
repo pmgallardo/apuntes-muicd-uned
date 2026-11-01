@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
@@ -6,13 +10,25 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 4: Clustering y clasificación
 
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema4_pres]
+* Complementario
+  * [@blei2003latent]
+  * [@vaswani2017attention]
+  * [@radford2019language]
+  * [@brown2020language]
+  * [@zhao2023survey]
+:::
+
 Este capítulo está organizado empleando la misma estructura que la presentación del @nlp_tema4_pres.
 
 ## Conceptos preliminares
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-2022SO.5, 2022SO.6, 2024SO.6, 2026SO.5, 2026SO.6
+[2022SO.5](../exam/2022so/2022so.md#ex.2022so.5), [2022SO.6](../exam/2022so/2022so.md#ex.2022so.6), [2024SO.6](../exam/2024so/2024so.md#ex.2024so.6), [2026SO.5](../exam/2026so/2026so.md#ex.2026so.5), [2026SO.6](../exam/2026so/20２６so.md#ex.２０２６so.6)
 :::
 
 ## Clustering
@@ -20,14 +36,14 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020F2.5](../exam/2020f2/2020f2.md#ex.2020f2.5), [2020FR.5](../exam/2020fr/2020fr.md#ex.2020fr.5), 2026F2.6
+[2020F2.5](../exam/2020f2/2020f2.md#ex.2020f2.5), [2020FR.5](../exam/2020fr/2020fr.md#ex.2020fr.5), [2026F2.6](../exam/2026f2/2026f2.md#ex.2026f2.6)
 :::
 
 ### Tipos
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-2023F2.5, 2024SO.5, 2025F2.5
+[2023F2.5](../exam/2023f2/2023f2.md#ex.2023f2.5), [2024SO.5](../exam/2024so/2024so.md#ex.2024so.5), [2025F2.5](../exam/2025f2/2025f2.md#ex.2025f2.5)
 :::
 
 #### Modelos de centroides {.unnumbered .unlisted}
@@ -41,7 +57,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-2023SO.6, 2025SO.5
+[2023SO.6](../exam/2023so/2023so.md#ex.2023so.6), [2025SO.5](../exam/2025so/2025so.md#ex.2025so.5)
 :::
 
 ### Herramientas
@@ -50,7 +66,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2023SO.5](../exam/2023SO/2023SO.md#ex.2023SO-5), 2024F2.6, 2026F2.5
+[2023SO.5](../exam/2023SO/2023SO.md#ex.2023SO-5), [2024F2.6](../exam/2024f2/2024f2.md#ex.2024f2.6), [2026F2.5](../exam/2026f2/2026f2.md#ex.2026f2.5)
 :::
 
 ### Tipos
@@ -58,7 +74,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020F2.6](../exam/2020f2/2020f2.md#ex.2020f2.6), 2025SO.6
+[2020F2.6](../exam/2020f2/2020f2.md#ex.2020f2.6), [2025SO.6](../exam/2025so/2025so.md#ex.2025so.6)
 :::
 
 ### Algoritmos
@@ -105,12 +121,15 @@ $$\hat{E} = 1 - \hat{A} = \frac{FP + FN}{TP + TN + FP + FN}$$
 
 ## Bibliografía
 
+<!--
 Bibliografía:
 
 - Básica
   - Presentación tema 4 "Clustering y clasificación" de la asignatura.
+- Complementaria:
   - D. M. Blei; A. Y. Ng; Michael I. Jordan. [Latent Dirichlet Allocation](https://home.cs.colorado.edu/%7Emozer/Teaching/syllabi/ProbabilisticModels/readings/BleiNgJordan2003.pdf). Journal of Machine Learning Research 3 (2003) 993-1022.
   - [Polosukhin et al. 2017] Polosukhin, Illia; Kaiser, Lukasz; Gomez, Aidan N.; Jones, Llion; Uszkoreit, Jakob; Parmar, Niki; Shazeer, Noam; Vaswani, Ashish (2017-06-12). "[Attention Is All You Need](https://arxiv.org/abs/1706.03762)". arXiv:1706.03762 [cs.CL].
   - [Radfors et al. 2019 ] Alec Radford; Jeffrey Wu; Rewon Child; David Luan; Dario Amodei; Ilya Sutskever . [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf).
   - [Brown et al. 2020] Brown, Tom B.; Mann, Benjamin; Ryder, Nick; Subbiah, Melanie; Kaplan, Jared; Dhariwal, Prafulla; Neelakantan, Arvind; Shyam, Pranav; Sastry, Girish; Askell, Amanda; Agarwal, Sandhini; Herbert-Voss, Ariel; Krueger, Gretchen; Henighan, Tom; Child, Rewon; Ramesh, Aditya; Ziegler, Daniel M.; Wu, Jeffrey; Winter, Clemens; Hesse, Christopher; Chen, Mark; Sigler, Eric; Litwin, Mateusz; Gray, Scott; Chess, Benjamin; Clark, Jack; Berner, Christopher; McCandlish, Sam; Radford, Alec; Sutskever, Ilya; Amodei, Dario. [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165). 2020-07-22.
   - [Xin Zhao 2023] Wayne Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, Yifan Du, Chen Yang, Yushuo Chen, Zhipeng Chen, Jinhao Jiang, Ruiyang Ren, Yifan Li, Xinyu Tang, Zikang Liu, Peiyu Liu, Jian-Yun Nie, Ji-Rong Wen. [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223), 2023,
+-->

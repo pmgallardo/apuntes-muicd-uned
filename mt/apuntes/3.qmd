@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-muicd-uned
 
@@ -5,6 +9,23 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 
 # Tema 3: Representación de documentos
+
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema3_pres]
+* Complementario
+  * [@bojanowski2017enriching]
+  * [@devlin2019bert]
+  * [@hotho2001ontology]
+  * [@hotho2005brief]
+  * [@joos1950description]
+  * [@jurafsky2026speech3]
+  * [@mikolov2013efficient]
+  * [@nareshkumar2017document]
+  * [@pennington2014glove]
+  * [@salton1975vector]
+:::
 
 Este capítulo está organizado empleando la misma estructura que la presentación del @nlp_tema3_pres.
 
@@ -14,14 +35,23 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020F2.4](../exam/2020f2/2020f2.md#ex.2020f2.4), [2023SO.4](../exam/2023so/2023so.md#ex.2023so.4), 2024SO.4, 2026F2.4
+[2020F2.4](../exam/2020f2/2020f2.md#ex.2020f2.4), [2023SO.4](../exam/2023so/2023so.md#ex.2023so.4), [2024SO.4](../exam/2024so2/2024so.md#ex.2024so.4), [2026F2.4](../exam/2026f2/2026f2.md#ex.2026f2.4)
 :::
 
 ### Vectorial
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-2022SO.4
+[2022SO.4](../exam/2022so/2022so.md#ex.2022so.4)
+:::
+
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema3_pres]
+* Complementario
+  * [@jurafsky2009speech2]. Apartado 23.1.1 "The Vector Space Model" (El modelo de espacio vectorial).
+  * [@jurafsky2026speech3]. Apartado 11.1.1 "Representing documents as vectors" (Representación de documentos como vectores).
 :::
 
 ### Probabilística
@@ -33,12 +63,29 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 
 
 ### Estadística
+
+::: {.callout-note collapse="flase"}
+## 📖Material asociado
+* [Language model](https://en.wikipedia.org/wiki/Language_model) en Wikipedia.
+* [@jurafsky2009speech2]. Tema 4 "N-grams" (Modelos de lenguaje N-gram).
+* [@jurafsky2026speech3]. Tema 3 "N-gram Language Models" (Modelos de lenguaje N-gram).
+:::
+
 ### Semánticos vectoriales
+
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema3_pres]
+* Complementario
+  * [@jurafsky2009speech2]. Apartado 23.1.1 "The Vector Space Model" (El modelo de espacio vectorial).
+  * [@jurafsky2026speech3]. Apartado 11.1.1 "Representing documents as vectors" (Representación de documentos como vectores).
+:::
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020FR.4](../exam/2020fr/2020fr.md#ex.2020fr.4), [2022F2.4](../exam/2022F2/2022f2.md#ex.2022F2.4), 2024F2.4, 2025SO.4
+[2020FR.4](../exam/2020fr/2020fr.md#ex.2020fr.4), [2022F2.4](../exam/2022F2/2022f2.md#ex.2022F2.4), [2024F2.4](../exam/2024f2/2024f2.md#ex.2024f2.4), [2025SO.4](../exam/2025so/2025so.md#ex.2025so.4)
 :::
 
 ## Funciones de pesado
@@ -46,7 +93,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2023SO.4](../exam/2023so/2023so.md#ex.2023so.4), [2025F2.4](../exam/2025f2/2025f2.md#ex.2025f2.4), 2026SO.4
+[2023SO.4](../exam/2023so/2023so.md#ex.2023so.4), [2025F2.4](../exam/2025f2/2025f2.md#ex.2025f2.4), [2026SO.4](../exam/2026so/2026so.md#ex.2026so.4)
 :::
 
 ## Funciones de selección y reducción de rasgos
@@ -54,6 +101,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 
 ## Bibliografía
 
+<!--
 Bibliografía:
 
 - Básica
@@ -68,3 +116,4 @@ Bibliografía:
   - [Nareshkumar et al. 2017] Ksh. Nareshkumar Singh, H. Mamata Devi, Anjana Kakoti Mahanta. [Document representation techniques and their effect on the document Clustering and Classification: A Review](https://doi.org/10.26483/ijarcs.v8i5.3822). International Journal of Advanced Research in Computer Science. Vol 8(5), 2017.
   - [Pennington et al. 2014] Jeffrey Pennington, Richard Socher, Christopher D. Manning. [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf). Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 1532–1543.
   - [Salton 1975] Salton, G., Wong, A., Yang, C. S. [A vector space model for automatic indexing](https://openlib.org/home/krichel/courses/lis618/readings/salton75.pdf). Communications of the ACM, 18(11):613–620. 1975.
+-->

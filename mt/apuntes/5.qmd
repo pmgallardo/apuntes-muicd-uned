@@ -10,39 +10,59 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 5: Aplicaciones
 
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema5_pres]
+* Complementario
+  * [@liu2012sentiment]
+  * [@moreno2013lexicon]
+  * [@rey2016fuzzy]
+  * [@tass2016]
+  * [@sun2019utilizing]
+  * [@atefeh2015survey]
+:::
+
 Este capítulo está organizado empleando la estructura de la presentación @nlp_tema5_pres.
 
 ## Minería de opinión y análisis de sentimientos
 
 ### Introducción
+
 ### Retos y dificultades
+
 ### Enfoques
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2022F2.6](../exam/2022f2/ex_2022f2.md#ex.2022f2.6), 2025F2.6
+[2022F2.6](../exam/2022f2/ex_2022f2.md#ex.2022f2.6), [2025F2.6](../exam/2025f2/2025f2.md#ex.2025f2.6)
 :::
 
 ### Demos
+
 ## Análisis de tendencias
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-2023F2.6
+[2023F2.6](../exam/2023f2/2023f2.md#ex.2023f2.6)
 :::
 
 ### Introducción
+
 ### Aplicaciones
 
 ## Bibliografía
 
+<!--
 Bibliografía:
 
 - Básica
   - Presentación tema 5 "Aplicaciones" de la asignatura.
+- Complementaria
   - B. Liu. [Sentiment Analysis and Opinion Mining](https://www.cs.uic.edu/~liub/FBS/SentimentAnalysis-and-OpinionMining.pdf). Morgan & Claypool Publishers, May 2012.
   - A. Moreno-Ortiz, C. Pérez Hernández. [Lexicon-Based Sentiment Analysis of Twitter Messages in Spanish](https://rua.ua.es/server/api/core/bitstreams/a77d805e-c735-4e3b-bd19-a1c994c1e778/content). Procesamiento del Lenguaje Natural, vol 50, pág. 93-100, 2013.
   - P. Rey del Castillo. [Fuzzy sentiment analysis using spanish tweets](https://www.researchgate.net/publication/307598060_FUZZY_SENTIMENT_ANALYSIS_USING_SPANISH_TWEETS). European Conference on Quality in Official Statistics, 2016.
   - [Proceedings of TASS 2016: Workshop on Sentiment Analysis at SEPLN](https://ceur-ws.org/Vol-1702/). Co-located with 32nd SEPLN Conference (SEPLN 2016)
   - Chi Sun, Luyao Huang, Xipeng Qiu. [Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence](https://arxiv.org/pdf/1903.09588.pdf). 2019.
   - Atefeh, Farzindar, and Wael Khreich. "[A survey of techniques for event detection in twitter](https://doi.org/10.1111/coin.12017)“ Computational Intelligence 31.1 (2015): 132-164.
+-->

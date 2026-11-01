@@ -63,10 +63,11 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
 * [@nlp_tema2_pres]
+* [@bird_nltk_book]. Apartado 7.5 "[Named Entity Recognition](https://www.nltk.org/book/ch07.html#named-entity-recognition)".
 * [@bird2009natural]. Capítulo 7, apartado 7.5 "Named Entity Recognition".
 :::
 
-### NER en Spacy
+### NER en spaCy
 
 ### Evaluación
 
@@ -158,9 +159,11 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 
 ## Bibliografía
 
+<!--
 Bibliografía:
 
 - Básica
   - Presentación tema 2 "Extracción de la información" de la asignatura.
   - JURAFSKY, Dan, MARTIN, James H. Tema 18 "Sequence Labeling for Parts of Speech and Named Entities" y tema 21 "Information Extraction: Relations, Events, and Time". En: [Speech and Language Processing. An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models](https://web.stanford.edu/~jurafsky/slp3/). Borrador 3.ª ed. Enero 2026.
   - Steven Bird, Ewan Klein, Edward Loper. 7. "Extracting Information from Text". En: [Natural Language Processing with Python](https://www.oreilly.com/library/view/natural-language-processing/9780596803346/). O'Reilly, 2009.
+-->

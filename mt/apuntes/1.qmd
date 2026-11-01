@@ -17,6 +17,7 @@ SPDX-License-Identifier: CC-BY-4.0
 * Complementario
   * [@jurafsky2009speech2]. Apartado 2.6 "Regular Expressions" (Regular Expressions), apartados 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization), apartado 2.9 "Minimum Edit Distance" (Edit Distance), capítulo 17 "Sequence Labelling for parts of Speech and Named Entities", apartado 18.5 "Ambiguity" y 18.6 "CKY Parsing: A Dynamic Programming Approach" (Syntactic Parsing) y apartado 9.3.1 "Contextual Embeddings and Word Sense" y 22.4.3 "Other Methods" (Word Senses and Wordnet)
   * [@jurafsky2026speech3] Tema 2. Apartado 2.1. "Regular Expressions" (Regular Expressions), apartado 4.1 "Word counting in Corpora" (Text Normalization), apartado 3.11 "Minimum Edit Distance" (Edit Distance), capítulo 19 "Lexical Semantics" (Word Senses and Wordnet).
+  * [@bird_nltk_book]. Capítulo 2 "[Accessing Text Corpora and Lexical Resources](https://www.nltk.org/book/ch02.html)", capítulo 3 "[Processing Raw Text](https://www.nltk.org/book/ch03.html)", capítulo 5 "[Categorizing and Tagging Words](https://www.nltk.org/book/ch05.html)", capítulo 7 "[Extracting Information from Text](https://www.nltk.org/book/ch07.html)" y capítulo 8 "[Analyzing Sentence Structure](https://www.nltk.org/book/ch08.html)".
   * [@bird2009natural] Capítulo 2 "Accessing Text Corpora and Lexical Resources", capítulo 3 "Processing Raw Text", capítulo 5 "Categorizing and Tagging Words", capítulo 7 "Extracting Information from Text" y capítulo 8 "Analyzing Sentence Structure".
 :::
 
@@ -140,7 +141,7 @@ Posibles uso del análisis de errores:
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2024F2.3](../exam/2024f2/2024f2.md#ex.2024f2.3), [2026SO.5](../exam/2026SO/2026SO.md#ex.2024so.5)
+[2024F2.3](../exam/2024f2/2024f2.md#ex.2024f2.3), [2026SO.5](../exam/2026so/2026so.md#ex.2024so.5)
 :::
 
 Una **matriz de confusión** o **tablas de contigencia** es...
@@ -152,7 +153,7 @@ La matriz de confusión se emplean para el análisis de errores.
 Las principales herramientas para el PLN son:
 
 - NLTK
-- Spacy
+- spaCy
 - Stanford
 - Treetager
 - Freeling
@@ -163,9 +164,9 @@ Solo las dos primeras se tratan en la asignatura
 
 **Natural Language Toolkit** (**NLTK**) es una biblioteca Python.
 
-### Spacy
+### spaCy
 
-**Spacy** es una biblioteca Python.
+**spaCy** es una biblioteca Python.
 
 ## Introducción al procesamiento del lenguaje natural
 
@@ -213,7 +214,7 @@ Según @jurafsky2009speech2, la tokenización de palabras (en inglés, *word tok
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2025F2.2](../exam/2025f2/2025f2.md#ex.2025f2.2), [2026SO.3](../exam/2026sof2/2026so.md#ex.2026so.3)
+[2025F2.2](../exam/2025f2/2025f2.md#ex.2025f2.2), [2026SO.3](../exam/2026so/2026so.md#ex.2026so.3)
 :::
 
 La **distancia de edición** (en inglés, *edit distance*)...
@@ -232,14 +233,14 @@ La **distancia de edición** (en inglés, *edit distance*)...
 [2022SO.2](../exam/2022so/2022so.md#ex.2022so.2)
 :::
 
-### Spacy: palabras vacías
+### spaCy: palabras vacías
 ## Segmentación de palabras
 ## Segmentación (tokenización) de oraciones
 ##  Análisis morfológico
 ## Lematización y stemming
 ### Stemming {#stemming}
 ### Lematizador
-### Spacy: Lemas
+### spaCy: Lemas
 ## POS tagging {#pos-tagging}
 
 ::: {.callout-note collapse="false"}
@@ -248,7 +249,7 @@ La **distancia de edición** (en inglés, *edit distance*)...
 [2020FR.3](../exam/2020fr/2020fr.md#ex.2020fr.3), [2024F2.3](../exam/2024f2/2024f2.md#ex.2024f2.3), [2025SO.2](../exam/2025so/2025so.md#ex.2025so.2), [2026SO.2](../exam/2026so/2026so.md#ex.2026so.2)
 :::
 
-### Spacy: POS tagging
+### spaCy: POS tagging
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
@@ -259,8 +260,9 @@ La **distancia de edición** (en inglés, *edit distance*)...
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
-* [@nlp_tema1_pres]
-* [@bird2009natural] Capítulo 7, apartado 7.2 "Chunking"
+* [@nlp_tema1_pres].
+* [@bird_nltk_book]. Apartado 7.2 "[Chunking](https://www.nltk.org/book/ch07.html#chunking)".
+* [@bird2009natural] Apartado 7.2 "Chunking".
 :::
 
 ### Chunking con expresiones regulares
@@ -281,11 +283,12 @@ La **distancia de edición** (en inglés, *edit distance*)...
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
 * [@nlp_tema1_pres]
+* [@bird_nltk_book]. Subapartado 8.6.3 "[Weighted Grammar](https://www.nltk.org/book/ch08.html#weighted-grammar)".
 * [@bird2009natural] Apartado 8.6 Grammar Development, subapartado "Weighted Grammar".
 ::: 
 
 ## Análisis de dependencias
-## Spacy
+## spaCy
 ### Token, POS tag, análisis
 ### Más detalles
 ### Personalización
