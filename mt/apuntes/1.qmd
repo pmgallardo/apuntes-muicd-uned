@@ -25,7 +25,9 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 
 ## Conceptos preliminares
 
-Existen diversas tareas asociadas a la minería de datos:
+La **minería de textos** es el proceso de extraer patrones útiles, información estructurada y conocimientos a partir de datos de texto no estructurados.
+
+Existen diversas tareas o **áreas asociadas a la minería de textos**:
 
 - Extracción de la información
 - Recuperación de la información
@@ -42,7 +44,7 @@ El **agrupamiento de documentos** (*document clustering*)...
 
 ## Procesamiento del lenguaje natural
 
-El **procesamiento de lenguaje natural** (PLN) es...
+El **procesamiento de lenguaje natural** (**PLN**) es la disciplina de la inteligencia artificial que se encarga de que las máquinas entiendan, interpreten y generen el lenguaje humano
 
 ## Evaluación de tareas de PLN
 
@@ -188,19 +190,36 @@ Las expresiones regulares son apenas introducidas en este tema, pero se tratan c
 ## Normalización de textos {#normalizacion-de-textos}
 
 ::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
+[2023F2.1](../exam/2023f2/2023f2.md#ex.2023f2.1)
+:::
+
+La **normalización de textos** (en inglés, *text normalization*) es un proceso de transformación del texto para obtener una forma canónica. Su objetivo es uniformizar la forma del texto para facilitar su uso en procesos posteriores del procesamiento del lenguaje natural.
+
+Su objetivo es uniformizar la forma del texto para facilitar su uso en procesos posteriores del procesamiento del lenguaje natural.
+
+Las **tareas asociadas a la normalización de textos** incluyen:
+
+- Normalización de la forma de las palabras
+- Segmentación o tokenización de oraciones
+- Segmentación o tokenización de palabras
+
+Ejemplos de normalización:
+* Unificar palabras que se refieren a una misma entidad (por ejemplo, "inteligencia artificial" e "IA" o "Telefono" y "teléfono").
+* Corregir erratas de escritura.
+* Eliminar acentos, quitar espacios repetidos o reducir todas las palabras a letras minúsculas.
+
+### Normalización de palabras
+
+### Tokenización de oraciones {.unnumbered .unlisted}
+
+### Tokenización de palabras {.unnumbered .unlisted}
+
+::: {.callout-note collapse="false"}
 ## 📖Material asociado
 * [@nlp_tema1_pres]
 * [@jurafsky2026speech3] Tema 2. apartado 4.1 "Word counting in Corpora" (Text Normalization),
 * [@jurafsky2009speech2]. Tema 2. 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization).
-:::
-
-La **normalización de textos** (en inglés, *text normalization*) es...
-
-Según @jurafsky2009speech2, la tokenización de palabras (en inglés, *word tokenization*) es un tipo de normalización de textos. Es por ello que en el material asociado a este apartado se remite a los apartados sobre tokenización de palabras.
-
-::: {.callout-note collapse="false"}
-## 🎯Pregunta de exámen
-[2023F2.1](../exam/2023f2/2023f2.md#ex.2024f2.1)
 :::
 
 ## Distancia de edición {#distancia-de-edicion}
@@ -236,17 +255,120 @@ La **distancia de edición** (en inglés, *edit distance*)...
 ### spaCy: palabras vacías
 ## Segmentación de palabras
 ## Segmentación (tokenización) de oraciones
+
 ##  Análisis morfológico
-## Lematización y stemming
+
+El **lema** (en inglés, *lemma*), **forma canónica** o **forma base** de una palabra es la raíz (en inglés, *stem*) que representa su significado fundamental. Por ejemplo, el lema de "corriendo" es "correr", y el lema de "mejores" es "bueno".
+
+## Lematización y stemming {.unnumbered .unlisted}
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@manning2008stemming]
+:::
+
+En este apartado se aclaran los conceptos de stemming y lematización.
+
 ### Stemming {#stemming}
+
+**Stemming** es un proceso heurístico consiste en recortar una palabra a su raíz o forma base, eliminando los sufijos y prefijos. Por ejemplo, el stemming de "corriendo" sería "corr", y el stemming de "mejores" sería "mejor".
+
+A menudo genera términos recortados que no son palabras reales del diccionario, por lo que se considera una técnica más aproximada que la lematización.
+
+#### Stemming en NTLK {.unnumbered .unlisted}
+
+En NTLK, el stemming se realiza con el módulo `nltk.stem`, que incluye varios algoritmos de stemming, como el algoritmo de Porter, el algoritmo de Lancaster y el algoritmo de Snowball, siendo el primero el más utilizado.
+
+El uso de estos stemmers ofrece la ventaja sobre la construcción manual de expresiones regulaes que son capaces de manejar casos irregulares.
+
+Existen stemmers específicos para cada idioma
+
+A continuación se muestra un ejemplo de uso del `PorterStemmer` en NLTK para realizar stemming en inglés:
+
+```python
+import nltk
+
+# Texto de ejemplo en inglés
+texto = """
+The students are studying, playing and working.
+They studied yesterday and will study tomorrow.
+"""
+
+# Tokeniza el texto
+tokens = nltk.word_tokenize(texto)
+
+# Crea el stemmer de Porter
+porter = nltk.PorterStemmer()
+
+# Aplica stemming a cada palabra
+raices = [porter.stem(token) for token in tokens]
+
+# Muestra los resultados
+for original, raiz in zip(tokens, raices):
+    print(original, "->", raiz)
+```
+El algoritmo Snowball, basado en el algoritmo de Porter, se implementa en NTLK como `SnowballStemmer` para inglés, español, francés o alemán, entre otros.
+
+Se muestra un ejemplo de uso del `SnowballStemmer` en NLTK para realizar stemming en español:
+
+```python
+import nltk
+from nltk.stem import SnowballStemmer
+
+# Crea el stemmer para español
+spanish_stemmer = SnowballStemmer("spanish")
+
+# Texto de ejemplo
+opinion = """
+Ese segundo modo resume el mensaje con el que la marca presenta el equipo: de noche también se puede ver lo importante.
+"""
+
+# Tokeniza el texto
+tokens = nltk.word_tokenize(opinion, language="spanish")
+
+# Aplica stemming
+raices = [spanish_stemmer.stem(token) for token in tokens]
+
+# Muestra los resultados
+for original, raiz in zip(tokens, raices):
+    print(original, "->", raiz)
+```
+
 ### Lematizador
-### spaCy: Lemas
+
+la **lematización** es una técnica que emplea vocabularios y análisis morfológico exhaustivo para eliminar únicamente las terminaciones flexivas y extraer el lema exacto de una palabra. Por ejemplo, el lema de "alcanzado" es "alcanzar" y el de "millones" es "millón".
+
+Un **lematizador** es un programa que reduce una palabra a su lema.
+
+#### NTLK: Lemas {.unnumbered .unlisted}
+
+WordNetLemmatizer es un lematizador que emplea el léxico WordNet para obtener el lema de una palabra. Se encuentra en el módulo `nltk.stem` de NTLK.
+
+#### spaCy: Lemas
+
+La biblioteca spaCy permite realizar lematización mediante modelos lingüísticos previamente entrenados para distintos idiomas, como español e inglés.
+
+```python
+import spacy
+
+# Carga el modelo de español
+nlp = spacy.load("es")
+
+# Texto de ejemplo
+texto = """España resiste en una eurozona con sus tres mayores economías en declive."""
+
+# Aplica el modelo NLP
+doc = nlp(texto)
+
+# Muestra cada palabra y su lema
+for token in doc:
+    print(token.text, token.lemma_)
+```
+
 ## POS tagging {#pos-tagging}
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-
-[2020FR.3](../exam/2020fr/2020fr.md#ex.2020fr.3), [2024F2.3](../exam/2024f2/2024f2.md#ex.2024f2.3), [2025SO.2](../exam/2025so/2025so.md#ex.2025so.2), [2026SO.2](../exam/2026so/2026so.md#ex.2026so.2)
 :::
 
 ### spaCy: POS tagging

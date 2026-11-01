@@ -17,6 +17,7 @@ SPDX-License-Identifier: CC-BY-4.0
   * Introducción al procesamiento del lenguaje natural
   * Expresiones regulares
   * Normalización de textos
+    * Normalización de palabras
   * Distancia de edición
   * Palabras vacías
     * Spacy: palabras vacías
@@ -26,7 +27,7 @@ SPDX-License-Identifier: CC-BY-4.0
   * Lematización y stemming
     * Stemming
     * Lematizador
-    * Spacy: Lemas
+      * Spacy: Lemas
   * POS tagging
     * Spacy: POS tagging
   * Chunking
