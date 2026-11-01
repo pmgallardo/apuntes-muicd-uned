@@ -68,3 +68,5 @@ Existen comunidades no oficiales de alumnos y alumni del máster:
 - Inactiva
   - [Carpeta `INFRAESTRUCTURAS CMP PARA PRCSMTO DE DATOS MASIVOS` del Grupo Master Ingenieria y Ciencias de Datos](https://unedo365.sharepoint.com/:f:/s/GrupoMasterIngenieriayCienciasdeDatos/IgB12rtCAxEvRKkRWVoABxAjAZnJJwrWobXMiLlN6c0tTkM) en SharePoint UNED
   - Entrada a [ICP](https://github.com/adzarei/uned-master-bigdata/tree/master/ICP) de curso 2019/2020 en repositorio `uned-master-bigdata` de Adrián José Zapater Reig
+
+Es muy recomendable unirse a alguna de las comunidades activas para conseguir consejos y material de estudio de la mano de compañeros y antiguos alumnos.
