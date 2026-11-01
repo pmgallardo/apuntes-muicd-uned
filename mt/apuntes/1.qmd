@@ -297,13 +297,13 @@ They studied yesterday and will study tomorrow.
 # Tokeniza el texto
 tokens = nltk.word_tokenize(texto)
 
-# Crea el stemmer de Porter
+# Crear el stemmer de Porter
 porter = nltk.PorterStemmer()
 
-# Aplica stemming a cada palabra
+# Aplicar stemming a cada palabra
 raices = [porter.stem(token) for token in tokens]
 
-# Muestra los resultados
+# Mostrar los resultados
 for original, raiz in zip(tokens, raices):
     print(original, "->", raiz)
 ```
@@ -315,7 +315,7 @@ Se muestra un ejemplo de uso del `SnowballStemmer` en NLTK para realizar stemmin
 import nltk
 from nltk.stem import SnowballStemmer
 
-# Crea el stemmer para español
+# Crear el stemmer para español
 spanish_stemmer = SnowballStemmer("spanish")
 
 # Texto de ejemplo
@@ -323,13 +323,13 @@ opinion = """
 Ese segundo modo resume el mensaje con el que la marca presenta el equipo: de noche también se puede ver lo importante.
 """
 
-# Tokeniza el texto
+# Tokenizar el texto
 tokens = nltk.word_tokenize(opinion, language="spanish")
 
-# Aplica stemming
+# Aplicar stemming
 raices = [spanish_stemmer.stem(token) for token in tokens]
 
-# Muestra los resultados
+# Mostrar los resultados
 for original, raiz in zip(tokens, raices):
     print(original, "->", raiz)
 ```
@@ -351,16 +351,16 @@ La biblioteca spaCy permite realizar lematización mediante modelos lingüístic
 ```python
 import spacy
 
-# Carga el modelo de español
+# Cargar el modelo de español
 nlp = spacy.load("es")
 
 # Texto de ejemplo
 texto = """España resiste en una eurozona con sus tres mayores economías en declive."""
 
-# Aplica el modelo NLP
+# Aplicar el modelo NLP
 doc = nlp(texto)
 
-# Muestra cada palabra y su lema
+# Mostrar cada palabra y su lema
 for token in doc:
     print(token.text, token.lemma_)
 ```
@@ -397,7 +397,7 @@ for token in doc:
 * [@jurafsky2026speech3]. Capítulo 19 "Context-Free Grammars and Constituency Parsing".
 :::
 
-### Análisis sintáctico con ntlk
+### Análisis sintáctico con NTLK
 ### Técnicas frecuentes
 ## Análisis de constituyentes
 ### Análisis de constituyenes: PCFGs
@@ -414,6 +414,7 @@ for token in doc:
 ### Token, POS tag, análisis
 ### Más detalles
 ### Personalización
+
 ## Desambiguación del sentido de las palabras {#desambiguacion-del-sentido-de-las-palabras}
 
 ::: {.callout-note collapse="false"}
@@ -423,15 +424,27 @@ for token in doc:
 * [@jurafsky2026speech3] Capítulo 19 "Lexical Semantics" (Word Senses and Wordnet).
 :::
 
+Las palabras pueden tener múltiples significados, y el significado correcto depende del contexto en el que se utilicen. Por ejemplo, en estas frases se emplean distintos significados de la palabra "planta":
+
+* La planta del jardín necesita más agua.
+* Mi abuela vive en la tercera planta del edificio.
+* La fábrica inauguró una nueva planta de producción.
+
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2022F2.1](../exam/2022f2/2022f2.md#ex.2020f2.3)
+[2022F2.1](../exam/2022f2/2022f2.md#ex.2022f2.1)
 :::
 
-La **desambiguación del sentido de las palabras** (en inglés, *word send disambiguation*, WSD)...
+La **desambiguación del sentido de las palabras** (en inglés, *word send disambiguation*, **WSD**) es el proceso de determinar el significado correcto de una palabra en un contexto específico, cuando la palabra tiene múltiples significados posibles.
 
 ### Aplicaciones {.unnumbered .unlisted}
+
+Las aplicaciones del WSD incluyen, entre otras:
+
+- *Traducción automática*: para traducir una palabra a otro idioma.
+- *Recuperación de información*: para mejorar la precisión de los resultados de búsqueda.
+- *Extracción de información*: para entender correctamente el significado de las palabras en un texto.
 
 ### Técnicas {.unnumbered .unlisted}
 
@@ -441,15 +454,56 @@ La **desambiguación del sentido de las palabras** (en inglés, *word send disam
 [2025SO.1](../exam/2025so/2025so.md#ex.2025so.1)
 :::
 
+Las técnicas o métodos de WSD se clasifican en las siguientes categorías:
+
+- [Métodos basados en diccionarios y bases de conocimiento léxico](#wsd-basados-en-diccionarios): están basados en las distancias semánticas entre los sentidos de las palabras, empleando diccionarios y bases de conocimiento léxico como WordNet.
+- *Métodos supervisados*: requieren un corpus anotado con los sentidos correctos de las palabras para entrenar un modelo de aprendizaje automático que pueda predecir el sentido de una palabra en un contexto dado.
+- *Métodos semisupervisados o mínimamente supervisados*: combinan un pequeño conjunto de datos anotados con un gran conjunto de datos no anotados para mejorar la precisión del modelo.
+- *Métodos no supervisados*: basados en la idea de que las palabras con significados similares tienden a aparecer en contextos similares. Requiere trabajar con corpus no anotados y emplear técnicas de agrupamiento para identificar los sentidos de las palabras.
+
 ### Relación entre sentidos {.unnumbered .unlisted}
+
+Los sentidos de las palabras pueden estar relacionados entre sí de diversas maneras, como por ejemplo:
+
+- *Sinonimia*: palabras que tienen significados similares o idénticos.
+- *Hiponimia*: palabras que tienen un significado más específico que otra palabra (por ejemplo, "perro" es un hipónimo de "animal").
+- *Hiperonimia*: palabras que tienen un significado más general que otra palabra (por ejemplo, "animal" es un hiperónimo de "perro").
+
+Otros ejemplos no mencionados en la asignatura son la antonimia, meronimia, holonimia o polisemia.
 
 ### WordNet {.unnumbered .unlisted}
 
-**WordNet** es...
+**WordNet** es una base de datos lingüística que organiza las palabras de un idioma según su significado y las relaciones que existen entre ellas. Su objetivo es ayudar a los sistemas informáticos a comprender mejor el vocabulario y el significado de las palabras.
 
-### WSD basada en diccionarios
+El proyecto fue originalmente desarrollado en la Universidad de Princeton para el idioma inglés y, si bien no recibe más mantenimiento, está disponible en [wordnet.princeton.edu](https://wordnet.princeton.edu/). Existen versiones alternativas de WordNet que pueden incluir otros idiomas.
 
-### WSD: algoritmo de Lesk
+Categorías que considera WordNet para clasificar las palabras:
+
+- *Sustantivos*: nombres de personas, objetos, lugares, etc.
+- *Verbos*: acciones o estados.
+- *Adjetivos*: características o cualidades.
+- *Adverbios*: expresan circunstancias como el modo, el tiempo o el lugar.
+- *Palabras de función*: elementos gramaticales como pronombres, entre otros.
+
+El **synset** (del inglés *synonym set*, conjunto de sinónimos) es la unidad principal de WordNet.
+
+Un synset agrupa distintas palabras o expresiones que comparten un significado determinado. De esta manera, una palabra puede pertenecer a varios synsets si tiene diferentes significados.
+
+Por ejemplo, la palabra planta puede tener distintos significados:
+
+- Planta como ser vivo.
+- Planta como piso de un edificio.
+- Planta como instalación industrial.
+
+Cada uno de estos significados se representa mediante un synset diferente.
+
+Los **glosses** son pequeñas descripciones que ayudan a comprender el significado de cada synset. Estas pueden contener una definición del concepto o uno o varios ejemplos de uso de las palabras.
+
+### WSD basada en diccionarios {#wsd-basada-en-diccionarios}
+
+En la asignatura, la WSD basada en diccionarios y bases de conocimiento léxico se centra en el algoritmo de Lesk.
+
+#### WSD: algoritmo de Lesk {#wsd-algoritmo-de-lesk}
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
@@ -457,7 +511,61 @@ La **desambiguación del sentido de las palabras** (en inglés, *word send disam
 [2024SO.3](../exam/2024so/2024so.md#ex.2024so.3)
 :::
 
-### WSD en ntlk
+El **algoritmo de Lesk** es un método de desambiguación del sentido de las palabras basado en diccionarios y bases de conocimiento léxico. Su objetivo es determinar el significado correcto de una palabra en un contexto específico, comparando las definiciones de los posibles sentidos de la palabra con el contexto en el que aparece.
+
+Un ejemplo podría ser aplicar el algoritmo de Lesk a la oración "*I went to the bank to deposit some money*".
+
+Queremos identificar el significado de la palabra ambigua "*bank*", que puede tener distintos sentidos:
+
+1. *Sentido 1*: *a financial institution that accepts deposits and lends money* (una entidad financiera que acepta depósitos y concede préstamos).
+2. *Sentido 2*: *the land alongside or sloping down to a river or lake* (la orilla de un río o lago).
+
+Se utiliza el algoritmo Lesk para comparar las palabras del contexto de la oración con las definiciones de cada uno de los posibles sentidos de bank.
+
+Se excluye la palabra ambigua (*bank*) y se buscan coincidencias entre el resto de palabras de la oración y las definiciones.
+
+- Contexto: *went*, *to*, *the*, *deposit*, *some*, *money*.
+- Sentido 1: presenta coincidencias con *deposit* y *money*.
+- Sentido 2: no presenta coincidencias.
+
+Como resultado, se selecciona el sentido 1, ya que es el que presenta un mayor número de coincidencias con las palabras del contexto.
+
+Se concluye en esta oración, *bank* hace referencia a una entidad financiera, y no a la orilla de un río.
+
+### WSD en NTLK
+
+A continuación se muestra un ejemplo del uso del algoritmo de Lesk en NLTK para desambiguar el significado de la palabra "planta" en dos frases distintas:
+
+```python
+import nltk
+from nltk.wsd import lesk
+from nltk.tokenize import word_tokenize
+
+# Función para identificar el significado de una palabra
+def get_semantic(frase, palabra):
+    tokens = word_tokenize(frase, language="english")
+
+    # Identificar el significado según el contexto
+    resultado = lesk(tokens, palabra)
+
+    if resultado:
+        return resultado.definition()
+    else:
+        return "No se ha encontrado un significado."
+
+# Dos frases con la misma palabra, pero distinto significado
+keyword = "plant"
+
+seq1 = "The plant needs water and sunlight to grow."
+seq2 = "The factory opened a new plant."
+
+print(get_semantic(seq1, keyword))
+print(get_semantic(seq2, keyword))
+
+# Mostrar las definiciones obtenidas
+print("Frase 1:", get_semantic(seq1, keyword))
+print("Frase 2:", get_semantic(seq2, keyword))
+```
 
 ## Bibliografía
 

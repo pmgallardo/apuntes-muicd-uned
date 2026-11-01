@@ -20,32 +20,32 @@ SPDX-License-Identifier: CC-BY-4.0
     * Normalización de palabras
   * Distancia de edición
   * Palabras vacías
-    * Spacy: palabras vacías
+    * spaCy: palabras vacías
   * Segmentación de palabras
   * Segmentación (tokenización) de oraciones
   * Análisis morfológico
   * Lematización y stemming
     * Stemming
     * Lematizador
-      * Spacy: Lemas
+      * spaCy: Lemas
   * POS tagging
-    * Spacy: POS tagging
+    * spaCy: POS tagging
   * Chunking
     * Chunking con expresiones regulares
   * Análisis sintáctico
-    * Análisis sintáctico con ntlk
+    * Análisis sintáctico con NTLK
     * Técnicas frecuentes
   * Análisis de constituyentes
     * Análisis de constituyenes: PCFGs
   * Análisis de dependencias
-  * Spacy
+  * spaCy
     * Token, POS tag, análisis
     * Más detalles
     * Personalización
   * Desambiguación del sentido de las palabras
     * WSD basada en diccionarios
     * WSD: algoritmo de Lesk
-    * WSD en ntlk
+    * WSD en NTLK
 * [Tema 2: Extracción de la información](2.qmd) 
   * Extracción de información
     * Tareas y subtareas
@@ -59,7 +59,7 @@ SPDX-License-Identifier: CC-BY-4.0
     * Aprendizaje automático
     * Codificación de las clases
     * Rasgos típico clasificador
-    * NER en ntlk
+    * NER en NTLK
     * NER en Spacy
     * Evaluación
     * Deep Learning
