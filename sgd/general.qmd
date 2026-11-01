@@ -17,6 +17,7 @@ La [guía de la asignatura](https://www.uned.es/universidad/inicio/estudios/mast
 No obstante, algunos alumnos aconsejan haber cursado la siguiente asignatura, si bien no es estrictamente necesario:
 
 - [ICPDM](../icpdm/): la práctica 1 consiste en aplicar un gateway de seguridad perimetral Apache Knox a una infraestructura big data compatible con Apache Hadoop.
+- [SGD](../sgd/): la práctica 2 requiere emplear las bibliotecas pandas y NumPy de Python sobre un conjunto de datos para anonimizarlos.
 
 ## Evaluación
 

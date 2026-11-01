@@ -10,6 +10,12 @@ En esta carpeta se incluyen recursos de apoyo educativo para la asignatura de Ge
 
 Para más información, ver la [ficha oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=3111008-&codTitulacion=311001).
 
+## Prerrequisitos
+
+La asignatura no tiene dependencias con otras del máster, si bien puede ayudar sin ser obligatorio el haber cursado anteriormente la siguiente asignatura:
+
+- [ped](../ped/). La práctica 2, sobre Redis, trabaja con Python para la importación de un CSV (visto en la asignatura precedente) y el uso de la biblioteca `redis-py` (estudiada la asignatura).
+
 ## Evaluación
 
 | Actividad evaluable | % nota final | % nota mínima |

@@ -21,6 +21,6 @@ En este apartado y los siguientes se comparte información general sobre el más
 
 En esta documentación se habla sobre:
 
-- [Evaluación](evaluacion.qmd)
 - [Asignaturas](asignaturas.qmd)
+- [Evaluación](evaluacion.qmd)
 - [Comunidades](comunidades.qmd)
