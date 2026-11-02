@@ -18,7 +18,7 @@ SPDX-License-Identifier: CC-BY-4.0
   * [@liu2012sentiment]
   * [@moreno2013lexicon]
   * [@rey2016fuzzy]
-  * [@tass2016]
+  * [@tass2016proceedings]
   * [@sun2019utilizing]
   * [@atefeh2015survey]
 :::
@@ -35,7 +35,7 @@ Este capítulo está organizado empleando la estructura de la presentación @nlp
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2022F2.6](../exam/2022f2/ex_2022f2.md#ex.2022f2.6), [2025F2.6](../exam/2025f2/2025f2.md#ex.2025f2.6)
+[2022F2.6](../exam/2022f2/2022f2.md#ex.2022f2.6), [2025F2.6](../exam/2025f2/2025f2.md#ex.2025f2.6)
 :::
 
 ### Demos

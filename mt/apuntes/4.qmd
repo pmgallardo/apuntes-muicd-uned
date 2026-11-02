@@ -28,7 +28,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2022SO.5](../exam/2022so/2022so.md#ex.2022so.5), [2022SO.6](../exam/2022so/2022so.md#ex.2022so.6), [2024SO.6](../exam/2024so/2024so.md#ex.2024so.6), [2026SO.5](../exam/2026so/2026so.md#ex.2026so.5), [2026SO.6](../exam/2026so/20２６so.md#ex.２０２６so.6)
+[2022SO.5](../exam/2022so/2022so.md#ex.2022so.5), [2022SO.6](../exam/2022so/2022so.md#ex.2022so.6), [2024SO.6](../exam/2024so/2024so.md#ex.2024so.6), [2026SO.5](../exam/2026so/2026so.md#ex.2026so.5), [2026SO.6](../exam/2026so/2026so.md#ex.2026so.6)
 :::
 
 ## Clustering
@@ -66,7 +66,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2023SO.5](../exam/2023SO/2023SO.md#ex.2023SO-5), [2024F2.6](../exam/2024f2/2024f2.md#ex.2024f2.6), [2026F2.5](../exam/2026f2/2026f2.md#ex.2026f2.5)
+[2023SO.5](../exam/2023so/2023so.md#ex.2023so.5), [2024F2.6](../exam/2024f2/2024f2.md#ex.2024f2.6), [2026F2.5](../exam/2026f2/2026f2.md#ex.2026f2.5)
 :::
 
 ### Tipos

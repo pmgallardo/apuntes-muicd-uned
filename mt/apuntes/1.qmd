@@ -211,6 +211,16 @@ La matriz de confusión puede mostrar valores absolutos o porcentajes. Se emplea
 
 Se aplica a continuación la matriz de confusión para el [ejemplo presentado de cálculo de medidas](#ejemplo-de-calculo-de-medidas):
  
+
+|                |                  | Valor real       |                 |
+|:---------------|:-----------------|:-----------------|:----------------|
+|                |                  | **Positivo (+)** | **Negativo (-)**|
+| Predicción     | **Positivo (+)** | tp = 10          | fp = 4          |
+|                | **Negativo (-)** | fn = 2           | tn = X          |
+
+
+<!--
+Esta GridTable no compila en PDF, probablemente por el primer hueco vacío
 +---------------------------+--------------------------------+
 |                           |          Valor real            |
 |                           +----------------+---------------+
@@ -220,6 +230,7 @@ Se aplica a continuación la matriz de confusión para el [ejemplo presentado de
 |            +--------------+----------------+---------------+
 |            | Negativo (-) | fn = 2         | tn = X        |
 +------------+--------------+----------------+---------------+
+-->
 
 <!-- Hay otro ejemplo de clasificación multiclase en la diapositiva, que conviene añadir porque traspone los valores correctos a la izquierda y los valores predichos a la derecha -->
 
@@ -247,7 +258,7 @@ En las prácticas del curso 2026/2027 solo se pidió trabajar con spaCy.
 
 **Natural Language Toolkit** (**NLTK**) es una biblioteca Python de código abierto para el PLN empleada principalmente con fines educativos.
 
-Los creadores de NLTK escribieron el libro de @bird_nltk_book, dedicado a la versión Python 2, y lo actualizaron a Python 3 en la versión web de @bird2009natural.
+Los creadores de NLTK escribieron el libro de @bird2009natural, dedicado a la versión Python 2, y lo actualizaron a Python 3 en la versión web de @bird_nltk_book.
 
 [Página oficial de NLTK](https://www.nltk.org/)
 
@@ -304,18 +315,18 @@ Ejemplos de normalización:
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
-* [@nlp_tema1_pres]
-* [@jurafsky2026speech3] Tema 2. apartado 4.1 "Word counting in Corpora" (Text Normalization),
-* [@jurafsky2009speech2]. Tema 2. 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization).
+* [@nlp_tema1_pres]. Apartado "Tokenización de palabras".
+* [@jurafsky2026speech3] Apartado 4.1 "Word counting in Corpora" (Text Normalization).
+* [@jurafsky2009speech2]. Apartados 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization).
 :::
 
 ## Distancia de edición {#distancia-de-edicion}
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
-* [@nlp_tema1_pres]
-* [@jurafsky2026speech3] Tema 2. apartado 3.11 "Minimum Edit Distance" (Edit Distance).
-* [@jurafsky2009speech2]. Tema 2. Apartado 2.9 "Minimum Edit Distance" (Edit Distance).
+* [@nlp_tema1_pres]. Apartado "Distancia de edición".
+* [@jurafsky2026speech3] Apartado 3.11 "Minimum Edit Distance" (Edit Distance).
+* [@jurafsky2009speech2]. Apartado 2.9 "Minimum Edit Distance" (Edit Distance).
 :::
 
 ::: {.callout-note collapse="false"}
