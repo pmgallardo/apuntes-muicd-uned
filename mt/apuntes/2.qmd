@@ -58,7 +58,7 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 
 ### Rasgos típico clasificador
 
-### NER en ntlk
+### NER en NTLK
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
@@ -121,8 +121,10 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
-* [@nlp_tema2_pres]
-* [@jurafsky2026speech3]. Tema 21, apartado 21.4 "Representing time".
+* Básico
+  * [@nlp_tema2_pres]
+* Complementario
+  * [@jurafsky2026speech3]. Tema 21, apartado 21.4 "Representing time".
 :::
 
 ::: {.callout-note collapse="false"}
@@ -133,10 +135,23 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 
 #### Extracción de expresiones temporales
 
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema2_pres]. Apartado "Extracción de expresiones temporales".
+* [@jurafsky2009speech2]. Apartado 22.3.2 "Temporal Expression Recognition".
+:::
+
 #### Normalización temporal
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema2_pres]. Apartado "Normalización temporal".
+  * [@jurafsky2009speech2]. Apartado 22.3.2 "Temporal Normalization".
+:::
 
 [2020FR.2](../exam/2020fr/2020fr.md#ex.2020fr.2), [2024SO.1](../exam/2024so/2024so.md#ex.2024so.1)
 :::
@@ -145,8 +160,11 @@ Esta materia es introducido someramente en el [apartado homónimo del tema 1](1.
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
-* [@nlp_tema2_pres]
-* [@jurafsky2026speech3]. Tema 21. Apartado 21.3. "Extracting events".
+* Básico
+  * [@nlp_tema2_pres]. Apartado "Extracción de sucesos".
+* Complementario
+  * [@jurafsky2009speech2]. Apartado 22.3.3 "Event Detection and Analysis".
+  * [@jurafsky2026speech3]. Apartado 21.3 "Extracting Events".
 :::
 
 ::: {.callout-note collapse="false"}

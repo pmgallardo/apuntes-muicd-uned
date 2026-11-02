@@ -103,27 +103,84 @@ El temario introduce las siguientes medidas de evaluación de tareas de PLN:
 
 #### Precisión {.unnumbered .unlisted}
 
-**Precisión** (en inglés, *accuracy*) es la fracción de predicciones del modelo propuesto que son acertadas (coinciden con los datos de referencia). Se calcula como Verdaderos Positivos / (Verdaderos Positivos + Falsos Positivos).
+La **precisión** (en inglés, *accuracy*) es la fracción de predicciones del modelo propuesto que son acertadas (coinciden con los datos de referencia). Se calcula como:
 
-En los apuntes se desarrolla y viene una fórmula.
+$$ p = \frac{tp}{tp + fp} $$
+
+donde:
+
+* $tp$ son los **verdaderos positivos** (en inglés, *true positives*), es decir, los casos que el modelo predijo correctamente como positivos.
+* $fp$ son los **falsos positivos** (en inglés, *false positives*), es decir, los casos que el modelo predijo como positivos pero que en realidad son negativos.
+
+Su utilidad es...
 
 #### Cobertura {.unnumbered .unlisted}
 
-**Cobertura (Recall):** Es la fracción de los datos de referencia que han sido propuestas y extraídas correctamente por el modelo evaluado. Se calcula como Verdaderos Positivos / (Verdaderos Positivos + Falsos Negativos).
+La **cobertura** o **exhaustividad** (en inglés, *recall*) es la fracción de los datos de referencia que han sido propuestas y extraídas correctamente por el modelo evaluado. Se calcula como:
 
-En los apuntes se desarrolla y viene una fórmula.
+$$ r = \frac{tp}{tp + fn} $$
+
+donde:
+
+* $tp$ son los **verdaderos positivos** (en inglés, *true positives*), es decir, los casos que el modelo predijo correctamente como positivos.
+* $fn$ son los **falsos negativos** (en inglés, *false negatives*), es decir, los casos que el modelo predijo como negativos pero que en realidad son positivos.
+
+Su utilidad es...
 
 #### Medida-F {.unnumbered .unlisted}
 
-**Medida-F:** Es la media armónica de precisión y cobertura, empleada cuando ambas métricas se ponderan por igual.
+La **medida-F** es la media armónica de precisión y cobertura, empleada cuando ambas métricas se ponderan por igual. Se calcula como:
 
-En los apuntes se desarrolla y viene una fórmula.
+$$ F = \frac{2 \cdot p \cdot r}{p + r} $$
+
+donde:
+
+* $p$ es la precisión (en inglés, *accuracy*).
+* $r$ es la cobertura (en inglés, *recall*).
+
+Su utilidad es...
 
 #### Medida-Fbeta {.unnumbered .unlisted}
 
-**Medida-Fbeta:** Es una forma general de la media armónica que utiliza el parámetro $\beta$. 
+La **medida-Fbeta** es una forma general de la media armónica que utiliza el parámetro $\beta$. 
 
-En los apuntes se desarrolla y viene una fórmula.
+$$ F_\beta = \frac{(1 + \beta^2) \cdot p \cdot r}{(\beta^2 \cdot p) + r} $$
+
+donde:
+
+* $\beta$ es un parámetro que permite ponderar la importancia relativa de la precisión y la cobertura. Cuando $\beta = 1$, la medida-Fbeta se convierte en la medida-F, que pondera por igual precisión y cobertura. Cuando $\beta > 1$, se da más importancia a la cobertura, mientras que cuando $\beta < 1$, se da más importancia a la precisión.
+
+Su utilidad es 
+
+#### Ejemplo de cálculo de medidas {.unnumbered .unlisted #ejemplo-de-calculo-de-medidas}
+
+Pongamos que se desarrolla un modelo que evalúa si un reseña es negativa o no. Después de aplicar el modelo sobre un conjunto de datos de prueba etiquetados, se obtienen los siguientes resultados:
+
+* $tp = 5$
+* $fp = 3$
+* $fn = 1$
+
+![Ejemplo de predicción de modelo frente a datos de prueba etiquetados](images/medidas.png)
+
+En la figura no están representados los verdaderos negativos ($tn$) ya que no se utilizan para calcular las medidas de evaluación, pero estos serían aquellos valores que quedan fuera tanto de la detección del modelo como del conjunto de datos etiquetados como reseña negativa.
+
+Se calculan las medidas de evaluación:
+
+$$ p = \frac{5}{5 + 3} = \frac{5}{8} = 0.625 $$
+
+$$ r = \frac{5}{5 + 1} = \frac{5}{6} \approx 0.833 $$
+
+$$ f = \frac{2 \cdot 0.625 \cdot 0.833}{0.625 + 0.833} = \frac{1.041}{1.458} \approx 0.714 $$
+
+<!--
+En un caso de filtrado de spam, es más importante recibir correos importantes a coste de recibir algún correo spam (falsos negativos) que bloquear más correo spam a coste de bloquear algún correo importante (falsos positivos). Por tanto, para este caso se da más importancia a la precisión que a la cobertura, y por ello se escoge un valor $\beta$ por debajo de 1 a hora de calcular la medida-Fbeta, concretamente con valor $\beta = 0.5$.
+
+$$ f_\beta = \frac{(1 + 0.5^2) \cdot 0.625 \cdot 0.833}{(0.5^2 \cdot 0.625) + 0.833} = \frac{(1 + 0.25) \cdot 0.625 \cdot 0.833}{(0.25 \cdot 0.625) + 0.833} = \frac{1.25 \cdot 0.625 \cdot 0.833}{0.15625 + 0.833} = \frac{0.6515625}{0.98925} \approx 0.658 $$
+-->
+
+En un caso de identificación de reseñas negativas, es más importante identificar todas las reseñas negativas a coste de tener que revisar alguna positiva (falsos positivos) que ahorrarse el revisar algunas reseñas positivas a coste de perderse reseñas negativas (falsos negativos). Por tanto, para este caso se da más importancia a la precisión que a la cobertura, y por ello se escoge un valor $\beta$ por encima de 1 a hora de calcular la medida-Fbeta, concretamente con valor $\beta = 1.5$.
+
+$$ f_\beta = \frac{(1 + 1.5^2) \cdot 0.625 \cdot 0.833}{(1.5^2 \cdot 0.625) + 0.833} = \frac{(1 + 2.25) \cdot 0.625 \cdot 0.833}{(2.25 \cdot 0.625) + 0.833} = \frac{3.25 \cdot 0.625 \cdot 0.833}{1.40625 + 0.833} = \frac{1.69015625}{2.23925} \approx 0.755 $$
 
 ## Baseline
 
@@ -140,15 +197,31 @@ Posibles uso del análisis de errores:
 - Mejorar los modelos
 - Desarrollar nuevas soluciones
 
+### Matriz de confusión {.unnumbered .unlisted}
+
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
 [2024F2.3](../exam/2024f2/2024f2.md#ex.2024f2.3), [2026SO.5](../exam/2026so/2026so.md#ex.2024so.5)
 :::
 
-Una **matriz de confusión** o **tablas de contigencia** es...
+Una **matriz de confusión** o **tabla de contigencia** es una tabla que permite evaluar el rendimiento de un modelo de clasificación. Para un problema con $N$ clases, se representa mediante una matriz de dimensiones $N \times N$, en la que cada celda $(x,y)$ indica cuántos elementos cuya clase real es $x$ han sido clasificados por el modelo como pertenecientes a la clase $y$.
 
-La matriz de confusión se emplean para el análisis de errores.
+La matriz de confusión puede mostrar valores absolutos o porcentajes. Se emplea habitualmente el análisis de errores.
+
+Se aplica a continuación la matriz de confusión para el [ejemplo presentado de cálculo de medidas](#ejemplo-de-calculo-de-medidas):
+ 
++---------------------------+--------------------------------+
+|                           |          Valor real            |
+|                           +----------------+---------------+
+|                           |  Positivo (+)  | Negativo (-)  |
++============+==============+================+===============+
+| Predicción | Positivo (+) | tp = 10        | fp = 4        |
+|            +--------------+----------------+---------------+
+|            | Negativo (-) | fn = 2         | tn = X        |
++------------+--------------+----------------+---------------+
+
+<!-- Hay otro ejemplo de clasificación multiclase en la diapositiva, que conviene añadir porque traspone los valores correctos a la izquierda y los valores predichos a la derecha -->
 
 ## Herramientas
 
@@ -160,15 +233,29 @@ Las principales herramientas para el PLN son:
 - Treetager
 - Freeling
 
-Solo las dos primeras se tratan en la asignatura
+Solo las dos primeras, ambas basadas en el lenguaje Python, se tratan en la asignatura
+
+::: {.callout-tip collapse="false"}
+## Consejo de estudio
+
+No se pide usar las herramientas para contestar a preguntas del exámen, pero sí para completar las prácticas de la asignatura. Se recomienda por tanto centrar el estudio en aquella/s herramienta/s que se pida emplear en el enunciado de las prácticas.
+
+En las prácticas del curso 2026/2027 solo se pidió trabajar con spaCy.
+:::
 
 ### NTLK
 
-**Natural Language Toolkit** (**NLTK**) es una biblioteca Python.
+**Natural Language Toolkit** (**NLTK**) es una biblioteca Python de código abierto para el PLN empleada principalmente con fines educativos.
+
+Los creadores de NLTK escribieron el libro de @bird_nltk_book, dedicado a la versión Python 2, y lo actualizaron a Python 3 en la versión web de @bird2009natural.
+
+[Página oficial de NLTK](https://www.nltk.org/)
 
 ### spaCy
 
-**spaCy** es una biblioteca Python.
+**spaCy** es una biblioteca Python de código abierto para el PLN empleada con fines productivos y educativos.
+
+[Página oficial de spaCy](https://spacy.io/)
 
 ## Introducción al procesamiento del lenguaje natural
 
@@ -253,18 +340,32 @@ La **distancia de edición** (en inglés, *edit distance*)...
 :::
 
 ### spaCy: palabras vacías
+
 ## Segmentación de palabras
+
 ## Segmentación (tokenización) de oraciones
 
 ##  Análisis morfológico
+
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema1_pres]. Apartado "Análisis morfológico".
+* Complementario
+  * [@jurafsky2009speech2]. Introducción del capítulo 19 "Lexical Semantics".
+  * [@jurafsky2026speech3]. Apartado 5.1 "Lexical Semantics".
+:::
 
 El **lema** (en inglés, *lemma*), **forma canónica** o **forma base** de una palabra es la raíz (en inglés, *stem*) que representa su significado fundamental. Por ejemplo, el lema de "corriendo" es "correr", y el lema de "mejores" es "bueno".
 
 ## Lematización y stemming {.unnumbered .unlisted}
 
-::: {.callout-note collapse="false"}
+::: {.callout-note collapse="true"}
 ## 📖Material asociado
-* [@manning2008stemming]
+* Básico
+  * [@nlp_tema1_pres]. Apartado "Lematización y stemming".
+* Complementario
+  * [@manning2008stemming]
 :::
 
 En este apartado se aclaran los conceptos de stemming y lematización.
@@ -417,11 +518,11 @@ for token in doc:
 
 ## Desambiguación del sentido de las palabras {#desambiguacion-del-sentido-de-las-palabras}
 
-::: {.callout-note collapse="false"}
+::: {.callout-note collapse="true"}
 ## 📖Material asociado
 * [@nlp_tema1_pres]
-* [@jurafsky2009speech2]. Apartado 9.3.1 "Contextual Embeddings and Word Sense" y 22.4.3 "Other Methods" (Word Senses and Wordnet)
-* [@jurafsky2026speech3] Capítulo 19 "Lexical Semantics" (Word Senses and Wordnet).
+* [@jurafsky2009speech2]. Apartado capítulo 20 "Computational Lexical Semantics". (Word Senses and Wordnet).
+* [@jurafsky2026speech3] Apartado 10.1.1 "Contextual Embeddings and Word Sense" y Capítulo 23 "Lexicons for Sentiment, Affect, and Connotation" (Word Senses and Wordnet).
 :::
 
 Las palabras pueden tener múltiples significados, y el significado correcto depende del contexto en el que se utilicen. Por ejemplo, en estas frases se emplean distintos significados de la palabra "planta":
@@ -462,6 +563,14 @@ Las técnicas o métodos de WSD se clasifican en las siguientes categorías:
 - *Métodos no supervisados*: basados en la idea de que las palabras con significados similares tienden a aparecer en contextos similares. Requiere trabajar con corpus no anotados y emplear técnicas de agrupamiento para identificar los sentidos de las palabras.
 
 ### Relación entre sentidos {.unnumbered .unlisted}
+
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema1_pres]. Apartado "Desambiguación del sentido de las palabras"
+* Complementario
+  * [@jurafsky2009speech2]. Apartado 9.3.1 "Hyponymy and Other Word Relations".
+:::
 
 Los sentidos de las palabras pueden estar relacionados entre sí de diversas maneras, como por ejemplo:
 
@@ -504,6 +613,14 @@ Los **glosses** son pequeñas descripciones que ayudan a comprender el significa
 En la asignatura, la WSD basada en diccionarios y bases de conocimiento léxico se centra en el algoritmo de Lesk.
 
 #### WSD: algoritmo de Lesk {#wsd-algoritmo-de-lesk}
+
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema1_pres]
+* Complementario
+  * [@jurafsky2009speech2]. Apartado 20.4.1 "The Lesk Algorithm"
+:::
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen

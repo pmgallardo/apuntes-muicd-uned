@@ -59,8 +59,8 @@ SPDX-License-Identifier: CC-BY-4.0
     * Aprendizaje automático
     * Codificación de las clases
     * Rasgos típico clasificador
-    * NER en NTLK
-    * NER en Spacy
+    * NER en NLTK
+    * NER en spaCy
     * Evaluación
     * Deep Learning
     * Transformers
