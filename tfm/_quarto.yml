@@ -6,6 +6,10 @@ project:
   type: book
   output-dir: _book
 
+execute:
+  # Evita recargar una página si no hay cambios en código
+  freeze: auto
+
 book:
   title: "Trabajo fin de máster"
   subtitle: "Guía de estudio de la asignatura del MUICD de la UNED"
