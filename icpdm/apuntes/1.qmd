@@ -192,7 +192,7 @@ Para la PEC 1 se mencionan adicionalmente @apache_hadoop, @hadooptutorials y @hu
 ::: {.callout-note collapse="true"}
 ## 🎯Pregunta de exámen
 
-[2020F2.2](../exam/2020f2/ex_2020f2.md#ex-2020f2-2), [2020F2.3](../exam/2020f2/ex_2020f2.md#ex-2020f2-3), [2020F2.4](../exam/2020f2/ex_2020f2.md#ex-2020f2-4), [2020F2.5](../exam/2020f2/ex_2020f2.md#ex-2020f2-2)
+[2020F2.2](../exam/2020f2/ex_2020f2.md#2), [2020F2.3](../exam/2020f2/ex_2020f2.md#3), [2020F2.4](../exam/2020f2/ex_2020f2.md#4), [2020F2.5](../exam/2020f2/ex_2020f2.md#2)
 :::
 
 ### Lección 3: Yarn: Gestión de recursos {#yarn-gestion-de-recursos}
@@ -200,7 +200,7 @@ Para la PEC 1 se mencionan adicionalmente @apache_hadoop, @hadooptutorials y @hu
 ::: {.callout-note collapse="true"}
 ## 🎯Pregunta de exámen
 
-[2020F2.1](../exam/2020f2/ex_2020f2.md#ex-2020f2-1)
+[2020F2.1](../exam/2020f2/ex_2020f2.md#1)
 :::
 
 ## Tema 3: Programación MapReduce
@@ -228,7 +228,7 @@ Apache Pig en un momento dado estaba dentro del temario, pero ha quedado fuera.
 ::: {.callout-note collapse="true"}
 ## 🎯Pregunta de exámen
 
-[2020F2.6](../exam/2020f2/ex_2020f2.html#ex-2020f2-6)
+[2020F2.6](../exam/2020f2/2020f2.md#6)
 :::
 
 ### Lección 2: Programación MapReduce con lenguajes de alto nivel: Hive {#programacion-mapreduce-con-lenguajes-de-alto-nivel}
@@ -236,7 +236,7 @@ Apache Pig en un momento dado estaba dentro del temario, pero ha quedado fuera.
 ::: {.callout-note collapse="true"}
 ## 🎯Pregunta de exámen
 
-[2020F2.7](../exam/2020f2/ex_2020f2.html#ex-2020f2-7)
+[2020F2.7](../exam/2020f2/2020f2.md#7)
 :::
 
 ## Tema 4: Herramientas de serialización/deserialización e inyección/extracción de datos
