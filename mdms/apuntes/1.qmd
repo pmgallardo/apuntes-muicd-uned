@@ -75,7 +75,7 @@ El **engaño de la eliminación del ruido** se refiere a las complejidades de la
 
 ### Dilema de la evaluación
 
-::: {.callout-note collapse="true"}
+::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 `EXAM=(2023SO.C.1)`
 :::

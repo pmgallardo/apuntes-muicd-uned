@@ -14,10 +14,12 @@ La estructura de este tema trata de seguir la organización propuesta en el mapa
 
 ## 2.1. Introducción al análisis y a la visualización de redes sociales estáticas y dinámicas
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 1 "Introducción"
+:::
 
 ## 2.2. Conceptos básicos de grafos
 
@@ -25,13 +27,13 @@ Bibliografía:
 
 #### Grafo
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 2 "Conceptos básicos de grafos"
+:::
 
-\
 Un **grafo** es una estructura formada por un conjunto de **nodos** o **vértices** y por las **aristas** que representan las conexiones entre ellos. Se denota como $G = (V, E)$, donde $V = {v_1, v_2, ..., v_n}$ es el conjunto de nodos y $E = {e_1, e_2, ..., e_m}$ es el conjunto de aristas. En una red social, los nodos pueden representar usuarios y las aristas, relaciones o interacciones entre ellos.
 
 Una arista conecta dos nodos. Si el grafo es **no dirigido**, la conexión no tiene orientación, de forma que la arista entre $v_i$ y $v_j$ es la misma que la arista entre $v_j$ y $v_i$. Si el grafo es **dirigido**, la conexión tiene un origen y un destino: una arista de $v_i$ a $v_j$ no equivale necesariamente a una arista de $v_j$ a $v_i$, y se representa mediante una flecha. Por ejemplo, una amistad recíproca puede modelarse mediante un grafo no dirigido, mientras que seguir o responder a otro usuario puede modelarse mediante un grafo dirigido.
@@ -49,13 +51,13 @@ Una arista conecta dos nodos. Si el grafo es **no dirigido**, la conexión no ti
 
 El **grado** (*degree*) o **valencia** (*valency*) de un nodo es el número de aristas incidentes en él. En grafos dirigidos se distingue entre el **grado de entrada**, que cuenta los enlaces que recibe el nodo, y el **grado de salida**, que cuenta los enlaces que parten de él. En una red social, el grado de entrada puede asociarse con popularidad o prestigio, mientras que el grado de salida puede interpretarse como actividad o sociabilidad.
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] 4.2.8. "Average degree"
+:::
 
-\
 El **grado medio** (*average degree*) mide el número medio de conexiones que tienen los nodos de una red y proporciona una medida general de su conectividad.
 
 En una red estática, se calcula como la media de los grados de todos sus nodos:
@@ -66,13 +68,13 @@ $$
 
 En una red dinámica, el grado medio puede calcularse para cada instante temporal y promediarse después a lo largo del tiempo. Así, la medida refleja cuántas conexiones presentan, en promedio, los nodos durante la evolución de la red.
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 2 "Conceptos básicos de grafos"
+:::
 
-\
 La **distribución de grado** $P(d)$ indica la probabilidad de que un nodo elegido al azar tenga un determinado grado $d$. Si $N(d)$ es el número de nodos con grado $d$ y $n$ es el número total de nodos del grafo, entonces:
 
 $$
@@ -85,14 +87,17 @@ Como se trata de una distribución de probabilidad, la suma de $P(d)$ para todos
 
 #### Propiedades de la representación de grafos
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
-- Básica
+- Básico
   - [RSICB] Apartado 1 "Introducción"
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2024SO.C.2)`
+:::
 
 Propiedades de un formato para que la representación de grafos sea efectiva:
 
@@ -102,13 +107,13 @@ Propiedades de un formato para que la representación de grafos sea efectiva:
 
 #### Tipos de representación de grafos
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Tipos de representación de grafos:
 
 - Matriz de adyacencia
@@ -117,15 +122,17 @@ Tipos de representación de grafos:
 
 ##### Matriz de adyacencia
 
-\
-Bibliografía:
-
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
   - [SNATA] (Wikipedia). "Adjacency matrix". Págs. 93-95.
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=[2022J2.C.3,2025SO.C.1]`
+:::
 
 Una **matriz de adyacencia** es un método para representar qué vértices de un grafo están unidos a otros vértices.
 
@@ -139,34 +146,32 @@ En [RSICB] se denomina incorrectamente como matriz de proximidad, si bien en los
 
 ##### Lista de adyacencia
 
-\
-Bibliografía:
-
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 En una **lista de adyacencia** se almacena para cada nodo la lista de nodos con los que está conectado. Esta representación resulta especialmente útil en redes dispersas, donde existen pocas aristas en comparación con todas las conexiones posibles, porque evita almacenar gran cantidad de ceros.
 
 ##### Lista de aristas
 
-\
-Bibliografía:
-
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Una **lista de aristas** almacena directamente cada enlace del grafo como un par de nodos, por ejemplo $(v_i, v_j)$. Es una representación sencilla y compacta para redes dispersas, aunque, si se utiliza por sí sola, no recoge los nodos aislados, ya que estos no participan en ninguna arista.
 
 ### Tipos de grafos
 
-Bibliografía:
-
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Tipos de grafos:
 
 - Grafo nulo
@@ -178,15 +183,19 @@ Tipos de grafos:
 
 #### Grafo nulo
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2025J2.C.3)`
+:::
 
 Un **grafo nulo** es un grafo sin nodos y, en consecuencia, sin aristas. Formalmente, $V = \varnothing$ y $E = \varnothing$.
 
 #### Grafo vacío
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2025J2.C.3)`
+:::
 
 Un **grafo vacío** es un grafo que puede contener nodos, pero no presenta ninguna conexión entre ellos. Formalmente, $E = \varnothing$. Por tanto, todo grafo nulo es vacío, pero un grafo vacío no tiene por qué ser nulo.
 
@@ -241,109 +250,109 @@ Definiciones relacionadas con grafos:
 
 #### Nodos próximos
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Se denominan **nodos próximos**, **nodos adyacentes** o **nodos vecinos** al par de nodos con una arista que los conecta directamente.
 
 #### Aristas incidentes
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Se denominan **aristas incidentes** al par de aristas que comparten al menos uno de sus nodos extremos.
 
 #### Camino
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Un **camino** (en inglés, *walk*) es una secuencia de nodos y aristas consecutivas que permite desplazarse de un nodo inicial a otro final. En un camino pueden repetirse nodos o aristas. Es **abierto** si comienza y termina en nodos distintos, y **cerrado** si termina en el mismo nodo en el que comienza.
 
 Una **longitud de un camino** es el número de aristas recorridas en dicho camino.
 
 #### Sendero
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Un **sendero** (en inglés, *trail*) es un camino en el que ninguna arista se recorre más de una vez. Si comienza y termina en el mismo nodo, se denomina **circuito**.
 
 #### Trayectoria
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Una **trayectoria** (en inglés, *path*) es un camino en el que no se repite ningún nodo y, por tanto, tampoco ninguna arista.
 
 #### Ciclo
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Un **ciclo** es una trayectoria cerrada, es decir, un recorrido que comienza y termina en el mismo nodo sin repetir ningún otro nodo ni ninguna arista.
 
 La **longitud de un ciclo** es el número de aristas que lo forman.
 
 #### Nodos conectados
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Se denominan **nodos conectados** a un par de nodos cuando existe una trayectoria que permite llegar de uno al otro.
 
 Si están unidos directamente por una arista, además de conectados, son próximos o adyacentes.
 
 #### Grafo conectado
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Un **grafo conectado** es un grafo no dirigido está conectado cuando existe una trayectoria entre cualquier par de nodos.
 
 Si algún par de nodos no puede comunicarse mediante una trayectoria, el grafo está desconectado.
 
 #### Grafo denso
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Un **grafo denso** es aquel que contiene una gran cantidad de aristas en relación con el número máximo de conexiones posibles entre sus nodos.
 
 Un **grafo disperso** es aquel en el que solo existe una pequeña parte de las conexiones posibles.
@@ -352,13 +361,13 @@ Ambas definiciones están relacionadas con la métrica de la densidad.
 
 #### Componente conectado
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Un **componente conectado**: es un subgrafo maximal en el que existe una trayectoria entre cualquier pareja de nodos. Es maximal porque si se añade otro nodo del grafo se pierde esta propiedad.
 
 Tipos de componentes conectados en grafos dirigidos:
@@ -368,13 +377,13 @@ Tipos de componentes conectados en grafos dirigidos:
 
 #### Trayectoria más corta
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 Entre dos nodos conectados pueden existir varias trayectorias.
 
 La **trayectoria más corta** es aquella que recorre el menor número de aristas.
@@ -383,45 +392,48 @@ La **distancia** entre dos nodos es la longitud de la trayectoria más corta.
 
 #### Diámetro
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
+:::
 
-\
 El **diámetro** de una red es la mayor distancia mínima entre dos nodos cualesquiera de la red. Es decir, se calculan los caminos más cortos entre todos los pares de nodos y se toma el valor máximo.
 
 #### Puente global
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB]. Apartado 2 "Conceptos básicos de los grafos".
   - [SNATA] Apartado "Metrics (measures) in social network analysis" en entrada "Social Network". Pág. 6.
 - Complementaria
   - [SMMI] 2.5.7 "Bridges". Págs. 49.
+:::
 
-\
 En un grafo con varios componentes conectados, una **arista puente**, **puente** (en inglés, *bridge*) o **puente global** es una arista cuya eliminación provoca que la red quede más fragmentada, es decir, que aumente el número de componentes conectados del grafo.
 
 En otras palabras, actúa como la única conexión entre dos zonas que antes podían comunicarse; si desaparece, ya no existe ningún camino alternativo entre ellas.
 
 ## 2.3. Métricas básicas de grafos
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red"
+:::
 
-\
 Este apartado se solapa parcialmente con "Medidas elementales de la red", también en este tema.
 
 Las métricas revisadas en este apartado son de grafos, aunque tienen aplicación directa en redes y medios sociales.
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2024J2.P.1.2, 2024SO.P.1, 2026J2.P.1.2)`
+:::
 
 Medidas básicas de grafos:
 
@@ -444,16 +456,20 @@ Medidas básicas de grafos:
 
 ### Centralidad )
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red"
   - [SNATA] "Centrality".
 Complementaria
   - [SMMI] 3.1 "Centrality". Págs. 52-64.
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2023SO.C.2)`
+:::
 
 La **centralidad** (en inglés, *centrality*) expresa la importancia relativa que ocupa un nodo dentro de una red.
 
@@ -472,8 +488,8 @@ La centralidad de Katz ([SMMI 3.1.3) y la centralidad armónica también aparece
 
 #### Centralidad de grado )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red".
@@ -481,8 +497,8 @@ Bibliografía:
   - [SNATA] Apartado "Metrics (measures) in social network analysis" en entrada "Social Network". Pág. 6.
 - Complementaria
   - [SMMI] 3.1.1 "Degree Centrality". Págs. 74-75.
+:::
 
-\
 La **centralidad de grado** mide la importancia de un nodo a partir del número de enlaces que mantiene con otros nodos.
 
 En un grafo no dirigido, un nodo será más central cuanto mayor sea su número de conexiones directas.
@@ -493,8 +509,8 @@ Para comparar la centralidad de grado de nodos pertenecientes a redes de distint
 
 #### Centralidad de cercanía )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red".
@@ -504,16 +520,16 @@ Bibliografía:
   - [SNATA] Apartado "Metrics (measures) in social network analysis" en entrada "Social Network". Pág. 6.
 - Complementaria
   - [SMMI] 3.1.6 "Closeness Centrality". Págs. 84-85
+:::
 
-\
 La **centralidad de cercanía** (en inglés, *closeness centrality*), también más simplemente conocida como **cercanía** (en inglés, *closeness*), mide la facilidad con la que un nodo puede alcanzar al resto de nodos de la red. Se basa en la longitud media de los caminos más cortos que lo separan de los demás: cuanto menores sean esas distancias, mayor será su cercanía. Por ello, un nodo con alta cercanía está bien situado para acceder rápidamente a información o difundirla al conjunto de la red.
 
 En redes dinámicas, la cercanía de centralidad puede calcularse teniendo en cuenta los caminos temporales, es decir, recorridos que respetan el orden en que se producen los enlaces o interacciones. Por ejemplo, el recorrido $A \rightarrow B \rightarrow C$ únicamente permite que $A$ alcance a $C$ si el enlace de $A$ con $B$ ocurre antes que el de $B$ con $C$.
 
 #### Centralidad de intermediación )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red"
@@ -522,56 +538,59 @@ Bibliografía:
   - [SNATA] Apartado "Metrics (measures) in social network analysis" en entrada "Social Network"
 - Complementaria
   - [SMMI] 3.1.5 "Betweenness Centrality". Págs. 82-84.
+:::
 
-\
 La **centralidad de intermediación** (en inglés, *betwenness centrality*), a veces llamada **intermediación** (en inglés, *betwenness*), mide la importancia de un nodo como puente entre otros nodos de la red. Se calcula considerando los caminos más cortos entre cada par de nodos y determinando qué proporción de esos caminos pasa por el nodo analizado. Por tanto, un nodo tendrá alta intermediación cuando conecte distintas zonas de la red con frecuencia, pudiendo facilitar, controlar o interrumpir el flujo de información.
 
 No debe confundirse la **distancia** con la **intermediación**: la distancia entre dos nodos es la longitud de su camino más corto, mientras que la intermediación de un nodo indica cuántos caminos más cortos entre otros pares pasan por él.
 
 #### Centralidad del vector propio )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red"
   - [ENSNAMT], "4.1.4. Eigenvector centrality"
   - [SNATA] Apartado "Eigenvector centraly" en entrada "Centrality". Pág. 50.
   - [SNATA] Apartado "Metrics (measures) in social network analysis" en entrada "Social Network". Pág. 6
+:::
 
-\
 **Centralidad del vector propio** (en inglés, *eigenvector centrality*) mide la importancia de un nodo teniendo en cuenta no solo cuántos enlaces posee, sino también la importancia de los nodos con los que está conectado. Así, una conexión con un nodo muy central aporta más puntuación que una conexión con un nodo poco relevante.
 
 Por ejemplo, un periodista tendrá mayor centralidad si se relaciona con otros periodistas o fuentes influyentes que si mantiene el mismo número de contactos con usuarios periféricos. Esta medida permite identificar nodos especialmente bien situados para acceder o difundir información.
 
 #### PageRank )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red"
 - Complementario
   - [ENSNAMT] 5.1 "Incremental PageRank algorithm"
+:::
 
-\
 **PageRank** es una medida de centralidad para grafos dirigidos que considera importante a un nodo cuando recibe enlaces de otros nodos importantes. A diferencia de la centralidad del vector propio, la relevancia transmitida por cada nodo se reparte entre sus aristas salientes: así, un nodo enlazado por una autoridad recibe solo una fracción de su importancia, y no todos sus vecinos pasan a ser automáticamente relevantes.
 
 Esta métrica fue originalmente desarrollada junto con el motor de búsqueda Google para ordenar páginas web en función de la importancia de los enlaces que reciben.
 
 #### HITS )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red"
 - Complementaria
   - [Algoritmo HITS](https://es.wikipedia.org/wiki/Algoritmo_HITS). Wikipedia.
   - [SMMI] Apartado 3.6 "Bibliographic notes". Págs. 77-78.
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2023J2.C.2, 2026JR.C.2)`
+:::
 
 **HITS** (acrónimo del inglés *Hypertext-Induced Topic Search*), también conocido como **concentradores y autoridades** (*hubs and authorities*), es un algoritmo de análisis de enlaces para grafos dirigidos que asigna a cada nodo dos puntuaciones relacionadas entre sí:
 
@@ -600,19 +619,23 @@ Un **círculo social**, según @rodriguez_rsicb, es un grupo donde cada miembro 
 
 Un grupo bien cohesionado deberá presentar interacciones entre todos sus miembros y, además, niveles semejantes de actividad y relevancia dentro de la red.
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2023SO.P.1)`
+:::
 
 Un grupo bien cohesionado debe cumplir dos condiciones: que todos sus miembros se hayan comunicado con todos los demás y que presenten niveles semejantes de actividad y relevancia. La primera condición puede comprobarse mediante los enlaces internos del grupo o su densidad; la segunda, comparando métricas como el grado de salida para la actividad y el grado de entrada para la relevancia.
 
 ### Densidad
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 6.
   - [ENSNAMT], 4.2.10 "Density". Pág. 117.
+:::
 
-\
 La **densidad** (en ingés, *density*) mide el nivel general de conexión de una red. Se calcula como la proporción entre el número de aristas existentes y el número máximo de aristas que podrían existir.
 
 En un grafo no dirigido con $n$ nodos y $m$ aristas:
@@ -631,75 +654,81 @@ Su valor es $0$ cuando no existen enlaces y $1$ cuando todos los enlaces posible
 
 ### Puente local
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 6.
   - [SNATA] Apartado "Metrics (measures) in social network analysis" en entrada "Social Network". Pág. 6.
+:::
 
-\
 Un **arista puente local**, también simplemente conocido como **puente local**, es una arista cuyos nodos extremos no comparten ningún vecino común. Por ello, dicha arista no forma parte de ningún triángulo.
 
 A diferencia de un puente global, su eliminación no tiene por qué desconectar la red, ya que sus extremos podrían seguir conectados mediante un camino alternativo más largo.
 
 ### Longitud de la trayectoria
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 7.
+:::
 
-\
 La **longitud de una trayectoria** es el número de aristas que se recorren desde el nodo inicial hasta el nodo final. Cuando se considera la trayectoria más corta entre dos nodos, su longitud recibe el nombre de **distancia** o **distancia geodésica**. La longitud media de las trayectorias más cortas de una red permite estimar lo próximos que se encuentran, en promedio, sus nodos.
 
 ### Prestigio
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 7.
   - [SMMI] 3.1.1. "Degree Centrality"
+:::
 
-\
 El **prestigio** (en inglés, *prominence* o *prestige*) describe la importancia de un nodo en una red dirigida cuando recibir enlaces puede interpretarse como reconocimiento, popularidad o estatus. Por ejemplo, en una red de seguimiento, un usuario que recibe muchos enlaces puede considerarse prestigioso. Puede medirse mediante el grado de entrada u otras medidas más elaboradas de centralidad.
 
 Según [RSICB], es sinónimo a centralidad.
 
 ### Radialidad
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 7.
   - [SNATA] Entrada "Radiality" en apartado "Metrics (measures) in social network analysis" en entrada "Social Network". Pág. 7.
+:::
 
-\
 La **radialidad** (en inglés, *radiality*) expresa hasta qué punto la red personal de un usuario se extiende hacia zonas diferentes de la red general, facilitándole el acceso a información nueva y la posibilidad de difundir influencia más allá de su entorno inmediato.
 
 ### Alcance
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 7.
   - [SNATA] Entrada "Reach" en apartado "Metrics (measures) in social network analysis" en entrada "Social Network". Pág. 7.
+:::
 
-\
 El **alcance** (en inglés, *reach*) mide la capacidad de de un nodo de alcanzar otros nodos de la red mediante trayectorias.
 
 Un nodo conectado con gran parte de la red tendrá un alcance elevado; un nodo aislado, que no puede llegar a ningún otro, tendrá alcance nulo.
 
 ### Cohesión estructural
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 7.
 - Complementaria
   - [SNATA] "Structural cohesion". Págs. 60-61.
   - [Cohesive.blocking](https://web.archive.org/web/20191119081834/http://intersci.ss.uci.edu/wiki/index.php/Cohesive_blocking)
+:::
 
-\
 La **cohesión estructural** mide la resistencia de un grupo a quedar fragmentado. Se define como el número mínimo de nodos cuya eliminación desconectaría el grupo. Así, un grupo tiene mayor cohesión estructural cuanto más difícil sea dividirlo eliminando miembros.
 
 Un **bloque estructuralmente cohesivo** (en inglés, *structurally cohesive block*) de nivel $k$, también llamado **componente-$k$**, es un subgrupo maximal (es decir, el grupo con mayor tamaño posible) que permanece conectado aunque se eliminen menos de $k$ nodos.
@@ -708,37 +737,40 @@ De forma equivalente, por el teorema de Menger, entre cada pareja de nodos del s
 
 ### Agujero estructural
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 7.
+:::
 
-\
 Un **agujero estructural** es la ausencia de conexión entre dos nodos o grupos que forman parte del entorno de un mismo nodo. El nodo que conecta esas zonas separadas ocupa una posición de intermediación o *brokerage*, ya que puede facilitar, filtrar o controlar la información que circula entre ellas.
 
 Por tanto, el agujero estructural no aparece únicamente cuando se elimina un nodo: ya existe mientras haya grupos desconectados conectados indirectamente a través de un intermediario.
 
 ### Transitividad
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 7.
   - [SMMI] Apartado 3.2.1. "Transitivity". Págs. 87-91.
+:::
 
-\
 La **transitividad** (en inglés, *transitivity*) expresa la tendencia a que una secuencia de relaciones entre tres nodos se cierre mediante una tercera relación. En un grafo no dirigido, si un nodo está conectado con otros dos, existe transitividad cuando estos dos nodos también están conectados entre sí, formando un triángulo. Intuitivamente, responde a la idea de que «los amigos de mis amigos tienden a ser mis amigos».
 
 ### Coeficiente global de agrupamiento
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 7.
   - [ENSNAMT] 4.2.11 "Global clustering coefficient". Pág. 117.
   - [SMMI] Subapartado "Clustering Coefficient" en apartado 3.2.1. "Transitivity". Págs. 88-90 (PDF).
+:::
 
-\
 El **coeficiente global de agrupamiento** (en inglés, *global clustering coefficient*), a veces referido simplemente como **coeficiente de agrupamiento** (en inglés, *clustering coefficient*) mide la transitividad del conjunto de una red no dirigida.
 
 Según la definición utilizada en [SMMI], se calcula como la proporción de trayectorias de longitud $2$ que están cerradas, es decir, que forman parte de un triángulo:
@@ -752,7 +784,8 @@ Un valor elevado indica que, en la red, es frecuente que los vecinos de un nodo 
 
 ### Coeficiente de agrupamiento local
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Págs. 6-7
@@ -760,8 +793,8 @@ Bibliografía:
 - Complementaria
   - [SMMI] Subapartado "Local clustering coefficient" en apartado 3.2.1. "Transitivity". Págs. 90-91.
   - [SMMI] Apartado 4.1.2 "Clustering coefficient". Pág. 109.
+:::
 
-\
 El **coeficiente local de agrupamiento local**, **coeficiente de clustering local** (en inglés, *local clustering coefficient*) mide hasta qué punto los vecinos de un nodo están conectados entre sí. Se emplea como indicador de transitividad alrededor de un nodo concreto.
 
 $$
@@ -780,28 +813,33 @@ En un grafo no dirigido, su valor es máximo, $1$, cuando todos los vecinos del 
 
 ### Reciprocidad
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 8.
   - [ENSNAMT], 4.2.9. "Reciprocity"
   - [SMMI] 3.2.2 "Reciprocity". Pág. 91-92.
+:::
 
-\
 La **reciprocidad** (en inglés, *reciprocity*) es una medida propia de grafos dirigidos que indica la tendencia a que una relación dirigida sea correspondida. Existe reciprocidad entre dos nodos cuando, si $v_i$ enlaza a $v_j$, también $v_j$ enlaza a $v_i$. Por ejemplo, en una red de seguimiento, dos usuarios presentan reciprocidad si ambos se siguen mutuamente. Una red con reciprocidad elevada contiene una gran proporción de relaciones bidireccionales.
 
 Se puede considerar a la reciprocidad una versión simplificada de transitividad, empleando dos nodos en lugar de tres. Ambas son medidas del comportamiento de formación de enlaces en una red.
 
 ### Similitud
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Pág. 8.
   - [SMMI] 3.4 "Similarity". Pág. 95-100.
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.P.1.1,2022J2.P.1.2,2025SO.P.1.1,2025SO.P.1.2)`
+:::
 
 La **similitud** mide hasta qué punto dos nodos de una red presentan características, relaciones o comportamientos parecidos. En medios sociales, dos usuarios pueden considerarse similares porque se relacionan con los mismos usuarios, porque desempeñan papeles semejantes dentro de la red o porque generan contenidos parecidos.
 
@@ -814,14 +852,14 @@ Solo la equivalencia estructural es mencionada en [RSICB].
 
 ### Equivalencia estructural
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [RSICB] Apartado 3 "Medidas de la red". Págs. 7-8.
   - [SMMI] 3.4.1 "Structural Equivalence". Págs. 96-98 (PDF).
+:::
 
-\
 La **equivalencia estructural** es un enfoque de la similitud de dos o más nodos referida a la vecindad compartida por todos ellos.
 
 Se dice que dos nodos presentan equivalencia estructural cuando mantienen relaciones con los mismos nodos, o con conjuntos de vecinos muy similares. No es necesario que estén conectados directamente entre sí: lo importante es que ocupen posiciones parecidas por relacionarse con los mismos actores de la red.
@@ -852,12 +890,13 @@ La similitud guarda una fuerte relación con la **teoría de correlación social
 
 ## 2.4. Matemáticas de grafos
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [SNATA]
+:::
 
-\
 Este apartado se incluye ya que se intuye en el mapa conceptual una separación entre conceptos y métricas básicas y los conceptos matemáticos. No obstante, no han entrado en el exámen desarrollos matemáticos, por lo que en estos apuntes no se desarrollan, si bien la mayoría han sido introducidos en apartados anteriores.
 
 De acuerdo a [SNATA], la sección constaría de las siguientes entradas:
@@ -876,22 +915,24 @@ De acuerdo a [SNATA], la sección constaría de las siguientes entradas:
 
 ## 2.5. Definiciones y análisis de grafos
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [SNATA]
+:::
 
-\
 Se mantiene este apartado ya que aparece en el mapa conceptual del tema 2, pero no se desarrolla en estos apuntes ya que se considera que las definiciones ya fueron introducidas y que el análisis de grafos se desarrolla directamente en el apartado de análisis de redes sociales.
 
 ## 2.6. Análisis de redes sociales
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [SNAO]
+:::
 
-\
 El **análisis de redes sociales** (en inglés, *Social Network Analysis*, **SNA**) es el conjunto de métodos que estudia las relaciones entre entidades sociales, más que las entidades de forma aislada.
 
 Una red social se representa normalmente como un grafo, donde los nodos son actores (por ejemplo, personas, grupos u organizaciones) y las aristas representan relaciones o interacciones entre ellos.
@@ -914,26 +955,30 @@ Sugerencia de mapeo de características y métricas, de elaboración propia:
 
 ## 2.7. Egos redes
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2026JR.C.1)`
+:::
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [SNAO] Apartado 3 "Ego Networks"
+:::
 
-\
 Una **ego red** (*ego network*) es la red local construida alrededor de un nodo concreto, llamado **ego**. Los nodos conectados con él se denominan **alters**. Una ego red incluye las relaciones entre el ego y sus alters, pero también las relaciones que existen entre los propios alters. Según el radio considerado, puede incluir solo los vecinos directos del ego (radio 1) o ampliarse a vecinos de vecinos (radio 2). En la práctica, los análisis suelen centrarse en redes de radio 1 o 2.
 
 El análisis de ego-redes permite estudiar la posición local de un actor sin analizar toda la red completa. Es útil cuando la red completa es demasiado grande o cuando interesa analizar la red personal de un usuario. Algunas medidas propias de ego redes estudian si los contactos del ego son redundantes o si conectan con partes distintas de la red. Por ejemplo, un ego cuyos alters no están conectados entre sí puede actuar como puente entre grupos y tener acceso a información más diversa. En cambio, si todos sus alters están muy conectados entre ellos, la red personal es más redundante y el ego dispone de menos oportunidades de intermediación.
 
 ## 2.8. Análisis de enlace (importante)
 
-Bibliografía:
-
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 - Básica
   - [SNAO] Apartado 4 "Link Analysis"
+:::
 
-\
 El **análisis de enlaces** estudia la estructura de conexiones de una red para identificar nodos valiosos, autoritativos o influyentes, y para estimar posibles relaciones futuras. Surgió especialmente en el contexto de la Web, donde las páginas son nodos y los hiperenlaces son aristas, pero sus ideas pueden aplicarse a otras redes sociales o de información.
 
 Dentro de este enfoque destacan los conceptos de **autoridad** y **hub**. Una **autoridad** es un nodo que recibe enlaces de muchos nodos relevantes y se interpreta como una fuente valiosa de información. Un **hub** es un nodo que enlaza a muchas buenas autoridades, actuando como recopilador o punto de acceso a información relevante sobre un tema.
@@ -944,12 +989,13 @@ Este tema se vuelve a ver se revisita más adelante, ahondando en la predicción
 
 ## 2.9. Detección de comunidades (importante) )
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [SNAO] Apartado 5 "Community Detection"
+:::
 
-\
 Este tema ya se introdujo en el tema 1 "Detección de comunidades (básico)". Los subapartados de este apartado se establecen en función de la bibliografía [SNAO].
 
 Las redes sociales suelen presentar estructura de comunidades: zonas de la red donde los nodos están densamente conectados entre sí y tienen menos conexiones con el resto de la red. Estas comunidades también pueden denominarse módulos o clústeres. La idea básica es que los miembros de una comunidad mantienen más relaciones internas que externas.
@@ -984,23 +1030,26 @@ Este método es intuitivo y útil para redes de tamaño moderado, pero puede ser
 
 ### Optimización de modularidad )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [SNAO] 5.3 "Modularity optimization"
 - Complementaria
   - [SMMI] Subapartado "Modular communities" en 6.1.3 "Group-based community detection". Págs. 157-159.
   - [SMMI] 8.1.1. "Measuring Assortatitvity for Nominal Attributes". Págs. 220-222.
+:::
 
-\
 La **modularidad** es una medida utilizada para detectar comunidades en una red. Evalúa si una división de los nodos en grupos presenta más enlaces internos de los que cabría esperar en una red aleatoria con grados semejantes. Por tanto, una partición tendrá modularidad elevada cuando los nodos estén más conectados con los miembros de su propio grupo que con los de otros grupos.
 
 Formar parte del mismo grupo mediante modularidad significa pertenecer a una **comunidad implícita**, que tal y como se vió en el apartado "Detección de comunidades (básico)" del tema 1 es un conjunto de usuarios identificado a partir de sus interacciones, aunque estos no hayan declarado formar una comunidad ni sean necesariamente conscientes de ella.
 
 La **optimización de modularidad** busca la partición de la red que maximiza la modularidad. Una modularidad elevada indica que hay más enlaces dentro de los grupos de los que cabría esperar por azar y menos enlaces entre comunidades.
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2025SO.C.2, 2026JR.C.3)`
+:::
 
 La teoría social más apropiada para justificar la modularidad es la teoría de correlación social. La homofilia indica que usuarios similares tienden a relacionarse entre sí, mientras que la influencia indica que los usuarios conectados pueden desarrollar comportamientos parecidos. Por ello, una comunidad densamente conectada puede reflejar similitud o influencia entre sus miembros.
 
@@ -1017,12 +1066,13 @@ Este es el primer concepto del tema considerado "avanzado" por los docentes de l
 
 ## 2.10. De lo estático a lo dinámico
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] "3. From static to evolving networks", págs. page_range: 105-109
+:::
 
-\
 Las **redes dinámicas** o **redes evolutivas** (en inglés, *evolving networks*) son aquellas que cambian a lo largo del tiempo.
 
 Se explican a través de los siguientes apartados:
@@ -1034,7 +1084,10 @@ Se explican a través de los siguientes apartados:
 
 ### Modelo de representación temporal
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2026J2.C.1)`
+:::
 
 Formas de representar una red dinámica:
 
@@ -1051,27 +1104,30 @@ El escalado de tiempo de redes dinámicas...
 
 #### Redes de evolución lenta )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] Apartado 3.2. "Timescale of evolving networks"
+:::
 
-\
 Una **red de evolución lenta** (en inglés, *slowly evolving network*) es una red dinámica cuyos nodos y enlaces cambian de forma gradual, en intervalos de tiempo relativamente amplios. Por ejemplo, en una red bibliográfica las nuevas publicaciones y citas pueden incorporarse a lo largo de semanas o meses.
 
 Estas redes pueden analizarse mediante instantáneas o *snapshots*: la evolución temporal se divide en intervalos y, para cada uno, se construye un grafo estático. Así, la red dinámica queda representada como una secuencia de grafos $G_1, G_2, \ldots, G_n$, sobre los que pueden aplicarse métricas tradicionales para observar cómo cambia la red con el tiempo.
 
 #### Redes de transmisión )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] Apartado 3.2. "Timescale of evolving networks"
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2024J2.C.3)`
+:::
 
 Una **red de transmisión** o ***streaming network*** se emplea en situaciones donde hay un flujo constante y sin fin de información, como por ejemplo en redes de correo o de telecomunicaciones. Por ello requiere métodos analíticos en tiempo real.
 
@@ -1083,14 +1139,15 @@ Los **retos** de una red de transmisión son:
 
 ### Estrategias de enventanado de datos de grafos )
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT]
 - Complementaria
   - [SMMI] Apartado 3.3. "Landmark versus sliding windows"
+:::
 
-\
 Tipos de estrategias de enventanado de datos de grafos:
 
 - Ventanas de punto de referencia  
@@ -1100,38 +1157,39 @@ Tipos de estrategias de enventanado de datos de grafos:
 
 #### Ventanas de punto de referencia )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT]
 - Complementaria
   - [SMMI] Apartado 3.3. "Landmark versus sliding windows"
+:::
 
-\
 Las **ventanas de punto de referencia** (en inglés, *landmark windows*) incluyen todos los datos observados desde un instante inicial fijo, denominado punto de referencia, hasta el momento actual. Por tanto, la ventana crece conforme se incorporan nuevas interacciones.
 
 #### Ventanas deslizantes )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT]
 - Complementaria
   - [SMMI] Apartado 3.3. "Landmark versus sliding windows"
+:::
 
-\
 Las **ventanas deslizantes** (en inglés, *sliding windows*) conservan únicamente los datos más recientes y descartan los que quedan fuera de la ventana temporal considerada. Son adecuadas cuando interesa analizar la situación actual de la red y no todo su historial. Pueden ser **solapadas** o **no solapadas**, según compartan o no datos dos ventanas consecutivas.
 
 ### Tipos de análisis de redes dinámicas )
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] Apartado 3.4. "Types of evolving network analysis"
+:::
 
-\
 La elección del método de análisis de redes dinámicas depende de la de la elección del escalado de tiempo de la red y la estrategia para trabajar con datos de red.
 
 Los métodos de análisis de redes dinámicas se dividen entre las siguientes categorías:
@@ -1142,39 +1200,39 @@ Los métodos de análisis de redes dinámicas se dividen entre las siguientes ca
 
 #### Métodos de mantenimiento )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] Apartado 3.4. "Types of evolving network analysis"
+:::
 
-\
 En los **métodos de mantenimiento** (en inglés, *maintenance methods*) es deseable mantener los resultados del proceso de minería de datos a lo largo del tiempo y de manera continua.
 
 Son ejemplos la clasificación y el agrupamiento.
 
 #### Métodos de evolución analítica )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] Apartado 3.4. "Types of evolving network analysis"
+:::
 
-\
 En los **métodos de evolución analítica** (en inglés, *analytical evolution method*) es deseable cuantificar directamente y comprender los cambios que han ocurrido en la red.
 
 Estos modelos están basados en cambios de modelado.
 
 #### Métodos puente )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] Apartado 3.4. "Types of evolving network analysis"
+:::
 
-\
 Los **métodos puente** (en inglés, *bridge methods*) son aquellos en los que se produce un solape de los métodos de mantenimiento y de evolución analítica desde un punto de vista metodológico y en el contexto de algunos problemas clave.
 
 Un ejemplo sería la detección de comunidades.
@@ -1191,12 +1249,13 @@ Ninguna de estas taxonomías o medidas asociadas (salvo las que ya aparecieron e
 
 ### Medidas estadísticas a nivel de nodo )
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT], "4.1."
+:::
 
-\
 Medidas estadísticas a nivel de nodo:
 
 - Grado (*Degree* o *valency*)
@@ -1211,12 +1270,13 @@ El grado, la intermediación, la cercanía y la centralidad de vector propio ya 
 
 ### Medidas estadísticas a nivel de red )
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT], "4.2."
+:::
 
-\
 Medidas estadísticas a nivel de red:
 
 - *Edge bursts*
@@ -1236,13 +1296,12 @@ La reciprocidad y la densidad ya se introdujeron en el apartado de métricas bas
 
 ### Medidas estadísticas a nivel de enlace )
 
-\
-Bibliografía:
-
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 - Básica
   - [ENSNAMT], 5.2.1-5.2.6
+:::
 
-\
 Medidas estadísticas a nivel de enlace:
 
 - Vecinos comunes
@@ -1264,16 +1323,16 @@ $$
 
 #### Coeficiente de Jaccard )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT], 5.2.1-5.2.6
 - Complementario
   - [SMMI] 3.4.1 "Structural equivalence"
   - [SMMI] Subpartado "Node Neighborhood-Based Methods" de apartado "Link Prediction" de 10.1.3 "Individual Behavior Prediction".
+:::
 
-\
 El **coeficiente de Jaccard** (*Jaccard coefficient*), referido como **similitud de Jaccard** (*Jaccard similarity*) en contextos sobre similitud, muestra un valor entre 0 y 1 que es máximo cuanto más similares son dos nodos.
 
 $$
@@ -1295,52 +1354,53 @@ La similitud del coseno no es mencionada en [ENSNAMT], pero sí en [SMMI].
 
 #### Adamic y Adar )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT], 5.2.3 "Adamic/Ajar".
 - Complementaria
   - [SMMI] Subpartado "Node Neighborhood-Based Methods" de apartado "Link Prediction" de 10.1.3 "Individual Behavior Prediction".
+:::
 
-\
 La **medida de Adamic/Adar** (*Adamic/Adar measure*), referida también como **Adamic y Ajar**...
 
 #### Preferential attachment )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT], 5.2.4. "Preferential attachment".
 - Complementaria
   - [SMMI] 4.4 "Preferential attachment model"
+:::
 
-\
 La **conexión preferencial** (*preferential attachment*)...
 
 #### Katz )
 
-\
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] 5.2.5. Katz
 - Complementaria
   - [SMMI] Subapartado "Methods Based on Paths between Nodes" en apartado 10.1.3 "Individual Behavior Prediction". Pág. 327.
+:::
 
-\
 El **concepto Katz** (*Katz concept*) o **medida Katz** (*Katz measure*) no se debe confundir con la centralidad de Katz.
 
 ## 2.12. Análisis del enlace (avanzado)
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] 5. "Link analysis"
   - [ENSNAMT] 5.1. Incremental PageRank algorithm
+:::
 
-\
 Este tema ya fue introducido en el apartado "Análisis del enlace (importante)".
 
 ### Predicción de nuevos enlaces (avanzado)
@@ -1349,24 +1409,26 @@ La **predicción de enlaces** tiene como objetivo es estimar qué relaciones ine
 
 ## 2.13. Detección de comunidades (avanzado)
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] 6. "Community detection"
+:::
 
-\
 Este tema fue introducido en el tema 1 en el apartado "Detección de comunidades (básico)", y también fue tratado en este tema 2 en el apartado "Detección de comunidades (importante)".
 
 Este tema hasta el curso 2024/2025 incluido solo ha sido preguntado al nivel correspondiente a "básico" (comunidades implícitas/explícitas) y "avanzado" (modularidad), por lo que de momento no se ha considerado desarrollar el nivel correspondiente a avanzado y a su bibliografía relacionada.
 
 ## 2.14. Visualización de redes en evolución
 
-Bibliografía:
+::: {.callout-note collapse="true"}
+## 📖Material asociado
 
 - Básica
   - [ENSNAMT] 7. "Visualization of evolving networks"
+:::
 
-\
 Este tema no ha sido preguntado en ningún exámen hasta el curso 2024/2025 incluido.
 
 ## Bibliografía

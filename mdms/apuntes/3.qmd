@@ -16,10 +16,13 @@ La estructura de este tema trata de seguir la organización propuesta en el mapa
 
 ## 3.1. Fases de minería de los datos
 
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 1 "Introducción".
+:::
+
 
 Hay cuatro fases.
 
@@ -32,12 +35,13 @@ Hay cuatro fases.
 
 ### 3.1.1. Calidad de los datos
 
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 2.1 "Calidad de los datos".
+:::
 
-\
 Incluye cuatro definiciones:
 
 - Ruido
@@ -47,14 +51,18 @@ Incluye cuatro definiciones:
 
 #### 3.1.1.1. Ruido
 
-\
+::: {.callout-note collapse=true}
+## 📖Material asociado
 Bibliografía:
 
 - Básica
   - [IMDRS] Apartado 2.1 "Calidad de los datos".
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2023J2.C.3,2024J2.C.2)`
+:::
 
 El **ruido** es la presencia de datos, contenidos o relaciones que dificultan extraer patrones fiables en una tarea de minería de datos. En los medios sociales aparece con frecuencia porque los usuarios generan libremente contenidos de calidad muy variable y porque las relaciones establecidas en la red no siempre representan vínculos sociales significativos.
 
@@ -64,61 +72,66 @@ Para tratar el ruido suele realizarse un preprocesado de los datos. Sin embargo,
 
 #### 3.1.1.2. Valor errático
 
-\
+::: {.callout-note collapse=true}
+## 📖Material asociado
 Bibliografía:
 
 - Básica
   - [IMDRS] Apartado 2.1 "Calidad de los datos".
+:::
 
-\
 Los **valores erráticos** o **valores atípicos** (en inglés, *outliers*) son instancias que presentan valores muy alejados o diferentes de los habituales en el conjunto de datos. Por ejemplo, en una red educativa, un estudiante que publique cientos de mensajes en pocas horas podría ser un caso atípico frente al comportamiento general.
 
 Estos valores pueden eliminarse si proceden de errores o distorsionan el análisis, pero no deben descartarse automáticamente: según la tarea, pueden representar información relevante, como un usuario extremadamente activo, un *spammer* o un comportamiento anómalo que se desea detectar.
 
 #### 3.1.1.3. Valor perdido
 
-\
+::: {.callout-note collapse=true}
+## 📖Material asociado
 Bibliografía:
 
 - Básica
   - [IMDRS] Apartado 2.1 "Calidad de los datos".
+:::
 
-\
 Los **valores perdidos** aparecen cuando una instancia no tiene información disponible para alguno de sus atributos. Este problema es habitual en medios sociales, ya que los usuarios pueden no proporcionar determinados datos o restringir su acceso mediante opciones de privacidad.
 
 Ante valores perdidos pueden adoptarse distintas estrategias: eliminar las instancias incompletas, estimar los valores ausentes o utilizar algoritmos capaces de trabajar sin ellos. La elección depende de la cantidad de información que falta, de su importancia para la tarea y del algoritmo que vaya a aplicarse.
 
 #### 3.1.1.4. Dato duplicado
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 2.1 "Calidad de los datos".
+:::
 
-\
 Los **datos duplicados** aparecen cuando distintas instancias tienen los mismos valores en todos sus atributos o cuando un mismo registro se incorpora varias veces al conjunto de datos. Por ejemplo, una publicación podría recogerse repetida al combinar información obtenida de varias fuentes.
 
 Los duplicados pueden eliminarse cuando son errores de recopilación que alterarían los resultados. Sin embargo, en algunas tareas la repetición puede tener significado propio, como cuando varios usuarios comparten el mismo contenido o cuando interesa medir la difusión de un mensaje.
 
 ## 3.2. Proceso de minería de datos
 
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS]
   - [SMMI]
+:::
 
 El apartado de proceso de minería de datos engloba prácticamente todo el tema 3, si quitamos la introducción.
 
 ### 3.2.1. Preprocesado de los datos
 
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 3 "Preproceso de datos"
+:::
 
-\
 La sección de procesado de datos está marcada como "concepto básico" en el mapa conceptual del tema 3.
 
 El **preprocesado de datos** se divide en procesos:
@@ -135,66 +148,69 @@ Una regla nemotécnica para recordar los procesos es el acrónimo ADNSEME(n).
 
 #### 3.2.1.1. Agregación )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 3 "Preproceso de datos". Pág. 2.
+:::
 
-\
 La **agregación** consiste en combinar varios atributos en uno nuevo o en resumir datos a una escala diferente.
 
 Por ejemplo, el número de mensajes enviados por un estudiante cada día puede agregarse para obtener su actividad total semanal.
 
 #### 3.2.1.2. Discretización )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 3 "Preproceso de datos". Pág. 3.
   - [Discretización](https://es.wikipedia.org/wiki/Discretización). Wikipedia.
+:::
 
-\
 La **discretización** transforma un atributo continuo en un conjunto limitado de categorías. Por ejemplo, una variable numérica como el número de mensajes publicados puede convertirse en los valores `actividad baja`, `actividad media` y `actividad alta`.
 
 #### 3.2.1.3. Normalización estadística )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 3 "Preproceso de datos". Pág. 3.
   - [Normalization](https://en.wikipedia.org/wiki/Normalization_statistics). Wikipedia.
+:::
 
-\
 La **normalización** adapta los valores de distintos atributos a una escala comparable, evitando que los atributos con valores numéricos mayores tengan más influencia únicamente por su rango.
 
 Por ejemplo, el número de mensajes y el número de respuestas recibidas pueden transformarse para que ambos tomen valores entre $0$ y $1$.
 
 #### 3.2.1.4. Selección de atributos )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 3 "Preproceso de datos". Pág. 3.
+:::
 
-\
 La **selección de atributos** consiste en conservar únicamente los atributos que resulten útiles para la tarea de análisis, descartando los irrelevantes, redundantes o demasiado costosos de procesar.
 
 Por ejemplo, para estudiar la participación en un foro podrían seleccionarse el número de mensajes, las respuestas recibidas y la centralidad del estudiante.
 
 #### 3.2.1.5. Extracción de atributos )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 3 "Preproceso de datos". Pág. 3.
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2023SO.C.3)`
+:::
 
 La **extracción de atributos** significa transformar los atributos originales para crear un nuevo conjunto de atributos. Es decir, no se reducen necesariamente las instancias, sino que se cambia la forma de representar la información.
 
@@ -202,14 +218,17 @@ Un ejemplo sería a partir de textos de publicaciones en redes sociales, extraer
 
 #### 3.2.1.6. Muestreo )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] Apartado 3 "Preproceso de datos". Pág. 3.
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2023SO.C.3)`
+:::
 
 El **muestreo** consiste en seleccionar un subconjunto de instancias del conjunto total cuando el conjunto de datos es muy grande o el proceso es costoso en tiempo o computación. La idea es trabajar con una muestra que se asume representativa del total.
 
@@ -217,30 +236,34 @@ Un ejemplo sería seleccionar al azar un conjunto de publicaciones entre todas l
 
 #### 3.2.1.7. Eliminación de instancias con valores atípicos o erráticos )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado:
 
 - Básica
   - [IMDRS] Apartado 3 "Preproceso de datos". Pág. 3.
   - [Distribución normal](https://es.wikipedia.org/wiki/Distribución_normal). Wikipedia.
+:::
 
-\
 Como se vió al inicio del tema, los valores errantes o atípicos son instancias que presentan valores muy diferentes de los habituales en el conjunto de datos.
 
 Pueden eliminarse cuando distorsionan el análisis, pero no deben descartarse automáticamente, ya que en algunos problemas constituyen precisamente la información de interés. Por ejemplo, una cuenta con una actividad extraordinariamente alta podría ser ruido en un estudio del comportamiento medio, pero resultar relevante en una investigación sobre spammers o usuarios anómalos.
 
 ### 3.2.2. Algoritmos de aprendizaje automático
 
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS]
   - [SMMI]
+:::
 
-\
 Esta sección sección está etiquetada en el mapa conceptual del tema 3 tanto como "concepto básico" como "avanzado", lo que se puede interpretar como que introduce conceptos de ambas categorías.
 
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2024J2.P.1.3, 2025J2.P.1.3, 2026J2.P.1.3)`
+:::
 
 Una pregunta habitual en problemas de exámenes es indicar técnicas de aprendizaje automático que se consideran convenientes en el caso expuesto.
 
@@ -256,15 +279,18 @@ Se muestra un resumen de los algoritmos vistos en la asignatura y algunas de sus
 
 #### 3.2.2.1. Algoritmos de aprendizaje supervisado
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS]
   - [SMMI] 5.4 "Supervised Learning". Págs. 113-127.
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.C.2,2022J2.P.1.4,2023J2.P.1,2025SO.P.1.4)`
+:::
 
 En aprendizaje supervisado, se cuenta con:
 
@@ -282,7 +308,6 @@ Cuando el atributo de clase toma valores discretos se utilizan algoritmos de cla
 
 ##### 3.2.2.1.1. Algoritmos de aprendizaje supervisado de valor discreto
 
-\
 Los algoritmos de aprendizaje supervisado son aquellos que permiten resolver el problema de clasificación.
 
 Algoritmos de aprendizaje no supervisado de valor discreto vistos en [IMDRS]:
@@ -296,27 +321,27 @@ Algoritmos de aprendizaje no supervisado de valor discreto vistos en [IMDRS]:
 
 ###### Árbol de decisión
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS]
   - [SMMI] 5.4.1. Decision Tree Learning. Págs. 115-117.
+:::
 
-\
 Un **árbol de decisión** construye una estructura de reglas a partir de los datos de entrenamiento. Cada nodo interno representa una decisión sobre un atributo, cada rama corresponde a un posible valor o intervalo de valores y cada hoja asigna una clase. Una de sus principales ventajas es que permiten interpretar fácilmente por qué una instancia ha sido clasificada de una determinada manera. El modelo debe evaluarse con datos diferentes de los utilizados para entrenarlo.
 
 ###### Naive Bayes
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS]
   - [Teorema de Bayes](https://es.wikipedia.es/Teorema_de_Bayes). Wikipedia.
   - [SMMI] 5.4.2. Naive Bayes Classifier. Págs. 117-119.
+:::
 
-\
 **Naive Bayes** es un clasificador probabilístico basado en el teorema de Bayes:
 
 $$
@@ -327,37 +352,40 @@ donde $Y$ representa la clase y $X$ los atributos observados. Para clasificar un
 
 ###### Redes neuronales
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS]
+:::
 
-\
 Las **redes neuronales** están formadas por nodos computacionales conectados mediante pesos. A partir de los atributos de entrada, la red aprende durante el entrenamiento una función que permite predecir el atributo de clase. El aprendizaje consiste en ajustar los pesos de sus conexiones para reducir los errores de predicción. Pueden obtener buenos resultados en problemas complejos, aunque normalmente resulta difícil interpretar de forma directa cómo han llegado a una decisión concreta.
 
 ###### El vecino más cercano
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS]
   - [SMMI] 5.4.3. Nearest Neighbor Classifier. Pág. 119.
+:::
 
-\
 **El vecino más cercano** (en inglés, *$k$-nearest neighbor*, **kNN**) clasifica una nueva instancia a partir de las $k$ instancias etiquetadas más próximas a ella. Para determinar la proximidad se utiliza una medida de distancia, como la distancia euclídea. La clase predicha suele ser la clase mayoritaria entre los vecinos seleccionados. La elección de $k$ es importante, ya que puede modificar el resultado y afectar al rendimiento del algoritmo.
 
 ##### 3.2.2.1.2. Algoritmos de aprendizaje supervisado de valor continuo
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] 4.1. "Algoritmos de aprendizaje supervisado"
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.C.2,2025J2.C.1)`
+:::
 
 En aprendizaje supervisado, cuando el atributo de clase toma valores continuos, el tipo de algoritmo adecuado es la regresión.
 
@@ -375,8 +403,8 @@ En la asignatura se decribe un único algoritmo de aprendizaje supervisado de va
 
 ###### Regresión
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] 4.1. "Algoritmos de aprendizaje supervisado"
@@ -384,8 +412,8 @@ Bibliografía:
   - [Regresión lineal](https://es.wikipedia.org/Regression_lineal). Wikipedia
   - [Logistic regression](https://en.wikipedia.org/Logistic_regression). Wikipedia
   - [SMMI] Apartado 5.4.5 "Regression". Págs.122-124
+:::
 
-\
 La **regresión** es un método de predicción en el que a partir de unas variables explicatorias $(x_i)$ se busca una función $F(x_i) = y$, donde $y$ es una variable independiente representada con un número real.
 
 La función de regresión puede ser:
@@ -397,17 +425,20 @@ La regresión logística se emplea habitualmente para resolver problemas de clas
 
 #### 3.2.2.2. Algoritmos de aprendizaje no supervisado
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] 4.2 "Algoritmos de aprendizaje no supervisado"
 - Complementaria
   - [SMMI] 5.5 "Unsupervised Learning". Págs. 127-133.
   - [Algoritmo de agrupamiento](https://es.wikipedia.es/Algoritmo_de_agrupamiento). Wikipedia
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.P.1.5,2023J2.P.1,2024SO.C.3,2025SO.P.1.4)`
+:::
 
 Los **algoritmos de aprendizaje no supervisado** permiten dividir un conjunto de datos en grupos de instancias similares sin disponer de un atributo de clase conocido previamente. Esta característica resulta especialmente útil en medios sociales, donde los datos suelen carecer de etiquetas y no hay una clase que dé pistas sobre la agrupación de los datos.
 
@@ -415,7 +446,7 @@ Su principal dificultad es la evaluación: al no conocerse de antemano cuál ser
 
 ##### Pasos para estudiar problemas de agrupamiento )
 
-::: {.callout-note collapse=false}
+::: {.callout-note collapse=true}
 ## 📖Material asociado
 
 * Básico
@@ -446,15 +477,18 @@ Los pasos para estudiar problemas de clustering según @theodoridis2003pr:
 
 ##### Métodos de verificación de aprendizaje no supervisado )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] 4.2 "Algoritmos de aprendizaje no supervisado"
   - [MDMS] 5.5.2. Unsupervised Learning Evalution. Pág. 130
+:::
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM(2024SO.C.3, 2026J2.C.3)`
+:::
 
 El aprendizaje no supervisado tiene la dificultad de que no existen muestras etiquetadas de test contra las que verificar los resultados del entrenamiento. No obstante se han desarrollado métodos de verificación empleados en aprendizaje no supervisado.
 
@@ -466,48 +500,49 @@ El aprendizaje no supervisado tiene la dificultad de que no existen muestras eti
 
 ###### Cohesión )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] 4.2 "Algoritmos de aprendizaje no supervisado"
   - [MDMS] 5.5.2. "Unsupervised Learning Evaluation". Págs. 130-131.
+:::
 
-\
 La **cohesión** (en inglés, *cohesiveness*) mide lo próximas que están entre sí las instancias pertenecientes a un mismo clúster. Puede calcularse mediante su distancia al centroide del grupo. Cuanto menores sean estas distancias, mayor será la cohesión.
 
 ###### Separación )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] 4.2 "Algoritmos de aprendizaje no supervisado"
   - [MDMS] 5.5.2. "Unsupervised Learning Evaluation". Pág. 131.
+:::
 
-\
 La **separación** (en inglés, *separateness*) mide lo alejados que se encuentran unos clústers de otros. Puede evaluarse mediante la distancia entre sus centroides. Cuanto mayor sea esta distancia, mejor estarán separados los grupos.
 
 ###### Índice de silueta )
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [IMDRS] 4.2 "Algoritmos de aprendizaje no supervisado"
   - [SMMI] 5.5.2. "Unsupervised Learning Evaluation". Págs. 162-165 (PDF), 131-132 (impreso).
+:::
 
-\
 **Índice de silueta** (en inglés, *silhouette index*) combina cohesión y separación. Compara, para cada instancia, su distancia media respecto de las instancias de su propio grupo con su distancia respecto del grupo alternativo más próximo. Un valor elevado indica que la instancia está bien asignada: cerca de su clúster y alejada de los demás.
 
 ### Aplicaciones
 
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [SMMI], parte III "Applications".
+:::
 
-\
 El apartado de aplicaciones figura en el mapa conceptual del tema 3 y se considera cubierto por la parte III de [SMMI], si bien el material propio de la asignatura [IMDRS] no se desarrolla.
 
 - Influencia
@@ -517,40 +552,42 @@ El apartado de aplicaciones figura en el mapa conceptual del tema 3 y se conside
 
 #### Influencia
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [SMMI] 8.1. "Measuring Assortativity". Págs. 218-225.
   - [SMMI] 8.2. "Influence". Págs. 225-234.
+:::
 
 Hasta el curso 2025/2026, no ha entrado ninguna pregunta relacionada con este tema.
 
 #### Homofilia social (avanzado)
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [SMMI] 8.3 "Homophily". Págs. 234-236
   - [SMMI] 8.4-8.7. 236-244
+:::
 
-\
 El concepto de homofilia social fue introducido en el tema 1 como mecanismo de la teoría de correlación social y también junto con el concepto de coeficiente de homofilia para la predicción de enlaces.
 
 #### Recomendaciones
 
-\
-Bibliografía:
+::: {.callout-note collapse=true}
+## 📖Material asociado
 
 - Básica
   - [SMMI], 9 "Recommendations in Social Media". Págs. 245-270.
+:::
 
 El concepto de recomendación social fue introducido en el tema 1, bajo el apartado "Recomendación social".
 
 #### Comportamientos
 
-::: {.callout-note collapse=false}
+::: {.callout-note collapse=true}
 ## 📖Material asociado
 
 * Básico
@@ -565,8 +602,10 @@ En este apartado final, que no se corresponde a ningún apartado concreto indica
 
 De esta manera, se protende otorgar a los estudiantes de un procedimiento para resolver los problemas que aparecen como último ejercicio en todos los exámenes.
 
-\
+::: {.callout-note collapse="false"}
+## 🎯Pregunta de exámen
 `EXAM=(2022J2.P.1.3,2023J2.P.1,2023SO.P.1,2024J2.P.1.1,2024SO.P.1,2025J2.P.1.1,2025SO.P.1.3, 2026J2.P.1.1, 2026JR.P.1.1)`
+:::
 
 **Pasos** para realizar el **procedimiento de análisis de minería de datos**, según una metodología de elaboración propia:
 
