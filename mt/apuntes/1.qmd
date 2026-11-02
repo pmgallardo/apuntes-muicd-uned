@@ -61,7 +61,7 @@ La existencia de corpus comunes permite comparar la eficacia de modelos y sistem
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020F2.3](../exam/2020f2/2020f2.md#ex.2020f2.3)
+[2020F2.3](../exam/2020f2/2020f2.md#3)
 :::
 
 Ejemplos de corpus:
@@ -81,7 +81,7 @@ A cada uno de estos corpus se le dedica una diapositiva en la presentación del 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2024F2.1](../exam/2024f2/2024f2.md#ex.2024f2.1)
+[2024F2.1](../exam/2024f2/2024f2.md#1)
 :::
 
 Una **campaña de evaluación** es...
@@ -91,7 +91,7 @@ Una **campaña de evaluación** es...
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020F2.2](../exam/2020f2/2020f2.md#ex.2020f2.2)
+[2020F2.2](../exam/2020f2/2020f2.md#2)
 :::
 
 El temario introduce las siguientes medidas de evaluación de tareas de PLN:
@@ -202,7 +202,7 @@ Posibles uso del análisis de errores:
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2024F2.3](../exam/2024f2/2024f2.md#ex.2024f2.3), [2026SO.5](../exam/2026so/2026so.md#ex.2024so.5)
+[2024F2.3](../exam/2024f2/2024f2.md#3), [2026SO.5](../exam/2026so/2026so.md#5)
 :::
 
 Una **matriz de confusión** o **tabla de contigencia** es una tabla que permite evaluar el rendimiento de un modelo de clasificación. Para un problema con $N$ clases, se representa mediante una matriz de dimensiones $N \times N$, en la que cada celda $(x,y)$ indica cuántos elementos cuya clase real es $x$ han sido clasificados por el modelo como pertenecientes a la clase $y$.
@@ -289,7 +289,7 @@ Las expresiones regulares son apenas introducidas en este tema, pero se tratan c
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2023F2.1](../exam/2023f2/2023f2.md#ex.2023f2.1)
+[2023F2.1](../exam/2023f2/2023f2.md#1)
 :::
 
 La **normalización de textos** (en inglés, *text normalization*) es un proceso de transformación del texto para obtener una forma canónica. Su objetivo es uniformizar la forma del texto para facilitar su uso en procesos posteriores del procesamiento del lenguaje natural.
@@ -298,27 +298,39 @@ Su objetivo es uniformizar la forma del texto para facilitar su uso en procesos 
 
 Las **tareas asociadas a la normalización de textos** incluyen:
 
-- Normalización de la forma de las palabras
-- Segmentación o tokenización de oraciones
-- Segmentación o tokenización de palabras
+- [Normalización de la forma de las palabras](#normalizacion-de-palabras)
+- Segmentación o [tokenización de oraciones](#tokenizacion-de-oraciones)
+- Segmentación o [tokenización de palabras](#tokenizacion-de-palabras)
 
-Ejemplos de normalización:
+Ejemplos de normalización de textos:
 * Unificar palabras que se refieren a una misma entidad (por ejemplo, "inteligencia artificial" e "IA" o "Telefono" y "teléfono").
 * Corregir erratas de escritura.
 * Eliminar acentos, quitar espacios repetidos o reducir todas las palabras a letras minúsculas.
 
-### Normalización de palabras
+### Normalización de palabras {#normalizacion-de-palabras}
 
-### Tokenización de oraciones {.unnumbered .unlisted}
+La **normalización de palabras** (en inglés, *word normalization*) es...
 
-### Tokenización de palabras {.unnumbered .unlisted}
+### Tokenización de oraciones {.unnumbered .unlisted #tokenizacion-de-oraciones}
 
 ::: {.callout-note collapse="false"}
 ## 📖Material asociado
 * [@nlp_tema1_pres]. Apartado "Tokenización de palabras".
-* [@jurafsky2026speech3] Apartado 4.1 "Word counting in Corpora" (Text Normalization).
-* [@jurafsky2009speech2]. Apartados 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization).
+* [@jurafsky2026speech3] Apartado 2.8.1 "Sentence segmentation".
 :::
+
+La **tokenización de oraciones** (en inglés, *sentence tokenization*) o **segmentación de oraciones** (en inglés, *sentence segmentation*) es...
+
+### Tokenización de palabras {.unnumbered .unlisted #tokenizacion-de-palabras}
+
+::: {.callout-note collapse="false"}
+## 📖Material asociado
+* [@nlp_tema1_pres]. Apartado "Tokenización de palabras".
+* [@jurafsky2009speech2]. Apartados 2.4 "Subword Tokenization: Byte-Pair Encoding", 2.7 "Simple Unix Tools for Word Tokenization" y 2.8 "Rule-based tokenization" (Text Normalization).
+* [@jurafsky2026speech3] Apartado 4.1 "Word counting in Corpora" (Text Normalization).
+:::
+
+La **tokenización de palabras** o **segmentación de palabras** es...
 
 ## Distancia de edición {#distancia-de-edicion}
 
@@ -331,7 +343,7 @@ Ejemplos de normalización:
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2025F2.2](../exam/2025f2/2025f2.md#ex.2025f2.2), [2026SO.3](../exam/2026so/2026so.md#ex.2026so.3)
+[2025F2.2](../exam/2025f2/2025f2.md#2), [2026SO.3](../exam/2026so/2026so.md#3)
 :::
 
 La **distancia de edición** (en inglés, *edit distance*)...
@@ -339,7 +351,7 @@ La **distancia de edición** (en inglés, *edit distance*)...
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020F2.1](../exam/2020f2/2020f2.md#ex.2020f2.1), [2020FR.1](../exam/2020fr/2020fr.md#ex.2020fr.1)
+[2020F2.1](../exam/2020f2/2020f2.md#1), [2020FR.1](../exam/2020fr/2020fr.md#1)
 :::
 
 ## Palabras vacías
@@ -347,7 +359,7 @@ La **distancia de edición** (en inglés, *edit distance*)...
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2022SO.2](../exam/2022so/2022so.md#ex.2022so.2)
+[2022SO.2](../exam/2022so/2022so.md#2)
 :::
 
 ### spaCy: palabras vacías
@@ -487,7 +499,7 @@ for token in doc:
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2022SO.3](../exam/2022so/2022so.md#ex.2022so.3)
+[2022SO.3](../exam/2022so/2022so.md#3)
 :::
 
 ## Chunking
@@ -545,7 +557,7 @@ Las palabras pueden tener múltiples significados, y el significado correcto dep
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2022F2.1](../exam/2022f2/2022f2.md#ex.2022f2.1)
+[2022F2.1](../exam/2022f2/2022f2.md#1)
 :::
 
 La **desambiguación del sentido de las palabras** (en inglés, *word send disambiguation*, **WSD**) es el proceso de determinar el significado correcto de una palabra en un contexto específico, cuando la palabra tiene múltiples significados posibles.
@@ -563,7 +575,7 @@ Las aplicaciones del WSD incluyen, entre otras:
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2025SO.1](../exam/2025so/2025so.md#ex.2025so.1)
+[2025SO.1](../exam/2025so/2025so.md#1)
 :::
 
 Las técnicas o métodos de WSD se clasifican en las siguientes categorías:
@@ -636,7 +648,7 @@ En la asignatura, la WSD basada en diccionarios y bases de conocimiento léxico 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2024SO.3](../exam/2024so/2024so.md#ex.2024so.3)
+[2024SO.3](../exam/2024so/2024so.md#3)
 :::
 
 El **algoritmo de Lesk** es un método de desambiguación del sentido de las palabras basado en diccionarios y bases de conocimiento léxico. Su objetivo es determinar el significado correcto de una palabra en un contexto específico, comparando las definiciones de los posibles sentidos de la palabra con el contexto en el que aparece.

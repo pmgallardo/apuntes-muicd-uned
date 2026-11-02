@@ -35,14 +35,14 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020F2.4](../exam/2020f2/2020f2.md#ex.2020f2.4), [2023SO.4](../exam/2023so/2023so.md#ex.2023so.4), [2024SO.4](../exam/2024so/2024so.md#ex.2024so.4), [2026F2.4](../exam/2026f2/2026f2.md#ex.2026f2.4)
+[2020F2.4](../exam/2020f2/2020f2.md#4), [2023SO.4](../exam/2023so/2023so.md#4), [2024SO.4](../exam/2024so/2024so.md#4), [2026F2.4](../exam/2026f2/2026f2.md#4)
 :::
 
 ### Vectorial
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2022SO.4](../exam/2022so/2022so.md#ex.2022so.4)
+[2022SO.4](../exam/2022so/2022so.md#4)
 :::
 
 ::: {.callout-note collapse="true"}
@@ -58,7 +58,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
-[2023F2.4](../exam/2023f2/2023f2.md#ex.2023f2.4)
+[2023F2.4](../exam/2023f2/2023f2.md#4)
 :::
 
 
@@ -85,7 +85,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020FR.4](../exam/2020fr/2020fr.md#ex.2020fr.4), [2022F2.4](../exam/2022f2/2022f2.md#ex.2022F2.4), [2024F2.4](../exam/2024f2/2024f2.md#ex.2024f2.4), [2025SO.4](../exam/2025so/2025so.md#ex.2025so.4)
+[2020FR.4](../exam/2020fr/2020fr.md#4), [2022F2.4](../exam/2022f2/2022f2.md#4), [2024F2.4](../exam/2024f2/2024f2.md#4), [2025SO.4](../exam/2025so/2025so.md#4)
 :::
 
 ## Funciones de pesado
@@ -93,7 +93,7 @@ Este capítulo está organizado empleando la misma estructura que la presentaci�
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2023SO.4](../exam/2023so/2023so.md#ex.2023so.4), [2025F2.4](../exam/2025f2/2025f2.md#ex.2025f2.4), [2026SO.4](../exam/2026so/2026so.mdmd#ex.2026so.4)
+[2023SO.4](../exam/2023so/2023so.md#4), [2025F2.4](../exam/2025f2/2025f2.md#4), [2026SO.4](../exam/2026so/2026so.mdmd#4)
 :::
 
 ## Funciones de selección y reducción de rasgos
