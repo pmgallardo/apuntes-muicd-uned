@@ -76,6 +76,47 @@ Ejemplos de corpus:
 
 A cada uno de estos corpus se le dedica una diapositiva en la presentación del @nlp_tema1_pres.
 
+La web de la [biblioteca NLTK](#ntlk) incluye un [listado de corpus](http://www.nltk.org/nltk_data/).
+
+##### Corpus de Brown {.unnumbered .unlisted #corpus-de-brown}
+
+::: {.callout-note collapse="true"}
+## 📖Material asociado
+* Básico
+  * [@nlp_tema1_pres]. Apartado "Evaluación de tareas de PLN", ejemplo de corpus "Corpus Brown". 
+* Complementario
+  * [Listado de corpus de NLTK](http://www.nltk.org/nltk_data/).
+:::
+
+Está compuesto más de 1.000.000 de palabras por ficheros de 15 temáticas.
+
+Emplea 87 etiquetas de palabras distintas, de las que las primeras son:
+
+- `/at`: artículo
+- `/be`: verbo *to be* en infinitivo e imperativo
+- `/cc`: conjunción copulativa.
+- `/dt`: determinante.
+
+Extracto de texto de ejemplo:
+
+```text
+The/at Mayor/nn-tl spoke/vbd yesterday/nr at/in the/at United/vbn-tl Irish/jj-tl Counties/nns-tl Feis/np-tl on/in the/at Hunter/np-tl College/nn-tl Campus/nn-tl in/in the/at Bronx/np ./.
+```
+
+[Descarga de fichero de corpus](https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/brown.zip)
+
+##### Corpus de Susanne {.unnumbered .unlisted #corpus-de-brown}
+
+##### Corpus ADE {.unnumbered .unlisted #corpus-de-brown}
+
+##### Corpus Bioscope {.unnumbered .unlisted #corpus-de-brown}
+
+##### Corpus DDI {.unnumbered .unlisted #corpus-de-brown}
+
+##### Corpus Europarl {.unnumbered .unlisted #corpus-de-brown}
+
+##### Corpus DIANN {.unnumbered .unlisted #corpus-de-brown}
+
 ### Campaña de evaluación {.unnumbered .unlisted}
 
 ::: {.callout-note collapse="false"}
@@ -91,7 +132,7 @@ Una **campaña de evaluación** es...
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
 
-[2020F2.2](../exam/2020f2/2020f2.md#2)
+[2020F2.2](../exam/2020f2/2020f2.md#2), [2026SO.2](../exam/2026so/2026so.md#2)
 :::
 
 El temario introduce las siguientes medidas de evaluación de tareas de PLN:
@@ -101,9 +142,13 @@ El temario introduce las siguientes medidas de evaluación de tareas de PLN:
 - Medida-F
 - Medida-Fbeta
 
+En la asignatura también se trata la medida de exactitud, aunque esta no se introduce hasta el apartado "[POS tagging](#pos-tagging)".
+
+#### Exactitud {.unnumbered .unlisted}
+
 #### Precisión {.unnumbered .unlisted}
 
-La **precisión** (en inglés, *accuracy*) es la fracción de predicciones del modelo propuesto que son acertadas (coinciden con los datos de referencia). Se calcula como:
+La **precisión** (en inglés, *precision*) es la fracción de predicciones del modelo propuesto que son acertadas (coinciden con los datos de referencia). Se calcula como:
 
 $$ p = \frac{tp}{tp + fp} $$
 
@@ -491,16 +536,20 @@ for token in doc:
 
 ## POS tagging {#pos-tagging}
 
+Las palabras de las oraciones se pueden clasificar en clases, como sustantivos, adjetivos o verbos, entre otros.
+
+El **etiquetado gramatical** (en inglés ***part-of-speech (POS) tagging**) es el proceso de etiquetación de palabras de una oración con su categoría léxica, en base a su definición y contexto.
+
+En el apartado del [corpus de Brown](#corpus-de-brown) se podía ver un ejemplo.
+
 ::: {.callout-note collapse="false"}
 ## 🎯Pregunta de exámen
+[2022SO.3](../exam/2022so/2022so.md#3), [2026SO.2](../exam/2026so/2026so.md#2)
 :::
+
+La **exactitud** (en inglés, *accuracy*) es...
 
 ### spaCy: POS tagging
-
-::: {.callout-note collapse="false"}
-## 🎯Pregunta de exámen
-[2022SO.3](../exam/2022so/2022so.md#3)
-:::
 
 ## Chunking
 
