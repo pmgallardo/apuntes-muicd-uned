@@ -45,15 +45,15 @@ book:
       - repaso/repaso.md
     - part: "Exámenes"
       chapters:
-      - exam/2022j2/ex_2022j2.md
-      - exam/2023j2/ex_2023j2.md
-      - exam/2023so/ex_2023so.md
-      - exam/2024j2/ex_2024j2.md   
-      - exam/2024so/ex_2024so.md
-      - exam/2025j2/ex_2025j2.md
-      - exam/2025so/ex_2025so.md
-      - exam/2026j2/ex_2026j2.md
-      - exam/2026jr/ex_2026jr.md
+      - exam/2022j2/2022j2.md
+      - exam/2023j2/2023j2.md
+      - exam/2023so/2023so.md
+      - exam/2024j2/2024j2.md   
+      - exam/2024so/2024so.md
+      - exam/2025j2/2025j2.md
+      - exam/2025so/2025so.md
+      - exam/2026j2/2026j2.md
+      - exam/2026jr/2026jr.md
     - part: "Anexos"
       chapters:
       - anexos/contribuciones.qmd
