@@ -105,17 +105,17 @@ The/at Mayor/nn-tl spoke/vbd yesterday/nr at/in the/at United/vbn-tl Irish/jj-tl
 
 [Descarga de fichero de corpus](https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/brown.zip)
 
-##### Corpus de Susanne {.unnumbered .unlisted #corpus-de-brown}
+##### Corpus de Susanne {.unnumbered .unlisted #corpus-de-susanne}
 
-##### Corpus ADE {.unnumbered .unlisted #corpus-de-brown}
+##### Corpus ADE {.unnumbered .unlisted #corpus-ade}
 
-##### Corpus Bioscope {.unnumbered .unlisted #corpus-de-brown}
+##### Corpus Bioscope {.unnumbered .unlisted #corpus-bioscope}
 
-##### Corpus DDI {.unnumbered .unlisted #corpus-de-brown}
+##### Corpus DDI {.unnumbered .unlisted #corpus-ddi}
 
-##### Corpus Europarl {.unnumbered .unlisted #corpus-de-brown}
+##### Corpus Europarl {.unnumbered .unlisted #corpus-europarl}
 
-##### Corpus DIANN {.unnumbered .unlisted #corpus-de-brown}
+##### Corpus DIANN {.unnumbered .unlisted #corpus-diann}
 
 ### Campaña de evaluación {.unnumbered .unlisted}
 
